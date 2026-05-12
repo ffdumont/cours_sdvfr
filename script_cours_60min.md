@@ -267,11 +267,15 @@ On peut étirer ou comprimer le profil avec le slider. Un double-tap sur un espa
 
 On peut modifier l'altitude d'un segment **directement depuis le profil**, en glissant la branche du segment vers le haut ou le bas. C'est plus visuel que de modifier les chiffres dans le log.
 
+**À montrer :** Réglages du profil — filtres d'affichage par catégorie de zone.
+
+Dans les réglages du profil, vous trouvez des **filtres d'affichage** : possibilité de retirer les espaces de classe E, de masquer ou non les LTA, les zones naturelles, les zones d'aéromodélisme, et les avertissements à la navigation (axes de voltige, parachutages). Vous gardez sur le profil seulement ce qui vous concerne vraiment pour votre type de vol.
+
 **À montrer :** Activation du profil sur la carte via le panneau latéral.
 
 Fonctionnalité puissante : on peut afficher le profil directement sur la carte, via le panneau latéral. Ça permet de modifier la route en 2D et de voir en temps réel l'impact en 3D sur les espaces.
 
-> **🔧 Préparé maintenant, plus touché en vol :** ajustez les altitudes ici, au sol, à partir du profil. En vol, le profil dynamique (qu'on verra plus tard) prendra le relais — sans intervention.
+> **🔧 Préparé maintenant, plus touché en vol :** ajustez les altitudes **et les filtres de zones** ici, au sol. En vol, le profil dynamique (qu'on verra plus tard) reprend ces mêmes catégories de filtres — vous regardez, vous ne configurez plus.
 
 > *Transition : Le profil est bon. Point critique suivant : terrains et NOTAM.*
 
@@ -547,7 +551,7 @@ Dernière fonctionnalité majeure en vol : le profil dynamique. Activez-le dans 
 
 Par appui long, on accède aux réglages. Marge au-dessus de votre altitude — 2000 ou 4000 pieds. Distance devant — 20, 40 ou 60 nautiques. Taux de rafraîchissement — laissez à 3 secondes par défaut, pour préserver la batterie.
 
-Filtres : possibilité de retirer les espaces de classe E, afficher ou non les LTA, les zones naturelles, l'aéromodélisme, les avertissements à la navigation (axes voltige, parachutages).
+Filtres d'affichage : les mêmes catégories qu'on a vues en D3 (classe E, LTA, zones naturelles, aéromodélisme, axes voltige, parachutages). Si vous les avez bien réglés au sol pour votre profil de vol, vous n'avez rien à faire ici.
 
 **À montrer :** Taper sur une zone dans le profil pour l'identifier, double-taper pour obtenir les infos complètes.
 

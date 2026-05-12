@@ -68,7 +68,7 @@
 |---|----------------|-------------|:----------:|-------|
 | D1 | Création d'une navigation | Appui long sur la carte pour poser des points, fonction aimant, insertion de point intermédiaire, déplacement par glisser-déposer | 5 | [My first navigation](https://www.youtube.com/watch?v=uLL34-HW6cs) |
 | D2 | Log de navigation | Segments et points de report, double-tap pour modifier altitude/fréquences/balise VOR, vent et dérive automatiques, notes par point, export multi-format | 5 | [Log de navigation](https://www.youtube.com/watch?v=LaeT193P_YI) |
-| D3 | Profil de navigation | Coupe verticale de la route entière (relief + espaces), modification des altitudes par glissement, affichable sur la carte | 4 | [Navigation profile](https://www.youtube.com/watch?v=Dh0QeSm9utY) |
+| D3 | Profil de navigation | Coupe verticale de la route entière (relief + espaces), modification des altitudes par glissement, filtres d'affichage par catégorie de zone (classe E, LTA, zones naturelles, aéromodélisme, voltige, parachutages), affichable sur la carte | 4 | [Navigation profile](https://www.youtube.com/watch?v=Dh0QeSm9utY) |
 | D4 | Devis carburant | Calcul avec roulage, délestage, marge, réserve finale, dégagements, sélection automatique du pire cas dégagement dans un demi-couloir configurable | 4 | [Devis carburant](https://www.youtube.com/watch?v=9VFfay-Wt1U) |
 | D5 | Masse et centrage | Centrogramme avec enveloppe, stations de chargement, 3 bulles (carburant zéro/actuel/max), saisie par valeur ou curseur | 3 | [Mass & Centering](https://www.youtube.com/watch?v=sZP_0QUSWUY) |
 | D6 | Terrains sur la route | Liste des terrains le long de la route avec distance latérale, filtrage par type, accès fiche/NOTAM/METAR de chaque terrain | 4 | [Terrains sur la route](https://www.youtube.com/watch?v=5397ioPcp1k) |
@@ -182,7 +182,7 @@ Ce déséquilibre volontaire 62 % / 18 % matérialise visuellement le message p�
 
 - **D1** Créer la route — appui long, aimant, point intermédiaire
 - **D2** Log de nav — altitudes, fréquences, VOR de recoupement, notes (*rappel-clé : « heure de décollage et points courants se rempliront automatiquement »*)
-- **D3** Profil de navigation — vue en coupe, modif altitude par glissement, *rappel-clé : « activez le profil sur la carte »*
+- **D3** Profil de navigation — vue en coupe, modif altitude par glissement, filtres d'affichage des catégories de zones (classe E, LTA, voltige, parachutages…), *rappel-clé : « activez le profil sur la carte ; les filtres se retrouvent en vol sur le profil dynamique »*
 - **D6 / D7 / D8** Terrains sur la route et NOTAM — *rappel-clé : « les 3 filtres NOTAM, vous les réglez ici, en vol vous n'y revenez pas »*
 - **D4** Devis carburant — sélection multi-dégagements, pire cas automatique
 - **D9** Dossier de vol PDF — figer la prépa + utilitaires (Inverser/Sauvegarder/Exporter)
