@@ -145,18 +145,18 @@ Entre les deux : un **pivot explicite d'1 min** qui pose la règle d'or — *pr�
 |:---:|---|---|:---:|---|
 | **1** | Mise en route | Interface et appareil | 5 min | A1, A6 |
 | **2** | **AU SOL — Préparer** | La carte | 10 min | B1, B2, B3, B7, E1 |
-| **3** | **AU SOL — Préparer** | Météo | 6 min | C1+C2, C4, C6 |
-| **4** | **AU SOL — Préparer** | La navigation | 22 min | D1, D2, D3, D6/D7/D8, D4, D9, D10 |
+| **3** | **AU SOL — Préparer** | La navigation | 21 min | D1, D2, D3, D6/D7/D8, D4, D9 |
+| **4** | **AU SOL — Préparer** | Météo | 6 min | C1+C2, C4, C6 |
 | **—** | *Pivot* | *Du sol vers le vol* | 1 min | *transition d'alignement* |
-| **5** | **EN VOL — Exécuter** | Suivi de vol | 10 min | F1, F2, F3, F4 |
+| **5** | **EN VOL — Exécuter** | Suivi de vol et déroutement | 11 min | F1, F2, **D10**, F3, F4 |
 | **6** | Après le vol | Traces | 3 min | G1 |
 | **7** | Bonus (mention) | Pour aller plus loin | 2 min | H1, B4, I1/I2 |
 | | Conclusion | | 1 min | |
 | | **TOTAL** | | **60 min** | |
 
-**Répartition par macro-phase** : Mise en route 5 min · **AU SOL 38 min (63 %)** · Pivot 1 min · **EN VOL 10 min (17 %)** · Après-vol + bonus + conclusion 6 min.
+**Répartition par macro-phase** : Mise en route 5 min · **AU SOL 37 min (62 %)** · Pivot 1 min · **EN VOL 11 min (18 %)** · Après-vol + bonus + conclusion 6 min.
 
-Ce déséquilibre volontaire 63 % / 17 % matérialise visuellement le message pédagogique : on passe beaucoup plus de temps à préparer qu'à exécuter.
+Ce déséquilibre volontaire 62 % / 18 % matérialise visuellement le message pédagogique : on passe beaucoup plus de temps à préparer qu'à exécuter. L'unique geste autorisé en vol **hors suivi passif** est le déroutement Direct (D10).
 
 ---
 
@@ -177,14 +177,7 @@ Ce déséquilibre volontaire 63 % / 17 % matérialise visuellement le message p�
 - **B7** VAC géoréférencées — *rappel-clé : « activez Auto-VAC maintenant, en vol elles s'afficheront seules »*
 - **E1** Zones temporaires auto — RTBA et SUP AIP, paramètres d'anticipation
 
-#### Bloc 3 — AU SOL : météo (6 min)
-> *Objectif : consulter la météo de la journée et identifier ce qui alimente le log*
-
-- **C1+C2** METAR/TAF fusionnés — bascule unique, double couleur du TAF, ancienneté
-- **C4** Wintem — *rappel-clé : « ces vents alimentent automatiquement votre log de nav »*
-- **C6** Radar/satellite — animation, prévision 20 min
-
-#### Bloc 4 — AU SOL : préparer la navigation (22 min) — BLOC PRINCIPAL
+#### Bloc 3 — AU SOL : préparer la navigation (21 min) — BLOC PRINCIPAL
 > *Objectif : construire la navigation de A à Z et figer toutes les décisions au sol*
 
 - **D1** Créer la route — appui long, aimant, point intermédiaire
@@ -192,19 +185,28 @@ Ce déséquilibre volontaire 63 % / 17 % matérialise visuellement le message p�
 - **D3** Profil de navigation — vue en coupe, modif altitude par glissement, *rappel-clé : « activez le profil sur la carte »*
 - **D6 / D7 / D8** Terrains sur la route et NOTAM — *rappel-clé : « les 3 filtres NOTAM, vous les réglez ici, en vol vous n'y revenez pas »*
 - **D4** Devis carburant — sélection multi-dégagements, pire cas automatique
-- **D9** Dossier de vol PDF — figer la prépa
-- **D10** Fonction Direct — moteur de recherche et déroutement
+- **D9** Dossier de vol PDF — figer la prépa + utilitaires (Inverser/Sauvegarder/Exporter)
+
+> *Note : la fonction Direct (D10) n'est PAS traitée ici — elle est présentée dans le bloc 5, en vol, parce que c'est sa vraie place.*
+
+#### Bloc 4 — AU SOL : météo (6 min)
+> *Objectif : consulter la météo en fin de prépa, juste avant le décollage*
+
+- **C1+C2** METAR/TAF fusionnés — bascule unique, double couleur du TAF, ancienneté ; à vérifier aux terrains de route et dégagements déjà sélectionnés
+- **C4** Wintem — *rappel-clé : « ces vents alimentent automatiquement le log de nav qu'on vient de construire »*
+- **C6** Radar/satellite — animation, prévision 20 min
 
 #### Pivot — Du sol vers le vol (1 min)
 > *Encadré oral à dire au tableau : poser la règle d'or*
 
-« Tout ce qu'on vient de faire — choisir l'avion, tracer la route, remplir le log, filtrer les NOTAM, sélectionner les dégagements, configurer Auto-VAC — **vous ne le refaites plus en vol**. La règle d'or de SDVFR Next : préparation au sol = exécution sereine en vol. Maintenant on décolle, et on regarde ce que l'appli fait pour vous. »
+« Tout ce qu'on vient de faire — choisir l'avion, tracer la route, remplir le log, filtrer les NOTAM, sélectionner les dégagements, configurer Auto-VAC, consulter la météo — **vous ne le refaites plus en vol**. La règle d'or de SDVFR Next : préparation au sol = exécution sereine en vol. Maintenant on décolle, et on regarde ce que l'appli fait pour vous. »
 
-#### Bloc 5 — EN VOL : exécuter (10 min)
+#### Bloc 5 — EN VOL : exécuter (11 min)
 > *Objectif : comprendre les automatismes et identifier les rares gestes utiles en vol*
 
 - **F1** Suivi de vol — icône, vecteur vitesse, autocentrage intelligent, orientation carte
-- **F2** Point courant — passage auto, **les deux gestes autorisés en vol** (drapeau sur la carte, double-tap colonne HE)
+- **F2** Point courant — passage auto, **les deux gestes autorisés sur la route préparée** (drapeau sur la carte, double-tap colonne HE)
+- **D10** Fonction Direct — *l'unique geste en vol HORS route préparée : déroutement vers un terrain par OACI/nom, bouton « Dérouter »*
 - **F3** Barre inférieure — *rappel-clé : « configurée au sol, vous la lisez en vol, vous ne la modifiez plus »*
 - **F4** Profil dynamique — *rappel-clé : « se met à jour seul, vous regardez ce qui arrive »*
 
@@ -228,9 +230,9 @@ Ce déséquilibre volontaire 63 % / 17 % matérialise visuellement le message p�
 
 | Durée cible | Comment ajuster | Notes |
 |:-----------:|----------------|-------|
-| **45 min** | Compresser le Bloc 4 (D9 et D10 en mention), retirer C6 radar, supprimer Bloc 7 | Format court / créneau club |
+| **45 min** | Compresser le Bloc 3 (D9 en mention), retirer C6 radar, supprimer Bloc 7 | Format court / créneau club |
 | **60 min** | Structure de référence | Présentiel standard |
-| **75 min** | Détailler le Bloc 4 (D5 masse et centrage), ajouter D11 import, étendre Bloc 7 | Voir [script_cours_75min.md](script_cours_75min.md) |
+| **75 min** | Détailler le Bloc 3 (D5 masse et centrage), ajouter D11 import, étendre Bloc 7 | Voir [script_cours_75min.md](script_cours_75min.md) |
 | **90 min** | + Bloc périphérique avant le Bloc 1 (A3 compte, A4 régions, A5 données dynamiques) | Public débutant complet |
 
 ### Curseur d'ajustement par importance

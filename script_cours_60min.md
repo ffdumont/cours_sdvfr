@@ -14,10 +14,10 @@
 |:---:|---|---|:---:|---|
 | 1 | Mise en route | Interface et appareil | 5 min | A1, A6 |
 | 2 | **AU SOL — Préparer** | La carte | 10 min | B1, B2, B3, B7, E1 |
-| 3 | **AU SOL — Préparer** | Météo | 6 min | C1+C2, C4, C6 |
-| 4 | **AU SOL — Préparer** | La navigation | 22 min | D1, D2, D3, D6/D7/D8, D4, D9, D10 |
+| 3 | **AU SOL — Préparer** | La navigation | 21 min | D1, D2, D3, D6/D7/D8, D4, D9 |
+| 4 | **AU SOL — Préparer** | Météo | 6 min | C1+C2, C4, C6 |
 | — | *Pivot* | *Du sol vers le vol* | 1 min | *transition* |
-| 5 | **EN VOL — Exécuter** | Suivi de vol | 10 min | F1, F2, F3, F4 |
+| 5 | **EN VOL — Exécuter** | Suivi de vol et déroutement | 11 min | F1, F2, **D10**, F3, F4 |
 | 6 | Après le vol | Traces | 3 min | G1 |
 | 7 | Bonus (mention) | Pour aller plus loin | 2 min | H1, B4, I1/I2 |
 | | Conclusion | | 1 min | |
@@ -179,72 +179,11 @@ Et comme pour tout espace aérien, le double tap fonctionne sur ces zones : vous
 
 > **🔧 Préparé maintenant, plus touché en vol :** vos seuils (plafond, délai d'anticipation) sont à régler au sol selon votre profil de vol habituel. En vol, vous voyez juste les zones rouges (actives) et oranges (à venir).
 
-> *Fin du Bloc 2. Transition : On maîtrise la carte. Passons à la météo.*
+> *Fin du Bloc 2. Transition : On maîtrise la carte. On entre maintenant dans le cœur de la prépa : la navigation.*
 
 ---
 
-## BLOC 3 — AU SOL : météo (6 min)
-
----
-
-### C1 + C2 — METAR et TAF (2 min 30)
-
-**À montrer :** Activer la couche METAR dans le panneau latéral. Zoomer pour montrer les pastilles de couleur sur les aérodromes. Cliquer sur un aérodrome.
-
-On commence par les METAR. Je clique sur « METAR » dans le panneau, et apparaissent les pastilles de couleur sur tous les terrains qui émettent un METAR — l'intégralité de l'Europe est couverte.
-
-Quand je clique sur un terrain, j'obtiens le détail :
-- L'**ancienneté** du METAR — par exemple « il y a 7 minutes », c'est récent, c'est fiable.
-- La **couleur** qui donne immédiatement la catégorie de vol.
-- Le METAR brut, codé, tel qu'il est émis, et juste en dessous la version décodée, lisible.
-
-Détail à connaître : quand le METAR rapporte un vent supérieur à 20 nœuds, en vent soutenu ou en rafale, une petite manche à air s'affiche sur la pastille. Alerte visuelle sur les conditions de vent fort.
-
-**À montrer :** Désactiver la couche METAR, activer la couche TAF. Cliquer sur un terrain pour montrer le détail avec les deux couleurs.
-
-Point important : METAR et TAF ne s'affichent pas en même temps. C'est un choix volontaire pour ne pas surcharger la carte. Soit l'un, soit l'autre.
-
-Je désactive le METAR, j'active le TAF. Regardez bien : sur certains terrains, **deux couleurs**. La couleur principale correspond au temps principal du TAF. La couleur secondaire représente la **pire condition** annoncée dans les évolutions — BECMG, TEMPO, PROB. C'est très précieux pour anticiper.
-
-Quand je clique, comme pour le METAR, j'ai le TAF brut puis le TAF décodé, avec l'ancienneté de l'émission.
-
-Petit complément : si un terrain n'a pas de station, l'appli affiche le METAR/TAF du terrain le plus proche avec distance indiquée.
-
-> *Transition : Météo observée et météo prévue au terrain, c'est posé. Passons aux vents en altitude.*
-
----
-
-### C4 — Les Wintem : vents et températures en altitude (1 min 30)
-
-**À montrer :** Ouvrir la couche Wintem. Montrer la liste des niveaux de vol (FL005 à FL150) et les tranches horaires. Sélectionner une couche (ex. FL030). Cliquer sur une barbule de vent.
-
-Les Wintem, ce sont les cartes de vents et températures prévus en altitude. Dans le panneau, les niveaux de vol disponibles vont du FL005 au FL150, et pour chaque niveau, plusieurs tranches horaires sur 24 heures. L'application met en évidence la tranche horaire la plus proche de l'heure actuelle — pas besoin de calcul mental.
-
-Je sélectionne par exemple le FL030 à 15 Zoulou. Les barbules de vent s'affichent sur toute l'Europe. Si je clique sur une barbule, j'obtiens l'information exacte : direction du vent, vitesse en nœuds, et température. Petit rappel sur la convention : les températures négatives n'ont pas de signe ; quand la température est positive, un « + » apparaît.
-
-> **🔧 Préparé maintenant, plus touché en vol :** ces couches Wintem sont utilisées **automatiquement** par l'appli pour ajuster les temps de votre log de navigation. En vol, vous verrez la dérive estimée et le vent effectif dans la barre inférieure — sans aucune intervention de votre part.
-
-> *Transition : Dernier outil météo : le radar de précipitations.*
-
----
-
-### C6 — Le radar météo et satellite (2 min)
-
-**À montrer :** Activer la couche Radar. Montrer le bandeau en bas (Play, slider, Radar/Satellite, horaires UTC/locale). Zoomer sur une zone avec précipitations. Lancer l'animation.
-
-Quand j'active le radar, un bandeau apparaît en bas de la carte : bouton Play, barre d'avancement, choix entre Radar et Satellite, horaires en UTC et heure locale.
-
-Je zoome sur une zone où il y a des précipitations. Les couleurs : bleu pour les précipitations faibles, jaune, et rouge pour les précipitations intenses.
-
-Si je fais Play, l'application joue les couches successives en partant du passé et en avançant vers l'heure actuelle. Ça vous montre comment les précipitations évoluent et se déplacent. En mode radar, vous avez même une vingtaine de minutes de **prévision** au-delà de l'heure actuelle.
-
-Je peux faire Pause et déplacer moi-même le slider pour naviguer librement dans le temps. Le mode Satellite affiche l'imagerie satellite — pas de prévision dans ce mode, mais une vue d'ensemble de la couverture nuageuse.
-
-> *Transition : En résumé pour votre prépa météo : METAR pour le présent, TAF pour les prévisions aux terrains, Wintem pour les vents en altitude, radar pour les précipitations. On passe maintenant au bloc principal : la préparation de la navigation.*
-
----
-
-## BLOC 4 — AU SOL : préparer la navigation (22 min)
+## BLOC 3 — AU SOL : préparer la navigation (21 min)
 
 *C'est le cœur de la prépa. La consigne pédagogique pendant tout ce bloc : on configure, on fige, et en vol on ne refera rien de tout ça.*
 
@@ -409,19 +348,70 @@ On le récupère dans le bouton utilisateur, onglet « Doc perso ». Le PDF cont
 
 L'intérêt : mettre dans le marbre ce qu'on a vu au moment de la préparation. D'un point de vue réglementaire, c'est quand même mieux.
 
-> *Transition : Un mot sur la fonction Direct avant de conclure ce bloc.*
+**À montrer :** Bouton roue crantée du log, fonctions Inverser, Sauvegarder, Exporter.
+
+Encore via la roue crantée du log, quelques utilitaires : on peut inverser la navigation pour le retour, sauvegarder et charger des navigations, et exporter en plusieurs formats — GPX, KML, PLN pour Flight Simulator, FPL pour Garmin. (La fonction Direct elle-même — le bouton flèche pour dérouter vers un point — on la verra plus tard, en vol : c'est là qu'elle prend tout son sens.)
+
+> *Fin du Bloc 3. Transition : la route est tracée, le log est rempli, le carburant est calculé, le dossier est figé. Reste un dernier sujet de prépa avant le décollage : la météo qui nous attend.*
 
 ---
 
-### D10 — La fonction Direct et utilitaires (1 min 30)
+## BLOC 4 — AU SOL : météo (6 min)
 
-**À montrer :** Bouton Direct (flèche), recherche d'un terrain, boutons "Voir" et "Dérouter".
+---
 
-Le bouton avec la flèche sert aussi de **moteur de recherche** : on peut chercher un terrain par code OACI ou par nom, filtrer par type — aérodrome, base ULM, VOR, NDB, points VFR. On peut soit « Voir » pour se déplacer sur la carte, soit « Dérouter » pour créer une navigation directe vers ce point. Recherche par commune disponible si connexion internet.
+### C1 + C2 — METAR et TAF (2 min 30)
 
-**À montrer :** Bouton roue crantée, fonctions Inverser, Sauvegarder, Exporter.
+**À montrer :** Activer la couche METAR dans le panneau latéral. Zoomer pour montrer les pastilles de couleur sur les aérodromes. Cliquer sur un aérodrome.
 
-Quelques fonctions pratiques pour finir : on peut inverser la navigation pour le retour, sauvegarder et charger des navigations, et exporter en plusieurs formats — GPX, KML, PLN pour Flight Simulator, FPL pour Garmin.
+On commence par les METAR. Je clique sur « METAR » dans le panneau, et apparaissent les pastilles de couleur sur tous les terrains qui émettent un METAR — l'intégralité de l'Europe est couverte.
+
+Quand je clique sur un terrain, j'obtiens le détail :
+- L'**ancienneté** du METAR — par exemple « il y a 7 minutes », c'est récent, c'est fiable.
+- La **couleur** qui donne immédiatement la catégorie de vol.
+- Le METAR brut, codé, tel qu'il est émis, et juste en dessous la version décodée, lisible.
+
+Détail à connaître : quand le METAR rapporte un vent supérieur à 20 nœuds, en vent soutenu ou en rafale, une petite manche à air s'affiche sur la pastille. Alerte visuelle sur les conditions de vent fort.
+
+**À montrer :** Désactiver la couche METAR, activer la couche TAF. Cliquer sur un terrain pour montrer le détail avec les deux couleurs.
+
+Point important : METAR et TAF ne s'affichent pas en même temps. C'est un choix volontaire pour ne pas surcharger la carte. Soit l'un, soit l'autre.
+
+Je désactive le METAR, j'active le TAF. Regardez bien : sur certains terrains, **deux couleurs**. La couleur principale correspond au temps principal du TAF. La couleur secondaire représente la **pire condition** annoncée dans les évolutions — BECMG, TEMPO, PROB. C'est très précieux pour anticiper.
+
+Quand je clique, comme pour le METAR, j'ai le TAF brut puis le TAF décodé, avec l'ancienneté de l'émission.
+
+Petit complément : si un terrain n'a pas de station, l'appli affiche le METAR/TAF du terrain le plus proche avec distance indiquée. Pratique pour vérifier les conditions aux terrains de la route et aux dégagements qu'on vient de sélectionner.
+
+> *Transition : Météo observée et météo prévue au terrain, c'est posé. Passons aux vents en altitude.*
+
+---
+
+### C4 — Les Wintem : vents et températures en altitude (1 min 30)
+
+**À montrer :** Ouvrir la couche Wintem. Montrer la liste des niveaux de vol (FL005 à FL150) et les tranches horaires. Sélectionner une couche (ex. FL030). Cliquer sur une barbule de vent.
+
+Les Wintem, ce sont les cartes de vents et températures prévus en altitude. Dans le panneau, les niveaux de vol disponibles vont du FL005 au FL150, et pour chaque niveau, plusieurs tranches horaires sur 24 heures. L'application met en évidence la tranche horaire la plus proche de l'heure actuelle — pas besoin de calcul mental.
+
+Je sélectionne par exemple le FL030 à 15 Zoulou. Les barbules de vent s'affichent sur toute l'Europe. Si je clique sur une barbule, j'obtiens l'information exacte : direction du vent, vitesse en nœuds, et température. Petit rappel sur la convention : les températures négatives n'ont pas de signe ; quand la température est positive, un « + » apparaît.
+
+> **🔧 Préparé maintenant, plus touché en vol :** ces couches Wintem sont utilisées **automatiquement** par l'appli pour ajuster les temps du log de nav que vous venez de construire. En vol, vous verrez la dérive estimée et le vent effectif dans la barre inférieure — sans aucune intervention de votre part.
+
+> *Transition : Dernier outil météo : le radar de précipitations.*
+
+---
+
+### C6 — Le radar météo et satellite (2 min)
+
+**À montrer :** Activer la couche Radar. Montrer le bandeau en bas (Play, slider, Radar/Satellite, horaires UTC/locale). Zoomer sur une zone avec précipitations. Lancer l'animation.
+
+Quand j'active le radar, un bandeau apparaît en bas de la carte : bouton Play, barre d'avancement, choix entre Radar et Satellite, horaires en UTC et heure locale.
+
+Je zoome sur une zone où il y a des précipitations. Les couleurs : bleu pour les précipitations faibles, jaune, et rouge pour les précipitations intenses.
+
+Si je fais Play, l'application joue les couches successives en partant du passé et en avançant vers l'heure actuelle. Ça vous montre comment les précipitations évoluent et se déplacent. En mode radar, vous avez même une vingtaine de minutes de **prévision** au-delà de l'heure actuelle.
+
+Je peux faire Pause et déplacer moi-même le slider pour naviguer librement dans le temps. Le mode Satellite affiche l'imagerie satellite — pas de prévision dans ce mode, mais une vue d'ensemble de la couverture nuageuse.
 
 > *Fin du Bloc 4. Fin de la phase de préparation au sol.*
 
@@ -433,7 +423,7 @@ Quelques fonctions pratiques pour finir : on peut inverser la navigation pour le
 
 Stop. Faisons le point.
 
-Tout ce qu'on vient de faire pendant 38 minutes :
+Tout ce qu'on vient de faire pendant 37 minutes au sol :
 - Choisir l'avion
 - Tracer la route avec ses points intermédiaires
 - Remplir le log : altitudes, fréquences, VOR, notes
@@ -443,6 +433,7 @@ Tout ce qu'on vient de faire pendant 38 minutes :
 - Sélectionner les dégagements et obtenir le pire cas carburant
 - Activer Auto-VAC, zones temporaires automatiques, profil dynamique
 - Figer le tout dans un PDF
+- Consulter la météo : METAR, TAF, Wintem, radar
 
 **Tout ça, vous ne le refaites plus en vol.**
 
@@ -452,7 +443,7 @@ Maintenant on décolle, et on regarde ce que l'appli fait pour vous.
 
 ---
 
-## BLOC 5 — EN VOL : exécuter (10 min)
+## BLOC 5 — EN VOL : exécuter (11 min)
 
 *Ton du bloc : on identifie les automatismes. Les seuls gestes utiles en vol sont clairement signalés.*
 
@@ -504,7 +495,23 @@ Le **passage au point suivant est automatique**. Règle par défaut : moins de 2
 
 C'est tout. En vol, ces deux gestes — drapeau ou double-tap HE — suffisent à gérer 99 % des situations.
 
-> *Transition : On sait naviguer. Voyons les informations affichées en permanence.*
+> *Transition : On sait suivre la route préparée. Voyons le cas où on veut en sortir — le déroutement.*
+
+---
+
+### D10 — Le déroutement Direct en vol (1 min)
+
+**À montrer :** Bouton Direct (flèche) en haut de l'écran. Recherche d'un terrain par code OACI ou par nom. Boutons "Voir" et "Dérouter".
+
+Imaginez : vous êtes en vol, et il faut rejoindre un terrain qui n'est pas sur votre nav — déroutement météo, demande ATC, modification de plan. C'est le rôle du bouton **Direct**, la flèche en haut de l'écran.
+
+Vous tapez le bouton, ça ouvre un moteur de recherche : code OACI, nom de terrain, filtre par type (aérodrome, base ULM, VOR, NDB, points VFR). Deux actions possibles : « Voir » pour déplacer la carte sur ce point sans modifier votre nav, et **« Dérouter »** pour créer une navigation directe vers ce point. Vous quittez instantanément votre nav préparée pour rejoindre cette nouvelle destination en ligne droite.
+
+Recherche par nom de commune également disponible si vous avez une connexion internet — utile pour trouver un terrain proche que vous ne connaissez pas par code.
+
+> **🔧 L'exception au "préparé au sol" :** la fonction Direct est l'**outil de secours en vol**. C'est la seule fonction qu'on ne touche pas en prépa et qui prend tout son sens en l'air. Si vous l'utilisez, c'est que la situation a changé — vous vous adaptez.
+
+> *Transition : On revient au régime normal. Voyons les informations affichées en permanence.*
 
 ---
 
@@ -604,7 +611,7 @@ Voilà qui conclut cette présentation de SDVFR Next.
 
 Ce que j'aimerais que vous reteniez par-dessus tout, c'est la **séparation sol / vol**. SDVFR Next est conçu pour qu'au sol vous configuriez, vous filtriez, vous prépariez — et qu'en vol vous **regardiez** ce que l'appli fait pour vous : suivi automatique du point courant, vent et dérive estimés, profil dynamique qui se met à jour seul, VAC qui apparaissent à l'approche, zones temporaires qui passent en orange quand elles deviennent imminentes. Vous gardez la tête en dehors du cockpit.
 
-Si vous vous retrouvez en vol à fouiller dans les menus, c'est que vous avez sauté une étape au sol. Préparation au sol = exécution sereine en vol.
+Si vous vous retrouvez en vol à fouiller dans les menus, c'est que vous avez sauté une étape au sol. La **seule exception** est le bouton Direct (Dérouter) quand la situation change en vol — météo, ATC, modification de plan. Pour tout le reste : préparation au sol = exécution sereine en vol.
 
 Toutes les vidéos détaillées sont disponibles sur la chaîne YouTube SDVFR, dans la playlist « Tutoriels SDVFR Next ». Pour toute question, n'oubliez pas : info@skydreamsoft.fr.
 
@@ -618,10 +625,10 @@ Merci de votre attention.
 |:---:|---|---|:---:|
 | 1 | Mise en route | Interface, appareil | 5 min |
 | 2 | **AU SOL** | Carte (vectorielle, double-tap, terrain, VAC, zones temp.) | 10 min |
-| 3 | **AU SOL** | Météo (METAR/TAF, Wintem, radar) | 6 min |
-| 4 | **AU SOL** | Préparer la nav (route, log, profil, NOTAM, carburant, dossier, direct) | 22 min |
+| 3 | **AU SOL** | Préparer la nav (route, log, profil, NOTAM, carburant, dossier) | 21 min |
+| 4 | **AU SOL** | Météo (METAR/TAF, Wintem, radar) | 6 min |
 | — | *Pivot* | *Du sol vers le vol* | 1 min |
-| 5 | **EN VOL** | Suivi, point courant, barre, profil dynamique | 10 min |
+| 5 | **EN VOL** | Suivi, point courant, déroutement Direct, barre, profil dynamique | 11 min |
 | 6 | Après le vol | Traces | 3 min |
 | 7 | Bonus | Points perso, hybride, trafic (mention) | 2 min |
 | | Conclusion | | 1 min |
@@ -629,9 +636,9 @@ Merci de votre attention.
 
 **Répartition macro :**
 - Mise en route : 5 min (8 %)
-- **AU SOL : 38 min (63 %)** — préparation
+- **AU SOL : 37 min (62 %)** — préparation
 - Pivot : 1 min
-- **EN VOL : 10 min (17 %)** — exécution
+- **EN VOL : 11 min (18 %)** — exécution
 - Après-vol + bonus + conclusion : 6 min
 
 ---
@@ -646,6 +653,8 @@ Merci de votre attention.
 | C1 + C2 | 2 min + 1 min 30 | 2 min 30 fusionné | Bascule unique METAR/TAF |
 | Pivot sol → vol | implicite | **1 min explicite** | Cœur du nouveau message |
 | F1-F4 | 4 + 3 + 4 + 4 | 3 + 2:30 + 2:30 + 2 | Tightening + ton « regarder ≠ manipuler » |
+| Ordre des blocs sol | Météo → Nav | **Nav → Météo** | Nav d'abord (cœur de la prépa), météo en bilan avant décollage |
+| D10 Fonction Direct | en prépa (Bloc 4) | **en vol (Bloc 5)** | Le déroutement est par nature un geste de vol, pas de prépa |
 | Bloc 7 | 8 min avec démo | 2 min en mention | Cible bonus, pas démo |
 | Rappels « 🔧 sol → vol » | absent | 9 rappels ciblés | Fil rouge architectural |
 
@@ -657,8 +666,8 @@ Merci de votre attention.
 |:---:|---|---|
 | 1 | Tour d'horizon, Appareils | [#7](https://www.youtube.com/watch?v=Eog2pOmTPNg) [#11](https://www.youtube.com/watch?v=7aXPhnJoLdk) |
 | 2 | Carte vectorielle, Double tap, Info terrain, VAC géoréf., Zones temp. auto | [#15](https://www.youtube.com/watch?v=NPpOz2QoQAU) [#16](https://www.youtube.com/watch?v=0bhb7_Kw7tM) [#22](https://www.youtube.com/watch?v=JWLg73giPmQ) [#18](https://www.youtube.com/watch?v=GK0HQRX5S1Y) [#25](https://www.youtube.com/watch?v=CCDwFP4t9oc) |
-| 3 | METAR/TAF/Wintem, Radar | [#12](https://www.youtube.com/watch?v=DBpg-528GTI) [#14](https://www.youtube.com/watch?v=cpN4zFha8xo) |
-| 4 | My first nav, Log nav, Profil nav, NOTAM graph., NOTAM route, Terrains route, Devis carburant, Dossier de vol, Fonction Direct | [#19](https://www.youtube.com/watch?v=uLL34-HW6cs) [#34](https://www.youtube.com/watch?v=LaeT193P_YI) [#35](https://www.youtube.com/watch?v=Dh0QeSm9utY) [#4](https://www.youtube.com/watch?v=DPel0USDr1U) [#39](https://www.youtube.com/watch?v=LtbkUsFacnY) [#38](https://www.youtube.com/watch?v=5397ioPcp1k) [#36](https://www.youtube.com/watch?v=9VFfay-Wt1U) [#2](https://www.youtube.com/watch?v=-DdKcyj2Rzs) [#21](https://www.youtube.com/watch?v=v0DZfFlCQaU) |
-| 5 | Flight tracking, Point courant, Barre inférieure, Profil dynamique | [#27](https://www.youtube.com/watch?v=bXg575c_Enw) [#28](https://www.youtube.com/watch?v=-S3SoU66FNY) [#29](https://www.youtube.com/watch?v=HfrN1wpN74E) [#30](https://www.youtube.com/watch?v=BPaK71fnur0) |
+| 3 | My first nav, Log nav, Profil nav, NOTAM graph., NOTAM route, Terrains route, Devis carburant, Dossier de vol | [#19](https://www.youtube.com/watch?v=uLL34-HW6cs) [#34](https://www.youtube.com/watch?v=LaeT193P_YI) [#35](https://www.youtube.com/watch?v=Dh0QeSm9utY) [#4](https://www.youtube.com/watch?v=DPel0USDr1U) [#39](https://www.youtube.com/watch?v=LtbkUsFacnY) [#38](https://www.youtube.com/watch?v=5397ioPcp1k) [#36](https://www.youtube.com/watch?v=9VFfay-Wt1U) [#2](https://www.youtube.com/watch?v=-DdKcyj2Rzs) |
+| 4 | METAR/TAF/Wintem, Radar | [#12](https://www.youtube.com/watch?v=DBpg-528GTI) [#14](https://www.youtube.com/watch?v=cpN4zFha8xo) |
+| 5 | Flight tracking, Point courant, Fonction Direct, Barre inférieure, Profil dynamique | [#27](https://www.youtube.com/watch?v=bXg575c_Enw) [#28](https://www.youtube.com/watch?v=-S3SoU66FNY) [#21](https://www.youtube.com/watch?v=v0DZfFlCQaU) [#29](https://www.youtube.com/watch?v=HfrN1wpN74E) [#30](https://www.youtube.com/watch?v=BPaK71fnur0) |
 | 6 | Traces enregistrées | [#33](https://www.youtube.com/watch?v=pux80Scm5uU) |
 | 7 (mention) | Custom Points, Mode hybride, Détection trafics | [#41](https://www.youtube.com/watch?v=SE0pmn-9n-U) [#20](https://www.youtube.com/watch?v=SD8dcfpadGI) [#46](https://www.youtube.com/watch?v=0-cStHF6P2g) [#47](https://www.youtube.com/watch?v=jjhPh_TtRC8) |
