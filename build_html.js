@@ -144,6 +144,7 @@ const template = (title, body) => `<!DOCTYPE html>
 <div class="nav-bar">
   <span class="nav-title">SDVFR Next</span>
   <a href="index.html">Plan du cours</a>
+  <a href="script_60min.html">Script 60 min</a>
   <a href="script.html">Script 75 min</a>
 </div>
 ${body}
@@ -155,6 +156,7 @@ ${body}
 
 const files = [
   { src: 'cours_sdvfr_next.md', dst: 'docs/index.html', title: 'Cours SDVFR Next — Plan et fonctionnalités' },
+  { src: 'script_cours_60min.md', dst: 'docs/script_60min.html', title: 'Cours SDVFR Next — Script 60 minutes (présentiel)' },
   { src: 'script_cours_75min.md', dst: 'docs/script.html', title: 'Cours SDVFR Next — Script 75 minutes' },
 ];
 

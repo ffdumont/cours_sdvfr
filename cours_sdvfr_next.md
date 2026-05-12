@@ -76,7 +76,7 @@
 | D8 | NOTAM graphiques sur la carte | Cercles sur la carte (actifs/inactifs), filtres par rayon, plafond/plancher, NOTAM aérodrome et obstacles, double-tap pour détail | 4 | [NOTAM graphiques](https://www.youtube.com/watch?v=DPel0USDr1U) |
 | D9 | Dossier de vol PDF | Génération d'un PDF complet (log, carburant, centrage, METAR/TAF, NOTAM, Wintem), envoi par notification et email, données figées | 4 | [Dossier de vol](https://www.youtube.com/watch?v=-DdKcyj2Rzs) |
 | D10 | Fonction Direct | Recherche de points (OACI, VOR, localité), filtres par type, bouton "voir" et "dérouter", recherche de communes (nécessite internet) | 4 | [Fonction Direct](https://www.youtube.com/watch?v=v0DZfFlCQaU) |
-| D11 | Importation de navigations | Import GPX, KML, FPL (Garmin), PLN (Flight Simulator), compatible V1, export dans les mêmes formats | 2 | [Importation navigations](https://www.youtube.com/watch?v=KoAwWZjVOM8) |
+| D11 | Importation de navigations | Import GPX, KML, FPL (Garmin), PLN (Flight Simulator), export dans les mêmes formats | 2 | [Importation navigations](https://www.youtube.com/watch?v=KoAwWZjVOM8) |
 
 ### THÈME E — Zones temporaires
 
@@ -108,7 +108,7 @@
 | # | Fonctionnalité | Description | Importance | Vidéo |
 |---|----------------|-------------|:----------:|-------|
 | H1 | Points personnalisés — Création | Création depuis la carte ou le formulaire, choix forme/couleur/type, options d'affichage (label, taille, filtres), export CSV | 3 | [Custom Points Part 1](https://www.youtube.com/watch?v=SE0pmn-9n-U) |
-| H2 | Points personnalisés — Import CSV | Import CSV (compatible V1), non-duplication, filtrage par type/forme/couleur, suppression par lot, liaison PDF par nom de fichier | 2 | [Points personnalisés Part 2](https://www.youtube.com/watch?v=5G2couFR4U0) |
+| H2 | Points personnalisés — Import CSV | Import CSV, non-duplication, filtrage par type/forme/couleur, suppression par lot, liaison PDF par nom de fichier | 2 | [Points personnalisés Part 2](https://www.youtube.com/watch?v=5G2couFR4U0) |
 | H3 | Documents personnels | Stockage de PDF dans un répertoire dédié, consultation in-app, import par "ouvrir avec", liaison avec points personnalisés | 2 | [Documents personnels](https://www.youtube.com/watch?v=f7FvQpWBIhk) |
 | H4 | Surcouches personnelles | Import GeoJSON/KML/Shapefile via le site web, personnalisation couleurs/traits/labels, zoom minimum d'affichage | 1 | [Surcouches personnelles](https://www.youtube.com/watch?v=Ho9xmRMFx3Q) |
 | H5 | Cartes personnalisées MBTiles | Import de cartes au format MBTiles, choix carte ou surcouche, cartes officielles additionnelles (~15 pays) | 1 | [Cartes personnalisées](https://www.youtube.com/watch?v=8B5zkZIzK9Q) |
@@ -124,105 +124,121 @@
 
 ---
 
-## Plan de cours 60-90 minutes
+## Plan de cours 60 minutes (présentiel)
 
-### Structure recommandée
+### Principes directeurs
 
-Le cours suit la logique d'un vol réel : **Découverte → Préparation au sol → En vol → Après le vol → Bonus**.
+Le cours est structuré autour de **deux macro-phases qui correspondent à la réalité du vol** :
 
-| Bloc | Thème | Durée 60 min | Durée 75 min | Durée 90 min | Fonctionnalités couvertes |
-|------|-------|:------------:|:------------:|:------------:|--------------------------|
-| **1** | **Découverte** | 8 min | 10 min | 12 min | A1, A3, A4, A6 |
-| **2** | **La carte** | 10 min | 12 min | 15 min | B1, B2, B3, B7, E1 |
-| **3** | **Météo** | 7 min | 8 min | 10 min | C1, C2, C4, C6 |
-| **4** | **Préparer sa nav** | 15 min | 18 min | 22 min | D1, D2, D3, D4, D6, D7, D8, D9, D10 |
-| **5** | **En vol** | 12 min | 15 min | 17 min | F1, F2, F3, F4 |
-| **6** | **Après le vol** | 3 min | 4 min | 4 min | G1 |
-| **7** | **Personnalisation** | 5 min | 8 min | 10 min | H1, B4, I1/I2 |
-| | **TOTAL** | **60 min** | **75 min** | **90 min** | |
+1. **AU SOL — Préparer.** L'essentiel du temps. Le pilote configure tout ce qui pourra être configuré : profils, filtres, dégagements, métriques de la barre inférieure, mode auto-VAC, etc. Le message-clé revient à chaque fonctionnalité préparable : *« on règle ça maintenant, vous n'y toucherez plus en vol »*.
+2. **EN VOL — Exécuter.** Court. Le pilote **regarde** ce que l'appli fait pour lui (suivi, point courant, barre inférieure, profil dynamique). Les interactions sont minimisées et limitées à quelques gestes simples (forçage du point courant, par exemple).
+
+Entre les deux : un **pivot explicite d'1 min** qui pose la règle d'or — *préparation au sol = exécution sereine en vol*.
+
+**Périmètre exclu du présentiel** : les aspects périphériques (création de compte, gestion des terminaux, sélection des régions au premier lancement) ne sont pas couverts. Ils sont supposés acquis ou renvoyés vers les vidéos.
+
+---
+
+### Structure 60 min
+
+| Bloc | Macro-phase | Thème | Durée | Fonctionnalités |
+|:---:|---|---|:---:|---|
+| **1** | Mise en route | Interface et appareil | 5 min | A1, A6 |
+| **2** | **AU SOL — Préparer** | La carte | 10 min | B1, B2, B3, B7, E1 |
+| **3** | **AU SOL — Préparer** | Météo | 6 min | C1+C2, C4, C6 |
+| **4** | **AU SOL — Préparer** | La navigation | 22 min | D1, D2, D3, D6/D7/D8, D4, D9, D10 |
+| **—** | *Pivot* | *Du sol vers le vol* | 1 min | *transition d'alignement* |
+| **5** | **EN VOL — Exécuter** | Suivi de vol | 10 min | F1, F2, F3, F4 |
+| **6** | Après le vol | Traces | 3 min | G1 |
+| **7** | Bonus (mention) | Pour aller plus loin | 2 min | H1, B4, I1/I2 |
+| | Conclusion | | 1 min | |
+| | **TOTAL** | | **60 min** | |
+
+**Répartition par macro-phase** : Mise en route 5 min · **AU SOL 38 min (63 %)** · Pivot 1 min · **EN VOL 10 min (17 %)** · Après-vol + bonus + conclusion 6 min.
+
+Ce déséquilibre volontaire 63 % / 17 % matérialise visuellement le message pédagogique : on passe beaucoup plus de temps à préparer qu'à exécuter.
 
 ---
 
 ### Détail par bloc
 
-#### Bloc 1 — Découverte de l'application (importance ≥ 4)
-> *Objectif : comprendre l'écosystème SDVFR et naviguer dans l'interface*
+#### Bloc 1 — Mise en route (5 min)
+> *Objectif : poser les repères d'interface et lier l'appareil à la navigation*
 
-- **A1** Tour d'horizon de l'interface — présenter l'écran principal, les zones clés
-- **A3** Compte et abonnement — ce qui est inclus, gestion des terminaux
-- **A4** Régions — comment choisir ses régions, données embarquées
-- **A6** Fiche avion — montrer la création rapide d'un appareil
+- **A1** Tour d'horizon de l'interface — les 4 boutons d'action, le panneau latéral, la barre de métriques
+- **A6** Fiche appareil — lier l'appareil à venir (log, carburant, centrage)
 
-#### Bloc 2 — Comprendre la carte (importance ≥ 4)
-> *Objectif : savoir lire la carte et interroger les éléments*
+#### Bloc 2 — AU SOL : la carte (10 min)
+> *Objectif : savoir lire la carte et interroger les éléments. Préparer les couches de référence.*
 
-- **B1** Carte vectorielle — couches, filtre plafond, thème clair/sombre
-- **B2** Double tap — interroger l'empilement des espaces à n'importe quel point
+- **B1** Carte vectorielle — couches, filtre plafond, thème
+- **B2** Double tap — interroger l'empilement des espaces
 - **B3** Informations terrain — fréquences, météo, NOTAM, éphémérides
-- **B7** VAC géoréférencées — mode auto et manuel
-- **E1** Zones temporaires auto — RTBA et SUP AIP actives sur la carte
+- **B7** VAC géoréférencées — *rappel-clé : « activez Auto-VAC maintenant, en vol elles s'afficheront seules »*
+- **E1** Zones temporaires auto — RTBA et SUP AIP, paramètres d'anticipation
 
-#### Bloc 3 — Météo (importance ≥ 3)
-> *Objectif : consulter et comprendre les infos météo disponibles*
+#### Bloc 3 — AU SOL : météo (6 min)
+> *Objectif : consulter la météo de la journée et identifier ce qui alimente le log*
 
-- **C1** METAR — affichage, décodage, ancienneté
-- **C2** TAF — double couleur, décodage
-- **C4** Wintem — couches de vent, impact sur le log de nav
-- **C6** Radar/satellite — animation temporelle *(si ≥ 75 min)*
+- **C1+C2** METAR/TAF fusionnés — bascule unique, double couleur du TAF, ancienneté
+- **C4** Wintem — *rappel-clé : « ces vents alimentent automatiquement votre log de nav »*
+- **C6** Radar/satellite — animation, prévision 20 min
 
-#### Bloc 4 — Préparer sa navigation (importance ≥ 4)
-> *Objectif : construire une navigation complète de A à Z — BLOC PRINCIPAL*
+#### Bloc 4 — AU SOL : préparer la navigation (22 min) — BLOC PRINCIPAL
+> *Objectif : construire la navigation de A à Z et figer toutes les décisions au sol*
 
-- **D1** Créer une navigation — poser les points, aimant, modifier
-- **D2** Log de navigation — altitudes, fréquences, VOR, notes
-- **D10** Fonction Direct — rechercher un terrain ou une localité
-- **D3** Profil de navigation — visualiser le relief et les espaces, ajuster les altitudes
-- **D8** NOTAM graphiques — filtres et affichage sur la carte
-- **D7** NOTAM de route — briefing avec les 3 filtres
-- **D6** Terrains sur la route — terrains accessibles le long de la route
-- **D4** Devis carburant — calcul avec dégagements
-- **D9** Dossier de vol — générer le PDF final *(si ≥ 75 min)*
+- **D1** Créer la route — appui long, aimant, point intermédiaire
+- **D2** Log de nav — altitudes, fréquences, VOR de recoupement, notes (*rappel-clé : « heure de décollage et points courants se rempliront automatiquement »*)
+- **D3** Profil de navigation — vue en coupe, modif altitude par glissement, *rappel-clé : « activez le profil sur la carte »*
+- **D6 / D7 / D8** Terrains sur la route et NOTAM — *rappel-clé : « les 3 filtres NOTAM, vous les réglez ici, en vol vous n'y revenez pas »*
+- **D4** Devis carburant — sélection multi-dégagements, pire cas automatique
+- **D9** Dossier de vol PDF — figer la prépa
+- **D10** Fonction Direct — moteur de recherche et déroutement
 
-#### Bloc 5 — En vol (importance ≥ 4)
-> *Objectif : comprendre ce que fait l'application une fois en l'air*
+#### Pivot — Du sol vers le vol (1 min)
+> *Encadré oral à dire au tableau : poser la règle d'or*
 
-- **F1** Suivi de vol — icône, vecteur vitesse, autocentrage, orientation carte
-- **F2** Point courant — passage automatique et forçage manuel
-- **F3** Barre inférieure — les métriques essentielles à configurer
-- **F4** Profil dynamique — la coupe verticale en temps réel *(si ≥ 75 min)*
+« Tout ce qu'on vient de faire — choisir l'avion, tracer la route, remplir le log, filtrer les NOTAM, sélectionner les dégagements, configurer Auto-VAC — **vous ne le refaites plus en vol**. La règle d'or de SDVFR Next : préparation au sol = exécution sereine en vol. Maintenant on décolle, et on regarde ce que l'appli fait pour vous. »
 
-#### Bloc 6 — Après le vol (importance 3)
-> *Objectif : exploiter les données du vol*
+#### Bloc 5 — EN VOL : exécuter (10 min)
+> *Objectif : comprendre les automatismes et identifier les rares gestes utiles en vol*
 
-- **G1** Traces enregistrées — boîte noire, export GPX/KML, vue 3D
+- **F1** Suivi de vol — icône, vecteur vitesse, autocentrage intelligent, orientation carte
+- **F2** Point courant — passage auto, **les deux gestes autorisés en vol** (drapeau sur la carte, double-tap colonne HE)
+- **F3** Barre inférieure — *rappel-clé : « configurée au sol, vous la lisez en vol, vous ne la modifiez plus »*
+- **F4** Profil dynamique — *rappel-clé : « se met à jour seul, vous regardez ce qui arrive »*
 
-#### Bloc 7 — Personnalisation et bonus (si temps restant)
-> *Objectif : aller plus loin pour les utilisateurs avancés*
+#### Bloc 6 — Après le vol (3 min)
+> *Objectif : exploiter les traces enregistrées*
 
-- **H1** Points personnalisés — création et affichage
-- **B4** Mode hybride — superposer des cartes
-- **I1/I2** Détection de trafics — SafeSky ou boîtiers
+- **G1** Traces enregistrées — boîte noire, vue 3D, export GPX/KML
+
+#### Bloc 7 — Pour aller plus loin (2 min — mention sans démo)
+> *Citation rapide pour orientation des pilotes intéressés, renvoi vers les vidéos*
+
+- **H1** Points personnalisés — repères perso (château, terrain privé, points de report locaux)
+- **B4** Mode hybride — superposer OACI image, SIA 250, cartes étrangères
+- **I1/I2** Détection de trafic — boîtier GDL 90 ou SafeSky sans boîtier
 
 ---
 
 ## Guide de calibrage par durée
 
-Pour ajuster la durée du cours, utiliser le niveau d'importance comme curseur :
+À partir de la structure 60 min, voici comment ajuster :
 
-| Durée cible | Fonctionnalités à inclure | Nombre de fonctionnalités |
-|:-----------:|--------------------------|:-------------------------:|
-| **60 min** | Importance **5** + **4** sélectionnées | ~20 |
-| **75 min** | Importance **5** + **4** complètes | ~25 |
-| **90 min** | Importance **5** + **4** + **3** sélectionnées | ~30 |
+| Durée cible | Comment ajuster | Notes |
+|:-----------:|----------------|-------|
+| **45 min** | Compresser le Bloc 4 (D9 et D10 en mention), retirer C6 radar, supprimer Bloc 7 | Format court / créneau club |
+| **60 min** | Structure de référence | Présentiel standard |
+| **75 min** | Détailler le Bloc 4 (D5 masse et centrage), ajouter D11 import, étendre Bloc 7 | Voir [script_cours_75min.md](script_cours_75min.md) |
+| **90 min** | + Bloc périphérique avant le Bloc 1 (A3 compte, A4 régions, A5 données dynamiques) | Public débutant complet |
 
-### Fonctionnalités d'importance 5 (le noyau incompressible — ~30 min)
-A1, B1, B2, B3, C1, D1, D2, E1, F1, F2
+### Curseur d'ajustement par importance
 
-### Fonctionnalités d'importance 4 (le cœur du cours — ~25 min supplémentaires)
-A3, A4, A6, B7, C2, C4, D3, D4, D6, D7, D8, D9, D10, F3, F4
-
-### Fonctionnalités d'importance 3 (enrichissement — ~15 min supplémentaires)
-A2, A5, B4, B8, C3, C5, C6, D5, E2, F5, G1, H1
-
-### Fonctionnalités d'importance 2-1 (à mentionner ou ignorer)
-B5, B6, D11, F6, F7, H2, H3, H4, H5, I1, I2, I3, I4
+| Tier | Fonctionnalités | Rôle dans le cours |
+|------|----------------|--------------------|
+| **Noyau** (5) | A1, B1, B2, B3, C1, D1, D2, E1, F1, F2 | Incompressible, ~30 min |
+| **Cœur** (4) | A6, B7, C2, C4, D3, D4, D6, D7, D8, D9, D10, F3, F4 | Cible 60 min, ~25 min supp. |
+| **Enrichissement** (3) | A2, A5, B4, B8, C3, C5, C6, D5, E2, F5, G1, H1 | À piocher selon durée |
+| **Périphérique** (4-3) | A3, A4 | **Exclus du présentiel 60 min** — supposés acquis |
+| **Niche** (2-1) | B5, B6, D11, F6, F7, H2, H3, H4, H5, I1, I2, I3, I4 | À mentionner ou ignorer |

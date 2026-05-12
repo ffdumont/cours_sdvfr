@@ -58,7 +58,7 @@ Chaque région correspond à une zone sur la carte européenne — France, Iberr
 
 **À montrer :** Sélectionner la région "France", lancer la mise à jour, montrer les trois téléchargements qui se lancent.
 
-Par exemple, je sélectionne "France" et je fais "Mettre à jour". L'application va télécharger trois choses : les données embarquées hors ligne, la cartographie par défaut — c'est ce qu'on appelle la SD OACI vectoriel —, et les données d'élévation, c'est-à-dire le modèle de terrain pour les profils de vol et l'estimation des hauteurs. Bonne nouvelle par rapport à la V1 : il n'y a plus besoin d'embarquer les données d'élévation séparément, tout est intégré dans ce téléchargement initial.
+Par exemple, je sélectionne "France" et je fais "Mettre à jour". L'application va télécharger trois choses : les données embarquées hors ligne, la cartographie par défaut — c'est ce qu'on appelle la SD OACI vectoriel —, et les données d'élévation, c'est-à-dire le modèle de terrain pour les profils de vol et l'estimation des hauteurs. Tout est intégré dans ce téléchargement initial — pas besoin d'embarquer les données d'élévation séparément.
 
 **À montrer :** Aller dans Options > Sélectionner des régions, ajouter "Iberria".
 
@@ -72,11 +72,11 @@ Pour ajouter une région après coup, c'est simple : bouton roue crantée, tout 
 
 **À montrer :** Écran carte principal. Pointer chaque zone de l'écran au fur et à mesure.
 
-Vous voilà sur l'écran principal de SDVFR Next. Comme dans la version 1, on arrive directement sur la carte, prêt à voler. Reprenons les grandes zones de l'écran.
+Vous voilà sur l'écran principal de SDVFR Next. On arrive directement sur la carte, prêt à voler. Reprenons ensemble les grandes zones de l'écran.
 
 **À montrer :** Montrer la barre de métriques en bas de l'écran.
 
-En bas, vous retrouvez la barre de métriques, comme dans la V1. Rien de dépaysant ici.
+En bas, la barre de métriques affiche en permanence les informations clés de vol. On y reviendra en détail dans le bloc « en vol ».
 
 **À montrer :** Cliquer sur le bouton layers à droite, faire défiler les options.
 
@@ -128,7 +128,7 @@ Où est-ce que ça sert concrètement ? Dans l'écran navigation, au niveau du l
 
 **À montrer :** Ouvrir la carte vectorielle par défaut. Ouvrir le panneau latéral, replier les accordéons pour ne garder que "Couches de données".
 
-Quand vous ouvrez SDVFR Next, vous arrivez sur une carte vectorielle. C'est l'équivalent de la SDACI que certains connaissaient sur la V1, mais en version vectorielle. L'avantage de cette carte, c'est qu'elle est identique quel que soit le pays : France, Espagne, Suisse, vous retrouvez toujours le même style.
+Quand vous ouvrez SDVFR Next, vous arrivez sur une carte vectorielle. L'avantage de cette carte vectorielle, c'est qu'elle est identique quel que soit le pays : France, Espagne, Suisse, vous retrouvez toujours le même style.
 
 **À montrer :** Décocher NDB, VOR, hélistations, bases ULM — montrer que la carte se nettoie.
 
@@ -362,7 +362,7 @@ Vous noterez aussi qu'en dessous de chaque observation, l'application affiche au
 
 **À montrer :** Colonne Notes, saisie de texte libre.
 
-La colonne notes — c'était très demandé sur la V1 — permet d'écrire ce qu'on veut par point de report. C'est du texte libre.
+La colonne notes permet d'écrire ce qu'on veut par point de report. C'est du texte libre — checklist, consignes locales, points de vigilance, ce que vous voulez.
 
 **À montrer :** Double-tap dans la colonne HR pour flagger l'heure de décollage.
 
@@ -388,7 +388,7 @@ Et on peut même modifier l'altitude d'un segment directement depuis le profil, 
 
 **À montrer :** Activation du profil sur la carte via le panneau latéral.
 
-Grande nouveauté par rapport à la V1 : on peut afficher le profil directement sur la carte, via le panneau latéral. Ça permet de modifier sa route en 2D sur la carte et de voir en temps réel l'impact en 3D sur les espaces aériens.
+Fonctionnalité puissante : on peut afficher le profil directement sur la carte, via le panneau latéral. Ça permet de modifier sa route en 2D sur la carte et de voir en temps réel l'impact en 3D sur les espaces aériens.
 
 > *Transition : Le profil est bon. Passons à un point critique : la vérification des NOTAM.*
 
@@ -441,7 +441,7 @@ Les valeurs par défaut se paramètrent via la roue crantée. Si vous volez touj
 
 **À montrer :** Bouton "Sélectionner" les dégagements, sélection de plusieurs terrains, temps de dégagement recalculé.
 
-La grande nouveauté par rapport à la V1, c'est la gestion intelligente des dégagements. En cliquant sur "Sélectionner", on voit la liste des terrains sur la route. On sélectionne par exemple trois terrains de dégagement. L'application calcule alors, pour chaque point de la navigation, quel est le terrain de dégagement le plus éloigné, et elle prend le pire cas. Résultat : 26 minutes au lieu de 15. C'est plus réaliste et plus sûr.
+Le point fort, c'est la gestion intelligente des dégagements. En cliquant sur "Sélectionner", on voit la liste des terrains sur la route. On sélectionne par exemple trois terrains de dégagement. L'application calcule alors, pour chaque point de la navigation, quel est le terrain de dégagement le plus éloigné, et elle prend le pire cas. Résultat : 26 minutes au lieu de 15. C'est plus réaliste et plus sûr.
 
 **À montrer :** Ajout d'un terrain supplémentaire, temps qui diminue.
 
@@ -497,7 +497,7 @@ Ensuite, l'autocentrage. Activez-le dans le panneau latéral. L'application va s
 
 **À montrer :** Activer l'orientation de carte, montrer que les labels restent lisibles même quand la carte pivote.
 
-Dernier point : l'orientation de carte. Par défaut, c'est Nord en haut. Mais vous pouvez passer en mode "direction de l'avion" : la carte pivote pour que votre route soit toujours vers le haut de l'écran. Le gros avantage par rapport à SDVFR V1, c'est que grâce à la carte vectorielle, les labels restent toujours lisibles, ils ne se retrouvent plus à l'envers.
+Dernier point : l'orientation de carte. Par défaut, c'est Nord en haut. Mais vous pouvez passer en mode "direction de l'avion" : la carte pivote pour que votre route soit toujours vers le haut de l'écran. Grâce à la carte vectorielle, les labels restent toujours lisibles — ils ne se retrouvent jamais à l'envers, même quand la carte pivote.
 
 > *Transition : Voyons maintenant comment l'application gère la progression sur votre route.*
 
@@ -561,7 +561,7 @@ Par appui long, vous accédez aux réglages. La marge au-dessus de votre altitud
 
 **À montrer :** Montrer les filtres d'affichage (classe E, LTA, zones naturelles, aéromodélisme, parachutage).
 
-Toujours dans ces options, vous pouvez filtrer ce qui s'affiche sur le profil : retirer les espaces de classe E, afficher ou non les LTA, les zones naturelles, les zones d'aéromodélisme, les avertissements à la navigation comme les axes de voltige ou les parachutages. Ce sont des couches que SDVFR V1 n'avait pas dans le profil.
+Toujours dans ces options, vous pouvez filtrer ce qui s'affiche sur le profil : retirer les espaces de classe E, afficher ou non les LTA, les zones naturelles, les zones d'aéromodélisme, les avertissements à la navigation comme les axes de voltige ou les parachutages.
 
 **À montrer :** Taper sur une zone dans le profil pour l'identifier, double-taper pour obtenir les infos complètes.
 
@@ -615,7 +615,7 @@ Première méthode : depuis un point de navigation. Vous placez un point sur la 
 
 **À montrer :** Remplir le formulaire : nom, description, type (libre), forme (triangle/carré/cercle/étoile), couleur.
 
-Dans le formulaire, vous saisissez le nom, une description, et surtout le type. Grosse amélioration par rapport à V1 : le type est maintenant libre. Vous pouvez écrire ce que vous voulez — "POI", "terrain privé", "obstacle" — et l'application vous repropose les types déjà utilisés. Ce type est important car il vous permettra de filtrer l'affichage par catégorie. Choisissez la forme — triangle, carré, cercle ou étoile — et la couleur.
+Dans le formulaire, vous saisissez le nom, une description, et surtout le type. Point intéressant : le type est libre. Vous pouvez écrire ce que vous voulez — "POI", "terrain privé", "obstacle" — et l'application vous repropose les types déjà utilisés. Ce type est important car il vous permettra de filtrer l'affichage par catégorie. Choisissez la forme — triangle, carré, cercle ou étoile — et la couleur.
 
 **À montrer :** Activer l'affichage dans le panneau latéral. Appui long pour les options d'affichage.
 

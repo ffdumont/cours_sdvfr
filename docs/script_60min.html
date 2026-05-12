@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cours SDVFR Next — Script 60 minutes (présentiel)</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a2e;
+    --accent: #2d5aa0;
+    --accent2: #e8f0fe;
+    --border: #d0d7de;
+    --code-bg: #f6f8fa;
+    --table-stripe: #f6f8fa;
+    --blockquote-bg: #fff8e1;
+    --blockquote-border: #f9a825;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: var(--fg);
+    background: var(--bg);
+    line-height: 1.7;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+  h1 {
+    font-size: 2rem;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1rem;
+    color: var(--accent);
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin: 2.5rem 0 0.75rem;
+    padding: 0.4rem 0.8rem;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 6px;
+  }
+  h3 {
+    font-size: 1.2rem;
+    margin: 1.8rem 0 0.5rem;
+    color: var(--accent);
+    border-left: 4px solid var(--accent);
+    padding-left: 0.7rem;
+  }
+  h4 { font-size: 1.05rem; margin: 1.2rem 0 0.4rem; }
+  p { margin: 0.5rem 0; }
+  ul, ol { margin: 0.5rem 0 0.5rem 1.5rem; }
+  li { margin: 0.25rem 0; }
+  strong { color: var(--accent); }
+  em { color: #555; }
+  blockquote {
+    border-left: 4px solid var(--blockquote-border);
+    background: var(--blockquote-bg);
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+  }
+  blockquote p { margin: 0.2rem 0; }
+  code {
+    background: var(--code-bg);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  pre {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+  pre code { background: none; padding: 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.92rem;
+  }
+  thead th {
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+  }
+  thead th:first-child { border-radius: 6px 0 0 0; }
+  thead th:last-child { border-radius: 0 6px 0 0; }
+  td {
+    padding: 0.5rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+  }
+  tbody tr:nth-child(even) { background: var(--table-stripe); }
+  tbody tr:hover { background: var(--accent2); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  hr {
+    border: none;
+    border-top: 2px solid var(--border);
+    margin: 2rem 0;
+  }
+  .nav-bar {
+    position: sticky;
+    top: 0;
+    background: var(--accent);
+    color: #fff;
+    padding: 0.6rem 1rem;
+    margin: -2rem -1.5rem 2rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    z-index: 100;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .nav-bar a { color: #fff; font-weight: 500; }
+  .nav-bar a:hover { opacity: 0.85; text-decoration: none; }
+  .nav-title { font-weight: 700; margin-right: auto; }
+  @media (max-width: 600px) {
+    body { padding: 1rem; font-size: 0.95rem; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
+    table { font-size: 0.82rem; }
+    .nav-bar { flex-wrap: wrap; gap: 0.5rem; margin: -1rem -1rem 1rem; }
+  }
+  @media print {
+    .nav-bar { display: none; }
+    h2 { break-before: page; }
+    body { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="nav-bar">
+  <span class="nav-title">SDVFR Next</span>
+  <a href="index.html">Plan du cours</a>
+  <a href="script_60min.html">Script 60 min</a>
+  <a href="script.html">Script 75 min</a>
+</div>
+<h1>Script de cours SDVFR Next — Format 60 minutes (présentiel)</h1>
+<blockquote>
+<p>Dérivé de <a href="script_cours_75min.md">script_cours_75min.md</a> selon deux décisions d&#39;architecture :</p>
+<ol>
+<li>Le cours est structuré en deux macro-phases pour insister sur la séparation <strong>préparation au sol</strong> / <strong>exécution en vol</strong>. Objectif pédagogique : que les pilotes minimisent leurs interactions avec l&#39;appli en vol.</li>
+<li>Les aspects périphériques (compte SkyDreamSoft, sélection des régions) ne sont pas traités en présentiel ; ils sont renvoyés aux vidéos.</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>Le script reste <strong>strictement fidèle au contenu des 47 vidéos sources</strong> — rien n&#39;est inventé.</p>
+</blockquote>
+<hr>
+<h2>Vue d&#39;ensemble</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Bloc</th>
+<th>Macro-phase</th>
+<th>Thème</th>
+<th align="center">Durée</th>
+<th>Fonctionnalités</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td>Mise en route</td>
+<td>Interface et appareil</td>
+<td align="center">5 min</td>
+<td>A1, A6</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><strong>AU SOL — Préparer</strong></td>
+<td>La carte</td>
+<td align="center">10 min</td>
+<td>B1, B2, B3, B7, E1</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td><strong>AU SOL — Préparer</strong></td>
+<td>Météo</td>
+<td align="center">6 min</td>
+<td>C1+C2, C4, C6</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td><strong>AU SOL — Préparer</strong></td>
+<td>La navigation</td>
+<td align="center">22 min</td>
+<td>D1, D2, D3, D6/D7/D8, D4, D9, D10</td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td><em>Pivot</em></td>
+<td><em>Du sol vers le vol</em></td>
+<td align="center">1 min</td>
+<td><em>transition</em></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td><strong>EN VOL — Exécuter</strong></td>
+<td>Suivi de vol</td>
+<td align="center">10 min</td>
+<td>F1, F2, F3, F4</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Après le vol</td>
+<td>Traces</td>
+<td align="center">3 min</td>
+<td>G1</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>Bonus (mention)</td>
+<td>Pour aller plus loin</td>
+<td align="center">2 min</td>
+<td>H1, B4, I1/I2</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>Conclusion</td>
+<td></td>
+<td align="center">1 min</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td><strong>TOTAL</strong></td>
+<td></td>
+<td align="center"><strong>60 min</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<p><strong>Convention typographique :</strong> les <em>rappels-clé sol → vol</em> sont signalés par l&#39;encadré <strong>🔧 Préparé maintenant, plus touché en vol</strong> dans le corps du texte.</p>
+<hr>
+<h2>BLOC 1 — Mise en route (5 min)</h2>
+<hr>
+<h3>A1 — Tour d&#39;horizon de l&#39;interface (3 min)</h3>
+<p><strong>À montrer :</strong> Écran carte principal. Pointer chaque zone de l&#39;écran au fur et à mesure.</p>
+<p>On est devant l&#39;écran principal de SDVFR Next. On arrive directement sur la carte, prêt à voler. Reprenons ensemble les grandes zones de l&#39;écran.</p>
+<p><strong>À montrer :</strong> Montrer la barre de métriques en bas de l&#39;écran.</p>
+<p>En bas, la barre de métriques affiche en permanence les informations clés de vol. On y reviendra largement dans le bloc « en vol ».</p>
+<p><strong>À montrer :</strong> Cliquer sur le bouton layers à droite, faire défiler les options.</p>
+<p>Sur la droite, ce bouton donne accès aux layers — les couches cartographiques. C&#39;est là que vous allez pouvoir personnaliser votre carte : modes de carte, options de comportement, chronomètres, profil de vol, profil de navigation, météo avec les METAR et les Wintem, cartes en ligne et hors ligne, et toutes les couches de données pour customiser la SD OACI vectorielle. Vous avez aussi en bas le basculement entre mode clair et mode sombre de la carte.</p>
+<p><strong>À montrer :</strong> Cliquer sur chacun des quatre boutons du haut, montrer brièvement le contenu de chaque écran.</p>
+<p>En haut de l&#39;écran, vous avez quatre boutons d&#39;action — qu&#39;on peut d&#39;ailleurs masquer si besoin. De gauche à droite :</p>
+<p>Premier bouton : l&#39;écran utilisateur. C&#39;est là que vous trouvez votre compte, vos appareils, vos traces, vos documents, les cartes embarquées, vos points personnalisés.</p>
+<p>Deuxième bouton : l&#39;écran navigation. On y trouve le log de nav, le profil de navigation, le devis carburant, le masse et centrage, les terrains et NOTAM sur la route, et les options pour charger ou sauvegarder une navigation. C&#39;est le bloc qu&#39;on va le plus utiliser aujourd&#39;hui pour la prépa.</p>
+<p>Troisième bouton : la fonction Direct — elle permet de lancer une navigation directe vers un point, de rechercher un point ou même une commune si vous avez une connexion internet.</p>
+<p>Quatrième bouton : la roue crantée des options générales. Beaucoup de paramètres qu&#39;on explorera au fil des blocs.</p>
+<blockquote>
+<p><em>Transition : Avant d&#39;attaquer la carte, un préalable indispensable à toute prépa de nav : votre fiche appareil.</em></p>
+</blockquote>
+<hr>
+<h3>A6 — La gestion des appareils (2 min)</h3>
+<p><strong>À montrer :</strong> Bouton utilisateur &gt; onglet &quot;Appareils&quot;. Montrer la liste des appareils.</p>
+<p>Via le bouton utilisateur en haut, deuxième onglet en partant de la gauche, vous accédez à la liste de vos appareils. Par défaut, il y a un DR400 de démonstration que vous pouvez modifier ou supprimer.</p>
+<p><strong>À montrer :</strong> Ouvrir la fiche d&#39;un appareil, faire défiler les champs principaux.</p>
+<p>Si j&#39;ouvre une fiche, je retrouve les informations essentielles : immatriculation, modèle, unité de vitesse avec les vitesses de croisière, de montée et de descente — c&#39;est très utile pour affiner les temps dans le log de nav. On a aussi les taux de montée et de descente, la consommation horaire, la densité du carburant, et toute la partie masse et centrage avec les points du centrogramme et les stations de chargement — appareil à vide, rang pilote, rang passagers, bagages, carburant.</p>
+<p><strong>À montrer :</strong> Montrer l&#39;étoile bleue de l&#39;appareil par défaut, faire un appui long sur un autre appareil pour changer le défaut.</p>
+<p>La petite étoile bleue indique votre appareil par défaut, celui qui sera automatiquement sélectionné pour chaque nouvelle navigation. Pour changer l&#39;appareil par défaut, faites un appui long sur un autre appareil dans la liste.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> la fiche appareil alimente automatiquement les temps du log de nav, le devis carburant et le centrage. Tout est lié. Vous configurez votre avion une fois, et vous ne vous reposez plus la question avant chaque prépa.</p>
+</blockquote>
+<blockquote>
+<p><em>Fin du Bloc 1. Transition : Maintenant qu&#39;on a posé l&#39;interface et notre avion, on entre dans la première grande phase : la préparation au sol. Et ça commence par la carte.</em></p>
+</blockquote>
+<hr>
+<h2>BLOC 2 — AU SOL : la carte (10 min)</h2>
+<hr>
+<h3>B1 — La carte vectorielle et les couches de données (2 min 30)</h3>
+<p><strong>À montrer :</strong> Ouvrir la carte vectorielle par défaut. Ouvrir le panneau latéral, replier les accordéons pour ne garder que &quot;Couches de données&quot;.</p>
+<p>Quand vous ouvrez SDVFR Next, vous arrivez sur une carte vectorielle. L&#39;avantage de cette carte vectorielle, c&#39;est qu&#39;elle est identique quel que soit le pays : France, Espagne, Suisse, vous retrouvez toujours le même style.</p>
+<p><strong>À montrer :</strong> Décocher NDB, VOR, hélistations, bases ULM — montrer que la carte se nettoie.</p>
+<p>Le gros intérêt du vectoriel, c&#39;est qu&#39;on peut personnaliser l&#39;affichage. Si vous ne faites pas de radionavigation, enlevez les NDB et VOR. Si les hélistations ou les bases ULM ne vous concernent pas, décochez-les. La carte se nettoie immédiatement. Point important : ce réglage affecte aussi les résultats quand vous tapez sur la carte. Si vous désactivez les hélistations, elles n&#39;apparaîtront plus dans les résultats au clic.</p>
+<p><strong>À montrer :</strong> Utiliser le slider de filtre de plafond. Passer du FL115 au FL050, puis au FL030.</p>
+<p>Ensuite, une fonction très utile : le filtre de plafond. Un curseur permet de dire « je ne veux voir que les espaces dont le plancher est en dessous de tel niveau ». Si vous savez que vous ne volerez pas au-dessus de 3000 pieds, mettez le curseur sur le niveau 030. Les espaces dont le plancher est plus haut vont disparaître. Ça désencombre énormément la carte dans les zones contraintes.</p>
+<p><strong>À montrer :</strong> Passer du thème clair au thème sombre via le panneau latéral en bas.</p>
+<p>Dernier point : vous pouvez changer le thème de la carte. En bas du panneau latéral, vous passez du mode clair au mode sombre — utile pour le vol de nuit.</p>
+<blockquote>
+<p><em>Transition : Maintenant qu&#39;on sait personnaliser notre carte, voyons comment interroger les espaces aériens qu&#39;on y voit.</em></p>
+</blockquote>
+<hr>
+<h3>B2 — Le double tap : explorer les espaces aériens (2 min 30)</h3>
+<p><strong>À montrer :</strong> Double taper dans une zone contrainte (ex. R105B près de Poitiers). Montrer la boîte d&#39;information qui s&#39;ouvre.</p>
+<p>On passe à une fonction essentielle : le double tap. Vous double-tapez n&#39;importe où sur la carte, et SDVFR vous montre l&#39;empilement complet des espaces aériens à cet endroit. En bas de la boîte, vous avez l&#39;élévation du sol — par exemple 148 mètres soit 486 pieds. Le sol est d&#39;ailleurs dessiné tout en bas de la vue en coupe.</p>
+<p><strong>À montrer :</strong> Parcourir la vue en coupe : CTR, TMA, zone réglementée, SIV, LTA. Cliquer sur un espace pour afficher ses détails.</p>
+<p>Au-dessus, tous les espaces triés par plancher, dessinés les uns à côté des autres. On voit la CTR, la TMA, la zone réglementée, le SIV, jusqu&#39;à la LTA France. Si on clique sur un espace, on obtient le détail : la classe, le type, le plancher, le plafond, les fréquences, et les remarques d&#39;activation issues de l&#39;AIP.</p>
+<p><strong>À montrer :</strong> Cliquer sur la petite loupe à côté d&#39;un espace. Montrer que la carte zoome sur cet espace.</p>
+<p>Il y a une petite loupe à côté de chaque espace. Cliquez dessus : la boîte se ferme et la carte zoome sur l&#39;espace en question. Un double tap et vous revenez à la vue d&#39;empilement.</p>
+<p><strong>À montrer :</strong> Cliquer directement dans la vue d&#39;aperçu en haut pour faire défiler la liste en bas.</p>
+<p>Petite astuce : dans la vue d&#39;aperçu en haut, vous pouvez cliquer directement sur un espace et la liste en dessous défile automatiquement à la bonne position. Et si une zone vient d&#39;un SUP AIP, vous aurez un bouton PDF qui donne un lien direct vers le document.</p>
+<blockquote>
+<p><em>Transition : On sait lire les espaces aériens. Voyons ce que la carte nous dit sur les terrains.</em></p>
+</blockquote>
+<hr>
+<h3>B3 — Les informations terrain (2 min)</h3>
+<p><strong>À montrer :</strong> Simple clic sur un terrain (ex. Poitiers). Montrer le code OACI, le nom, les boutons d&#39;action (PDF, +, Direct).</p>
+<p>Quand vous faites un simple clic sur un terrain, vous obtenez son code OACI et son nom, avec des boutons d&#39;action : PDF pour la VAC, le bouton « + » pour ajouter un point de navigation, et la flèche pour faire un direct vers ce terrain.</p>
+<p><strong>À montrer :</strong> Cliquer sur le bouton &quot;i&quot;. Faire défiler rapidement les 4 onglets : pistes/fréquences, météo, position/éphémérides, NOTAM.</p>
+<p>Le bouton « i » comme information ouvre une boîte à quatre onglets, que je vous parcours rapidement :</p>
+<ul>
+<li><strong>Pistes et fréquences</strong> : altitude du terrain, accès VAC, fréquences approche/ATIS/info/tour.</li>
+<li><strong>Météo</strong> : METAR et TAF du terrain — ou du terrain le plus proche avec distance si pas de station.</li>
+<li><strong>Position</strong> : coordonnées dans plusieurs formats, bouton pour définir le terrain comme position par défaut au lancement, éphémérides (lever, coucher, nuit aéro, jour aéro).</li>
+<li><strong>NOTAM</strong> : par défaut, seulement les NOTAM VFR. Si vous voulez aussi voir les NOTAM IFR, cochez l&#39;option dans la roue crantée.</li>
+</ul>
+<blockquote>
+<p><em>Transition : Une fois en approche, on veut le tour de piste sous les yeux. C&#39;est là que les VAC géoréférencées entrent en jeu.</em></p>
+</blockquote>
+<hr>
+<h3>B7 — Les VAC géoréférencées (1 min 30)</h3>
+<p><strong>À montrer :</strong> Clic sur un terrain (ex. La Rochelle). Montrer les boutons APP, ATT, PDC. Activer APP puis ATT.</p>
+<p>Quand vous cliquez sur un terrain, vous voyez des boutons sous les informations : APP pour la carte d&#39;approche, ATT pour atterrissage et tour de piste, PDC pour les parkings. Vous cliquez, la carte se plaque directement sur la carte vectorielle. On peut zoomer, voir le tour de piste, les parkings.</p>
+<p><strong>À montrer :</strong> Activer &quot;Mode Auto VAC&quot; dans les options. Zoomer sur un terrain et montrer que les VAC apparaissent automatiquement.</p>
+<p>Mais le vrai plus, c&#39;est le mode automatique. Dans les options, activez « Auto VAC ». Quand vous zoomez suffisamment sur un terrain, la carte d&#39;atterrissage et de tour de piste s&#39;affiche toute seule. Vous dézoomez, elle disparaît.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> activez Auto-VAC au sol. En vol, avec l&#39;autocentrage, les VAC de tour de piste apparaîtront automatiquement quand vous vous rapprocherez du terrain. Plus besoin de les chercher manuellement, plus besoin de fouiller dans les documents en finale.</p>
+</blockquote>
+<p>Petit rappel : synchronisez les documents Geomap avant le vol pour pouvoir les afficher hors ligne (bouton utilisateur, onglet Document, nœud Geomap).</p>
+<blockquote>
+<p><em>Transition : Dernière fonctionnalité de ce bloc carte, et pas des moindres : les zones temporaires.</em></p>
+</blockquote>
+<hr>
+<h3>E1 — Les zones temporaires en mode automatique (1 min 30)</h3>
+<p><strong>À montrer :</strong> Vue d&#39;ensemble avec des zones rouges visibles (RTBA + ZRT). Montrer les numéros de SUP AIP affichés.</p>
+<p>Par défaut, SDVFR affiche automatiquement les zones temporaires actives. Deux types : les activations du réseau très basse altitude — le RTBA — et les zones issues des SUP AIP, les ZRT, ZDT, ZIT. Vous les reconnaissez sur la carte en rouge, avec les numéros de SUP AIP affichés.</p>
+<p><strong>À montrer :</strong> Roue crantée &gt; &quot;Paramètres zone temporaire automatique&quot;. Montrer les options : plafond, délai anticipé 30 min, switch RTBA et SUP AIP.</p>
+<p>Dans les paramètres, section « Zone temporaire automatique », plusieurs réglages. Un plafonnement : si vous ne volez pas au-dessus du niveau 050, filtrez pour ne plus voir les zones trop hautes. Un délai d&#39;affichage anticipé, 30 minutes par défaut : les zones qui vont devenir actives dans ce délai s&#39;affichent en orange. Très utile pour les activations RTBA — vous voyez ce qui va se passer avant que ça se passe. Et deux interrupteurs : RTBA seul, SUP AIP seul, ou les deux.</p>
+<p>Et comme pour tout espace aérien, le double tap fonctionne sur ces zones : vous verrez en magenta le détail des activations connues avec les horaires.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> vos seuils (plafond, délai d&#39;anticipation) sont à régler au sol selon votre profil de vol habituel. En vol, vous voyez juste les zones rouges (actives) et oranges (à venir).</p>
+</blockquote>
+<blockquote>
+<p><em>Fin du Bloc 2. Transition : On maîtrise la carte. Passons à la météo.</em></p>
+</blockquote>
+<hr>
+<h2>BLOC 3 — AU SOL : météo (6 min)</h2>
+<hr>
+<h3>C1 + C2 — METAR et TAF (2 min 30)</h3>
+<p><strong>À montrer :</strong> Activer la couche METAR dans le panneau latéral. Zoomer pour montrer les pastilles de couleur sur les aérodromes. Cliquer sur un aérodrome.</p>
+<p>On commence par les METAR. Je clique sur « METAR » dans le panneau, et apparaissent les pastilles de couleur sur tous les terrains qui émettent un METAR — l&#39;intégralité de l&#39;Europe est couverte.</p>
+<p>Quand je clique sur un terrain, j&#39;obtiens le détail :</p>
+<ul>
+<li>L&#39;<strong>ancienneté</strong> du METAR — par exemple « il y a 7 minutes », c&#39;est récent, c&#39;est fiable.</li>
+<li>La <strong>couleur</strong> qui donne immédiatement la catégorie de vol.</li>
+<li>Le METAR brut, codé, tel qu&#39;il est émis, et juste en dessous la version décodée, lisible.</li>
+</ul>
+<p>Détail à connaître : quand le METAR rapporte un vent supérieur à 20 nœuds, en vent soutenu ou en rafale, une petite manche à air s&#39;affiche sur la pastille. Alerte visuelle sur les conditions de vent fort.</p>
+<p><strong>À montrer :</strong> Désactiver la couche METAR, activer la couche TAF. Cliquer sur un terrain pour montrer le détail avec les deux couleurs.</p>
+<p>Point important : METAR et TAF ne s&#39;affichent pas en même temps. C&#39;est un choix volontaire pour ne pas surcharger la carte. Soit l&#39;un, soit l&#39;autre.</p>
+<p>Je désactive le METAR, j&#39;active le TAF. Regardez bien : sur certains terrains, <strong>deux couleurs</strong>. La couleur principale correspond au temps principal du TAF. La couleur secondaire représente la <strong>pire condition</strong> annoncée dans les évolutions — BECMG, TEMPO, PROB. C&#39;est très précieux pour anticiper.</p>
+<p>Quand je clique, comme pour le METAR, j&#39;ai le TAF brut puis le TAF décodé, avec l&#39;ancienneté de l&#39;émission.</p>
+<p>Petit complément : si un terrain n&#39;a pas de station, l&#39;appli affiche le METAR/TAF du terrain le plus proche avec distance indiquée.</p>
+<blockquote>
+<p><em>Transition : Météo observée et météo prévue au terrain, c&#39;est posé. Passons aux vents en altitude.</em></p>
+</blockquote>
+<hr>
+<h3>C4 — Les Wintem : vents et températures en altitude (1 min 30)</h3>
+<p><strong>À montrer :</strong> Ouvrir la couche Wintem. Montrer la liste des niveaux de vol (FL005 à FL150) et les tranches horaires. Sélectionner une couche (ex. FL030). Cliquer sur une barbule de vent.</p>
+<p>Les Wintem, ce sont les cartes de vents et températures prévus en altitude. Dans le panneau, les niveaux de vol disponibles vont du FL005 au FL150, et pour chaque niveau, plusieurs tranches horaires sur 24 heures. L&#39;application met en évidence la tranche horaire la plus proche de l&#39;heure actuelle — pas besoin de calcul mental.</p>
+<p>Je sélectionne par exemple le FL030 à 15 Zoulou. Les barbules de vent s&#39;affichent sur toute l&#39;Europe. Si je clique sur une barbule, j&#39;obtiens l&#39;information exacte : direction du vent, vitesse en nœuds, et température. Petit rappel sur la convention : les températures négatives n&#39;ont pas de signe ; quand la température est positive, un « + » apparaît.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> ces couches Wintem sont utilisées <strong>automatiquement</strong> par l&#39;appli pour ajuster les temps de votre log de navigation. En vol, vous verrez la dérive estimée et le vent effectif dans la barre inférieure — sans aucune intervention de votre part.</p>
+</blockquote>
+<blockquote>
+<p><em>Transition : Dernier outil météo : le radar de précipitations.</em></p>
+</blockquote>
+<hr>
+<h3>C6 — Le radar météo et satellite (2 min)</h3>
+<p><strong>À montrer :</strong> Activer la couche Radar. Montrer le bandeau en bas (Play, slider, Radar/Satellite, horaires UTC/locale). Zoomer sur une zone avec précipitations. Lancer l&#39;animation.</p>
+<p>Quand j&#39;active le radar, un bandeau apparaît en bas de la carte : bouton Play, barre d&#39;avancement, choix entre Radar et Satellite, horaires en UTC et heure locale.</p>
+<p>Je zoome sur une zone où il y a des précipitations. Les couleurs : bleu pour les précipitations faibles, jaune, et rouge pour les précipitations intenses.</p>
+<p>Si je fais Play, l&#39;application joue les couches successives en partant du passé et en avançant vers l&#39;heure actuelle. Ça vous montre comment les précipitations évoluent et se déplacent. En mode radar, vous avez même une vingtaine de minutes de <strong>prévision</strong> au-delà de l&#39;heure actuelle.</p>
+<p>Je peux faire Pause et déplacer moi-même le slider pour naviguer librement dans le temps. Le mode Satellite affiche l&#39;imagerie satellite — pas de prévision dans ce mode, mais une vue d&#39;ensemble de la couverture nuageuse.</p>
+<blockquote>
+<p><em>Transition : En résumé pour votre prépa météo : METAR pour le présent, TAF pour les prévisions aux terrains, Wintem pour les vents en altitude, radar pour les précipitations. On passe maintenant au bloc principal : la préparation de la navigation.</em></p>
+</blockquote>
+<hr>
+<h2>BLOC 4 — AU SOL : préparer la navigation (22 min)</h2>
+<p><em>C&#39;est le cœur de la prépa. La consigne pédagogique pendant tout ce bloc : on configure, on fige, et en vol on ne refera rien de tout ça.</em></p>
+<hr>
+<h3>D1 — Créer sa route (3 min)</h3>
+<p><strong>À montrer :</strong> Carte SDVFR Next ouverte, création d&#39;une navigation entre deux terrains (ex. La Roche-sur-Yon LFRI et Niort LFBN).</p>
+<p>On entre dans le cœur du sujet : la préparation de navigation avec SDVFR Next. On va suivre ensemble le fil logique d&#39;une vraie prépa, du début à la fin.</p>
+<p>Tout commence sur la carte. Pour créer une navigation, c&#39;est simple : appui long sur le terrain de départ. L&#39;application propose d&#39;aimanter le point sur un point remarquable à proximité — ici LFRI. On valide, le point est placé pile sur le terrain.</p>
+<p><strong>À montrer :</strong> Appui long sur le terrain d&#39;arrivée, segment tracé automatiquement.</p>
+<p>On fait pareil pour la destination. Appui long à proximité de Niort, un segment se trace, on aimante sur LFBN. Voilà, on a déjà une route.</p>
+<p><strong>À montrer :</strong> Ajout d&#39;un point intermédiaire par appui long sur le segment, puis déplacement par appui long sur le point.</p>
+<p>Pour altérer la route — par exemple passer par une verticale terrain — on fait un appui long sur le segment. Ça le découpe. Ensuite, appui long sur ce nouveau point, on laisse le doigt appuyé, et on le déplace à proximité du terrain souhaité. La fonction aimant propose de coller le point sur le terrain. Très intuitif.</p>
+<p>On peut aussi ajouter un point en cliquant sur un terrain sur la carte, puis en utilisant le bouton « + ». Et pour supprimer un point : soit clic puis poubelle, soit slide dans le log de nav.</p>
+<p><strong>À montrer :</strong> Bouton &quot;Nav&quot; pour ouvrir l&#39;écran de navigation.</p>
+<p>Une fois la route tracée, tout le travail d&#39;enrichissement va se faire via ce bouton Nav, qui nous ouvre l&#39;écran de navigation avec tous ses onglets.</p>
+<blockquote>
+<p><em>Transition : La route est créée. On enrichit le log.</em></p>
+</blockquote>
+<hr>
+<h3>D2 — Le log de navigation (4 min 30)</h3>
+<p><strong>À montrer :</strong> Onglet &quot;Log&quot; de l&#39;écran navigation, avec segments, points de report, colonnes CM/RM/TSV/TAV.</p>
+<p>On est dans le log de nav. <strong>C&#39;est le cœur de votre préparation.</strong> Structure familière : segments, points de report, et colonnes avec cap magnétique, route magnétique, temps avec et sans vent.</p>
+<p><strong>À montrer :</strong> Double-tap sur les en-têtes CM/RM pour changer l&#39;information principale.</p>
+<p>Premier réflexe : personnaliser l&#39;affichage. Double-tap sur les en-têtes pour choisir si on affiche le cap magnétique ou la route magnétique en information principale.</p>
+<p><strong>À montrer :</strong> Double-tap sur l&#39;altitude d&#39;un segment, modification à 5000 ft. Appui long pour appliquer partout.</p>
+<p>Pour les altitudes, double-tap sur la colonne ZV : on définit l&#39;altitude de vol. Astuce très pratique : un <strong>appui long</strong> dans n&#39;importe quelle cellule d&#39;altitude applique la même altitude sur toute la navigation d&#39;un coup. Par exemple 6500 pieds partout, puis on affine segment par segment.</p>
+<p><strong>À montrer :</strong> Double-tap sur la zone sous le nom du point de report, sélection d&#39;une fréquence.</p>
+<p>Sous chaque point de report, zone de texte personnalisable. Double-tap : on accède aux fréquences. L&#39;application propose les fréquences des terrains à proximité. On sélectionne par exemple la fréquence de Châteauroux, elle s&#39;inscrit automatiquement. On peut ajouter du texte libre en complément.</p>
+<p><strong>À montrer :</strong> Double-tap dans la colonne Observation, association d&#39;un VOR pour recoupement.</p>
+<p>Dans la colonne Observation, double-tap : on associe une balise de radionavigation pour un recoupement. On sélectionne par exemple le VOR de Poitiers, l&#39;appli calcule automatiquement le QDM/QDR.</p>
+<p>En dessous de chaque observation, l&#39;application affiche automatiquement le vent et une estimation de la dérive et du vent effectif (T pour tailwind, H pour headwind).</p>
+<p><strong>À montrer :</strong> Colonne Notes, saisie de texte libre.</p>
+<p>La colonne Notes permet d&#39;écrire ce qu&#39;on veut par point de report. Texte libre — checklist, consignes locales, points de vigilance.</p>
+<p><strong>À montrer :</strong> Double-tap dans la colonne HR pour flagger l&#39;heure de décollage.</p>
+<p>Dernier point : les colonnes HR et HE.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> au sol, vous remplissez le log (altitudes, fréquences, VOR, notes). En vol, vous double-tapez <strong>une seule fois</strong> sur HR au premier point au moment du décollage : SDVFR Next calcule alors toutes les heures estimées de passage, et remplira automatiquement les heures réelles à chaque passage de point. Vous n&#39;avez plus rien à toucher dans le log.</p>
+</blockquote>
+<blockquote>
+<p><em>Transition : Notre log est rempli. Regardons le profil vertical.</em></p>
+</blockquote>
+<hr>
+<h3>D3 — Le profil de navigation (2 min 30)</h3>
+<p><strong>À montrer :</strong> Onglet &quot;Profil&quot; de l&#39;écran navigation, vue en coupe des espaces aériens.</p>
+<p>L&#39;onglet Profil, c&#39;est la vue en coupe de votre navigation. On voit tous les espaces aériens qu&#39;on va traverser, dans l&#39;ordre. Les couleurs et les styles — pointillés, trait plein — aident à identifier le type d&#39;espace.</p>
+<p><strong>À montrer :</strong> Slider pour étirer/comprimer le profil, double-tap sur un espace pour afficher ses informations.</p>
+<p>On peut étirer ou comprimer le profil avec le slider. Un double-tap sur un espace donne ses informations détaillées.</p>
+<p><strong>À montrer :</strong> Modification de l&#39;altitude d&#39;un segment en glissant directement sur le profil.</p>
+<p>On peut modifier l&#39;altitude d&#39;un segment <strong>directement depuis le profil</strong>, en glissant la branche du segment vers le haut ou le bas. C&#39;est plus visuel que de modifier les chiffres dans le log.</p>
+<p><strong>À montrer :</strong> Activation du profil sur la carte via le panneau latéral.</p>
+<p>Fonctionnalité puissante : on peut afficher le profil directement sur la carte, via le panneau latéral. Ça permet de modifier la route en 2D et de voir en temps réel l&#39;impact en 3D sur les espaces.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> ajustez les altitudes ici, au sol, à partir du profil. En vol, le profil dynamique (qu&#39;on verra plus tard) prendra le relais — sans intervention.</p>
+</blockquote>
+<blockquote>
+<p><em>Transition : Le profil est bon. Point critique suivant : terrains et NOTAM.</em></p>
+</blockquote>
+<hr>
+<h3>D6 / D7 / D8 — Terrains sur la route et NOTAM (5 min)</h3>
+<p><strong>À montrer :</strong> Onglet &quot;Route&quot; de l&#39;écran navigation, liste des terrains le long de la route.</p>
+<p>L&#39;onglet Route liste tous les terrains situés dans un couloir de part et d&#39;autre de votre navigation. La demi-largeur du couloir est paramétrable — par défaut 15 nautiques. Pour chaque terrain, on voit sa distance latérale par rapport à la route, à gauche ou à droite.</p>
+<p><strong>À montrer :</strong> Clic sur un terrain, affichage du METAR/TAF et des NOTAM du terrain, accès à la VAC en PDF.</p>
+<p>En cliquant sur un terrain, accès direct à sa fiche : NOTAM du terrain, METAR, TAF avec traduction, et bouton PDF pour la VAC. Accès rapide à tout ce qu&#39;il faut pour évaluer un terrain de dégagement.</p>
+<p><strong>À montrer :</strong> Onglet &quot;NOTAM&quot; de l&#39;écran navigation, compteur, puis activation des filtres un par un.</p>
+<p>Onglet NOTAM. Sur une nav de taille moyenne, on peut avoir 50, 60 NOTAM ou plus. Sur notre démo entre Châteauroux et Saint-Flour, on en a 66.</p>
+<p>C&#39;est là que les filtres deviennent <strong>essentiels</strong>. Trois filtres :</p>
+<ul>
+<li><strong>Filtre 1</strong> : ne garder que les NOTAM dont la validité commence dans les 6 prochaines heures. On priorise les NOTAM déjà actifs.</li>
+<li><strong>Filtre 2</strong> : retirer les NOTAM dont le plancher est au-dessus de votre navigation, avec une marge de sécurité de 1000 pieds.</li>
+<li><strong>Filtre 3</strong> : retirer les NOTAM d&#39;obstacles.</li>
+</ul>
+<p><strong>À montrer :</strong> Résultat avec les trois filtres activés — 13 NOTAM prioritaires en tête.</p>
+<p>Avec les trois filtres, on descend à 13 NOTAM vraiment pertinents en tête de liste. Les NOTAM filtrés ne sont <strong>pas supprimés</strong> mais déplacés en bas de la liste, avec indication du motif. On ne perd rien, on priorise.</p>
+<p><strong>À montrer :</strong> Panneau latéral sur la carte, activation de la couche NOTAM graphiques.</p>
+<p>En complément, les NOTAM graphiques, activables depuis le panneau latéral sur la carte. Cercles directement sur la carte — actifs d&#39;une couleur, inactifs d&#39;une autre. Double-tap pour le détail, filtres pour le rayon max, plancher, plafond.</p>
+<p>Attention : les NOTAM graphiques ne <strong>remplacent pas</strong> le briefing NOTAM via les onglets Route et NOTAM. Complément visuel, pas substitut.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> les 3 filtres NOTAM sont réglés ici, au sol, en fonction des paramètres de votre vol (validité, altitude max, obstacles). Une fois dans le PDF du dossier de vol, c&#39;est figé. En vol, vous ne refaites pas un briefing NOTAM.</p>
+</blockquote>
+<blockquote>
+<p><em>Transition : Les NOTAM sont briefés. On passe au devis carburant.</em></p>
+</blockquote>
+<hr>
+<h3>D4 — Le devis carburant (3 min)</h3>
+<p><strong>À montrer :</strong> Onglet &quot;Carburant&quot; de l&#39;écran navigation, tableau avec roulage, délestage, réserves.</p>
+<p>L&#39;onglet Carburant présente le devis de manière structurée. En haut, rappel du départ, de l&#39;arrivée, de la distance, du temps avec et sans vent, et de la consommation horaire de l&#39;appareil sélectionné.</p>
+<p>En dessous, le tableau avec des valeurs par défaut : roulage 2 × 10 minutes, délestage 100 minutes, réserve de dégagement 15 minutes, réserve finale 30 minutes. Toutes ces valeurs sont modifiables en tapant dessus, et le total en litres se recalcule automatiquement.</p>
+<p><strong>À montrer :</strong> Bouton roue crantée pour modifier les valeurs par défaut.</p>
+<p>Les valeurs par défaut se paramètrent via la roue crantée. Si vous volez toujours avec les mêmes réserves, configurez-les une fois pour toutes.</p>
+<p><strong>À montrer :</strong> Bouton &quot;Sélectionner&quot; les dégagements, sélection de plusieurs terrains, temps de dégagement recalculé.</p>
+<p>Le point fort, c&#39;est la <strong>gestion intelligente des dégagements</strong>. En cliquant sur « Sélectionner », on voit la liste des terrains sur la route. On en sélectionne trois par exemple. L&#39;application calcule alors, pour chaque point de la navigation, quel est le terrain de dégagement <strong>le plus éloigné</strong>, et elle prend le <strong>pire cas</strong>. Résultat : 26 minutes au lieu de 15. Plus réaliste, plus sûr.</p>
+<p>Et si on ajoute des terrains intermédiaires, le temps diminue parce qu&#39;on a plus d&#39;options. Logique. Pour supprimer un dégagement : appui long sur le bouton bleu du terrain.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> la sélection de dégagements et le calcul du pire cas se font ici. Pas en vol.</p>
+</blockquote>
+<blockquote>
+<p><em>Transition : Devis bouclé. Dernière étape : on fige tout.</em></p>
+</blockquote>
+<hr>
+<h3>D9 — Le dossier de vol (1 min 30)</h3>
+<p><strong>À montrer :</strong> Bouton roue crantée en bas du log &gt; &quot;Générer le dossier de vol&quot;.</p>
+<p>Toute cette préparation, on veut la figer dans un document. Via la roue crantée en bas du log de nav, le bouton « Générer le dossier de vol ». Un clic, on confirme, et l&#39;application génère un PDF complet envoyé par notification.</p>
+<p><strong>À montrer :</strong> Récupération du dossier dans l&#39;onglet &quot;Doc perso&quot;, défilement du PDF.</p>
+<p>On le récupère dans le bouton utilisateur, onglet « Doc perso ». Le PDF contient tout : log de nav, devis carburant, centrage, terrains sur la route avec leurs METAR/TAF et NOTAM, NOTAM de route avec les filtres appliqués, et en fin de document les Wintem et la TNI.</p>
+<p>L&#39;intérêt : mettre dans le marbre ce qu&#39;on a vu au moment de la préparation. D&#39;un point de vue réglementaire, c&#39;est quand même mieux.</p>
+<blockquote>
+<p><em>Transition : Un mot sur la fonction Direct avant de conclure ce bloc.</em></p>
+</blockquote>
+<hr>
+<h3>D10 — La fonction Direct et utilitaires (1 min 30)</h3>
+<p><strong>À montrer :</strong> Bouton Direct (flèche), recherche d&#39;un terrain, boutons &quot;Voir&quot; et &quot;Dérouter&quot;.</p>
+<p>Le bouton avec la flèche sert aussi de <strong>moteur de recherche</strong> : on peut chercher un terrain par code OACI ou par nom, filtrer par type — aérodrome, base ULM, VOR, NDB, points VFR. On peut soit « Voir » pour se déplacer sur la carte, soit « Dérouter » pour créer une navigation directe vers ce point. Recherche par commune disponible si connexion internet.</p>
+<p><strong>À montrer :</strong> Bouton roue crantée, fonctions Inverser, Sauvegarder, Exporter.</p>
+<p>Quelques fonctions pratiques pour finir : on peut inverser la navigation pour le retour, sauvegarder et charger des navigations, et exporter en plusieurs formats — GPX, KML, PLN pour Flight Simulator, FPL pour Garmin.</p>
+<blockquote>
+<p><em>Fin du Bloc 4. Fin de la phase de préparation au sol.</em></p>
+</blockquote>
+<hr>
+<h2>PIVOT — Du sol vers le vol (1 min)</h2>
+<p><strong>À montrer :</strong> Revenir à la carte, navigation complète tracée, dossier de vol PDF visible, paramètres Auto-VAC et zones temporaires activés. Marquer un temps de pause.</p>
+<p>Stop. Faisons le point.</p>
+<p>Tout ce qu&#39;on vient de faire pendant 38 minutes :</p>
+<ul>
+<li>Choisir l&#39;avion</li>
+<li>Tracer la route avec ses points intermédiaires</li>
+<li>Remplir le log : altitudes, fréquences, VOR, notes</li>
+<li>Vérifier le profil vertical</li>
+<li>Identifier les terrains de la route</li>
+<li>Filtrer les 66 NOTAM en 13 prioritaires</li>
+<li>Sélectionner les dégagements et obtenir le pire cas carburant</li>
+<li>Activer Auto-VAC, zones temporaires automatiques, profil dynamique</li>
+<li>Figer le tout dans un PDF</li>
+</ul>
+<p><strong>Tout ça, vous ne le refaites plus en vol.</strong></p>
+<p>C&#39;est la règle d&#39;or de SDVFR Next : <strong>préparation au sol = exécution sereine en vol</strong>. Si vous vous surprenez en vol à fouiller dans les menus, à filtrer des NOTAM, à modifier votre log, à activer une couche : c&#39;est que vous avez sauté une étape au sol.</p>
+<p>Maintenant on décolle, et on regarde ce que l&#39;appli fait pour vous.</p>
+<hr>
+<h2>BLOC 5 — EN VOL : exécuter (10 min)</h2>
+<p><em>Ton du bloc : on identifie les automatismes. Les seuls gestes utiles en vol sont clairement signalés.</em></p>
+<hr>
+<h3>F1 — Vue d&#39;ensemble du suivi de vol (3 min)</h3>
+<p><strong>À montrer :</strong> Icône de l&#39;appareil sur la carte, panneau des options, vecteur vitesse avec bulles de temps, autocentrage, orientation de carte.</p>
+<p>On passe au suivi de vol en temps réel. C&#39;est là que SDVFR Next prend tout son sens.</p>
+<p>Première chose : l&#39;icône de votre appareil sur la carte. Dans les options (au sol, évidemment), choix entre avion et hélicoptère, couleur de l&#39;icône. Cosmétique, mais aide à bien repérer sa position.</p>
+<p><strong>À montrer :</strong> Montrer les bulles de temps 2, 3, 5, 10 minutes sur le vecteur vitesse.</p>
+<p>Dès qu&#39;on prend de la vitesse, le <strong>vecteur vitesse</strong> apparaît avec ses bulles de temps : où vous serez dans 2, 3, 5, 10 minutes. Outil essentiel pour anticiper votre trajectoire et vos traversées d&#39;espaces. L&#39;épaisseur du vecteur est configurable dans les options.</p>
+<p><strong>À montrer :</strong> Activer l&#39;autocentrage, effectuer un virage et observer le recentrage intelligent.</p>
+<p>Ensuite, l&#39;<strong>autocentrage</strong>. L&#39;application suit votre appareil de manière intelligente : l&#39;avion n&#39;est pas forcément pile au centre de l&#39;écran. Si vous virez à gauche, l&#39;avion se décale pour vous montrer un maximum de carte <strong>devant vous</strong>. Beaucoup plus malin qu&#39;un simple centrage fixe.</p>
+<p><strong>À montrer :</strong> Activer l&#39;orientation de carte, montrer que les labels restent lisibles même quand la carte pivote.</p>
+<p>Dernier point : l&#39;<strong>orientation de carte</strong>. Par défaut, Nord en haut. Mais vous pouvez passer en mode « direction de l&#39;avion » : la carte pivote pour que votre route soit toujours vers le haut. Grâce à la carte vectorielle, les labels restent toujours lisibles — ils ne se retrouvent jamais à l&#39;envers, même quand la carte pivote.</p>
+<blockquote>
+<p><em>Transition : Voyons comment l&#39;application gère votre progression sur la route.</em></p>
+</blockquote>
+<hr>
+<h3>F2 — Le point courant et la navigation (2 min 30)</h3>
+<p><strong>À montrer :</strong> Naviguer vers un point, montrer le point courant en vert et les autres en rouge, les infos distance/temps en bas à droite.</p>
+<p>Quand vous suivez votre navigation, le <strong>point courant</strong> — celui vers lequel vous naviguez — est affiché en <strong>vert</strong> sur la carte. Les autres restent en rouge. En bas à droite, en permanence : nom du point courant, distance et temps estimé.</p>
+<p><strong>À montrer :</strong> Arriver à proximité d&#39;un point et observer le passage automatique au point suivant.</p>
+<p>Le <strong>passage au point suivant est automatique</strong>. Règle par défaut : moins de 2 nautiques OU moins d&#39;une minute trente du point. Dès qu&#39;une condition est remplie, l&#39;application bascule. Le point passe du vert au rouge, et le nouveau point courant s&#39;affiche en vert. <strong>Vous n&#39;avez rien à faire.</strong></p>
+<p><strong>Mais</strong> — il y a un mais — en vol, on a parfois besoin de sauter un point. Deux gestes simples sont autorisés ici, et seulement ceux-là :</p>
+<p><strong>À montrer :</strong> Cliquer sur un point de la carte, utiliser le bouton drapeau pour forcer le point courant.</p>
+<p><strong>Geste autorisé n° 1</strong> : sur la carte, vous tapez sur le point que vous voulez, puis vous utilisez le bouton drapeau. Le point passe immédiatement en vert.</p>
+<p><strong>À montrer :</strong> Ouvrir le log de nav, double-taper sur la colonne HE d&#39;un point pour le définir comme point courant.</p>
+<p><strong>Geste autorisé n° 2</strong> : depuis le log de nav. Le segment en cours est sur fond vert. Pour sauter en avant ou revenir en arrière, double-tap sur la colonne HE du point souhaité. L&#39;application propose de le définir comme point courant.</p>
+<p>C&#39;est tout. En vol, ces deux gestes — drapeau ou double-tap HE — suffisent à gérer 99 % des situations.</p>
+<blockquote>
+<p><em>Transition : On sait naviguer. Voyons les informations affichées en permanence.</em></p>
+</blockquote>
+<hr>
+<h3>F3 — La barre inférieure (2 min 30)</h3>
+<p><strong>À montrer :</strong> Montrer la barre inférieure avec ses métriques par défaut (vitesse sol, altitude, route, point courant).</p>
+<p>La barre inférieure. Par défaut : vitesse sol GPS, altitude GPS — corrigée du géoïde sur Android —, route GPS magnétique, route à prendre vers le point courant, et à droite nom du point, distance, temps estimé.</p>
+<p><strong>À montrer :</strong> Appui long sur la barre pour ouvrir les paramètres, montrer les 6 emplacements configurables.</p>
+<p>Personnalisation : appui long n&#39;importe où sur la barre, accès aux paramètres. Six emplacements : gauche haut/bas, milieu haut/bas, droite haut/bas. Pour chacun, vous choisissez la métrique voulue.</p>
+<p><strong>À montrer :</strong> Changer un métrique, montrer les métriques vent, dérive et vent effectif.</p>
+<p>Métriques disponibles, abondantes : vitesse, altitude, vitesse verticale, route magnétique GPS, route magnétique nav, estimation de hauteur, nom du point, distance et temps vers le point. Et surtout : <strong>vent estimé, dérive et vent effectif</strong>. Calculés à partir des prévisions Wintem embarquées. Par exemple un vent effectif de 23 nœuds de face (H pour headwind) et une dérive gauche de 11 degrés. C&#39;est une estimation, mais c&#39;est très précieux en vol.</p>
+<p>L&#39;heure estimée d&#39;arrivée et le temps de vol estimé sont également disponibles. Chaque métrique est personnalisable en couleur. On peut aussi cacher complètement la barre.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> vos 6 métriques sont choisies au sol, en fonction de votre style de vol. En vol, vous <strong>lisez</strong> la barre, vous ne la modifiez pas.</p>
+</blockquote>
+<blockquote>
+<p><em>Transition : Dernière fonctionnalité majeure en vol : le profil dynamique.</em></p>
+</blockquote>
+<hr>
+<h3>F4 — Le profil dynamique (2 min)</h3>
+<p><strong>À montrer :</strong> Ouvrir le panneau latéral, activer le profil de vol. Montrer le profil en bas de la carte.</p>
+<p>Dernière fonctionnalité majeure en vol : le profil dynamique. Activez-le dans le panneau latéral. Le profil s&#39;affiche en bas de la carte. Votre avion est collé à gauche, et <strong>devant vous</strong>, vous voyez le relief et les espaces aériens sur votre route. Les bulles de temps 2, 3, 5, 10 minutes sont là aussi. Par défaut, 20 nautiques devant.</p>
+<p><strong>À montrer :</strong> Appui long sur &quot;profil de vol&quot; pour les réglages : marge au-dessus, distance devant, rafraîchissement.</p>
+<p>Par appui long, on accède aux réglages. Marge au-dessus de votre altitude — 2000 ou 4000 pieds. Distance devant — 20, 40 ou 60 nautiques. Taux de rafraîchissement — laissez à 3 secondes par défaut, pour préserver la batterie.</p>
+<p>Filtres : possibilité de retirer les espaces de classe E, afficher ou non les LTA, les zones naturelles, l&#39;aéromodélisme, les avertissements à la navigation (axes voltige, parachutages).</p>
+<p><strong>À montrer :</strong> Taper sur une zone dans le profil pour l&#39;identifier, double-taper pour obtenir les infos complètes.</p>
+<p>Le profil est <strong>interactif</strong>. Tap sur une zone colorée : elle s&#39;affiche en surbrillance sur la carte avec son nom. Double-tap : informations complètes et zoom carte. Outil très puissant pour identifier rapidement ce qui arrive sur votre route.</p>
+<blockquote>
+<p><strong>🔧 Préparé maintenant, plus touché en vol :</strong> marge, distance et filtres se règlent au sol selon votre profil de vol. En vol, le profil dynamique <strong>se met à jour seul</strong> — vous regardez ce qui arrive, vous ne configurez plus.</p>
+</blockquote>
+<blockquote>
+<p><em>Fin du Bloc 5. Voilà pour le vol. Voyons l&#39;après-atterrissage.</em></p>
+</blockquote>
+<hr>
+<h2>BLOC 6 — Après le vol (3 min)</h2>
+<hr>
+<h3>G1 — Traces enregistrées (3 min)</h3>
+<p><strong>À montrer :</strong> Rappel de la trace jaune en vol, puis bouton utilisateur &gt; onglet Trace.</p>
+<p>Une fois le vol terminé, SDVFR Next conserve vos traces. Le trait jaune derrière votre appareil pendant le vol, c&#39;est la trace en temps réel. En parallèle, l&#39;application fonctionne comme une <strong>boîte noire</strong> : enregistrement régulier de points pour générer des traces exploitables après le vol (comptage d&#39;heures, débriefing).</p>
+<p><strong>À montrer :</strong> Options &gt; &quot;Options des traces&quot; — bref survol des paramètres d&#39;enregistrement.</p>
+<p>Les paramètres d&#39;enregistrement sont dans les options : limite de vitesse taxi/croisière, distance entre points (30 m au sol, 500 m en l&#39;air par défaut), virage minimum (5°), variation d&#39;altitude minimum (100 ft), délai de fermeture (5 min). Pour des rallyes très détaillés, diminuez ces seuils. Pour du comptage d&#39;heures, valeurs par défaut.</p>
+<p><strong>À montrer :</strong> Onglet Trace, cliquer sur l&#39;œil pour afficher une trace, basculer en 3D avec deux doigts.</p>
+<p>Trois façons de clôturer une trace : automatiquement après 5 min d&#39;inactivité GPS, à la fermeture de l&#39;appli, ou manuellement (bouton « Fermer la trace » dans l&#39;onglet Trace).</p>
+<p>Pour visualiser : bouton utilisateur, onglet Trace, cliquez sur l&#39;œil à côté de la trace. Elle s&#39;affiche sur la carte. Si vous basculez la carte avec deux doigts, vous voyez la hauteur de vol représentée en <strong>3D</strong>. Plusieurs traces affichables simultanément.</p>
+<p><strong>À montrer :</strong> Appui long sur une trace, exporter en GPX ou KML.</p>
+<p>Export : appui long sur une trace, deux formats — GPX et KML. KML particulièrement intéressant pour Google Earth. Formats standards, partageables.</p>
+<blockquote>
+<p><em>Transition : Pour finir, quelques fonctionnalités de personnalisation à mentionner pour orienter ceux qui veulent aller plus loin.</em></p>
+</blockquote>
+<hr>
+<h2>BLOC 7 — Pour aller plus loin (2 min — mention, sans démo)</h2>
+<p><strong>À montrer :</strong> Revenir à la carte. Pas de démo, juste évoquer.</p>
+<p>Trois fonctionnalités méritent d&#39;être citées même si on ne va pas les détailler ici. Toutes ont une vidéo dédiée sur la chaîne SDVFR.</p>
+<p><strong>Points personnalisés</strong> : créez vos repères perso — un château, un terrain privé, un point de report local que vous utilisez souvent. Forme, couleur, type libre, filtrage à l&#39;affichage. Import/export CSV. Utile pour les vols répétés sur les mêmes zones.</p>
+<p><strong>Mode hybride</strong> : si la carte vectorielle SDACI ne vous suffit pas, vous pouvez télécharger des cartes additionnelles — OACI image classique, SIA 250, cartes étrangères comme la FOCA suisse — et les superposer aux couches vectorielles. Bouton utilisateur, onglet Produit, vous installez ce que vous voulez.</p>
+<p><strong>Détection de trafic</strong> : SDVFR Next sait afficher les autres avions. Deux options. Soit un <strong>boîtier</strong> type Stratux, PilotAware, SkyEcho — protocole GDL 90. Soit <strong>SafeSky</strong>, sans boîtier — l&#39;app SafeSky partage votre position et reçoit le trafic, et c&#39;est SDVFR qui l&#39;affiche. Losanges avec delta d&#39;altitude et tendance C (climbing) / D (descending) sur la carte.</p>
+<p>Si l&#39;une de ces fonctionnalités vous intéresse, regardez la vidéo correspondante sur la chaîne YouTube SDVFR.</p>
+<hr>
+<h2>Conclusion (1 min)</h2>
+<p><strong>À montrer :</strong> Revenir à la carte avec la navigation affichée, le profil dynamique visible, les zones temporaires actives.</p>
+<p>Voilà qui conclut cette présentation de SDVFR Next.</p>
+<p>Ce que j&#39;aimerais que vous reteniez par-dessus tout, c&#39;est la <strong>séparation sol / vol</strong>. SDVFR Next est conçu pour qu&#39;au sol vous configuriez, vous filtriez, vous prépariez — et qu&#39;en vol vous <strong>regardiez</strong> ce que l&#39;appli fait pour vous : suivi automatique du point courant, vent et dérive estimés, profil dynamique qui se met à jour seul, VAC qui apparaissent à l&#39;approche, zones temporaires qui passent en orange quand elles deviennent imminentes. Vous gardez la tête en dehors du cockpit.</p>
+<p>Si vous vous retrouvez en vol à fouiller dans les menus, c&#39;est que vous avez sauté une étape au sol. Préparation au sol = exécution sereine en vol.</p>
+<p>Toutes les vidéos détaillées sont disponibles sur la chaîne YouTube SDVFR, dans la playlist « Tutoriels SDVFR Next ». Pour toute question, n&#39;oubliez pas : <a href="mailto:info@skydreamsoft.fr">info@skydreamsoft.fr</a>.</p>
+<p>Merci de votre attention.</p>
+<hr>
+<h2>Récapitulatif des durées</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Bloc</th>
+<th>Macro-phase</th>
+<th>Contenu</th>
+<th align="center">Durée</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td>Mise en route</td>
+<td>Interface, appareil</td>
+<td align="center">5 min</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><strong>AU SOL</strong></td>
+<td>Carte (vectorielle, double-tap, terrain, VAC, zones temp.)</td>
+<td align="center">10 min</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td><strong>AU SOL</strong></td>
+<td>Météo (METAR/TAF, Wintem, radar)</td>
+<td align="center">6 min</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td><strong>AU SOL</strong></td>
+<td>Préparer la nav (route, log, profil, NOTAM, carburant, dossier, direct)</td>
+<td align="center">22 min</td>
+</tr>
+<tr>
+<td align="center">—</td>
+<td><em>Pivot</em></td>
+<td><em>Du sol vers le vol</em></td>
+<td align="center">1 min</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td><strong>EN VOL</strong></td>
+<td>Suivi, point courant, barre, profil dynamique</td>
+<td align="center">10 min</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Après le vol</td>
+<td>Traces</td>
+<td align="center">3 min</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>Bonus</td>
+<td>Points perso, hybride, trafic (mention)</td>
+<td align="center">2 min</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td>Conclusion</td>
+<td></td>
+<td align="center">1 min</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td><strong>TOTAL</strong></td>
+<td></td>
+<td align="center"><strong>60 min</strong></td>
+</tr>
+</tbody></table>
+<p><strong>Répartition macro :</strong></p>
+<ul>
+<li>Mise en route : 5 min (8 %)</li>
+<li><strong>AU SOL : 38 min (63 %)</strong> — préparation</li>
+<li>Pivot : 1 min</li>
+<li><strong>EN VOL : 10 min (17 %)</strong> — exécution</li>
+<li>Après-vol + bonus + conclusion : 6 min</li>
+</ul>
+<hr>
+<h2>Différences clés vs. script 75 min</h2>
+<table>
+<thead>
+<tr>
+<th>Élément</th>
+<th>75 min</th>
+<th>60 min</th>
+<th>Décision</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A3 Compte SkyDreamSoft</td>
+<td>2 min 30</td>
+<td>—</td>
+<td><strong>Retiré</strong> (périphérique)</td>
+</tr>
+<tr>
+<td>A4 Régions</td>
+<td>2 min 30</td>
+<td>—</td>
+<td><strong>Retiré</strong> (périphérique)</td>
+</tr>
+<tr>
+<td>Bloc 1</td>
+<td>10 min</td>
+<td>5 min</td>
+<td>Recentré sur A1, A6</td>
+</tr>
+<tr>
+<td>C1 + C2</td>
+<td>2 min + 1 min 30</td>
+<td>2 min 30 fusionné</td>
+<td>Bascule unique METAR/TAF</td>
+</tr>
+<tr>
+<td>Pivot sol → vol</td>
+<td>implicite</td>
+<td><strong>1 min explicite</strong></td>
+<td>Cœur du nouveau message</td>
+</tr>
+<tr>
+<td>F1-F4</td>
+<td>4 + 3 + 4 + 4</td>
+<td>3 + 2:30 + 2:30 + 2</td>
+<td>Tightening + ton « regarder ≠ manipuler »</td>
+</tr>
+<tr>
+<td>Bloc 7</td>
+<td>8 min avec démo</td>
+<td>2 min en mention</td>
+<td>Cible bonus, pas démo</td>
+</tr>
+<tr>
+<td>Rappels « 🔧 sol → vol »</td>
+<td>absent</td>
+<td>9 rappels ciblés</td>
+<td>Fil rouge architectural</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Vidéos sources par bloc</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Bloc</th>
+<th>Vidéos</th>
+<th>Liens</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td>Tour d&#39;horizon, Appareils</td>
+<td><a href="https://www.youtube.com/watch?v=Eog2pOmTPNg">#7</a> <a href="https://www.youtube.com/watch?v=7aXPhnJoLdk">#11</a></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>Carte vectorielle, Double tap, Info terrain, VAC géoréf., Zones temp. auto</td>
+<td><a href="https://www.youtube.com/watch?v=NPpOz2QoQAU">#15</a> <a href="https://www.youtube.com/watch?v=0bhb7_Kw7tM">#16</a> <a href="https://www.youtube.com/watch?v=JWLg73giPmQ">#22</a> <a href="https://www.youtube.com/watch?v=GK0HQRX5S1Y">#18</a> <a href="https://www.youtube.com/watch?v=CCDwFP4t9oc">#25</a></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>METAR/TAF/Wintem, Radar</td>
+<td><a href="https://www.youtube.com/watch?v=DBpg-528GTI">#12</a> <a href="https://www.youtube.com/watch?v=cpN4zFha8xo">#14</a></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>My first nav, Log nav, Profil nav, NOTAM graph., NOTAM route, Terrains route, Devis carburant, Dossier de vol, Fonction Direct</td>
+<td><a href="https://www.youtube.com/watch?v=uLL34-HW6cs">#19</a> <a href="https://www.youtube.com/watch?v=LaeT193P_YI">#34</a> <a href="https://www.youtube.com/watch?v=Dh0QeSm9utY">#35</a> <a href="https://www.youtube.com/watch?v=DPel0USDr1U">#4</a> <a href="https://www.youtube.com/watch?v=LtbkUsFacnY">#39</a> <a href="https://www.youtube.com/watch?v=5397ioPcp1k">#38</a> <a href="https://www.youtube.com/watch?v=9VFfay-Wt1U">#36</a> <a href="https://www.youtube.com/watch?v=-DdKcyj2Rzs">#2</a> <a href="https://www.youtube.com/watch?v=v0DZfFlCQaU">#21</a></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>Flight tracking, Point courant, Barre inférieure, Profil dynamique</td>
+<td><a href="https://www.youtube.com/watch?v=bXg575c_Enw">#27</a> <a href="https://www.youtube.com/watch?v=-S3SoU66FNY">#28</a> <a href="https://www.youtube.com/watch?v=HfrN1wpN74E">#29</a> <a href="https://www.youtube.com/watch?v=BPaK71fnur0">#30</a></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Traces enregistrées</td>
+<td><a href="https://www.youtube.com/watch?v=pux80Scm5uU">#33</a></td>
+</tr>
+<tr>
+<td align="center">7 (mention)</td>
+<td>Custom Points, Mode hybride, Détection trafics</td>
+<td><a href="https://www.youtube.com/watch?v=SE0pmn-9n-U">#41</a> <a href="https://www.youtube.com/watch?v=SD8dcfpadGI">#20</a> <a href="https://www.youtube.com/watch?v=0-cStHF6P2g">#46</a> <a href="https://www.youtube.com/watch?v=jjhPh_TtRC8">#47</a></td>
+</tr>
+</tbody></table>
+
+<footer style="margin-top:3rem;padding-top:1rem;border-top:1px solid var(--border);color:#888;font-size:0.85rem;text-align:center;">
+  Cours SDVFR Next &mdash; Généré à partir des <a href="https://www.youtube.com/playlist?list=PLmkb2zKUeBgMppHpCJ1raboyQe9yKhhTw">47 tutoriels vidéo SDVFR</a>
+</footer>
+</body>
+</html>
