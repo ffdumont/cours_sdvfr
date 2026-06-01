@@ -1,0 +1,1016 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.560 --> 00:00:02.629 align:start position:0%
+ 
+Bonjour<00:00:00.840><c> et</c><00:00:00.960><c> bienvenue</c><00:00:01.520><c> dans</c><00:00:01.719><c> cette</c><00:00:02.080><c> vidéo</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+Bonjour et bienvenue dans cette vidéo
+ 
+
+00:00:02.639 --> 00:00:05.070 align:start position:0%
+Bonjour et bienvenue dans cette vidéo
+sur<00:00:03.080><c> SDVFR</c><00:00:03.719><c> Next</c><00:00:04.480><c> qui</c><00:00:04.640><c> va</c><00:00:04.799><c> traiter</c>
+
+00:00:05.070 --> 00:00:05.080 align:start position:0%
+sur SDVFR Next qui va traiter
+ 
+
+00:00:05.080 --> 00:00:07.829 align:start position:0%
+sur SDVFR Next qui va traiter
+aujourd'hui<00:00:05.560><c> des</c><00:00:05.799><c> vagues</c><00:00:06.839><c> géoréférencées,</c>
+
+00:00:07.829 --> 00:00:07.839 align:start position:0%
+aujourd'hui des vagues géoréférencées,
+ 
+
+00:00:07.839 --> 00:00:09.990 align:start position:0%
+aujourd'hui des vagues géoréférencées,
+donc<00:00:08.080><c> des</c><00:00:08.240><c> cartes</c><00:00:08.480><c> d'approche</c><00:00:09.160><c> géoréférencé</c>
+
+00:00:09.990 --> 00:00:10.000 align:start position:0%
+donc des cartes d'approche géoréférencé
+ 
+
+00:00:10.000 --> 00:00:12.789 align:start position:0%
+donc des cartes d'approche géoréférencé
+qu'on<00:00:10.200><c> peut</c><00:00:10.360><c> plaquer</c><00:00:10.759><c> sur</c><00:00:10.920><c> la</c><00:00:11.360><c> carte</c><00:00:12.360><c> de</c><00:00:12.559><c> notre</c>
+
+00:00:12.789 --> 00:00:12.799 align:start position:0%
+qu'on peut plaquer sur la carte de notre
+ 
+
+00:00:12.799 --> 00:00:16.310 align:start position:0%
+qu'on peut plaquer sur la carte de notre
+application.<00:00:14.240><c> Euh</c><00:00:14.559><c> il</c><00:00:14.759><c> y</c><00:00:14.799><c> a</c><00:00:15.320><c> deux</c><00:00:15.559><c> modes</c><00:00:16.119><c> que</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+application. Euh il y a deux modes que
+ 
+
+00:00:16.320 --> 00:00:18.070 align:start position:0%
+application. Euh il y a deux modes que
+je<00:00:16.440><c> vais</c><00:00:16.520><c> vous</c><00:00:16.640><c> montrer,</c><00:00:16.960><c> le</c><00:00:17.080><c> mode</c><00:00:17.320><c> manuel</c><00:00:17.920><c> et</c>
+
+00:00:18.070 --> 00:00:18.080 align:start position:0%
+je vais vous montrer, le mode manuel et
+ 
+
+00:00:18.080 --> 00:00:21.349 align:start position:0%
+je vais vous montrer, le mode manuel et
+le<00:00:18.240><c> mode</c><00:00:19.160><c> automatique.</c><00:00:20.160><c> Alors</c><00:00:20.320><c> avant</c><00:00:20.600><c> tout,</c>
+
+00:00:21.349 --> 00:00:21.359 align:start position:0%
+le mode automatique. Alors avant tout,
+ 
+
+00:00:21.359 --> 00:00:22.910 align:start position:0%
+le mode automatique. Alors avant tout,
+je<00:00:21.560><c> suis</c><00:00:21.840><c> aux</c><00:00:22.000><c> alentours</c><00:00:22.279><c> de</c><00:00:22.359><c> la</c><00:00:22.439><c> Rochelle</c>
+
+00:00:22.910 --> 00:00:22.920 align:start position:0%
+je suis aux alentours de la Rochelle
+ 
+
+00:00:22.920 --> 00:00:25.029 align:start position:0%
+je suis aux alentours de la Rochelle
+ici.<00:00:23.480><c> On</c><00:00:23.599><c> va</c><00:00:23.760><c> quand</c><00:00:23.920><c> même</c><00:00:24.119><c> aller</c><00:00:24.519><c> regarder</c>
+
+00:00:25.029 --> 00:00:25.039 align:start position:0%
+ici. On va quand même aller regarder
+ 
+
+00:00:25.039 --> 00:00:27.230 align:start position:0%
+ici. On va quand même aller regarder
+comment<00:00:25.480><c> on</c><00:00:25.720><c> récupère</c><00:00:26.679><c> les</c><00:00:26.880><c> vagues</c>
+
+00:00:27.230 --> 00:00:27.240 align:start position:0%
+comment on récupère les vagues
+ 
+
+00:00:27.240 --> 00:00:29.710 align:start position:0%
+comment on récupère les vagues
+géoréférencées<00:00:28.240><c> avant</c><00:00:28.519><c> de</c><00:00:28.679><c> pouvoir</c><00:00:29.119><c> les</c><00:00:29.240><c> les</c>
+
+00:00:29.710 --> 00:00:29.720 align:start position:0%
+géoréférencées avant de pouvoir les les
+ 
+
+00:00:29.720 --> 00:00:31.630 align:start position:0%
+géoréférencées avant de pouvoir les les
+utiliser.<00:00:30.599><c> Donc</c><00:00:30.800><c> faut</c><00:00:30.920><c> qu'on</c><00:00:31.119><c> puisse</c><00:00:31.320><c> les</c>
+
+00:00:31.630 --> 00:00:31.640 align:start position:0%
+utiliser. Donc faut qu'on puisse les
+ 
+
+00:00:31.640 --> 00:00:33.549 align:start position:0%
+utiliser. Donc faut qu'on puisse les
+embarquer.<00:00:32.640><c> Il</c><00:00:32.719><c> y</c><00:00:32.759><c> a</c><00:00:32.800><c> une</c><00:00:32.960><c> vidéo</c><00:00:33.160><c> qui</c><00:00:33.320><c> traite</c>
+
+00:00:33.549 --> 00:00:33.559 align:start position:0%
+embarquer. Il y a une vidéo qui traite
+ 
+
+00:00:33.559 --> 00:00:34.869 align:start position:0%
+embarquer. Il y a une vidéo qui traite
+d'ailleurs<00:00:33.800><c> de</c><00:00:33.920><c> la</c><00:00:34.000><c> gestion</c><00:00:34.239><c> des</c><00:00:34.399><c> documents</c>
+
+00:00:34.869 --> 00:00:34.879 align:start position:0%
+d'ailleurs de la gestion des documents
+ 
+
+00:00:34.879 --> 00:00:37.150 align:start position:0%
+d'ailleurs de la gestion des documents
+qui<00:00:35.559><c> effleure</c><00:00:35.920><c> un</c><00:00:36.040><c> petit</c><00:00:36.160><c> peu</c><00:00:36.239><c> le</c><00:00:36.320><c> sujet</c><00:00:36.960><c> mais</c>
+
+00:00:37.150 --> 00:00:37.160 align:start position:0%
+qui effleure un petit peu le sujet mais
+ 
+
+00:00:37.160 --> 00:00:38.830 align:start position:0%
+qui effleure un petit peu le sujet mais
+on<00:00:37.320><c> va</c><00:00:37.440><c> plutôt</c><00:00:37.760><c> s</c><00:00:38.079><c> enfin</c><00:00:38.320><c> on</c><00:00:38.440><c> va</c><00:00:38.600><c> vraiment</c>
+
+00:00:38.830 --> 00:00:38.840 align:start position:0%
+on va plutôt s enfin on va vraiment
+ 
+
+00:00:38.840 --> 00:00:40.549 align:start position:0%
+on va plutôt s enfin on va vraiment
+faire<00:00:39.000><c> le</c><00:00:39.160><c> focus</c><00:00:39.719><c> sur</c><00:00:40.000><c> ces</c><00:00:40.239><c> vagues</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+faire le focus sur ces vagues
+ 
+
+00:00:40.559 --> 00:00:42.190 align:start position:0%
+faire le focus sur ces vagues
+géorfancées.
+
+00:00:42.190 --> 00:00:42.200 align:start position:0%
+géorfancées.
+ 
+
+00:00:42.200 --> 00:00:45.110 align:start position:0%
+géorfancées.
+Je<00:00:42.399><c> vous</c><00:00:42.600><c> réindique</c><00:00:43.600><c> le</c><00:00:43.800><c> bouton</c><00:00:44.440><c> utilisateur</c>
+
+00:00:45.110 --> 00:00:45.120 align:start position:0%
+Je vous réindique le bouton utilisateur
+ 
+
+00:00:45.120 --> 00:00:48.229 align:start position:0%
+Je vous réindique le bouton utilisateur
+qui<00:00:45.320><c> se</c><00:00:45.440><c> trouve</c><00:00:45.760><c> en</c><00:00:45.879><c> haut</c><00:00:46.039><c> à</c><00:00:46.440><c> droite.</c><00:00:47.440><c> On</c><00:00:47.559><c> y</c>
+
+00:00:48.229 --> 00:00:48.239 align:start position:0%
+qui se trouve en haut à droite. On y
+ 
+
+00:00:48.239 --> 00:00:52.110 align:start position:0%
+qui se trouve en haut à droite. On y
+va.<00:00:49.239><c> Dans</c><00:00:49.360><c> la</c><00:00:49.600><c> partie</c><00:00:50.719><c> document,</c><00:00:51.719><c> l'onglet</c>
+
+00:00:52.110 --> 00:00:52.120 align:start position:0%
+va. Dans la partie document, l'onglet
+ 
+
+00:00:52.120 --> 00:00:53.630 align:start position:0%
+va. Dans la partie document, l'onglet
+document,<00:00:52.760><c> on</c><00:00:52.879><c> va</c><00:00:53.039><c> avoir</c><00:00:53.320><c> donc</c><00:00:53.480><c> la</c>
+
+00:00:53.630 --> 00:00:53.640 align:start position:0%
+document, on va avoir donc la
+ 
+
+00:00:53.640 --> 00:00:56.990 align:start position:0%
+document, on va avoir donc la
+documentation<00:00:54.640><c> ici</c><00:00:54.920><c> France</c><00:00:55.920><c> et</c><00:00:56.520><c> la</c><00:00:56.719><c> partie</c>
+
+00:00:56.990 --> 00:00:57.000 align:start position:0%
+documentation ici France et la partie
+ 
+
+00:00:57.000 --> 00:01:00.470 align:start position:0%
+documentation ici France et la partie
+qu'on<00:00:57.199><c> appelle</c><00:00:57.640><c> Gomap.</c><00:00:58.359><c> Alors</c><00:00:58.480><c> la</c><00:00:58.640><c> partie</c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+qu'on appelle Gomap. Alors la partie
+ 
+
+00:01:00.480 --> 00:01:02.990 align:start position:0%
+qu'on appelle Gomap. Alors la partie
+geom<00:01:01.480><c> géoréférencées.</c><00:01:02.399><c> Donc</c><00:01:02.519><c> si</c><00:01:02.680><c> on</c><00:01:02.800><c> est</c><00:01:02.879><c> un</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+geom géoréférencées. Donc si on est un
+ 
+
+00:01:03.000 --> 00:01:04.829 align:start position:0%
+geom géoréférencées. Donc si on est un
+petit<00:01:03.160><c> peu</c><00:01:03.239><c> curieux,</c><00:01:04.040><c> on</c><00:01:04.199><c> peut</c><00:01:04.360><c> aller</c><00:01:04.600><c> voir</c>
+
+00:01:04.829 --> 00:01:04.839 align:start position:0%
+petit peu curieux, on peut aller voir
+ 
+
+00:01:04.839 --> 00:01:06.950 align:start position:0%
+petit peu curieux, on peut aller voir
+qu'il<00:01:04.920><c> y</c><00:01:04.920><c> a</c><00:01:05.000><c> les</c><00:01:05.119><c> codes</c><00:01:05.400><c> IKO,</c><00:01:05.840><c> donc</c><00:01:06.280><c> OACI</c><00:01:06.840><c> des</c>
+
+00:01:06.950 --> 00:01:06.960 align:start position:0%
+qu'il y a les codes IKO, donc OACI des
+ 
+
+00:01:06.960 --> 00:01:09.950 align:start position:0%
+qu'il y a les codes IKO, donc OACI des
+terrains<00:01:07.720><c> avec</c><00:01:08.200><c> app,</c><00:01:08.680><c> approche,</c><00:01:09.080><c> ATT</c><00:01:09.560><c> terrain</c>
+
+00:01:09.950 --> 00:01:09.960 align:start position:0%
+terrains avec app, approche, ATT terrain
+ 
+
+00:01:09.960 --> 00:01:12.350 align:start position:0%
+terrains avec app, approche, ATT terrain
+euh<00:01:10.159><c> atterrissage</c><00:01:10.920><c> pardon.</c><00:01:11.920><c> Éventuellement</c>
+
+00:01:12.350 --> 00:01:12.360 align:start position:0%
+euh atterrissage pardon. Éventuellement
+ 
+
+00:01:12.360 --> 00:01:15.510 align:start position:0%
+euh atterrissage pardon. Éventuellement
+d'autres,<00:01:12.600><c> il</c><00:01:12.640><c> y</c><00:01:12.720><c> en</c><00:01:12.759><c> a</c><00:01:12.840><c> qui</c><00:01:13.000><c> sont</c><00:01:13.960><c> celles</c><00:01:14.520><c> de</c>
+
+00:01:15.510 --> 00:01:15.520 align:start position:0%
+d'autres, il y en a qui sont celles de
+ 
+
+00:01:15.520 --> 00:01:17.950 align:start position:0%
+d'autres, il y en a qui sont celles de
+des<00:01:15.759><c> parkings,</c><00:01:16.759><c> de</c><00:01:16.920><c> mouvement</c><00:01:17.320><c> au</c><00:01:17.479><c> sol.</c><00:01:17.840><c> Il</c><00:01:17.920><c> y</c>
+
+00:01:17.950 --> 00:01:17.960 align:start position:0%
+des parkings, de mouvement au sol. Il y
+ 
+
+00:01:17.960 --> 00:01:19.749 align:start position:0%
+des parkings, de mouvement au sol. Il y
+a<00:01:18.040><c> aussi</c><00:01:18.280><c> quelques</c><00:01:18.600><c> cartes</c>
+
+00:01:19.749 --> 00:01:19.759 align:start position:0%
+a aussi quelques cartes
+ 
+
+00:01:19.759 --> 00:01:21.950 align:start position:0%
+a aussi quelques cartes
+VFR,<00:01:20.759><c> je</c><00:01:20.960><c> pense</c><00:01:21.200><c> particulièrement</c><00:01:21.720><c> la</c>
+
+00:01:21.950 --> 00:01:21.960 align:start position:0%
+VFR, je pense particulièrement la
+ 
+
+00:01:21.960 --> 00:01:24.710 align:start position:0%
+VFR, je pense particulièrement la
+Guadeloupe<00:01:22.960><c> euh</c><00:01:23.600><c> de</c><00:01:23.799><c> mémoire</c><00:01:24.119><c> aussi</c><00:01:24.320><c> Réunion,</c>
+
+00:01:24.710 --> 00:01:24.720 align:start position:0%
+Guadeloupe euh de mémoire aussi Réunion,
+ 
+
+00:01:24.720 --> 00:01:26.910 align:start position:0%
+Guadeloupe euh de mémoire aussi Réunion,
+il<00:01:24.799><c> y</c><00:01:24.880><c> en</c><00:01:24.960><c> a</c><00:01:25.680><c> pas</c><00:01:25.840><c> mal</c><00:01:26.000><c> dans</c><00:01:26.159><c> les</c><00:01:26.439><c> dans</c><00:01:26.600><c> l'outre</c>
+
+00:01:26.910 --> 00:01:26.920 align:start position:0%
+il y en a pas mal dans les dans l'outre
+ 
+
+00:01:26.920 --> 00:01:30.230 align:start position:0%
+il y en a pas mal dans les dans l'outre
+mer.<00:01:27.479><c> Voilà.</c><00:01:27.720><c> Donc</c><00:01:27.880><c> en</c><00:01:28.000><c> tout</c><00:01:28.119><c> cas</c><00:01:28.840><c> euh</c><00:01:29.840><c> si</c><00:01:30.079><c> vous</c>
+
+00:01:30.230 --> 00:01:30.240 align:start position:0%
+mer. Voilà. Donc en tout cas euh si vous
+ 
+
+00:01:30.240 --> 00:01:33.230 align:start position:0%
+mer. Voilà. Donc en tout cas euh si vous
+avez<00:01:30.439><c> bien</c><00:01:30.920><c> le</c><00:01:31.159><c> nœud</c><00:01:32.159><c> de</c><00:01:32.320><c> la</c><00:01:32.479><c> documentation</c><00:01:33.079><c> de</c>
+
+00:01:33.230 --> 00:01:33.240 align:start position:0%
+avez bien le nœud de la documentation de
+ 
+
+00:01:33.240 --> 00:01:35.270 align:start position:0%
+avez bien le nœud de la documentation de
+l'arbre<00:01:33.520><c> qui</c><00:01:33.680><c> est</c><00:01:33.960><c> ici</c><00:01:34.479><c> coché</c><00:01:34.920><c> et</c><00:01:35.040><c> que</c><00:01:35.159><c> vous</c>
+
+00:01:35.270 --> 00:01:35.280 align:start position:0%
+l'arbre qui est ici coché et que vous
+ 
+
+00:01:35.280 --> 00:01:38.030 align:start position:0%
+l'arbre qui est ici coché et que vous
+avez<00:01:35.479><c> bien</c><00:01:35.799><c> fait</c><00:01:36.119><c> mettre</c><00:01:36.320><c> à</c><00:01:36.479><c> jour,</c><00:01:37.200><c> vous</c><00:01:37.439><c> avez</c>
+
+00:01:38.030 --> 00:01:38.040 align:start position:0%
+avez bien fait mettre à jour, vous avez
+ 
+
+00:01:38.040 --> 00:01:40.670 align:start position:0%
+avez bien fait mettre à jour, vous avez
+embarqué<00:01:38.600><c> les</c><00:01:39.040><c> euh</c><00:01:39.520><c> cartes</c>
+
+00:01:40.670 --> 00:01:40.680 align:start position:0%
+embarqué les euh cartes
+ 
+
+00:01:40.680 --> 00:01:42.469 align:start position:0%
+embarqué les euh cartes
+géoréférencées.<00:01:41.680><c> Voilà</c><00:01:41.880><c> pour</c><00:01:42.040><c> la</c><00:01:42.240><c> petite</c>
+
+00:01:42.469 --> 00:01:42.479 align:start position:0%
+géoréférencées. Voilà pour la petite
+ 
+
+00:01:42.479 --> 00:01:44.910 align:start position:0%
+géoréférencées. Voilà pour la petite
+parenthèse.<00:01:43.280><c> Une</c><00:01:43.439><c> fois</c><00:01:43.520><c> qu'on</c><00:01:43.720><c> a</c><00:01:43.840><c> ça,</c><00:01:44.640><c> on</c><00:01:44.799><c> va</c>
+
+00:01:44.910 --> 00:01:44.920 align:start position:0%
+parenthèse. Une fois qu'on a ça, on va
+ 
+
+00:01:44.920 --> 00:01:46.990 align:start position:0%
+parenthèse. Une fois qu'on a ça, on va
+pouvoir<00:01:45.399><c> donc</c><00:01:45.880><c> sur</c><00:01:46.159><c> un</c><00:01:46.320><c> clic,</c><00:01:46.640><c> par</c><00:01:46.799><c> exemple</c>
+
+00:01:46.990 --> 00:01:47.000 align:start position:0%
+pouvoir donc sur un clic, par exemple
+ 
+
+00:01:47.000 --> 00:01:49.069 align:start position:0%
+pouvoir donc sur un clic, par exemple
+sur<00:01:47.159><c> la</c><00:01:47.280><c> rochelle</c><00:01:47.759><c> ici,</c><00:01:48.399><c> quand</c><00:01:48.600><c> on</c><00:01:48.719><c> clique</c><00:01:48.960><c> sur</c>
+
+00:01:49.069 --> 00:01:49.079 align:start position:0%
+sur la rochelle ici, quand on clique sur
+ 
+
+00:01:49.079 --> 00:01:51.830 align:start position:0%
+sur la rochelle ici, quand on clique sur
+la<00:01:49.240><c> carte,</c><00:01:49.759><c> la</c><00:01:50.000><c> carte</c><00:01:50.360><c> va</c><00:01:50.719><c> afficher</c><00:01:51.560><c> ou</c>
+
+00:01:51.830 --> 00:01:51.840 align:start position:0%
+la carte, la carte va afficher ou
+ 
+
+00:01:51.840 --> 00:01:53.469 align:start position:0%
+la carte, la carte va afficher ou
+directement<00:01:52.439><c> aller</c><00:01:52.799><c> à</c><00:01:52.920><c> l'endroit</c><00:01:53.200><c> du</c><00:01:53.320><c> clic</c>
+
+00:01:53.469 --> 00:01:53.479 align:start position:0%
+directement aller à l'endroit du clic
+ 
+
+00:01:53.479 --> 00:01:54.789 align:start position:0%
+directement aller à l'endroit du clic
+s'il<00:01:53.640><c> y</c><00:01:53.719><c> a</c><00:01:53.759><c> qu'un</c><00:01:53.920><c> seul</c><00:01:54.119><c> résultat.</c><00:01:54.600><c> Donc</c><00:01:54.680><c> là,</c>
+
+00:01:54.789 --> 00:01:54.799 align:start position:0%
+s'il y a qu'un seul résultat. Donc là,
+ 
+
+00:01:54.799 --> 00:01:56.149 align:start position:0%
+s'il y a qu'un seul résultat. Donc là,
+il<00:01:54.880><c> y</c><00:01:54.880><c> avait</c><00:01:55.040><c> qu'un</c><00:01:55.240><c> seul</c><00:01:55.399><c> résultat.</c><00:01:55.840><c> Donc</c><00:01:55.960><c> on</c>
+
+00:01:56.149 --> 00:01:56.159 align:start position:0%
+il y avait qu'un seul résultat. Donc on
+ 
+
+00:01:56.159 --> 00:01:58.310 align:start position:0%
+il y avait qu'un seul résultat. Donc on
+est<00:01:56.439><c> la</c><00:01:56.600><c> carte</c><00:01:56.799><c> s'est</c><00:01:56.960><c> centrée</c><00:01:57.280><c> dessus.</c><00:01:58.039><c> On</c><00:01:58.200><c> a</c>
+
+00:01:58.310 --> 00:01:58.320 align:start position:0%
+est la carte s'est centrée dessus. On a
+ 
+
+00:01:58.320 --> 00:02:00.389 align:start position:0%
+est la carte s'est centrée dessus. On a
+quelques<00:01:58.600><c> boutons</c><00:01:58.840><c> d'action</c><00:01:59.680><c> dont</c><00:01:59.920><c> on</c><00:02:00.079><c> pourra</c>
+
+00:02:00.389 --> 00:02:00.399 align:start position:0%
+quelques boutons d'action dont on pourra
+ 
+
+00:02:00.399 --> 00:02:01.789 align:start position:0%
+quelques boutons d'action dont on pourra
+reparler<00:02:00.759><c> dans</c><00:02:00.920><c> d'autres</c><00:02:01.200><c> vidéos,</c><00:02:01.560><c> mais</c><00:02:01.680><c> ce</c>
+
+00:02:01.789 --> 00:02:01.799 align:start position:0%
+reparler dans d'autres vidéos, mais ce
+ 
+
+00:02:01.799 --> 00:02:04.389 align:start position:0%
+reparler dans d'autres vidéos, mais ce
+qui<00:02:01.960><c> m'intéresse</c><00:02:02.399><c> moi</c><00:02:02.719><c> ici,</c><00:02:03.280><c> ce</c><00:02:03.479><c> sont</c><00:02:04.200><c> les</c>
+
+00:02:04.389 --> 00:02:04.399 align:start position:0%
+qui m'intéresse moi ici, ce sont les
+ 
+
+00:02:04.399 --> 00:02:06.550 align:start position:0%
+qui m'intéresse moi ici, ce sont les
+boutons<00:02:04.680><c> qui</c><00:02:04.799><c> sont</c><00:02:04.960><c> en</c><00:02:05.079><c> dessous.</c><00:02:06.039><c> Euh</c><00:02:06.240><c> et</c><00:02:06.399><c> donc</c>
+
+00:02:06.550 --> 00:02:06.560 align:start position:0%
+boutons qui sont en dessous. Euh et donc
+ 
+
+00:02:06.560 --> 00:02:09.350 align:start position:0%
+boutons qui sont en dessous. Euh et donc
+là<00:02:06.759><c> sur</c><00:02:06.920><c> la</c><00:02:07.039><c> Rochelle,</c><00:02:07.439><c> on</c><00:02:07.560><c> a</c><00:02:08.039><c> trois</c><00:02:09.039><c> cartes.</c>
+
+00:02:09.350 --> 00:02:09.360 align:start position:0%
+là sur la Rochelle, on a trois cartes.
+ 
+
+00:02:09.360 --> 00:02:10.790 align:start position:0%
+là sur la Rochelle, on a trois cartes.
+Une<00:02:09.479><c> carte</c><00:02:09.679><c> d'approche,</c><00:02:10.360><c> une</c><00:02:10.520><c> carte</c>
+
+00:02:10.790 --> 00:02:10.800 align:start position:0%
+Une carte d'approche, une carte
+ 
+
+00:02:10.800 --> 00:02:12.150 align:start position:0%
+Une carte d'approche, une carte
+d'atterrissage,<00:02:11.440><c> tour</c><00:02:11.599><c> de</c><00:02:11.720><c> piste</c><00:02:11.920><c> et</c><00:02:12.040><c> une</c>
+
+00:02:12.150 --> 00:02:12.160 align:start position:0%
+d'atterrissage, tour de piste et une
+ 
+
+00:02:12.160 --> 00:02:15.630 align:start position:0%
+d'atterrissage, tour de piste et une
+carte<00:02:12.520><c> PDC</c><00:02:13.000><c> pour</c><00:02:13.760><c> parking.</c><00:02:14.760><c> Donc</c><00:02:15.360><c> je</c><00:02:15.519><c> vais</c>
+
+00:02:15.630 --> 00:02:15.640 align:start position:0%
+carte PDC pour parking. Donc je vais
+ 
+
+00:02:15.640 --> 00:02:18.630 align:start position:0%
+carte PDC pour parking. Donc je vais
+cliquer<00:02:15.920><c> sur</c><00:02:16.200><c> app.</c><00:02:17.080><c> Voilà.</c><00:02:17.360><c> Donc</c><00:02:17.519><c> là,</c><00:02:17.680><c> on</c><00:02:17.760><c> peut</c>
+
+00:02:18.630 --> 00:02:18.640 align:start position:0%
+cliquer sur app. Voilà. Donc là, on peut
+ 
+
+00:02:18.640 --> 00:02:21.990 align:start position:0%
+cliquer sur app. Voilà. Donc là, on peut
+afficher<00:02:19.120><c> ou</c><00:02:19.360><c> cacher</c><00:02:20.160><c> la</c><00:02:20.360><c> carte</c><00:02:21.000><c> d'approche,</c>
+
+00:02:21.990 --> 00:02:22.000 align:start position:0%
+afficher ou cacher la carte d'approche,
+ 
+
+00:02:22.000 --> 00:02:26.070 align:start position:0%
+afficher ou cacher la carte d'approche,
+on<00:02:22.200><c> peut</c><00:02:22.560><c> afficher</c><00:02:23.160><c> ou</c><00:02:23.440><c> pas,</c><00:02:24.440><c> voilà</c><00:02:24.959><c> la</c><00:02:25.200><c> carte</c>
+
+00:02:26.070 --> 00:02:26.080 align:start position:0%
+on peut afficher ou pas, voilà la carte
+ 
+
+00:02:26.080 --> 00:02:28.509 align:start position:0%
+on peut afficher ou pas, voilà la carte
+d'atterrissage.<00:02:27.000><c> Et</c><00:02:27.120><c> puis</c><00:02:27.519><c> il</c><00:02:27.680><c> y</c><00:02:27.720><c> a</c><00:02:27.959><c> une</c><00:02:28.239><c> toute</c>
+
+00:02:28.509 --> 00:02:28.519 align:start position:0%
+d'atterrissage. Et puis il y a une toute
+ 
+
+00:02:28.519 --> 00:02:30.869 align:start position:0%
+d'atterrissage. Et puis il y a une toute
+petite<00:02:28.840><c> carte</c><00:02:29.400><c> complémentaire</c><00:02:30.120><c> qu'</c><00:02:30.239><c> faudra</c>
+
+00:02:30.869 --> 00:02:30.879 align:start position:0%
+petite carte complémentaire qu' faudra
+ 
+
+00:02:30.879 --> 00:02:32.190 align:start position:0%
+petite carte complémentaire qu' faudra
+qu'on<00:02:31.080><c> zoome</c><00:02:31.319><c> un</c><00:02:31.440><c> petit</c><00:02:31.560><c> peu</c><00:02:31.640><c> dessus</c><00:02:31.920><c> pour</c><00:02:32.040><c> la</c>
+
+00:02:32.190 --> 00:02:32.200 align:start position:0%
+qu'on zoome un petit peu dessus pour la
+ 
+
+00:02:32.200 --> 00:02:35.990 align:start position:0%
+qu'on zoome un petit peu dessus pour la
+voir<00:02:32.840><c> pour</c><00:02:33.319><c> euh</c><00:02:34.040><c> les</c><00:02:34.400><c> parkings.</c><00:02:35.400><c> Donc</c><00:02:35.680><c> je</c><00:02:35.840><c> peux</c>
+
+00:02:35.990 --> 00:02:36.000 align:start position:0%
+voir pour euh les parkings. Donc je peux
+ 
+
+00:02:36.000 --> 00:02:38.350 align:start position:0%
+voir pour euh les parkings. Donc je peux
+faire<00:02:36.200><c> ça.</c><00:02:36.560><c> Donc</c><00:02:36.680><c> ça</c><00:02:36.840><c> va</c><00:02:36.959><c> laisser</c><00:02:37.400><c> afficher</c>
+
+00:02:38.350 --> 00:02:38.360 align:start position:0%
+faire ça. Donc ça va laisser afficher
+ 
+
+00:02:38.360 --> 00:02:41.070 align:start position:0%
+faire ça. Donc ça va laisser afficher
+ses<00:02:38.519><c> cartes</c><00:02:39.200><c> référencées.</c><00:02:40.200><c> Et</c><00:02:40.480><c> je</c><00:02:40.680><c> vais</c>
+
+00:02:41.070 --> 00:02:41.080 align:start position:0%
+ses cartes référencées. Et je vais
+ 
+
+00:02:41.080 --> 00:02:44.110 align:start position:0%
+ses cartes référencées. Et je vais
+zoomer<00:02:41.560><c> zoomer</c><00:02:42.319><c> et</c><00:02:42.640><c> voilà,</c><00:02:43.000><c> je</c><00:02:43.159><c> vais</c><00:02:43.280><c> aller</c>
+
+00:02:44.110 --> 00:02:44.120 align:start position:0%
+zoomer zoomer et voilà, je vais aller
+ 
+
+00:02:44.120 --> 00:02:48.070 align:start position:0%
+zoomer zoomer et voilà, je vais aller
+jusqu'au<00:02:45.120><c> jusqu'au</c><00:02:45.560><c> terrain</c><00:02:46.319><c> avec</c><00:02:47.000><c> les</c><00:02:48.000><c> les</c>
+
+00:02:48.070 --> 00:02:48.080 align:start position:0%
+jusqu'au jusqu'au terrain avec les les
+ 
+
+00:02:48.080 --> 00:02:50.990 align:start position:0%
+jusqu'au jusqu'au terrain avec les les
+parkings.<00:02:49.080><c> Voilà.</c><00:02:50.080><c> Et</c><00:02:50.239><c> le</c><00:02:50.400><c> tour</c><00:02:50.560><c> de</c><00:02:50.680><c> piste</c>
+
+00:02:50.990 --> 00:02:51.000 align:start position:0%
+parkings. Voilà. Et le tour de piste
+ 
+
+00:02:51.000 --> 00:02:52.949 align:start position:0%
+parkings. Voilà. Et le tour de piste
+d'ailleurs<00:02:51.280><c> de</c><00:02:51.400><c> la</c><00:02:51.519><c> Rochelle</c><00:02:51.840><c> qui</c><00:02:51.920><c> est</c><00:02:52.040><c> assez</c>
+
+00:02:52.949 --> 00:02:52.959 align:start position:0%
+d'ailleurs de la Rochelle qui est assez
+ 
+
+00:02:52.959 --> 00:02:56.149 align:start position:0%
+d'ailleurs de la Rochelle qui est assez
+spécifique<00:02:53.959><c> qui</c><00:02:54.280><c> suit,</c><00:02:54.879><c> si</c><00:02:55.080><c> je</c><00:02:55.239><c> le</c><00:02:55.360><c> mets</c><00:02:55.959><c> en</c>
+
+00:02:56.149 --> 00:02:56.159 align:start position:0%
+spécifique qui suit, si je le mets en
+ 
+
+00:02:56.159 --> 00:02:59.630 align:start position:0%
+spécifique qui suit, si je le mets en
+surbrillance,<00:02:57.080><c> hop</c><00:02:57.360><c> la</c><00:02:57.560><c> rocade</c><00:02:58.680><c> ici</c><00:02:58.920><c> de</c><00:02:59.120><c> la</c>
+
+00:02:59.630 --> 00:02:59.640 align:start position:0%
+surbrillance, hop la rocade ici de la
+ 
+
+00:02:59.640 --> 00:03:02.270 align:start position:0%
+surbrillance, hop la rocade ici de la
+Rochelle.<00:03:00.640><c> Voilà.</c><00:03:00.879><c> Donc</c><00:03:01.040><c> ça</c><00:03:01.239><c> ça</c><00:03:01.640><c> le</c><00:03:01.840><c> c'est</c><00:03:02.040><c> le</c>
+
+00:03:02.270 --> 00:03:02.280 align:start position:0%
+Rochelle. Voilà. Donc ça ça le c'est le
+ 
+
+00:03:02.280 --> 00:03:06.710 align:start position:0%
+Rochelle. Voilà. Donc ça ça le c'est le
+mode<00:03:03.280><c> manuel</c><00:03:03.840><c> pour</c><00:03:04.480><c> afficher</c><00:03:05.480><c> les</c><00:03:05.720><c> cartes</c>
+
+00:03:06.710 --> 00:03:06.720 align:start position:0%
+mode manuel pour afficher les cartes
+ 
+
+00:03:06.720 --> 00:03:08.750 align:start position:0%
+mode manuel pour afficher les cartes
+géoréférencées.<00:03:07.720><c> Voilà,</c><00:03:07.959><c> donc</c><00:03:08.159><c> je</c><00:03:08.360><c> peux</c>
+
+00:03:08.750 --> 00:03:08.760 align:start position:0%
+géoréférencées. Voilà, donc je peux
+ 
+
+00:03:08.760 --> 00:03:10.670 align:start position:0%
+géoréférencées. Voilà, donc je peux
+recliquer<00:03:09.120><c> sur</c><00:03:09.239><c> la</c><00:03:09.360><c> rochelle</c><00:03:09.799><c> et</c>
+
+00:03:10.670 --> 00:03:10.680 align:start position:0%
+recliquer sur la rochelle et
+ 
+
+00:03:10.680 --> 00:03:13.750 align:start position:0%
+recliquer sur la rochelle et
+cacher<00:03:11.840><c> le</c><00:03:12.840><c> les</c><00:03:13.080><c> cartes</c><00:03:13.319><c> que</c><00:03:13.400><c> j'avais</c>
+
+00:03:13.750 --> 00:03:13.760 align:start position:0%
+cacher le les cartes que j'avais
+ 
+
+00:03:13.760 --> 00:03:15.550 align:start position:0%
+cacher le les cartes que j'avais
+affichées.<00:03:14.760><c> Alors</c><00:03:14.920><c> maintenant,</c><00:03:15.280><c> il</c><00:03:15.400><c> y</c><00:03:15.440><c> a</c><00:03:15.480><c> un</c>
+
+00:03:15.550 --> 00:03:15.560 align:start position:0%
+affichées. Alors maintenant, il y a un
+ 
+
+00:03:15.560 --> 00:03:17.869 align:start position:0%
+affichées. Alors maintenant, il y a un
+mode<00:03:15.760><c> automatique</c><00:03:16.400><c> qui</c><00:03:17.400><c> est</c><00:03:17.599><c> assez</c>
+
+00:03:17.869 --> 00:03:17.879 align:start position:0%
+mode automatique qui est assez
+ 
+
+00:03:17.879 --> 00:03:19.630 align:start position:0%
+mode automatique qui est assez
+intéressant.<00:03:18.760><c> Je</c><00:03:18.879><c> vais</c><00:03:19.000><c> me</c><00:03:19.120><c> déplacer</c><00:03:19.480><c> un</c>
+
+00:03:19.630 --> 00:03:19.640 align:start position:0%
+intéressant. Je vais me déplacer un
+ 
+
+00:03:19.640 --> 00:03:21.910 align:start position:0%
+intéressant. Je vais me déplacer un
+petit<00:03:19.799><c> peu</c><00:03:20.799><c> par</c><00:03:21.000><c> là</c><00:03:21.200><c> sur</c><00:03:21.400><c> poitier</c><00:03:21.720><c> par</c>
+
+00:03:21.910 --> 00:03:21.920 align:start position:0%
+petit peu par là sur poitier par
+ 
+
+00:03:21.920 --> 00:03:24.270 align:start position:0%
+petit peu par là sur poitier par
+exemple.<00:03:22.159><c> Il</c><00:03:22.239><c> y</c><00:03:22.280><c> a</c><00:03:22.360><c> quelques</c><00:03:22.760><c> terrains.</c><00:03:23.760><c> Euh</c>
+
+00:03:24.270 --> 00:03:24.280 align:start position:0%
+exemple. Il y a quelques terrains. Euh
+ 
+
+00:03:24.280 --> 00:03:25.949 align:start position:0%
+exemple. Il y a quelques terrains. Euh
+et<00:03:24.560><c> si</c><00:03:24.879><c> je</c><00:03:25.040><c> vais</c><00:03:25.200><c> tout</c><00:03:25.360><c> en</c><00:03:25.480><c> haut</c><00:03:25.640><c> dans</c><00:03:25.799><c> les</c>
+
+00:03:25.949 --> 00:03:25.959 align:start position:0%
+et si je vais tout en haut dans les
+ 
+
+00:03:25.959 --> 00:03:31.070 align:start position:0%
+et si je vais tout en haut dans les
+options,<00:03:26.319><c> vous</c><00:03:26.560><c> avez</c><00:03:27.159><c> ici</c><00:03:28.040><c> le</c><00:03:28.439><c> mode</c><00:03:29.439><c> auto</c><00:03:29.920><c> vac.</c>
+
+00:03:31.070 --> 00:03:31.080 align:start position:0%
+options, vous avez ici le mode auto vac.
+ 
+
+00:03:31.080 --> 00:03:32.630 align:start position:0%
+options, vous avez ici le mode auto vac.
+Alors,<00:03:31.599><c> ce</c><00:03:31.760><c> mode</c><00:03:32.000><c> automatique,</c><00:03:32.400><c> il</c><00:03:32.480><c> va</c>
+
+00:03:32.630 --> 00:03:32.640 align:start position:0%
+Alors, ce mode automatique, il va
+ 
+
+00:03:32.640 --> 00:03:35.070 align:start position:0%
+Alors, ce mode automatique, il va
+uniquement<00:03:33.480><c> agir</c><00:03:33.799><c> sur</c><00:03:34.000><c> les</c><00:03:34.120><c> vagues</c><00:03:34.400><c> de</c><00:03:34.879><c> tour</c>
+
+00:03:35.070 --> 00:03:35.080 align:start position:0%
+uniquement agir sur les vagues de tour
+ 
+
+00:03:35.080 --> 00:03:38.390 align:start position:0%
+uniquement agir sur les vagues de tour
+de<00:03:35.239><c> piste.</c><00:03:35.920><c> Donc,</c><00:03:36.040><c> si</c><00:03:36.200><c> je</c><00:03:36.360><c> le</c><00:03:37.200><c> sélectionne</c><00:03:38.200><c> et</c>
+
+00:03:38.390 --> 00:03:38.400 align:start position:0%
+de piste. Donc, si je le sélectionne et
+ 
+
+00:03:38.400 --> 00:03:41.910 align:start position:0%
+de piste. Donc, si je le sélectionne et
+que<00:03:38.560><c> je</c><00:03:38.720><c> zoome</c><00:03:39.120><c> assez,</c><00:03:39.840><c> vous</c><00:03:40.000><c> allez</c><00:03:40.239><c> voir</c><00:03:40.920><c> que</c>
+
+00:03:41.910 --> 00:03:41.920 align:start position:0%
+que je zoome assez, vous allez voir que
+ 
+
+00:03:41.920 --> 00:03:44.030 align:start position:0%
+que je zoome assez, vous allez voir que
+voilà,<00:03:42.280><c> les</c><00:03:42.480><c> cartes</c><00:03:42.959><c> apparaissent</c><00:03:43.480><c> au</c><00:03:43.640><c> zoom.</c>
+
+00:03:44.030 --> 00:03:44.040 align:start position:0%
+voilà, les cartes apparaissent au zoom.
+ 
+
+00:03:44.040 --> 00:03:46.390 align:start position:0%
+voilà, les cartes apparaissent au zoom.
+Je<00:03:44.159><c> dézoom,</c><00:03:44.920><c> elles</c><00:03:45.239><c> disparaissent.</c><00:03:46.239><c> Je</c>
+
+00:03:46.390 --> 00:03:46.400 align:start position:0%
+Je dézoom, elles disparaissent. Je
+ 
+
+00:03:46.400 --> 00:03:47.630 align:start position:0%
+Je dézoom, elles disparaissent. Je
+rezoome,<00:03:46.959><c> elles</c><00:03:47.080><c> apparaissent.</c><00:03:47.439><c> Donc,</c><00:03:47.519><c> on</c>
+
+00:03:47.630 --> 00:03:47.640 align:start position:0%
+rezoome, elles apparaissent. Donc, on
+ 
+
+00:03:47.640 --> 00:03:50.229 align:start position:0%
+rezoome, elles apparaissent. Donc, on
+voit<00:03:48.239><c> un</c><00:03:48.439><c> peu</c><00:03:48.519><c> un</c><00:03:48.680><c> triangle</c><00:03:49.120><c> là</c><00:03:49.360><c> entre</c>
+
+00:03:50.229 --> 00:03:50.239 align:start position:0%
+voit un peu un triangle là entre
+ 
+
+00:03:50.239 --> 00:03:53.270 align:start position:0%
+voit un peu un triangle là entre
+Poitier,<00:03:50.879><c> Châtelro,</c><00:03:51.799><c> Chaovini.</c><00:03:52.760><c> On</c><00:03:52.879><c> voit</c><00:03:53.040><c> les</c>
+
+00:03:53.270 --> 00:03:53.280 align:start position:0%
+Poitier, Châtelro, Chaovini. On voit les
+ 
+
+00:03:53.280 --> 00:03:55.470 align:start position:0%
+Poitier, Châtelro, Chaovini. On voit les
+les<00:03:53.680><c> trois</c><00:03:53.920><c> cartes</c><00:03:54.239><c> s'afficher.</c><00:03:55.239><c> Ce</c><00:03:55.360><c> qui</c>
+
+00:03:55.470 --> 00:03:55.480 align:start position:0%
+les trois cartes s'afficher. Ce qui
+ 
+
+00:03:55.480 --> 00:03:58.030 align:start position:0%
+les trois cartes s'afficher. Ce qui
+permet<00:03:55.840><c> donc</c><00:03:56.280><c> de</c><00:03:56.400><c> ne</c><00:03:56.560><c> pas</c><00:03:56.799><c> avoir</c><00:03:57.159><c> à</c><00:03:57.319><c> aller</c>
+
+00:03:58.030 --> 00:03:58.040 align:start position:0%
+permet donc de ne pas avoir à aller
+ 
+
+00:03:58.040 --> 00:03:59.789 align:start position:0%
+permet donc de ne pas avoir à aller
+lorsqu'on<00:03:58.480><c> est</c><00:03:58.560><c> en</c><00:03:58.720><c> approche,</c><00:03:59.319><c> qu'on</c><00:03:59.480><c> déplace</c>
+
+00:03:59.789 --> 00:03:59.799 align:start position:0%
+lorsqu'on est en approche, qu'on déplace
+ 
+
+00:03:59.799 --> 00:04:02.030 align:start position:0%
+lorsqu'on est en approche, qu'on déplace
+la<00:03:59.959><c> carte</c><00:04:00.200><c> ou</c><00:04:00.360><c> que</c><00:04:00.480><c> l'avion</c><00:04:00.879><c> avance</c><00:04:01.159><c> tout</c><00:04:01.319><c> seul</c>
+
+00:04:02.030 --> 00:04:02.040 align:start position:0%
+la carte ou que l'avion avance tout seul
+ 
+
+00:04:02.040 --> 00:04:06.190 align:start position:0%
+la carte ou que l'avion avance tout seul
+avec<00:04:02.280><c> l'autocentrage</c><00:04:03.040><c> de</c><00:04:03.159><c> la</c><00:04:03.560><c> carte,</c><00:04:04.560><c> les</c><00:04:05.200><c> les</c>
+
+00:04:06.190 --> 00:04:06.200 align:start position:0%
+avec l'autocentrage de la carte, les les
+ 
+
+00:04:06.200 --> 00:04:07.390 align:start position:0%
+avec l'autocentrage de la carte, les les
+les<00:04:06.599><c> vagues</c><00:04:06.799><c> de</c><00:04:06.879><c> tour</c><00:04:07.000><c> de</c><00:04:07.120><c> piste</c><00:04:07.280><c> vont</c>
+
+00:04:07.390 --> 00:04:07.400 align:start position:0%
+les vagues de tour de piste vont
+ 
+
+00:04:07.400 --> 00:04:11.149 align:start position:0%
+les vagues de tour de piste vont
+s'afficher.<00:04:08.280><c> Voilà.</c><00:04:09.400><c> Donc</c><00:04:10.360><c> pareil,</c><00:04:10.760><c> un</c><00:04:10.920><c> autre</c>
+
+00:04:11.149 --> 00:04:11.159 align:start position:0%
+s'afficher. Voilà. Donc pareil, un autre
+ 
+
+00:04:11.159 --> 00:04:14.670 align:start position:0%
+s'afficher. Voilà. Donc pareil, un autre
+exemple<00:04:11.400><c> sur</c><00:04:11.560><c> le</c><00:04:11.680><c> blanc,</c><00:04:11.920><c> je</c><00:04:12.079><c> zoom</c><00:04:12.720><c> et</c><00:04:12.920><c> la</c><00:04:13.680><c> VAC</c>
+
+00:04:14.670 --> 00:04:14.680 align:start position:0%
+exemple sur le blanc, je zoom et la VAC
+ 
+
+00:04:14.680 --> 00:04:18.349 align:start position:0%
+exemple sur le blanc, je zoom et la VAC
+tour<00:04:14.879><c> de</c><00:04:15.280><c> piste</c><00:04:16.280><c> de</c><00:04:16.560><c> le</c><00:04:16.799><c> du</c><00:04:17.000><c> bland</c><00:04:17.359><c> va</c>
+
+00:04:18.349 --> 00:04:18.359 align:start position:0%
+tour de piste de le du bland va
+ 
+
+00:04:18.359 --> 00:04:21.629 align:start position:0%
+tour de piste de le du bland va
+s'afficher.<00:04:19.359><c> Donc</c><00:04:19.479><c> voilà</c><00:04:19.799><c> pour</c><00:04:20.000><c> le</c><00:04:20.359><c> mode</c><00:04:20.799><c> VAC</c>
+
+00:04:21.629 --> 00:04:21.639 align:start position:0%
+s'afficher. Donc voilà pour le mode VAC
+ 
+
+00:04:21.639 --> 00:04:24.870 align:start position:0%
+s'afficher. Donc voilà pour le mode VAC
+auto.<00:04:22.639><c> Euh</c><00:04:23.639><c> on</c><00:04:23.840><c> va</c><00:04:23.919><c> faire</c><00:04:24.080><c> un</c><00:04:24.199><c> dernier</c><00:04:24.520><c> exemple</c>
+
+00:04:24.870 --> 00:04:24.880 align:start position:0%
+auto. Euh on va faire un dernier exemple
+ 
+
+00:04:24.880 --> 00:04:26.830 align:start position:0%
+auto. Euh on va faire un dernier exemple
+peut-être<00:04:25.520><c> euh</c><00:04:26.240><c> on</c><00:04:26.320><c> va</c><00:04:26.400><c> aller</c><00:04:26.520><c> en</c><00:04:26.600><c> région</c>
+
+00:04:26.830 --> 00:04:26.840 align:start position:0%
+peut-être euh on va aller en région
+ 
+
+00:04:26.840 --> 00:04:29.350 align:start position:0%
+peut-être euh on va aller en région
+parisienne.<00:04:27.280><c> Tiens,</c><00:04:27.720><c> par</c><00:04:27.880><c> exemple</c><00:04:28.199><c> à</c><00:04:28.320><c> tous</c>
+
+00:04:29.350 --> 00:04:29.360 align:start position:0%
+parisienne. Tiens, par exemple à tous
+ 
+
+00:04:29.360 --> 00:04:31.550 align:start position:0%
+parisienne. Tiens, par exemple à tous
+euh<00:04:30.360><c> parce</c><00:04:30.520><c> que</c><00:04:30.639><c> je</c><00:04:30.800><c> crois</c><00:04:31.000><c> qu'il</c><00:04:31.240><c> il</c><00:04:31.320><c> y</c><00:04:31.360><c> en</c><00:04:31.440><c> a</c>
+
+00:04:31.550 --> 00:04:31.560 align:start position:0%
+euh parce que je crois qu'il il y en a
+ 
+
+00:04:31.560 --> 00:04:34.350 align:start position:0%
+euh parce que je crois qu'il il y en a
+une.<00:04:31.840><c> Voilà,</c><00:04:32.039><c> GMC.</c>
+
+00:04:34.350 --> 00:04:34.360 align:start position:0%
+une. Voilà, GMC.
+ 
+
+00:04:34.360 --> 00:04:37.189 align:start position:0%
+une. Voilà, GMC.
+Donc<00:04:34.919><c> c'est</c><00:04:35.479><c> un</c><00:04:35.720><c> c'est</c><00:04:35.960><c> les</c><00:04:36.199><c> mouvements</c>
+
+00:04:37.189 --> 00:04:37.199 align:start position:0%
+Donc c'est un c'est les mouvements
+ 
+
+00:04:37.199 --> 00:04:39.830 align:start position:0%
+Donc c'est un c'est les mouvements
+ground<00:04:37.479><c> movement</c><00:04:37.919><c> movement</c><00:04:38.680><c> de</c><00:04:38.919><c> de</c><00:04:39.080><c> mémoire</c>
+
+00:04:39.830 --> 00:04:39.840 align:start position:0%
+ground movement movement de de mémoire
+ 
+
+00:04:39.840 --> 00:04:41.990 align:start position:0%
+ground movement movement de de mémoire
+où<00:04:40.000><c> on</c><00:04:40.120><c> va</c><00:04:40.280><c> avoir</c><00:04:40.520><c> des</c><00:04:40.680><c> cartes</c><00:04:40.880><c> de</c><00:04:41.000><c> ce</c><00:04:41.120><c> type</c><00:04:41.400><c> là</c>
+
+00:04:41.990 --> 00:04:42.000 align:start position:0%
+où on va avoir des cartes de ce type là
+ 
+
+00:04:42.000 --> 00:04:45.110 align:start position:0%
+où on va avoir des cartes de ce type là
+où<00:04:42.160><c> on</c><00:04:42.280><c> voit</c><00:04:42.400><c> les</c><00:04:42.800><c> taxiway.</c><00:04:43.800><c> Euh</c><00:04:44.320><c> voilà</c><00:04:44.600><c> donc</c><00:04:45.039><c> a</c>
+
+00:04:45.110 --> 00:04:45.120 align:start position:0%
+où on voit les taxiway. Euh voilà donc a
+ 
+
+00:04:45.120 --> 00:04:47.629 align:start position:0%
+où on voit les taxiway. Euh voilà donc a
+aussi<00:04:45.400><c> ce</c><00:04:45.600><c> genre</c><00:04:45.840><c> de</c><00:04:46.080><c> carte</c><00:04:46.639><c> géoréférencé</c>
+
+00:04:47.629 --> 00:04:47.639 align:start position:0%
+aussi ce genre de carte géoréférencé
+ 
+
+00:04:47.639 --> 00:04:49.909 align:start position:0%
+aussi ce genre de carte géoréférencé
+qu'on<00:04:47.919><c> va</c><00:04:48.080><c> compiler</c><00:04:48.560><c> et</c><00:04:48.720><c> qu'on</c><00:04:48.919><c> va</c><00:04:49.120><c> ajouter</c><00:04:49.479><c> à</c>
+
+00:04:49.909 --> 00:04:49.919 align:start position:0%
+qu'on va compiler et qu'on va ajouter à
+ 
+
+00:04:49.919 --> 00:04:52.150 align:start position:0%
+qu'on va compiler et qu'on va ajouter à
+l'application<00:04:50.919><c> lorsque</c><00:04:51.360><c> vous</c><00:04:52.000><c> les</c>
+
+00:04:52.150 --> 00:04:52.160 align:start position:0%
+l'application lorsque vous les
+ 
+
+00:04:52.160 --> 00:04:54.029 align:start position:0%
+l'application lorsque vous les
+téléchargez.<00:04:52.680><c> Vous</c><00:04:52.720><c> avez</c><00:04:52.880><c> aussi</c><00:04:53.039><c> ce</c><00:04:53.199><c> genre</c><00:04:53.360><c> de</c>
+
+00:04:54.029 --> 00:04:54.039 align:start position:0%
+téléchargez. Vous avez aussi ce genre de
+ 
+
+00:04:54.039 --> 00:04:56.110 align:start position:0%
+téléchargez. Vous avez aussi ce genre de
+carte.<00:04:55.039><c> Voilà</c><00:04:55.240><c> qui</c><00:04:55.400><c> conclut</c><00:04:55.680><c> la</c><00:04:55.800><c> vidéo</c><00:04:56.000><c> sur</c>
+
+00:04:56.110 --> 00:04:56.120 align:start position:0%
+carte. Voilà qui conclut la vidéo sur
+ 
+
+00:04:56.120 --> 00:04:58.350 align:start position:0%
+carte. Voilà qui conclut la vidéo sur
+les<00:04:56.240><c> vagues</c><00:04:56.479><c> géoréférencé.</c><00:04:57.440><c> Je</c><00:04:58.080><c> vous</c>
+
+00:04:58.350 --> 00:04:58.360 align:start position:0%
+les vagues géoréférencé. Je vous
+ 
+
+00:04:58.360 --> 00:05:00.710 align:start position:0%
+les vagues géoréférencé. Je vous
+rappelle<00:04:59.240><c> une</c><00:04:59.479><c> dernière</c><00:04:59.800><c> fois</c><00:05:00.039><c> que</c><00:05:00.360><c> si</c><00:05:00.560><c> vous</c>
+
+00:05:00.710 --> 00:05:00.720 align:start position:0%
+rappelle une dernière fois que si vous
+ 
+
+00:05:00.720 --> 00:05:02.230 align:start position:0%
+rappelle une dernière fois que si vous
+voulez<00:05:00.960><c> les</c><00:05:01.160><c> utiliser,</c><00:05:01.720><c> n'oubliez</c><00:05:02.160><c> pas</c>
+
+00:05:02.230 --> 00:05:02.240 align:start position:0%
+voulez les utiliser, n'oubliez pas
+ 
+
+00:05:02.240 --> 00:05:04.070 align:start position:0%
+voulez les utiliser, n'oubliez pas
+d'aller<00:05:02.520><c> les</c><00:05:02.680><c> synchroniser</c>
+
+00:05:04.070 --> 00:05:04.080 align:start position:0%
+d'aller les synchroniser
+ 
+
+00:05:04.080 --> 00:05:07.270 align:start position:0%
+d'aller les synchroniser
+avant<00:05:05.080><c> pour</c><00:05:05.360><c> pouvoir</c><00:05:05.680><c> les</c><00:05:05.919><c> embarquer</c><00:05:06.240><c> hors</c>
+
+00:05:07.270 --> 00:05:07.280 align:start position:0%
+avant pour pouvoir les embarquer hors
+ 
+
+00:05:07.280 --> 00:05:09.909 align:start position:0%
+avant pour pouvoir les embarquer hors
+ligne<00:05:08.280><c> et</c><00:05:08.479><c> les</c><00:05:08.639><c> visualiser</c><00:05:09.280><c> sans</c><00:05:09.520><c> connexion</c>
+
+00:05:09.909 --> 00:05:09.919 align:start position:0%
+ligne et les visualiser sans connexion
+ 
+
+00:05:09.919 --> 00:05:11.749 align:start position:0%
+ligne et les visualiser sans connexion
+internet<00:05:10.199><c> évidemment.</c>
+
+00:05:11.749 --> 00:05:11.759 align:start position:0%
+internet évidemment.
+ 
+
+00:05:11.759 --> 00:05:13.830 align:start position:0%
+internet évidemment.
+Bon<00:05:11.919><c> voilà</c><00:05:12.080><c> à</c><00:05:12.160><c> toutes</c><00:05:12.320><c> et</c><00:05:12.400><c> à</c><00:05:12.520><c> tous</c><00:05:13.360><c> et</c><00:05:13.560><c> à</c><00:05:13.680><c> très</c>
+
+00:05:13.830 --> 00:05:13.840 align:start position:0%
+Bon voilà à toutes et à tous et à très
+ 
+
+00:05:13.840 --> 00:05:17.000 align:start position:0%
+Bon voilà à toutes et à tous et à très
+bientôt<00:05:14.120><c> pour</c><00:05:14.479><c> un</c><00:05:14.639><c> nouveau</c><00:05:14.840><c> tuto.</c>
+

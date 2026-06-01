@@ -1,0 +1,776 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.399 --> 00:00:03.830 align:start position:0%
+ 
+bienvenue<00:00:00.960><c> dans</c><00:00:01.120><c> cette</c><00:00:01.439><c> vidéo</c><00:00:02.120><c> sur</c><00:00:03.120><c> comment</c>
+
+00:00:03.830 --> 00:00:03.840 align:start position:0%
+bienvenue dans cette vidéo sur comment
+ 
+
+00:00:03.840 --> 00:00:06.990 align:start position:0%
+bienvenue dans cette vidéo sur comment
+importer<00:00:04.640><c> des</c><00:00:05.000><c> navigations</c><00:00:06.000><c> à</c><00:00:06.160><c> partir</c><00:00:06.399><c> de</c>
+
+00:00:06.990 --> 00:00:07.000 align:start position:0%
+importer des navigations à partir de
+ 
+
+00:00:07.000 --> 00:00:09.390 align:start position:0%
+importer des navigations à partir de
+format
+
+00:00:09.390 --> 00:00:09.400 align:start position:0%
+format
+ 
+
+00:00:09.400 --> 00:00:12.509 align:start position:0%
+format
+extérieur<00:00:10.400><c> on</c><00:00:10.639><c> peut</c><00:00:11.000><c> importer</c><00:00:11.840><c> pas</c><00:00:12.000><c> mal</c><00:00:12.200><c> de</c>
+
+00:00:12.509 --> 00:00:12.519 align:start position:0%
+extérieur on peut importer pas mal de
+ 
+
+00:00:12.519 --> 00:00:15.310 align:start position:0%
+extérieur on peut importer pas mal de
+formats<00:00:12.960><c> différents</c><00:00:13.519><c> c'est-à-dire</c><00:00:14.160><c> du</c><00:00:14.559><c> GPX</c>
+
+00:00:15.310 --> 00:00:15.320 align:start position:0%
+formats différents c'est-à-dire du GPX
+ 
+
+00:00:15.320 --> 00:00:16.429 align:start position:0%
+formats différents c'est-à-dire du GPX
+du
+
+00:00:16.429 --> 00:00:16.439 align:start position:0%
+du
+ 
+
+00:00:16.439 --> 00:00:21.750 align:start position:0%
+du
+KML<00:00:17.439><c> aussi</c><00:00:17.680><c> du</c><00:00:17.840><c> FPL</c><00:00:18.439><c> garmine</c><00:00:19.199><c> voir</c><00:00:19.520><c> aussi</c><00:00:19.840><c> des</c>
+
+00:00:21.750 --> 00:00:21.760 align:start position:0%
+KML aussi du FPL garmine voir aussi des
+ 
+
+00:00:21.760 --> 00:00:24.670 align:start position:0%
+KML aussi du FPL garmine voir aussi des
+PLN<00:00:22.760><c> pour</c><00:00:23.119><c> de</c><00:00:24.000><c> provenant</c><00:00:24.279><c> de</c><00:00:24.359><c> Flight</c>
+
+00:00:24.670 --> 00:00:24.680 align:start position:0%
+PLN pour de provenant de Flight
+ 
+
+00:00:24.680 --> 00:00:26.429 align:start position:0%
+PLN pour de provenant de Flight
+Simulator<00:00:25.119><c> on</c><00:00:25.199><c> va</c><00:00:25.279><c> faire</c><00:00:25.480><c> deux</c><00:00:25.720><c> exemples</c><00:00:26.199><c> très</c>
+
+00:00:26.429 --> 00:00:26.439 align:start position:0%
+Simulator on va faire deux exemples très
+ 
+
+00:00:26.439 --> 00:00:30.509 align:start position:0%
+Simulator on va faire deux exemples très
+simples<00:00:26.760><c> aujourd'hui</c><00:00:27.760><c> le</c><00:00:28.039><c> GPX</c><00:00:28.720><c> et</c><00:00:29.000><c> le</c><00:00:29.279><c> KML</c>
+
+00:00:30.509 --> 00:00:30.519 align:start position:0%
+simples aujourd'hui le GPX et le KML
+ 
+
+00:00:30.519 --> 00:00:33.590 align:start position:0%
+simples aujourd'hui le GPX et le KML
+alors<00:00:30.880><c> euh</c><00:00:31.880><c> pour</c><00:00:31.960><c> le</c><00:00:32.200><c> GPX</c><00:00:32.759><c> on</c><00:00:32.840><c> va</c><00:00:32.920><c> se</c><00:00:33.040><c> servir</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+alors euh pour le GPX on va se servir
+ 
+
+00:00:33.600 --> 00:00:36.110 align:start position:0%
+alors euh pour le GPX on va se servir
+justement<00:00:34.239><c> par</c><00:00:34.399><c> exemple</c><00:00:34.800><c> de</c><00:00:35.600><c> on</c><00:00:35.640><c> va</c><00:00:35.760><c> enlever</c>
+
+00:00:36.110 --> 00:00:36.120 align:start position:0%
+justement par exemple de on va enlever
+ 
+
+00:00:36.120 --> 00:00:40.270 align:start position:0%
+justement par exemple de on va enlever
+ça<00:00:36.520><c> on</c><00:00:36.640><c> va</c><00:00:36.879><c> se</c><00:00:37.040><c> servir</c><00:00:37.320><c> de</c><00:00:37.440><c> la</c><00:00:38.320><c> de</c><00:00:38.960><c> sdvfr</c><00:00:39.719><c> V1</c><00:00:40.120><c> qui</c>
+
+00:00:40.270 --> 00:00:40.280 align:start position:0%
+ça on va se servir de la de sdvfr V1 qui
+ 
+
+00:00:40.280 --> 00:00:42.310 align:start position:0%
+ça on va se servir de la de sdvfr V1 qui
+pouvait<00:00:40.600><c> exporter</c><00:00:41.000><c> du</c><00:00:41.120><c> GPX</c><00:00:41.680><c> donc</c><00:00:41.800><c> là</c><00:00:41.920><c> j'avais</c>
+
+00:00:42.310 --> 00:00:42.320 align:start position:0%
+pouvait exporter du GPX donc là j'avais
+ 
+
+00:00:42.320 --> 00:00:44.750 align:start position:0%
+pouvait exporter du GPX donc là j'avais
+fait<00:00:42.480><c> une</c><00:00:42.640><c> navigation</c><00:00:43.320><c> entre</c><00:00:44.079><c> sur</c><00:00:44.360><c> plusieurs</c>
+
+00:00:44.750 --> 00:00:44.760 align:start position:0%
+fait une navigation entre sur plusieurs
+ 
+
+00:00:44.760 --> 00:00:46.990 align:start position:0%
+fait une navigation entre sur plusieurs
+terrains<00:00:45.120><c> très</c><00:00:45.320><c> très</c><00:00:45.520><c> rapides</c><00:00:46.120><c> euh</c><00:00:46.760><c> et</c><00:00:46.879><c> je</c>
+
+00:00:46.990 --> 00:00:47.000 align:start position:0%
+terrains très très rapides euh et je
+ 
+
+00:00:47.000 --> 00:00:48.709 align:start position:0%
+terrains très très rapides euh et je
+l'avais<00:00:47.360><c> exporté</c><00:00:47.719><c> en</c><00:00:47.800><c> GPX</c><00:00:48.280><c> donc</c><00:00:48.440><c> soit</c><00:00:48.640><c> vous</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+l'avais exporté en GPX donc soit vous
+ 
+
+00:00:48.719 --> 00:00:50.709 align:start position:0%
+l'avais exporté en GPX donc soit vous
+avez<00:00:49.000><c> un</c><00:00:49.280><c> GPX</c><00:00:49.719><c> qu'on</c><00:00:49.920><c> vous</c><00:00:50.039><c> a</c><00:00:50.120><c> proposé</c><00:00:50.440><c> qu'on</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+avez un GPX qu'on vous a proposé qu'on
+ 
+
+00:00:50.719 --> 00:00:52.270 align:start position:0%
+avez un GPX qu'on vous a proposé qu'on
+vous<00:00:50.840><c> a</c><00:00:50.960><c> envoyé</c><00:00:51.320><c> par</c><00:00:51.440><c> mail</c><00:00:51.719><c> et</c><00:00:51.879><c> cetera</c><00:00:52.160><c> et</c>
+
+00:00:52.270 --> 00:00:52.280 align:start position:0%
+vous a envoyé par mail et cetera et
+ 
+
+00:00:52.280 --> 00:00:54.029 align:start position:0%
+vous a envoyé par mail et cetera et
+cetera<00:00:52.559><c> donc</c><00:00:52.680><c> vous</c><00:00:52.760><c> faites</c><00:00:53.280><c> simplement</c>
+
+00:00:54.029 --> 00:00:54.039 align:start position:0%
+cetera donc vous faites simplement
+ 
+
+00:00:54.039 --> 00:00:56.670 align:start position:0%
+cetera donc vous faites simplement
+ouvrir<00:00:54.359><c> avec</c><00:00:54.879><c> euh</c><00:00:55.480><c> quand</c><00:00:55.879><c> vous</c><00:00:56.039><c> sélectionnez</c>
+
+00:00:56.670 --> 00:00:56.680 align:start position:0%
+ouvrir avec euh quand vous sélectionnez
+ 
+
+00:00:56.680 --> 00:00:58.430 align:start position:0%
+ouvrir avec euh quand vous sélectionnez
+via<00:00:56.920><c> votre</c><00:00:57.239><c> explorateur</c><00:00:57.800><c> de</c><00:00:57.920><c> fichier</c><00:00:58.320><c> ou</c>
+
+00:00:58.430 --> 00:00:58.440 align:start position:0%
+via votre explorateur de fichier ou
+ 
+
+00:00:58.440 --> 00:01:01.990 align:start position:0%
+via votre explorateur de fichier ou
+votre<00:00:59.320><c> votre</c><00:00:59.960><c> boî</c><00:01:00.239><c> mail</c><00:01:01.120><c> ici</c><00:01:01.440><c> je</c><00:01:01.559><c> vais</c><00:01:01.760><c> avoir</c>
+
+00:01:01.990 --> 00:01:02.000 align:start position:0%
+votre votre boî mail ici je vais avoir
+ 
+
+00:01:02.000 --> 00:01:03.830 align:start position:0%
+votre votre boî mail ici je vais avoir
+next<00:01:02.519><c> je</c><00:01:02.640><c> vais</c><00:01:02.800><c> mettre</c><00:01:03.000><c> une</c><00:01:03.120><c> seule</c><00:01:03.359><c> fois</c><00:01:03.600><c> parce</c>
+
+00:01:03.830 --> 00:01:03.840 align:start position:0%
+next je vais mettre une seule fois parce
+ 
+
+00:01:03.840 --> 00:01:05.550 align:start position:0%
+next je vais mettre une seule fois parce
+que<00:01:03.920><c> je</c><00:01:04.000><c> veux</c><00:01:04.199><c> garder</c><00:01:04.519><c> cette</c><00:01:04.760><c> possibilité</c><00:01:05.439><c> de</c>
+
+00:01:05.550 --> 00:01:05.560 align:start position:0%
+que je veux garder cette possibilité de
+ 
+
+00:01:05.560 --> 00:01:07.710 align:start position:0%
+que je veux garder cette possibilité de
+pouvoir<00:01:05.880><c> choisir</c><00:01:06.640><c> et</c><00:01:06.840><c> de</c><00:01:07.000><c> pas</c><00:01:07.159><c> toujours</c>
+
+00:01:07.710 --> 00:01:07.720 align:start position:0%
+pouvoir choisir et de pas toujours
+ 
+
+00:01:07.720 --> 00:01:11.590 align:start position:0%
+pouvoir choisir et de pas toujours
+ouvrir<00:01:08.040><c> les</c><00:01:08.400><c> GPX</c><00:01:09.040><c> avec</c><00:01:09.320><c> sdvfr</c><00:01:10.320><c> next</c><00:01:11.320><c> ça</c>
+
+00:01:11.590 --> 00:01:11.600 align:start position:0%
+ouvrir les GPX avec sdvfr next ça
+ 
+
+00:01:11.600 --> 00:01:13.070 align:start position:0%
+ouvrir les GPX avec sdvfr next ça
+s'ouvre<00:01:12.080><c> on</c><00:01:12.200><c> dit</c><00:01:12.439><c> est-ce</c><00:01:12.680><c> que</c><00:01:12.720><c> vous</c><00:01:12.799><c> voulez</c>
+
+00:01:13.070 --> 00:01:13.080 align:start position:0%
+s'ouvre on dit est-ce que vous voulez
+ 
+
+00:01:13.080 --> 00:01:14.590 align:start position:0%
+s'ouvre on dit est-ce que vous voulez
+importer<00:01:13.400><c> cette</c><00:01:13.560><c> navigation</c><00:01:14.000><c> donc</c><00:01:14.080><c> on</c><00:01:14.240><c> a</c><00:01:14.400><c> déjà</c>
+
+00:01:14.590 --> 00:01:14.600 align:start position:0%
+importer cette navigation donc on a déjà
+ 
+
+00:01:14.600 --> 00:01:16.429 align:start position:0%
+importer cette navigation donc on a déjà
+plus<00:01:14.840><c> ou</c><00:01:14.920><c> moins</c><00:01:15.159><c> compris</c><00:01:15.360><c> que</c><00:01:15.720><c> sen</c><00:01:16.000><c> était</c><00:01:16.240><c> une</c>
+
+00:01:16.429 --> 00:01:16.439 align:start position:0%
+plus ou moins compris que sen était une
+ 
+
+00:01:16.439 --> 00:01:18.950 align:start position:0%
+plus ou moins compris que sen était une
+on<00:01:16.560><c> fait</c><00:01:16.759><c> oui</c><00:01:17.479><c> et</c><00:01:18.000><c> la</c><00:01:18.159><c> navigation</c><00:01:18.560><c> a</c><00:01:18.759><c> été</c>
+
+00:01:18.950 --> 00:01:18.960 align:start position:0%
+on fait oui et la navigation a été
+ 
+
+00:01:18.960 --> 00:01:21.030 align:start position:0%
+on fait oui et la navigation a été
+convertie<00:01:19.439><c> et</c><00:01:19.840><c> importée</c><00:01:20.479><c> alors</c><00:01:20.759><c> qu'est-ce</c>
+
+00:01:21.030 --> 00:01:21.040 align:start position:0%
+convertie et importée alors qu'est-ce
+ 
+
+00:01:21.040 --> 00:01:25.670 align:start position:0%
+convertie et importée alors qu'est-ce
+que<00:01:21.119><c> ça</c><00:01:21.240><c> fait</c><00:01:21.439><c> euh</c><00:01:22.360><c> dans</c><00:01:23.560><c> svfr</c><00:01:24.560><c> next</c><00:01:25.119><c> dans</c><00:01:25.520><c> la</c>
+
+00:01:25.670 --> 00:01:25.680 align:start position:0%
+que ça fait euh dans svfr next dans la
+ 
+
+00:01:25.680 --> 00:01:28.870 align:start position:0%
+que ça fait euh dans svfr next dans la
+partie<00:01:26.200><c> navigation</c><00:01:27.200><c> et</c><00:01:27.799><c> l'onglet</c><00:01:28.439><c> donc</c><00:01:28.640><c> c'est</c>
+
+00:01:28.870 --> 00:01:28.880 align:start position:0%
+partie navigation et l'onglet donc c'est
+ 
+
+00:01:28.880 --> 00:01:31.789 align:start position:0%
+partie navigation et l'onglet donc c'est
+bien<00:01:29.040><c> celui-là</c><00:01:29.479><c> qui</c><00:01:29.640><c> est</c><00:01:30.280><c> charger</c><00:01:30.680><c> et</c><00:01:30.799><c> sauvé</c>
+
+00:01:31.789 --> 00:01:31.799 align:start position:0%
+bien celui-là qui est charger et sauvé
+ 
+
+00:01:31.799 --> 00:01:33.990 align:start position:0%
+bien celui-là qui est charger et sauvé
+je<00:01:31.960><c> vais</c><00:01:32.159><c> avoir</c><00:01:32.399><c> donc</c><00:01:33.159><c> bah</c><00:01:33.439><c> c'était</c><00:01:33.880><c> les</c>
+
+00:01:33.990 --> 00:01:34.000 align:start position:0%
+je vais avoir donc bah c'était les
+ 
+
+00:01:34.000 --> 00:01:35.789 align:start position:0%
+je vais avoir donc bah c'était les
+bravoos<00:01:34.360><c> hôtel</c><00:01:34.680><c> donc</c><00:01:34.759><c> la</c><00:01:34.960><c> Rochelle</c><00:01:35.479><c> et</c>
+
+00:01:35.789 --> 00:01:35.799 align:start position:0%
+bravoos hôtel donc la Rochelle et
+ 
+
+00:01:35.799 --> 00:01:37.749 align:start position:0%
+bravoos hôtel donc la Rochelle et
+Saint-Pierre<00:01:36.320><c> de</c><00:01:36.439><c> léron</c><00:01:36.799><c> je</c><00:01:36.960><c> fais</c>
+
+00:01:37.749 --> 00:01:37.759 align:start position:0%
+Saint-Pierre de léron je fais
+ 
+
+00:01:37.759 --> 00:01:40.350 align:start position:0%
+Saint-Pierre de léron je fais
+charger<00:01:38.759><c> je</c><00:01:38.920><c> vais</c><00:01:39.119><c> avoir</c><00:01:39.560><c> les</c><00:01:39.799><c> points</c><00:01:40.200><c> qui</c>
+
+00:01:40.350 --> 00:01:40.360 align:start position:0%
+charger je vais avoir les points qui
+ 
+
+00:01:40.360 --> 00:01:43.389 align:start position:0%
+charger je vais avoir les points qui
+sont<00:01:40.600><c> ici</c><00:01:41.399><c> et</c><00:01:42.119><c> quand</c><00:01:42.360><c> je</c><00:01:42.479><c> reviens</c><00:01:42.920><c> alors</c><00:01:43.119><c> ça</c>
+
+00:01:43.389 --> 00:01:43.399 align:start position:0%
+sont ici et quand je reviens alors ça
+ 
+
+00:01:43.399 --> 00:01:45.270 align:start position:0%
+sont ici et quand je reviens alors ça
+doit<00:01:43.720><c> être</c><00:01:43.880><c> une</c><00:01:43.960><c> navigation</c><00:01:44.360><c> voilà</c><00:01:44.920><c> cé</c>
+
+00:01:45.270 --> 00:01:45.280 align:start position:0%
+doit être une navigation voilà cé
+ 
+
+00:01:45.280 --> 00:01:47.149 align:start position:0%
+doit être une navigation voilà cé
+c'était<00:01:45.560><c> quelques</c><00:01:45.799><c> petits</c><00:01:46.000><c> point</c><00:01:46.399><c> rapidement</c>
+
+00:01:47.149 --> 00:01:47.159 align:start position:0%
+c'était quelques petits point rapidement
+ 
+
+00:01:47.159 --> 00:01:49.510 align:start position:0%
+c'était quelques petits point rapidement
+que<00:01:47.360><c> j'avais</c><00:01:47.719><c> fait</c><00:01:47.880><c> avec</c><00:01:48.200><c> sdvfrv1</c><00:01:49.200><c> donc</c><00:01:49.280><c> voilà</c>
+
+00:01:49.510 --> 00:01:49.520 align:start position:0%
+que j'avais fait avec sdvfrv1 donc voilà
+ 
+
+00:01:49.520 --> 00:01:51.630 align:start position:0%
+que j'avais fait avec sdvfrv1 donc voilà
+pour<00:01:49.680><c> importer</c><00:01:50.079><c> un</c>
+
+00:01:51.630 --> 00:01:51.640 align:start position:0%
+pour importer un
+ 
+
+00:01:51.640 --> 00:01:54.630 align:start position:0%
+pour importer un
+GPX<00:01:52.640><c> bon</c><00:01:52.960><c> là</c><00:01:53.079><c> dans</c><00:01:53.439><c> en</c><00:01:53.520><c> l'occurrence</c><00:01:54.040><c> le</c><00:01:54.159><c> GPX</c>
+
+00:01:54.630 --> 00:01:54.640 align:start position:0%
+GPX bon là dans en l'occurrence le GPX
+ 
+
+00:01:54.640 --> 00:01:57.230 align:start position:0%
+GPX bon là dans en l'occurrence le GPX
+provenait<00:01:55.040><c> de</c><00:01:55.680><c> testdvfr</c><00:01:56.680><c> V1</c><00:01:57.079><c> mais</c><00:01:57.159><c> il</c>
+
+00:01:57.230 --> 00:01:57.240 align:start position:0%
+provenait de testdvfr V1 mais il
+ 
+
+00:01:57.240 --> 00:01:59.510 align:start position:0%
+provenait de testdvfr V1 mais il
+pourrait<00:01:57.520><c> provenir</c><00:01:57.799><c> d'ailleurs</c><00:01:58.719><c> jeasser</c><00:01:59.439><c> en</c>
+
+00:01:59.510 --> 00:01:59.520 align:start position:0%
+pourrait provenir d'ailleurs jeasser en
+ 
+
+00:01:59.520 --> 00:02:01.789 align:start position:0%
+pourrait provenir d'ailleurs jeasser en
+mode<00:01:59.880><c> oriel</c><00:02:00.200><c> quand</c><00:02:00.320><c> même</c><00:02:00.479><c> la</c><00:02:00.600><c> si</c><00:02:00.840><c> à</c><00:02:00.960><c> million</c><00:02:01.560><c> ça</c>
+
+00:02:01.789 --> 00:02:01.799 align:start position:0%
+mode oriel quand même la si à million ça
+ 
+
+00:02:01.799 --> 00:02:03.029 align:start position:0%
+mode oriel quand même la si à million ça
+va<00:02:02.079><c> un</c><00:02:02.159><c> moment</c>
+
+00:02:03.029 --> 00:02:03.039 align:start position:0%
+va un moment
+ 
+
+00:02:03.039 --> 00:02:05.469 align:start position:0%
+va un moment
+euh<00:02:04.039><c> donc</c><00:02:04.159><c> maintenant</c><00:02:04.520><c> bah</c><00:02:04.799><c> un</c><00:02:04.880><c> autre</c><00:02:05.119><c> exemple</c>
+
+00:02:05.469 --> 00:02:05.479 align:start position:0%
+euh donc maintenant bah un autre exemple
+ 
+
+00:02:05.479 --> 00:02:08.430 align:start position:0%
+euh donc maintenant bah un autre exemple
+très<00:02:05.719><c> rapide</c><00:02:06.200><c> avec</c><00:02:07.200><c> là</c><00:02:07.520><c> depuis</c><00:02:08.080><c> mon</c>
+
+00:02:08.430 --> 00:02:08.440 align:start position:0%
+très rapide avec là depuis mon
+ 
+
+00:02:08.440 --> 00:02:10.990 align:start position:0%
+très rapide avec là depuis mon
+répertoire<00:02:09.119><c> de</c><00:02:09.399><c> téléchargement</c><00:02:10.399><c> j'avais</c><00:02:10.840><c> un</c>
+
+00:02:10.990 --> 00:02:11.000 align:start position:0%
+répertoire de téléchargement j'avais un
+ 
+
+00:02:11.000 --> 00:02:14.350 align:start position:0%
+répertoire de téléchargement j'avais un
+fichier<00:02:11.360><c> KML</c><00:02:12.400><c> euh</c><00:02:13.400><c> alors</c><00:02:13.840><c> je</c><00:02:13.959><c> vais</c><00:02:14.160><c> ouvrir</c>
+
+00:02:14.350 --> 00:02:14.360 align:start position:0%
+fichier KML euh alors je vais ouvrir
+ 
+
+00:02:14.360 --> 00:02:15.990 align:start position:0%
+fichier KML euh alors je vais ouvrir
+avec<00:02:14.599><c> Google</c><00:02:14.879><c> Earths</c><00:02:15.319><c> juste</c><00:02:15.519><c> une</c><00:02:15.640><c> fois</c><00:02:15.879><c> pour</c>
+
+00:02:15.990 --> 00:02:16.000 align:start position:0%
+avec Google Earths juste une fois pour
+ 
+
+00:02:16.000 --> 00:02:19.509 align:start position:0%
+avec Google Earths juste une fois pour
+vous<00:02:16.360><c> montrer</c><00:02:17.360><c> c'était</c><00:02:18.000><c> une</c><00:02:18.959><c> alors</c><00:02:19.200><c> soit</c><00:02:19.400><c> ça</c>
+
+00:02:19.509 --> 00:02:19.519 align:start position:0%
+vous montrer c'était une alors soit ça
+ 
+
+00:02:19.519 --> 00:02:20.990 align:start position:0%
+vous montrer c'était une alors soit ça
+peut<00:02:19.720><c> être</c><00:02:19.879><c> une</c><00:02:19.959><c> success</c><00:02:20.599><c> ça</c><00:02:20.680><c> peut</c><00:02:20.840><c> être</c>
+
+00:02:20.990 --> 00:02:21.000 align:start position:0%
+peut être une success ça peut être
+ 
+
+00:02:21.000 --> 00:02:22.830 align:start position:0%
+peut être une success ça peut être
+plusieurs<00:02:21.280><c> points</c><00:02:21.519><c> dans</c><00:02:21.560><c> le</c><00:02:21.680><c> KML</c><00:02:22.519><c> soit</c><00:02:22.760><c> ça</c>
+
+00:02:22.830 --> 00:02:22.840 align:start position:0%
+plusieurs points dans le KML soit ça
+ 
+
+00:02:22.840 --> 00:02:24.830 align:start position:0%
+plusieurs points dans le KML soit ça
+peut<00:02:23.040><c> être</c><00:02:23.239><c> une</c><00:02:23.360><c> ligne</c><00:02:24.080><c> donc</c><00:02:24.200><c> là</c><00:02:24.319><c> il</c><00:02:24.400><c> y</c><00:02:24.519><c> avait</c>
+
+00:02:24.830 --> 00:02:24.840 align:start position:0%
+peut être une ligne donc là il y avait
+ 
+
+00:02:24.840 --> 00:02:26.949 align:start position:0%
+peut être une ligne donc là il y avait
+simplement<00:02:25.160><c> c'est</c><00:02:25.519><c> un</c><00:02:25.680><c> KML</c><00:02:26.200><c> avec</c><00:02:26.440><c> une</c><00:02:26.599><c> ligne</c>
+
+00:02:26.949 --> 00:02:26.959 align:start position:0%
+simplement c'est un KML avec une ligne
+ 
+
+00:02:26.959 --> 00:02:29.990 align:start position:0%
+simplement c'est un KML avec une ligne
+qui<00:02:27.040><c> partait</c><00:02:27.400><c> de</c><00:02:27.519><c> l'moche</c><00:02:28.000><c> B</c><00:02:28.640><c> bessine</c><00:02:29.440><c> sous</c><00:02:29.920><c> La</c>
+
+00:02:29.990 --> 00:02:30.000 align:start position:0%
+qui partait de l'moche B bessine sous La
+ 
+
+00:02:30.000 --> 00:02:32.229 align:start position:0%
+qui partait de l'moche B bessine sous La
+Souterraine<00:02:30.519><c> et</c><00:02:30.599><c> cetera</c><00:02:30.879><c> jusqu'à</c><00:02:31.239><c> Argenton</c>
+
+00:02:32.229 --> 00:02:32.239 align:start position:0%
+Souterraine et cetera jusqu'à Argenton
+ 
+
+00:02:32.239 --> 00:02:34.309 align:start position:0%
+Souterraine et cetera jusqu'à Argenton
+un<00:02:32.319><c> truc</c><00:02:32.480><c> très</c><00:02:32.680><c> très</c><00:02:32.879><c> simple</c><00:02:33.599><c> donc</c><00:02:33.879><c> là</c><00:02:34.120><c> je</c>
+
+00:02:34.309 --> 00:02:34.319 align:start position:0%
+un truc très très simple donc là je
+ 
+
+00:02:34.319 --> 00:02:37.150 align:start position:0%
+un truc très très simple donc là je
+quitte<00:02:35.000><c> euh</c><00:02:35.800><c> Google</c><00:02:36.200><c> Earths</c><00:02:36.640><c> je</c><00:02:36.760><c> n'en</c><00:02:37.000><c> veux</c>
+
+00:02:37.150 --> 00:02:37.160 align:start position:0%
+quitte euh Google Earths je n'en veux
+ 
+
+00:02:37.160 --> 00:02:39.309 align:start position:0%
+quitte euh Google Earths je n'en veux
+pas<00:02:37.480><c> je</c><00:02:37.879><c> viens</c><00:02:38.080><c> dans</c><00:02:38.360><c> mes</c><00:02:38.560><c> téléchargements</c><00:02:39.239><c> je</c>
+
+00:02:39.309 --> 00:02:39.319 align:start position:0%
+pas je viens dans mes téléchargements je
+ 
+
+00:02:39.319 --> 00:02:40.990 align:start position:0%
+pas je viens dans mes téléchargements je
+fais<00:02:39.480><c> mon</c><00:02:39.599><c> clic</c><00:02:39.800><c> sur</c><00:02:40.000><c> KML</c><00:02:40.599><c> et</c><00:02:40.680><c> là</c><00:02:40.800><c> je</c><00:02:40.879><c> fais</c>
+
+00:02:40.990 --> 00:02:41.000 align:start position:0%
+fais mon clic sur KML et là je fais
+ 
+
+00:02:41.000 --> 00:02:44.509 align:start position:0%
+fais mon clic sur KML et là je fais
+sdvfr<00:02:41.840><c> next</c><00:02:42.239><c> une</c><00:02:42.440><c> seule</c><00:02:43.000><c> fois</c><00:02:44.000><c> même</c><00:02:44.239><c> chose</c><00:02:44.440><c> que</c>
+
+00:02:44.509 --> 00:02:44.519 align:start position:0%
+sdvfr next une seule fois même chose que
+ 
+
+00:02:44.519 --> 00:02:46.309 align:start position:0%
+sdvfr next une seule fois même chose que
+pour<00:02:44.640><c> le</c><00:02:44.720><c> GPX</c><00:02:45.239><c> on</c><00:02:45.319><c> vous</c><00:02:45.440><c> propose</c><00:02:45.879><c> importer</c><00:02:46.239><c> la</c>
+
+00:02:46.309 --> 00:02:46.319 align:start position:0%
+pour le GPX on vous propose importer la
+ 
+
+00:02:46.319 --> 00:02:49.710 align:start position:0%
+pour le GPX on vous propose importer la
+navigation<00:02:46.720><c> je</c><00:02:46.879><c> fais</c><00:02:47.120><c> oui</c><00:02:48.000><c> la</c><00:02:48.480><c> navigation</c><00:02:49.480><c> a</c>
+
+00:02:49.710 --> 00:02:49.720 align:start position:0%
+navigation je fais oui la navigation a
+ 
+
+00:02:49.720 --> 00:02:52.350 align:start position:0%
+navigation je fais oui la navigation a
+été<00:02:50.200><c> importée</c><00:02:50.760><c> je</c><00:02:50.920><c> retourne</c><00:02:51.319><c> dans</c><00:02:51.519><c> next</c><00:02:52.040><c> et</c><00:02:52.239><c> je</c>
+
+00:02:52.350 --> 00:02:52.360 align:start position:0%
+été importée je retourne dans next et je
+ 
+
+00:02:52.360 --> 00:02:55.509 align:start position:0%
+été importée je retourne dans next et je
+vais<00:02:52.560><c> aller</c><00:02:53.120><c> voir</c><00:02:54.040><c> dans</c><00:02:54.640><c> charger</c><00:02:55.000><c> sauver</c><00:02:55.319><c> j'ai</c>
+
+00:02:55.509 --> 00:02:55.519 align:start position:0%
+vais aller voir dans charger sauver j'ai
+ 
+
+00:02:55.519 --> 00:02:57.110 align:start position:0%
+vais aller voir dans charger sauver j'ai
+bien<00:02:55.640><c> l'imoge</c>
+
+00:02:57.110 --> 00:02:57.120 align:start position:0%
+bien l'imoge
+ 
+
+00:02:57.120 --> 00:03:00.110 align:start position:0%
+bien l'imoge
+argenton.kml<00:02:58.120><c> c'est</c><00:02:58.720><c> le</c><00:02:58.920><c> fichier</c><00:02:59.959><c> que</c><00:03:00.040><c> je</c>
+
+00:03:00.110 --> 00:03:00.120 align:start position:0%
+argenton.kml c'est le fichier que je
+ 
+
+00:03:00.120 --> 00:03:03.670 align:start position:0%
+argenton.kml c'est le fichier que je
+viens<00:03:00.239><c> d'importer</c><00:03:00.800><c> je</c><00:03:00.959><c> fais</c><00:03:01.560><c> charger</c><00:03:02.560><c> et</c><00:03:03.000><c> là</c>
+
+00:03:03.670 --> 00:03:03.680 align:start position:0%
+viens d'importer je fais charger et là
+ 
+
+00:03:03.680 --> 00:03:05.390 align:start position:0%
+viens d'importer je fais charger et là
+je<00:03:03.799><c> vais</c><00:03:03.959><c> avoir</c><00:03:04.239><c> donc</c><00:03:04.440><c> des</c><00:03:04.680><c> points</c><00:03:05.040><c> alors</c><00:03:05.200><c> ils</c>
+
+00:03:05.390 --> 00:03:05.400 align:start position:0%
+je vais avoir donc des points alors ils
+ 
+
+00:03:05.400 --> 00:03:06.509 align:start position:0%
+je vais avoir donc des points alors ils
+sont<00:03:05.519><c> pas</c><00:03:05.640><c> il</c><00:03:05.720><c> y</c><00:03:05.799><c> a</c><00:03:05.920><c> pas</c><00:03:05.959><c> d'information</c><00:03:06.400><c> de</c>
+
+00:03:06.509 --> 00:03:06.519 align:start position:0%
+sont pas il y a pas d'information de
+ 
+
+00:03:06.519 --> 00:03:08.149 align:start position:0%
+sont pas il y a pas d'information de
+points<00:03:06.760><c> dans</c><00:03:06.840><c> le</c><00:03:06.920><c> KML</c><00:03:07.319><c> donc</c><00:03:07.400><c> on</c><00:03:07.519><c> les</c><00:03:07.680><c> numérot</c>
+
+00:03:08.149 --> 00:03:08.159 align:start position:0%
+points dans le KML donc on les numérot
+ 
+
+00:03:08.159 --> 00:03:10.750 align:start position:0%
+points dans le KML donc on les numérot
+automatiquement<00:03:08.760><c> mais</c><00:03:09.760><c> normalement</c><00:03:10.360><c> je</c><00:03:10.519><c> dois</c>
+
+00:03:10.750 --> 00:03:10.760 align:start position:0%
+automatiquement mais normalement je dois
+ 
+
+00:03:10.760 --> 00:03:14.470 align:start position:0%
+automatiquement mais normalement je dois
+avoir<00:03:11.040><c> voilà</c><00:03:11.640><c> le</c><00:03:12.480><c> schéma</c><00:03:12.879><c> enfin</c><00:03:13.280><c> le</c><00:03:13.480><c> le</c><00:03:13.640><c> la</c><00:03:14.239><c> les</c>
+
+00:03:14.470 --> 00:03:14.480 align:start position:0%
+avoir voilà le schéma enfin le le la les
+ 
+
+00:03:14.480 --> 00:03:16.670 align:start position:0%
+avoir voilà le schéma enfin le le la les
+points<00:03:15.120><c> de</c><00:03:15.400><c> cette</c><00:03:15.840><c> ligne</c><00:03:16.120><c> qu'il</c><00:03:16.360><c> y</c><00:03:16.440><c> avait</c>
+
+00:03:16.670 --> 00:03:16.680 align:start position:0%
+points de cette ligne qu'il y avait
+ 
+
+00:03:16.680 --> 00:03:20.030 align:start position:0%
+points de cette ligne qu'il y avait
+entre<00:03:16.840><c> l'imoge</c><00:03:17.840><c> bac</c><00:03:18.519><c> et</c><00:03:18.680><c> cetera</c><00:03:19.239><c> que</c><00:03:19.599><c> on</c>
+
+00:03:20.030 --> 00:03:20.040 align:start position:0%
+entre l'imoge bac et cetera que on
+ 
+
+00:03:20.040 --> 00:03:22.990 align:start position:0%
+entre l'imoge bac et cetera que on
+visualisait<00:03:20.879><c> juste</c><00:03:21.120><c> à</c><00:03:21.239><c> l'instant</c><00:03:21.959><c> sur</c><00:03:22.640><c> Google</c>
+
+00:03:22.990 --> 00:03:23.000 align:start position:0%
+visualisait juste à l'instant sur Google
+ 
+
+00:03:23.000 --> 00:03:25.990 align:start position:0%
+visualisait juste à l'instant sur Google
+Earths<00:03:24.000><c> voilà</c><00:03:24.360><c> donc</c><00:03:24.640><c> comment</c><00:03:25.000><c> importer</c><00:03:25.560><c> donc</c>
+
+00:03:25.990 --> 00:03:26.000 align:start position:0%
+Earths voilà donc comment importer donc
+ 
+
+00:03:26.000 --> 00:03:29.470 align:start position:0%
+Earths voilà donc comment importer donc
+ouvrir<00:03:27.000><c> une</c><00:03:27.319><c> navigation</c><00:03:27.879><c> avec</c><00:03:28.200><c> sdvfr</c><00:03:29.080><c> avec</c><00:03:29.239><c> de</c>
+
+00:03:29.470 --> 00:03:29.480 align:start position:0%
+ouvrir une navigation avec sdvfr avec de
+ 
+
+00:03:29.480 --> 00:03:30.990 align:start position:0%
+ouvrir une navigation avec sdvfr avec de
+trois<00:03:29.840><c> format</c>
+
+00:03:30.990 --> 00:03:31.000 align:start position:0%
+trois format
+ 
+
+00:03:31.000 --> 00:03:35.229 align:start position:0%
+trois format
+euh<00:03:32.000><c> encore</c><00:03:32.280><c> une</c><00:03:32.480><c> fois</c><00:03:32.640><c> c'est</c><00:03:33.239><c> GPX</c><00:03:33.840><c> KML</c><00:03:34.640><c> euh</c>
+
+00:03:35.229 --> 00:03:35.239 align:start position:0%
+euh encore une fois c'est GPX KML euh
+ 
+
+00:03:35.239 --> 00:03:38.070 align:start position:0%
+euh encore une fois c'est GPX KML euh
+FPL<00:03:35.920><c> Garmin</c><00:03:36.400><c> et</c><00:03:36.720><c> PLN</c><00:03:37.239><c> Flight</c><00:03:37.599><c> Simulator</c>
+
+00:03:38.070 --> 00:03:38.080 align:start position:0%
+FPL Garmin et PLN Flight Simulator
+ 
+
+00:03:38.080 --> 00:03:40.149 align:start position:0%
+FPL Garmin et PLN Flight Simulator
+d'ailleurs<00:03:38.920><c> d'ailleurs</c><00:03:39.680><c> on</c><00:03:39.840><c> parle</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+d'ailleurs d'ailleurs on parle
+ 
+
+00:03:40.159 --> 00:03:42.630 align:start position:0%
+d'ailleurs d'ailleurs on parle
+d'importation<00:03:40.959><c> mais</c><00:03:41.280><c> rappelez-vous</c><00:03:42.280><c> qu'on</c>
+
+00:03:42.630 --> 00:03:42.640 align:start position:0%
+d'importation mais rappelez-vous qu'on
+ 
+
+00:03:42.640 --> 00:03:45.030 align:start position:0%
+d'importation mais rappelez-vous qu'on
+peut<00:03:43.120><c> via</c><00:03:43.319><c> le</c><00:03:43.400><c> bouton</c><00:03:43.640><c> rouranté</c><00:03:44.640><c> dans</c><00:03:44.840><c> les</c>
+
+00:03:45.030 --> 00:03:45.040 align:start position:0%
+peut via le bouton rouranté dans les
+ 
+
+00:03:45.040 --> 00:03:47.350 align:start position:0%
+peut via le bouton rouranté dans les
+paramètres<00:03:45.519><c> de</c><00:03:45.560><c> la</c><00:03:45.640><c> navigation</c><00:03:46.159><c> exporter</c><00:03:47.080><c> et</c>
+
+00:03:47.350 --> 00:03:47.360 align:start position:0%
+paramètres de la navigation exporter et
+ 
+
+00:03:47.360 --> 00:03:49.670 align:start position:0%
+paramètres de la navigation exporter et
+là<00:03:47.519><c> en</c><00:03:47.599><c> fait</c><00:03:47.799><c> vous</c><00:03:47.959><c> retrouvez</c><00:03:48.519><c> à</c><00:03:48.840><c> l'export</c><00:03:49.519><c> les</c>
+
+00:03:49.670 --> 00:03:49.680 align:start position:0%
+là en fait vous retrouvez à l'export les
+ 
+
+00:03:49.680 --> 00:03:51.550 align:start position:0%
+là en fait vous retrouvez à l'export les
+formats<00:03:50.040><c> qu'on</c><00:03:50.319><c> gère</c><00:03:50.560><c> aussi</c><00:03:50.720><c> à</c><00:03:50.879><c> l'importation</c>
+
+00:03:51.550 --> 00:03:51.560 align:start position:0%
+formats qu'on gère aussi à l'importation
+ 
+
+00:03:51.560 --> 00:03:54.190 align:start position:0%
+formats qu'on gère aussi à l'importation
+voilà<00:03:52.159><c> euh</c><00:03:52.959><c> voilà</c><00:03:53.239><c> qui</c><00:03:53.400><c> conclu</c><00:03:53.799><c> cette</c><00:03:53.959><c> vidéo</c>
+
+00:03:54.190 --> 00:03:54.200 align:start position:0%
+voilà euh voilà qui conclu cette vidéo
+ 
+
+00:03:54.200 --> 00:03:55.390 align:start position:0%
+voilà euh voilà qui conclu cette vidéo
+donc<00:03:54.319><c> pour</c>
+
+00:03:55.390 --> 00:03:55.400 align:start position:0%
+donc pour
+ 
+
+00:03:55.400 --> 00:03:59.069 align:start position:0%
+donc pour
+euh<00:03:56.400><c> l'importation</c><00:03:57.239><c> navigation</c><00:03:58.159><c> je</c><00:03:58.599><c> vous</c>
+
+00:03:59.069 --> 00:03:59.079 align:start position:0%
+euh l'importation navigation je vous
+ 
+
+00:03:59.079 --> 00:04:00.869 align:start position:0%
+euh l'importation navigation je vous
+souhaite<00:03:59.480><c> à</c><00:03:59.879><c> toutes</c><00:04:00.120><c> et</c><00:04:00.200><c> à</c><00:04:00.280><c> tous</c><00:04:00.439><c> de</c><00:04:00.519><c> très</c><00:04:00.720><c> bon</c>
+
+00:04:00.869 --> 00:04:00.879 align:start position:0%
+souhaite à toutes et à tous de très bon
+ 
+
+00:04:00.879 --> 00:04:04.599 align:start position:0%
+souhaite à toutes et à tous de très bon
+vol<00:04:01.120><c> et</c><00:04:01.239><c> à</c><00:04:01.360><c> très</c><00:04:01.599><c> bientôt</c>
+

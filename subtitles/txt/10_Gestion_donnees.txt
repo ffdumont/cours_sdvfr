@@ -1,0 +1,71 @@
+ 
+bonjour à tous et bienvenue dans cette
+vidéo sur l'application sdvfr next
+aujourd'hui dans une très courte vidéo
+nous allons parler de gestion des
+données de manière générale ce que
+l'application embarque comment on
+vérifie que les données sont à jour et
+cetera et
+cetera dans sur l'écran principal vous
+allez avoir un bouton utilisateur sur
+lequel je vais cliquer et par défaut
+vous avez des onglets tout en bas donc
+ici
+là vous avez des onglets dont le premier
+onglet est l'onglet compte dans cet
+onglet compte vous allez avoir un petit
+faut glisser un petit peu déplacer
+l'écran vous allez avoir donc données
+dynamiques ici ce sont donc les données
+dynamiques qui sont récupéré par
+l'application régulièrement et
+automatiquement donc normalement vous
+n'avez pas à venir ici mais vous pouvez
+venir vérifier depuis quand certaines
+données ont été mises à jour et vous
+pouvez forcer donc ici il y en a
+plusieurs
+source de données METAR taf winem donc
+l' SIGMET donc ça c'est plutôt de la
+météo ça va être embarqué régulièrement
+par l'application si elle est connectée
+à Internet les notames pareil ça va
+récupérer l'intégralité des notames euh
+ici après zonees temporaire ce sont donc
+toutes les zones l'activation du réseau
+très basse altitude euh donc c'est les
+Asba vous allez avoir aussi également
+les zones issues des sup que on met
+régulièrement à jour et que
+l'application redescend aussi toute
+seule et enfin les cartes météo en
+fonction de des cartes que vous avez
+choisi de de de suivre on le verra dans
+une vidéo dédiée l'application les met à
+jour aussi automatiquement donc
+normalement vous n'z pas venir ici mais
+vous pouvez vous vérifier ici toutes les
+toutes les sources de données ont été
+mise à jour depuis 2 minutes donc ici là
+sur le côté à droite
+euh et si je le souhaite ben un petit
+peu comme dans
+sdvfrv1 je peux cliquer sur la petite la
+petite flèche pour mettre à jour alors
+c'est pas par source c'est la totalité
+on on a fait ça par facilité ce serit
+quand même mieux donc ça dure un petit
+temps une vingtaine de secondes maximum
+et ça va récupérer l'intégralité des
+données pour que vous soyez à jour donc
+ça c'est ce qu'on appelle donc la
+gestion des données donc données plutôt
+dynamique on verra dans d'autres vidéos
+la gestion des documents la gestion des
+cartes
+alternatives mais ce sera donc dédié
+dans d'autres vidéos voici voici donc
+cette petite vidéo qui est
+conclue je vous donne rendez-vous dans
+d'autres tutos à très vite

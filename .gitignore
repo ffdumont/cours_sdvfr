@@ -9,6 +9,5 @@ venv/
 *.egg
 .eggs/
 node_modules/
-subtitles/
 desktop.ini
 **/desktop.ini

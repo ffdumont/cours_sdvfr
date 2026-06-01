@@ -1,0 +1,173 @@
+ 
+et bienvenue dans cette nouvelle vidéo
+de tutoriel sur l'application SDVFR
+Next. Aujourd'hui, on va voir les métar
+tafet et wintem, c'est-à-dire une partie
+de la météo. Il y aura d'autres vidéos
+sur la partie radar et la partie carte
+météo. Donc on va s'intéresser qu'à ça
+dans cette vidéo.
+Donc depuis l'écran carte avec le bouton
+qui est en bas à droite, le bouton pour
+afficher des choses sur cette carte, on
+va pouvoir afficher donc dans la partie
+météo euh les métar, les tafes, les
+sigm, les wintem. Donc si je clique sur
+métar, je vais pouvoir afficher les
+métar. Donc ça c'est comme dans la
+version de précédente de SDVFR. Pareil
+pour les
+tafes. Euh donc pour les métards, bah
+c'est vous aurez donc évidemment les
+métards sur l'intégralité de l'Europe
+euh et des régions que nous
+couvrons. Euh si je viens sur la carte
+pour aller afficher du détail, je peux
+cliquer par exemple ici sur l'image. Je
+vais avoir à l'endroit du clic ce qu'il
+y a. Donc par exemple les listations, le
+terrain mais aussi donc le métar que je
+viens d'afficher. Et je clique dessus.
+Je vais avoir donc euh l'information du
+terrain, euh la couleur du métar, le
+taf, le ta euh le métar pardon euh non
+décodé qui est ici et euh ensuite la
+partie décodée qui est ici comme
+d'habitude. Voilà. Donc ça c'est pour
+euh le métar. Une petite indication tout
+de même euh tout en haut ici vous avez
+depuis quand le métard a été émis. Donc
+là, depuis 7 minutes donc c'est assez
+récent et il y a une petite manche à air
+qui est affichée car si le métard prête
+d'un vent supérieur à 20 nœud donc en
+rafale hein ou pas en rafale d'ailleurs.
+Donc là c'est pas sur les 14 nœuds au
+080 mais plutôt temporairement au 0701
+nœud rafale 25 c'est la rafale 25 qui va
+déclencher l'affichage de enfin en tout
+cas dans cet exemple là de la manche a
+qui se trouve ici.
+Je dézoome un petit peu. Je vais faire
+un exemple avec un taf. Donc on peut
+afficher soit métard, soit taf. Pas les
+deux en même temps. Ça permet d'éviter
+de de de surcharger ou de pas
+comprendre. En tout cas, par exemple,
+ici pour
+Clairmontferrand, je vais avoir donc le
+taf qui a été ému il y a 3h8 euh deux
+couleurs, une couleur principale sur le
+temps principal et une couleur
+secondaire sur les différents temps
+possibles. Donc la pire des couleurs sur
+un bcoming ou temporairement ou et
+cetera est marginal VFR.
+Et donc on va avoir pareil le taf euh
+ici euh codé et le taf décodé en
+dessous. Voilà pour les métars et les
+tafes. Si je m'intéresse maintenant au
+Sigmet, je vais enlever l'étaf. Alors je
+ne sais pas s'il y en a il y en a sur
+l'Espagne actuellement. Donc on va
+prendre ces exemples là. Donc les
+Smettes sont affichés. Euh ce sont des
+en général des polygones
+euh et bah vous avez donc le Sigmet donc
+là sur l'imacho Charlie Mike Sigmet 5
+valide. Euh alors le CC 17 c'est pour
+aujourd'hui de 11h à 15h UTC. Donc si je
+double tape maintenant, alors ça c'est
+faut double taper. Vous aurez
+l'information du Sigmet qui se trouve
+ici. Donc avec euh la partie codée ici
+et la partie décodée en dessous. Donc là
+visiblement, c'est un phénomène de
+givrage
+fort à partir du niveau 080 jusqu'au
+120. Voilà. Et ça se déplace au nord-est
+à 15 environ. Voilà. Donc ça c'est pour
+les
+Smet. Toc. Je vais ressortir de là.
+On en a actuellement un peu sur
+l'Espagne, un petit peu au niveau du de
+la Grèce, mais j'ai pas j'ai pas pris la
+région Balcan, pareil au niveau de
+la de la Scandinavie, au niveau de la
+Norvège. Voilà, donc ça c'est pour les
+Sigmet. Euh et enfin dans cette vidéo,
+on fera une dernière chose, c'est les
+Wintem. Donc les Wintem vous connaissez
+probablement déjà si vous êtes familier
+avec
+SVFRV1. Donc il s'agit de couche Wintem
+depuis le niveau 005 vers le niveau 150.
+Et pour chacun de ces niveaux, vous avez
+des bornes de temps sur 24h environ.
+Donc là actuellement, il est 15h10. Donc
+euh on n'est pas encore à l'heure d'été,
+donc c'est 14h10 zouou. Donc on est au
+plus proche de la couche 15 zouou. Donc
+c'est pour ça que vous la voyez euh on
+va dire dans une couleur différente des
+autres. Voilà. Donc c'est pour
+identifier rapidement sans que vous ayez
+besoin de faire un calcul mental rapide.
+Quelle est la couche la plus proche ?
+Donc là pour le
+030 FL 030 15 Zulou. Donc je clique
+dessus et je vais avoir donc euh les
+WinTem qui vont s'afficher donc pour
+l'intégralité de l'Europe encore une
+fois. Euh et si je zoome un peu, bah je
+vois les les petites barrettes devant
+s'afficher. Donc si je vais ici et que
+je clique dessus, je vais avoir une
+information l'information exacte de ce
+qu'il y a sur cette barrette de vente.
+Donc le vent il vient quasiment plein
+est 21 nœud et la température est de
+0°gr ici. Voilà.
+Donc on peut faire un autre exemple.
+Donc je reviens sur mon panneau latéral,
+je cache mes winem, je reclique et je
+prends bah éventuellement la dernière
+couche peut-être pour avoir des vents un
+peu plus
+forts. Prendre peut-être ce soir 21h
+zouou. Voilà. Et sur la partie bah voilà
+sur la partie océanique, on voit bien
+des barrettes devant avec des 50 60
+nœuds. La 48 nœud - 19°. Donc vous savez
+pour rappel que sur les winem le quand
+c'est négatif le signe n'est pas montré
+c'est quand les températures sont
+positives que le signe est montré. Donc
+il y a un plus
+devant. Voilà pour les winem. Alors
+sachez que les wintem mais ça on le
+reverra dans la vidéo sur la navigation
+ces couches de de vent sont très
+utilisées pour ajuster les
+temps du log de nave automatiquement.
+C'est ce que l'appli fait.
+Voilà qui conclut cette vidéo. Ce qu'on
+peut peut-être montrer, juste je reviens
+un instant sur les métar et les tafes.
+Par exemple, si je vais suror ici, de
+mémoire Nior n'a ni méth ni taf. Donc si
+je fais le petit bouton information,
+vous arrivez dans la partie information
+du terrain et vous avez un onglet métar
+taf. Donc il va vous afficher le taf le
+plus proche. Donc là, il se trouve que
+c'est Poitier qui est le plus proche.
+Bon, ça aura un intérêt évidemment
+d'aller voir la météo de la Rochelle,
+mais il va vous donner le plus proche.
+Il va vous mettre la distance ici
+33.4. Voilà qui conclut cette vidéo sur
+la sur une partie de la météo montrée
+dans l'application SDVF Next. Euh bon
+vol à toutes et à tous et à très bientôt
+dans une nouvelle vidéo.

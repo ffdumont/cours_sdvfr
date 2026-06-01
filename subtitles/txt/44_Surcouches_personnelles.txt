@@ -1,0 +1,204 @@
+ 
+Bienvenue dans cette vidéo de
+démonstration de l'application SDVFR
+Next. Aujourd'hui, on va voir comment
+charger des données personnelles, des
+données cartographiques personnelles en
+surcouche sur l'application. Alors,
+cette vidéo, c'est un peu une vidéo un
+petit peu avancée pour certains
+utilisateurs qui ont besoin de charger
+des données, des données métiers euh
+par-dessus la carte qui ne sont pas
+forcément des données aéronautiques
+d'ailleurs. Voilà. Euh on va prendre en
+premier un exemple qui que tout le monde
+connaît qui est l'exemple des ZSM, donc
+les zones de protection de logi barbu,
+le voture percopner et cetera. Donc des
+des rapasses qui sont assez euh
+sensibles. Alors ça va me permettre en
+plus de vous dire que malgré que je vais
+faire l'importation de ces zones, il y a
+pas forcément besoin de le faire parce
+que SDVFR Next dans sa version dans la
+dans la dans la la carte embarquée qu'on
+appelle donc SDCI vectoriel, vous avez
+ces EDSM par exemple ici et c'est mis à
+jour à chaque cycle. Donc à chaque
+génération de ces tous les 28 jours, les
+dernières ZSM actives euh descendent.
+Donc là, je me mets ici, toc, j'ai bien
+une ZSM ici euh 65 SEC 028 de la surface
+à 3300 pieds
+surface. Voilà. Euh il y a tout un petit
+blabla et cetera qui explique ce que
+c'est. Voilà. Donc je vais quand même
+importer les ZDSM pour vous montrer
+comment on fait parce que beaucoup de
+pilotes le faisaient. Donc on va le
+faire comme ça fait un bon exemple.
+Alors euh je prends mon
+navigateur internet et j'ai euh je suis
+allé chercher le fichier donc des EDSM
+sur le le site du stack de l'aviation
+civile. Euh je l'ai déjà récupéré, je
+l'ai déjà téléchargé et euh on a mis en
+place dans la partie euh mon compte sur
+notre site skyreamsoft.fr. faire. Donc
+là, je suis connecté et euh donc mon
+compte c'est ici, hein. Hop hop hop. Si
+je prends toc toc toc toc, voilà mon
+compte ici. Et ensuite tout en bas de la
+page pardon, vous avez source
+vectorielle. Alors, je vais essayer de
+le
+montrer que vous le situiez bien. Voilà,
+vos sources
+vectorielles. Ici, on peut en fait
+donner à notre système des fichiers
+géographiques
+geogonl ou du shap file. C'est sous
+format zip parce que le shape file c'est
+un fichier qui vient avec d'autres
+fichiers. et on va euh lancer une
+moulinette sur ce fichier là pour euh
+packager le fichier et le donner à
+manger un SDVFR pour qu'il puisse
+l'afficher. Donc ça ça permet d'éviter
+pour nous d'avoir à gérer de nombreux
+fichiers différents. Voilà donc je vais
+aller choisir mon
+fichier sélecteur de fichier. Je vais
+prendre mon France KML que j'ai récupéré
+du stack. Vous pouvez choisir overlay ou
+map. Je vous conseille dès que c'est des
+surcouches de prendre overlay. Map,
+c'est vraiment pour faire des bases map,
+donc pour remplacer le fond
+cartographique. Donc là, c'est pas ce
+qu'on veut. Donc c'est simplement une
+surcouche. Je fais
+générer. Succès. Vous serez notifié sur
+votre terminaux lorsque la génération
+sera terminée. Donc là, on s'occupe du
+du fichier, on le on le convertit. Et
+euh donc là pour l'instant je l'ai pas
+encore reçu mais a priori par là ici là
+d'ici quelques instants, le fichier va
+arriver euh et ser ajouté. Donc pour
+qu'on puisse sélectionner la
+surcouche. On va attendre juste quelques
+secondes. Normalement il devrait pas y
+en avoir pour trop
+longtemps. Ce fichier se fait attendre.
+Il se fait attendre. Il se fait
+attendre.
+Toc. Voilà. sur couche perso. Bon ben
+comme ça vous l'aurez vu en temps vous
+l'aurez vu en temps réel. Le temps de
+traitement du fichier euh il n'est pas
+très long mais il faut attendre un petit
+peu. Voilà. Donc là j'ai une surcouche
+euh perso euh France. Donc c'est le
+c'était le nom du fichier hein. Voilà.
+Et si je clique ben par défaut vous
+allez voir alors je vais le refaire une
+une fois ou deux. On se rend bien compte
+que c'est bien les ZSM actives qui sont
+euh qui sont dans ce dans cette
+surcouche graphique. Euh encore une
+fois, on voit bien d'ailleurs que ça
+superpose les informations que SDVFR
+embarquait déjà dans sa cartographie.
+Donc cet exemple, c'est vraiment que
+pour vous montrer comment charger des
+données personnelles fonctionnent. Vous
+n'avez plus à charger les EDSM dans SDV
+Fire Next. Euh voilà. Alors après,
+qu'est-ce qu'on peut faire ? Bah, on
+peut euh faire un appui long. On peut
+changer évidemment pas mal de choses. La
+couleur de remplissage, la couleur du
+trait, l'épaisseur du trait et cetera et
+cetera. Donc, on peut faire beaucoup de
+choses. Mais pour faire ça, on va plutôt
+euh on va plutôt utiliser un autre
+exemple. Donc, je reviens sur mon
+générateur de source et je vais aller
+chercher un autre fichier que j'ai
+préparé en amont qui est le carroyage
+DFCI. Hop. Euh c'est un carroyage qui
+est utilisé par la CQ civil, surtout par
+les bombardiers d'eau ou des choses
+comme
+ça. Euh ce qui permet en fait
+d'identifier certaines
+zones. Voilà. Donc euh bah c'est pareil,
+je lui ai donné donc mon fichier. Donc
+il va me le
+générer. Je vais revenir sur mon
+application. La surcouche n'est pas
+encore arrivée. Elle va bien elle va
+elle va pas tarder. Arriver.
+Je vais éventuellement couper la vidéo
+et reprendre si jamais ça met trop de
+temps.
+Toc. Bon, en attendant, on peut
+peut-être changer la couleur de nos
+EDSM. Mettre ça en bleu. Toc. Donc, il y
+a la couleur du trait, la couleur de
+remplissage, l'épaisseur du trait.
+Tiens, on va s'amuser. On va grossir un
+peu l'épaisseur du trait. Euh le label,
+on va en reparler. Mais c'est oui, c'est
+vrai qu'effectivement en fait quand on a
+une surcouche, on peut aller chercher
+dans les clés valeurs qu'il y avait. Euh
+donc par exemple le code de l'air toc.
+Voilà. Et si je zoome, je vais avoir
+donc le trait un peu épais, le code de
+l'air euh donc 64 AS 135 et cetera.
+Alors est-ce que cette couche DFCI va
+arriver ? Voilà, elle est arrivée.
+Parfait. Quel timing ! Donc je vais
+désactiver ça et je vais utiliser mon
+carroyage. Donc ça c'est un carroyage
+que je vais mettre vraiment par-dessus
+la carte. Donc là ça on va dire que ça
+pète hein. Donc on va justement faire un
+peu ces
+mêmes fonctions. On va faire plutôt une
+couleur noire. La couleur de
+remplissage. On va mettre la bête assez
+transparente d'ailleurs. Couleur du
+trait aussi noire. Un peu transparente
+aussi pour la couleur la l'épaisseur du
+trait. Allez, une épaisseur
+supplémentaire peut-être. Et le label,
+on va mettre le nom du carreau, donc du
+carroyage. Taille du texte un peu plus
+grand peut-être pour que ce soit visuel.
+Voilà. Toc. Et donc là, on va avoir le
+carroyage avec le le code du carreau.
+Alors, ce que j'ai pas fait, c'était un
+appui long peut-être et de mettre le
+zoom minimum. Donc par défaut, c'est
+minimum 8 pour les et on pourrait dire
+bah tiens, je veux
+que la surcouche à partir toc du zoom
+13. Voilà. Toc. Voilà. Ça c'est pour le
+label de mémoire. Voilà. Donc euh oui,
+c'est pour le label
+effectivement. Euh voilà. Donc euh ça
+vous montre sur deux exemples très
+distincts comment on peut charger une
+surcouche personnelle à partir de format
+géographique standard. Je les répète,
+Geogison, KML ou shap file et comment
+les charger rapidement dans SDVFR pour
+pouvoir les visualiser. Je vous donne
+rendez-vous dans une autre vidéo pour
+d'autres détails sur SDVFR Next. En
+attendant, bon voilà à toutes et à tous.
+Yeah.

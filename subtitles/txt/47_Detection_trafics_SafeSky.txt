@@ -1,0 +1,97 @@
+ 
+Laurent skydream soft une vidéo
+complémentaire sur les dispositifs de
+détection de trafic dont on a parlé dans
+une vidéo
+précédente là c'est un exemple
+intéressant parce que on va sans boîtier
+extern type stratux Rosetta skycho que
+sais-je encore des boîtiers externes
+qu'on va venir ventouser sur le cockpit
+et cetera on va se servir de
+l'application SAF Sky qui va nous
+permettre de faire un flux sol air et
+donc enfin sol R et a sol pour que vous
+puissiez vous partager votre position de
+façon privée il y a plusieurs niveaux de
+de de de privacy on va dire ça comme ça
+dans dans S Sky je vous laisse regarder
+un petit peu comment il fonctionne mais
+quand vous faites décoller vous envoyez
+votre position et en retour on vous
+envoie de l'information trafic autour là
+je suis déjà donc dans l'application SAF
+Sky je vais très rapidement faire sur je
+vais faire décoller mais avant tout je
+vais vous montrer alors c'est pas là
+c'est sur la partie droite voilà euh que
+dans que dans cette application vous
+pouvez faire partage du trafic activer
+le partage de trafic hop je vais
+l'entourer de rouge ici toc activer le
+partage du trafic se Sky partagera le
+traffic avec votre logiciel de
+navigation sélectionné et vous pouvez
+sélectionner sdvfr ici donc vous avez à
+peu près toutes les applis qui qui gèent
+ça et cetera voilà tous les les EFB qui
+font ça hop donc je fais euh bah
+décoller voilà donc là je suis à
+proximité de de Poitier il y a un trafic
+qui est au départ et je vais regarder ce
+que ça donne dans euh sdvfr alors dans
+sdvfr j'ai pas de j'ai pas de loc GPS en
+plus je suis dans le bureau donc c'est
+un peu compliqué mais c'est pas grave on
+voit quand même le trafic donc c'est
+très bien on voit que le trafic est au
+départ de Poitier et par rapport à ma
+position qui est pas un réel fix GPS
+parce que je suis dans le dans le bureau
+encore une fois il est à + 1100 pieds
+au-dessus de moi c'est le + 11 qu'on
+voit autour du trafic voilà alors on va
+faire un un petit exemple qui vous
+montre d'ailleurs qu'est-ce qui se passe
+lorsque le flux est coupé lorsque vous
+perdez ce ce truc là j'ai oublié oublié
+de le faire pour la pour la vidéo qui
+traitait des boîtiers donc on avait le
+même résultat je vais force je vais je
+vais
+fermer volontairement sefsky et je vais
+vous montrer ce qui se passe évidemment
+le flux va être fermé on a plus
+d'information donc le trafic passe en
+inactif et en plus de ça dans la partie
+voilà dans la partie supérieure de sdvfr
+vous allez avoir cette icône qui dit
+avion barré en rouge je n'ai plus de
+flux de détection de trafic comme ça
+directement sur la carte on voit qu'on a
+perdu le flux voilà donc j'avais oublié
+de le faire sur la vidéo sur les sur la
+détection de trafic pour pour parce que
+vous pourriez aussi perdre le lien entre
+votre boîtier stratux et et
+l'application donc je le montre avec
+sefsky donc je relance
+fsky voilà il me reprend le vol
+d'ailleurs tout seul parce que je je
+l'ai un peu fermé violemment toc toc et
+je reviens dans mon appli sdvfr j'ai
+rien fait j'ai rien touché ça a repris
+tout seul et cetera donc bon là c'est
+moi qui ai volontairement fermé SVE Sky
+j'ai pas été très gentil mais c'était
+pour vous montrer que on vous présentait
+quand même une icône vraiment en haut de
+la carte qui vous dit j'ai perdu le flux
+entre ma détection de trafic et mon mon
+application de préparation de vol voilà
+qui conclut cette vidéo sur
+l'application SAF Sky la détection de
+trafic et son report du trafic dans
+sdvfr
+next écoutez bon vol à toutes et à tous
+et à très bientôt

@@ -1,0 +1,122 @@
+ 
+SK Dreamsoft, bienvenue dans cette
+nouvelle vidéo de tutoriel sur
+l'application SDVFR Next. Aujourd'hui,
+on va voir la nouvelle barre supérieure
+que nous avons introduite il y a
+quelques temps qui est en haut ici avec
+les quelques icônes par défaut que vous
+voyez ici. Voilà. Euh donc suite à de
+nombreux retours, nous avons replacé les
+quelques boutons qui avaient flottant en
+bas à droite sur une barre supérieure.
+Et quit à remonter tout ça dans une
+barre supérieure, on a donné la
+possibilité de faire pas mal de choses
+avec. C'est ce qu'on va voir dans cette
+vidéo. Euh donc déjà, on retrouve euh
+évidemment le bouton utilisateur, le
+bouton nave, le bouton direct et le
+bouton rouanté pour les paramètres.
+C'est ce qu'on avait avant. Voilà. Donc
+ça ça ne change pas, c'est ce que vous
+avez par défaut.
+Si je vais dans la partie donc roue
+cranté,
+tout en bas des fonctionnalités, enfin
+des options, on va avoir un truc qui
+s'appelle paramètres ici de la barre
+supérieure.
+Voilà. Donc je clique dessus et je vais
+avoir quatre
+entrées que je ne peux pas supprimer.
+C'est pour ça qu'elles sont grisées sur
+le côté. Par contre, je vais pouvoir les
+déplacer si j'ai envie. Mais en tout
+cas, ce sont c'est les deux vraiment les
+quatre grandes parties pardon qu'on ne
+peut pas modifier. Euh et bah là vous me
+voyez venir. Vous pouvez euh ajouter des
+entrées. Donc par défaut c'est compte
+mais je peux aller chercher euh
+plusieurs fonctionnalités de
+l'application qu'on retrouve dans le
+panneau latéral de l'application. Vous
+pouvez les mettre en accès direct sur la
+barre supérieure. Donc je vais faire un
+exemple rapide. Je vais mettre par
+exemple l'autocentrage.
+Je vais ajouter un deuxième. Je vais euh
+mettre par exemple le mode autovac.
+On va mettre euh les chronomètres par
+exemple et je vais en mettre carrément
+deux autres avec euh
+allez profil de vol et euh profil de
+navigation. Voilà, donc ça vous faites
+un peu ce que vous voulez. Ensuite euh
+le bouton supprimer évidemment sur le
+côté si vous voulez supprimer une
+entrée. Ensuite, je pourrais dire bah
+j'aimerais bien euh mettre toujours
+l'écran de navigation en premier. Donc
+je peux déplacer une entrée et je peux
+donc comme ça avec sur le côté euh un
+appui long et je déplace en dessus en
+dessous. Voilà comme ça. Donc vous
+pouvez faire un peu ce que vous voulez.
+Euh en haut très important euh parce que
+bon surtout sur Android mais les
+résolutions des fois sont un petit peu
+différentes. Donc vous pouvez modifier
+la hauteur enfin l'épaisseur de la
+barre. Euh voilà. Et au-dessus, vous
+pouvez aussi passer euh la barre qui est
+horizontale par défaut. Vous pouvez la
+passer en vertical en paysage. Très
+utile euh pour récupérer l'épaisseur de
+la barre qui pourrait venir manger un
+petit peu de place en paysage pour la
+mettre à gauche. Donc je vais la mettre
+à gauche et je vais augmenter aussi un
+peu sa taille. Je sais pas, je vais
+mettre allez 44. Ça va peut-être être un
+peu gros mais après vous pouvez ajuster
+comme vous voulez. Je fais OK, je sors
+de là, je reviens et donc là sur la
+partie sur le côté ici, je vais avoir ma
+barre qui est passé donc à gauche en
+paysage et les icônes que j'ai voulu y
+mettre euh dans l'ordre que je voulais.
+Donc là, après c'est assez simple, mon
+mode autocentrage, oui, non, mes
+chronomètres s'affichent, se désaffiche,
+ce qui correspond en fait aux options
+que vous avez dans le panneau latéral.
+Euh le mode autovac, je l'affiche, je
+l'affiche pas. Voilà. le profil de vol,
+le profil de navigation. Alors là, j'ai
+aucune navigation. On va rapidement en
+ajouter une pour des mot. Euh par
+exemple celle-ci.
+Voilà. Hop. Profil de navigation.
+Voilà. Voilà. Donc on fait vraiment ce
+qu'on veut. Et puis cette barre là, j'ai
+pas mis beaucoup mais peut-être que je
+peux revenir. Allez, je vais faire ça
+rapidement. paramètres de la ver
+supérieur, je vais euh ajouter deux
+autres entrées, par exemple euh les
+cartes météo
+et euh par exemple aussi bah les Wintem,
+pourquoi pas ? Je reviens et la barre
+dès que vous avez un petit peu beaucoup
+des icônes en nombre, elle va défiler.
+Voilà ce qui ce qui permet de de un
+petit peu comme sur SDVFRV1 de faire
+défiler les entrées dans le menu. Voilà.
+C'est à peu près tout. Voilà qui conclut
+cette vidéo assez rapide sur cette ce
+bandeau supérieur, cette barre supérieur
+que nous avons mis dans l'application.
+À bientôt dans une nouvelle vidéo. Bon
+vol à toutes et à tous. Au revoir.

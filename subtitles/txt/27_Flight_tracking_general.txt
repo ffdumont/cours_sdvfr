@@ -1,0 +1,117 @@
+ 
+vidéo sur l'application SDVFR Next. Euh
+aujourd'hui, on va voir comment se
+comporte la carte lors de du suivi de
+vol et quelles sont deux trois options
+comme l'autocentrage, l'orientation de
+carte et quelques descriptions du
+vecteur vitesse. Alors, je suis euh en
+bout de piste 18 à Châel R euh avec les
+avec le simulateur évidemment pour vous
+montrer un petit peu comment ça marche.
+Avant
+tout, un petit mot sur l'icône appareil
+évidemment qu'on voit. Hop, ici euh on
+peut via les options rapidement et icône
+de l'appareil changer vers hélicoptère
+si vous le souhaitez. Voilà. Euh ensuite
+al je vais repasser sur avion et vous
+pouvez modifier également euh la couleur
+vous mettez vraiment la couleur que vous
+voulez pour le coup de de l'appareil.
+Donc là, je l'ai passé en
+vert. Et euh ce qu'on peut faire
+également, on le verra peut-être en vol
+tout à l'heure, je vais remettre noir.
+Euh c'est ici, hop là euh le vecteur
+vitesse, l'épaisseur du vecteur vitesse
+si vous voulez qu'il soit un peu plus
+marqué sur la carte. Voilà. Donc ça
+c'est pour les options de
+personnalisation. Euh ce qu'on va faire,
+c'est qu'on va hop
+décoller rapidement pour voir comment ça
+se passe. Alors, une fois qu'on prendre
+de la vitesse avec l'appareil, on voit
+évidemment les bulles de temps. Euh,
+hop, je rentre le train et les volets.
+On voit les bulles de temps donc qui
+indiquent où on sera dans 2 3 minutes, 5
+minutes, 10 minutes et cetera. Donc ça
+c'est le vecteur vitesse classique qu'on
+connaît depuis longtemps sur SDVFR.
+Euh voilà, je vais me stabiliser un
+petit peu tranquillement histoire que ça
+avance. Voilà. Euh on va faire un petit
+virage à gauche pour prendre notre
+route. Voilà. Donc ça c'est le vecteur
+vitesse. Ensuite dans le panneau
+latéral, vous avez le mode
+autocentrage qui va en fonction donc de
+l'avancée de votre
+appareil.
+Hop. Qui va vous déplacer. Alors je vais
+zoomer un peu pour que la carte se
+déplace. euh qui en fonction donc de
+l'avancée de votre appareil va suivre
+votre appareil et cetera. Euh en
+fonction donc de où on se trouve, si
+j'effectue un virage plus marqué à
+gauche, la carte aussi s'autocentre de
+manière un peu intelligente,
+c'est-à-dire pour vous mettre devant
+vous le plus de cartes possibles. Donc
+c'est pour ça que par exemple, je
+tourne, mon appareil va se s'autocentrer
+un peu plus vers en bas à gauche de
+l'écran de manière à ce qu'on voit
+vraiment de la carte devant. Voilà, ça
+c'est c'est voulu. le l'avion n'est pas
+forcément au centre pile au centre,
+c'est un petit peu plus un petit peu
+plus intelligent. Donc je vais repasser
+un petit peu à droite et dézoomer.
+Voilà, vous voyez évidemment derrière
+l'appareil une trace jaune. C'est la
+trace réelle de
+de l'appareil. Euh on on fera une vidéo
+dédiée sur ce sur ce point-là
+particulier. Voilà. Donc ça c'est pour
+l'autocentrage. Je peux également
+euh via le bouton latéral activer
+l'orientation de carte.
+Hop, je vais essayer de me remettre bien
+droit. Voilà. Donc l'orientation de
+carte, comme son nom l'indique, c'est
+soit Norvet, soit direction de l'avion.
+Donc dès que on active ce mode là, on
+est en mode direction de l'avion. Donc
+la carte va pivoter pour mettre la la
+route toujours euh tout droit, enfin
+verticalement. Voilà. Donc il y a des
+gens qui aiment bien ce mode là.
+L'intérêt c'est que par rapport à
+SDVFRV1 et la carte vectorielle, on n'
+pas les labels qui sont sans dessus
+dessous. Euh voilà, ils vont tourner
+vraiment, on le voit bien avec la base
+ulm d'Archigner qui est ici. Si ma carte
+tourne, je vais altérer le virage un peu
+plus
+rapidement. Voilà, le label se met
+toujours bien tout droit devant nous.
+C'est quand même beaucoup plus propre,
+beaucoup plus
+pratique. Voilà pour le l'orientation de
+carte.
+Euh hop, voilà, je vais me remettre sur
+mon trait
+vert. Voilà donc pour les quelques
+premières
+informations sur la le suivi de vol, le
+vecteur vitesse, l'orientation de carte,
+l'autocentrage. Je vous donne
+rendez-vous dans d'autres vidéos pour
+voir d'autres options et d'autres
+fonctionnalités lors du suivi de vol.
+Bon voilà à tous et à tout bientôt.

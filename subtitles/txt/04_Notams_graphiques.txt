@@ -1,0 +1,315 @@
+ 
+Bonjour à toutes et à tous, Laurent
+Skyrimsoft. Je suis ravi de vous
+retrouver pour une nouvelle vidéo qui va
+traiter d'un sujet assez important
+concernant les notames graphiques.
+Alors les notames graphiques, c'est tout
+simplement représenté graphiquement sur
+la carte les notames. Alors certains
+notames on je vais vous montrer les
+filtres qui permettent de filtrer parce
+que les notames
+vous savez que il y a un point central
+un rayon de d'emprise du notam donc la
+géométrie des notames et c'est c'est des
+ronds sauf si on retravaille cette
+géométrie derrière mais en tout cas ce
+sont des ronds et en général on ne les
+visualise pas parce que il y en a un
+beaucoup et de la carte serait
+particulièrement impactée par euh par ce
+par cet affichage. Alors, on a mis en
+place certains filtres qui vont
+permettre de mettre la lumière sur
+certains et pas tous. Donc c'est pour ça
+que avant de vous montrer ça, je
+rappelle
+très rapidement, je vais charger une
+navigation, celle de démo pour pas
+changer.
+Je vous rappelle que dans la partie
+navigation, vous avez un onglet route
+qui vous montre donc les terrains sur la
+route. Quand je clique sur un terrain,
+alors là, j'ai pas de notam mais ici, je
+vais avoir les notames des terrains sur
+ma route. Et dans l'onglet notam qui est
+en bas à côté de route, vous aurez les
+les notames sur la route avec des
+filtres ici. Je vous renvoie aux vidéos
+qui traitent de ça, mais c'est la façon
+dans SDVFR aujourd'hui de faire un
+briefingam complet et de ne pas passer à
+côté d'un Otam et donc potentiellement
+d'une zone temporaire qui ne serait pas
+publiée enfin qui ne serait pas publié
+en supp et qui serait publié uniquement
+via unam. Voilà, donc ça c'est dit. Une
+fois qu'on a dit ça, euh
+vous savez déjà donc on traite les zones
+qui sont issues des suppléments AIP.
+C'est ce qu'on voit un peu en rouge.
+Alors, on a retravaillé un petit peu le
+style pour qu'il soit moins prignant
+parce qu'il était quand même assez
+prignant lorsqu'on utilisait le mode
+automatique. Donc là, par exemple, sur
+l'isseur de la Gironde, ici je vois ZRT,
+je vais l'entourer, ZRT 260 low, c'est
+le super IP 65 de l'année 2025 et
+cetera. Donc, vous savez déjà qu'on
+traite ces zones, les zones issues des
+suppléments AIP. pour ramener un petit
+peu plus de de complétude, on va dire ça
+comme ça, on a fait cette ce nouveau euh
+cette nouvelle entrée notam graphique
+qui se trouve dans le panneau latéral
+ici. Donc en dessous de zone
+temporaires. Je vous rappelle que les
+zones temporaires, on peut les utiliser
+de deux manières différentes
+automatique, manuel. Il y a deux vidéos
+qui traitent de ça. Donc si vous vous si
+vous voulez regarder ça, il y a des
+vidéos qui traitent de de ce sujet.
+Alors, qu'est-ce qui se passe ? Quand on
+visualise les notames graphiques, je
+clique dessus et on voit s'afficher.
+Donc là par exemple autour du blanc,
+j'ai un notam. Je vais me remettre
+plutôt par là. J'en ai d'autres et ici.
+Donc les notames sont représentés comme
+ça. Lorsqu'ils sont représentés dans
+cette couleur, la couleur qui qui se
+trouve là, le notam est ici là. Enfin,
+le on voit le rond ici. Le rond, il y en
+a un autre là. Il y en a un autre là.
+Donc vous maintenant vous les visualisez
+bien. Cette couleur là correspond à
+uname qui est actif. Euh je vais essayer
+de vous en trouver un mais voilà par
+exemple ici alors c'est il faut le voir
+mais celui qui est là là avec le le son
+son numéro il est inactif. Euh
+d'ailleurs à ce propos, si je double
+tape à cet endroit, je vais avoir mon Ot
+qui se retrouve ici. Voilà, on voit
+qu'il est inactif. Il est entre
+guillemets un peu, on va dire en couleur
+pâle. Et nous sommes aujourd'hui le 31,
+on voit qu'il commence le 3 novembre.
+Voilà, donc ça c'est pour permettre de
+voir ceux qui sont actif inactif. Je
+vais remonter un petit peu vers tiens
+ici par exemple sur ce petit notam là,
+je double tape. On voit que
+le
+le la couleur est différente. Celui-là,
+il est bien actif. De 23 octobre au 20
+novembre. Voilà. Donc ça c'est j'affiche
+ou pas mes notames graphiques. Je peux
+double taper dessus comme dans comme sur
+la carte en général pour avoir le notam
+en question.
+Voilà. Alors je vais redészoomer un peu
+ma carte. Je vais me mettre un peu par
+là. On en voit pas mal. Voilà.
+Évidemment vous ne voyez pas du tout la
+totalité des notames et c'est voulu.
+Alors pourquoi c'est voulu ? Parce que
+des notames à peu près en France il y en
+a 2500. euh et que les le il y a des
+notames qui ont un énorme rayon
+d'action, donc c'est un point central
+avec un radius, un rayon et ce rayon en
+fait euh bah ça ça ça viendrait polluer
+énormément la carte. Donc on a pris on a
+fait un parti prix. le parti prix. Donc
+je reviens dans le sélecteur qui se
+trouve sur le côté ici. Voilà, notam
+graphique. J'affiche, je cache. Voilà.
+Et comme dans d'autres fonctionnalités
+de SDVFR Next, un appui long me permet
+d'accéder à des euh à des filtres. Voilà
+les valeurs par défaut. Donc on peut
+agir pour l'instant dans cette première
+version des notames graphiques sur le
+rayon maximum du notam. Donc ça ça me
+permet d'éviter d'afficher des notames
+qui ont des notames de FIR par exemple
+qui traitent de de de de brouillage GPS,
+de choses compliquées et qui sont qui
+entourent la FIR complètement et qui
+viennent vraiment polluer l'affichage.
+Donc ça c'est le premier rayon maximum.
+Ensuite, vous pouvez filtrer par plafond
+plancher. Donc, par défaut, on commence
+au sol et on s'arrête au niveau 115,
+mais vous pouvez modifier ça. Et
+ensuite, par défaut, on a désactivé les
+options afficher les notames d'aérodrome
+et afficher les notames d'obstacle.
+Voilà. Alors, ben on va s'amuser un
+petit peu avec les filtres évidemment.
+Je vais me mettre, je sais pas par là.
+Euh je reviens dans notam graphique et
+je dis afficher les notames d'obstacle.
+Hop, voilà, j'en ai un qui est qui s'est
+affiché ici. Voilà, P264, double tape.
+On va regarder ce que c'est. Euh il y a
+un parcien visiblement en construction
+et cetera, alors qui est peut-être pas
+encore référencé dans les données. Donc
+c'est pour ça qu'il y a il y a
+il y a un un notam d'obstacle ici. À ce
+propos, euh cette fonctionnalité des
+notames graphiques vient amène une
+nouvelle fonctionnalité, c'est de cacher
+la ligne Q du notam parce queen fait ici
+vous voyez, il y a le numéro du notam
+puis après item A B C E. Si je vais
+dans alors dans les options pardon rou
+crané je descends. Voilà, nous avons mis
+les des options de notam ensemble et
+afficher la ligne Q qui maintenant est
+désactivée par défaut parce que ça vient
+éventuellement polluer l'affichage
+surtout quand on regarde le briefing de
+route. Mais là voilà, j'ai réaffiché la
+ligne Q et on voit que ce notam là,
+voilà la ligne Q du notam et il commence
+au sol et il finit
+niveau 8. Alors euh 800 pieds quoi.
+Voilà. Donc euh la ligne Q est cachée
+maintenant par défaut pour éviter de de
+polluer l'affichage. Donc si vous voulez
+la réafficher, vous faites ce que je
+viens de faire. Voilà. Donc là c'est un
+exemple. Donc avec les notames euh
+donc d'obstacle. Je cache, hop, le notam
+s'en va. Je peux faire pareil avec les
+notames d'aérodrome. Les notames
+d'aérodrome sont désactivés par défaut.
+Alors, c'est aussi voulu parce qu'en
+général euh c'est plutôt les notames de
+route qui nous intéressent. Donc là, par
+exemple sur Poitier, je vais en avoir
+plusieurs. Voilà, j'en ai quand même pas
+mal. Donc en général, on est plus
+intéressé à aller lire les notames des
+aérodromes qui sont sur la route. C'est
+des choses qu'on a voilà, on a on a pris
+en en compte. Si jamais je veux aller
+sur un terrain quelque part, par exemple
+ici sur le blanc, je clique sur le
+blanc, je fais information.
+Et dans notam, je vais avoir le ou les
+notames du terrain. Donc c'est pas
+forcément souhaitable ou souhaiter de
+vouloir les notames d'aérodrome par
+défaut, mais vous pouvez le faire.
+Voilà, je vais enlever ça et puis je
+vais pas trop jouer avec le les plafonds
+planchés, mais je vais regarder un petit
+peu ce que ça peut donner si on augmente
+en fait le rayon. Donc on va par exemple
+faire 60 nautiques de rayon. Hop, je
+reviens. Et là, voilà. Par exemple, ici,
+on en voit un qui est qui est là euh et
+qui a un cercle quand même assez énorme.
+Donc, vous vous rendez compte en fait
+des notames euh enfin en tout cas de du
+fait que ça n'a pas potentiellement
+beaucoup d'intérêt d'afficher des
+d'action. Ces notames là, on les verra
+dans le briefing notam classique. On n'
+pas forcément envie de les voir. Cette
+cet adressage des notames graphique
+qu'on a fait dans l'application, c'est
+plus pour par exemple euh aller voir par
+exemple bah le le celui de Chambor par
+exemple qui est un c'est un très bon
+exemple de Notam qu'on veut voir
+graphiquement sur l'application. Donc,
+on avait la R96 de Chambor et le Notam
+associé euh qui vient un peu agrandir
+cette zone réglementée sur le domaine de
+Chambord. Donc là, on le voit si je
+double tape dessus. D'ailleurs, comme
+n'importe quelle zone, hop, je la mets
+en surbrillance, double tape pour le
+cacher. Voilà, donc c'est ces notames là
+qu'on veut aller chercher. Alors, on
+peut s'amuser évidemment à faire encore
+pire. Je reviens dans notam graphique,
+je viens ici et je prends des notames.
+Je mets même unlimited dans le rayon
+d'action et je veux tout afficher.
+Voilà. Et là, on se rend compte
+rapidement bah que c'est
+le bazar quoi. Voilà. Donc vous pouvez
+le faire mais c'est pas notre conseil
+que c'est pas souhaitable. C'est pas
+réellement ce qu'on veut faire avec
+cette cette couche notam graphique. On
+veut voir des notames des notames
+graphiques qui ont un rayon un rayon
+d'action limité parce qu'en général
+c'est ces petites zones un petit peu
+réglementées qui ne sont issues que des
+notames qui nous intéressent. Voilà,
+donc je vais euh repasser à quelque
+chose de plus de plus léger. par exemple
+30 nautiques de rayon, ce qui est déjà
+pas mal, hein. Vous voyez euh ici, on en
+a un de inférieur pas loin de 30
+nautique probablement qui est ici, ce
+qui est c'est assez énorme. Voilà.
+Voilà. Donc ça c'est ce qui
+voilà qui oui conclut le le cette vidéo
+sur les notames graphiques. Probablement
+que nous ferons évoluer les quelques
+options de filtrage. On essaiera
+d'améliorer tout ça au fil de l'eau mais
+ça vous permet peut-être visuellement
+d'avoir un meilleur briefing lorsque
+vous partez en vol. Euh encore une fois,
+avant de finir cette vidéo, n'oubliez
+pas que le réel briefing notam se passe
+via les onglets route et l'onglet notam.
+Donc route pour voir les notames des
+terrains sur ma route rapidement. Je
+clique sur ALFBI, j'ai les notames. Je
+clique sur Ucel, j'ai les notames. Donc
+ça c'est mes terrains sur la route. Et
+dans la partie notam ici euh où j'aurai
+les notames de route avec des options de
+filtrage qui sont ici, la largeur du
+demi-couloir ou si je filtre et
+j'utilise tous les filtres disponibles
+enfin qui vont mettre les notames moins
+moins intéressants à la fin de la liste.
+Je reviens. Voilà, j'ai plus que sep
+notames vraiment importants
+qui sont remontés dans ma liste. Voilà.
+Après, les autres sont filtrés par la
+validité, par le niveau, par le fait que
+c'est des notables d'obstacle et cetera.
+Donc n'oubliez pas que ce brief, le le
+les notam, c'est par ces deux onglets.
+Les notam graphique ne vous ne vous
+dispense pas de faire ce briefingam via
+ces deux onglets de l'application. Je ne
+le répéterai jamais assez. On a des fois
+des surprises sur certains dans
+certaines situations. Les gens ne ne
+regardent pas les le briefing
+complètement. Voilà qui est dit. La
+vidéo est un petit peu longue. Je
+m'arrête ici. Si vous avez des questions
+sur les notames graphiques sur
+l'application générale, n'hésitez pas.
+info@skyrimsoft.fr.
+FR. Bon voilà à toutes et à tous et à
+bientôt.

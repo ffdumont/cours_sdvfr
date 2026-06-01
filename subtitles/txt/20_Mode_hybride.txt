@@ -1,0 +1,175 @@
+ 
+toutes et à tous et bienvenue dans cette
+vidéo sur les cartes additionnelles et
+également le mode hybride de la carte.
+Alors, qu'est-ce que ça veut dire ? Par
+défaut, dans l'application SDVR Next,
+nous allons avoir une carte vectorielle
+que vous voyez à l'écran ici, mais on
+peut
+vouloir afficher d'autres cartes comme
+l'hygiène OACI ou d'autres cartes
+500000, d'autres pays et cetera. Voilà.
+Donc comment on fait pour embarquer ces
+cartes et comment fonctionne
+l'application avec ces cartes et le mode
+par défaut vectoriel qu'on a à l'écran.
+C'est ce qu'on va voir aujourd'hui. Via
+le bouton utilisateur qui se trouve ici,
+on va aller dans la partie produit. Donc
+l'onglet produit qui est en bas.
+J'ai évidemment préchargé quelques
+cartes pour ne pas avoir à le faire
+pendant la vidéo. Donc on a une liste
+qui est ici. On peut aller chercher si
+je fais suisse par exemple euh par un
+filtre texte quelques quelques une carte
+ou deux. Enfin voilà, on peut faire des
+recherches. Euh, on peut également, je
+vais enlever le filtre avec installer,
+avoir uniquement celles qui sont
+installées ou non installées, celles que
+je n'ai pas encore installé. Voilà.
+Donc, on peut faire quelques quelques
+petits filtres.
+Ici, je suis allé récupérer donc euh
+SDOACI euh qui est donc la version euh
+image traditionnelle, donc probablement
+qu'on renommera cette carte, mais je
+l'ai récupéré pour l'exemple. J'ai
+récupéré également la SIA 250 de
+Toulouse. J'ai pris la carte Suisse
+500000 de la FOCA et cetera. Donc euh
+pour faire quelques exemples. Donc pas
+besoin d'en récupérer de nouvelles.
+Alors je peux vous montrer quand même
+par exemple avec la carte de la Slovénie
+ici. Si je fais installer, il va me
+récupérer la carte de la Slovénie. Alors
+vous pouvez quitter à tout
+moment. On va la voir apparaître sur le
+côté ici dans les l'écran carte. Voilà.
+Aller en haut. La Slovénie vient
+d'arriver. Voilà. Donc on retrouve sur
+le panneau latéral les cartes
+téléchargées. Euh maintenant, qu'est-ce
+qu'il qu'est-ce qui va se passer lorsque
+j'utilise une carte alternative ? Donc
+je vais prendre l'exemple typique de
+passer sur l'hygiène OACI. Et lorsque je
+passe dans ce mode, je passe dans un
+mode qu'on appelle alternatif ou
+hybride. On peut utiliser un peu le
+terme qu'on veut. C'est-à-dire que je
+vais quand même avoir accès aux couches
+vectorielles qui sont en dessous. Par
+contre, dans ce mode là, dès que j'ai au
+moins une carte alternative affichée,
+l'application se rappelle des couches
+vectoriel que vous avez chargé. Donc, je
+vais faire un exemple. Ici, on a
+uniquement
+basulm. VFR. Je peux éventuellement
+ajouter, on va ajouter les obstacles en
+plus par-dessus. Alors, c'est peut-être
+pas très visible, mais ça me
+permet de faire un exemple. Voilà ici.
+Et donc si je désactive l'hygiène aussi,
+je vais retrouver l'intégralité de mes
+couches vectorielles avec les les
+espaces aériens et cetera, les zones les
+zones urbaines, les villes, les villages
+et cetera, les réseaux ferrés, haut de
+tension. On va on va retrouver donc le
+le réseau de tension ici par exemple. Et
+si je reviens de nouveau en mode
+alternatif avec mon hygiène OACI, je ne
+retrouverai que basulm.vfr et obstacle.
+que je vais désactiver d'ailleurs que
+j'avais affiché avant. Donc
+souvenez-vous bien de ces deux modes de
+fonctionnement. Euh j'ai au moins une
+carte alternative affiché. Je suis dans
+un mode de fonctionnement avec des
+couches dont on se rappelle qu'elles
+sont affichées. Et euh quand je suis en
+mode vectoriel, je suis en mode
+vectoriel pur et je n'ai pas d'autres
+cartes alternatives. Voilà, donc ça
+c'est un truc dont il faut se
+souvenir. Euh bon bah après qu'est-ce
+qu'on peut faire d'autre ? Ça va être
+assez simple, c'està-dire que je peux
+quand même afficher une ou plusieurs
+cartes. Donc l'exemple typique
+maintenant, c'est j'ai mis l'hygiène au
+je veux afficher. Alors, je vais me
+déplacer sur Toulouse euh Toulouse,
+Toulouse Toulouse. Voilà. Et donc, je
+vais afficher la carte SIA 250
+par-dessus et je vais zoomer sur
+Toulouse. Voilà. Donc, je peux afficher
+plus une carte par-dessus une autre et
+ça va fonctionner dans le sens
+d'affichage. C'est-à-dire que hop, je
+vais repasser en mode vectoriel pur, je
+vais me mettre à peu près vers la Suisse
+et je dis je veux hygiène puis
+par-dessus Suisse où je pourrais vouloir
+la Suisse et l'hygiène par-dessus.
+Voilà, donc c'est vous faites un petit
+peu ce que vous voulez. Euh voilà. Alors
+évidemment l'application dans la dans le
+mode dans laquelle vous laissez quand
+elle redémarre, elle reste évidemment
+dans ce mode-là. Donc si je quitte
+l'application maintenant tout de suite,
+je retrouve retrouverai l'hygiène et la
+carte suisse
+affichée. Voilà. Euh qu'est-ce qu'on
+peut dire d'autre ? On peut dire
+d'autres on peut par appui long, par
+exemple sur la Slovénie, supprimer un
+élément. Voilà donc je pourrais faire
+supprimer. Ça va me permettre de
+supprimer la carte. Évidemment, je
+pourrais passer par la liste ici et
+supprimer une carte directement avec le
+bouton supprimer qui se trouve donc sur
+la droite ici. Euh voilà. Et un dernier
+mot
+peut-être sur la la gestion des mises à
+jour. Donc j'ai fait un exemple ici pour
+la vidéo. La carte suisse ici est à
+mettre à jour. C'est-à-dire que la
+dernière version que j'ai embarqué n'est
+pas n'est pas n'est pas la dernière
+disponible sur notre sur notre système.
+Et donc vous avez un bouton métrage à
+jour. Alors évidemment vous allez pas
+vous balader tous les jours dans cet
+écran. Donc je vais quitter complètement
+SDVFR et je vais relancer au démarrage
+de l'application et régulièrement
+environ toutes les 3 heures de mémoire,
+on va aller vérifier si vos cartes sont
+à jour et on va vous le dire. Donc je
+redémarre l'application. L'application
+va me dire avertissement. Certaines
+cartes installées nécessitent d'être
+mise à jour. Je peux dire maintenant et
+l'appli va me va m'envoyer sur l'écran
+pour que je puisse cliquer sur mettre à
+jour sur là ou les cartes qui sont à
+mettre à jour. Voilà. Euh voilà qui
+conclut donc cette vidéo sur les
+cartes alternatives. Peut-être que je
+peux juste vous remontrer parce que je
+l'avais récupéré SDOSI. Donc c'est SDACI
+en image que vous connaissez de la
+version 1. Donc elle est toujours
+disponible. Si vous êtes habitué à cette
+carte, vous pouvez toujours la
+télécharger en carte alternative. Je
+vous souhaite à toutes et à tous de bons
+vol et à très bientôt sur notre chaîne.

@@ -1,0 +1,98 @@
+ 
+Bonjour à toutes et à tous, Laurence
+Skydreamsoft.
+On poursuit nos vidéos sur la partie
+navigation après log de nave, profil de
+navigation, devis carburant. Nous voilà
+rendu dans la partie ici
+centrage. Le centrage, ben c'est un
+écran en deux parties. Une partie gauche
+avec un centrogramme, une partie droite
+avec des stations de chargement dans
+lesquelles on va pouvoir charger du
+poids évidemment du poids ou du
+carburant. Et carburant égal poids
+également. Donc voilà les stations.
+Alors tout ce paramétrage, vous devez
+tout de même le rentrer dans la partie
+avion. Je reviens mais il y a une vidéo
+qui qui traite de ça. Donc je vais très
+rapidement mais dans la partie
+utilisateur cette fois dans la partie
+appareil vous avez donc là pour le Bravo
+Roméo DR400 c'est l'avion par défaut
+donc vous pouvez vous en inspirer enfin
+en tout cas avoir un exemple concret.
+Vous avez ici les points du
+centrogramme. C'est les en gros les X Y
+qui permettent de tracer l'enveloppe du
+centrogramme. Euh et en dessous les
+stations de chargement, l'appareil à
+vide, le rang 1 avec pilote, copilote,
+on va dire, rang 2 passagers, bagage,
+carburant, une ou plusieurs sessions de
+carburant en fonction du nombre de
+réservoirs et cetera et cetera. Et
+lorsque on va regarder par exemple le
+rang 1, c'est type passager. Le bras de
+levier est de 0,41 m. J'ai mis un poids
+maximum. C'est ça vous permet de vous,
+c'est vraiment poids maximum. Vous
+mettez un peu ce que vous voulez. C'est
+pour la règlette que vous aurez après
+dans l'autre écran. On va on va la voir.
+Donc c'est bien un poid maximum. Donc
+c'est c'est un peu c'est c'est
+indicatif, hein. Euh et par exemple pour
+carburant, si je vais dessus, on voit
+bien que on a une quantité ici
+euh et non pas un point maximum. Et la
+quantité, je remonte dans ma fiche euh
+avion, elle est
+bien euh liée à la densité. Donc que ce
+soit l'avegaz ou du gazw, pas tout à
+fait pareil, enfin du Jetta 1. Donc la
+densité du carburant est ici. Voilà.
+Donc ce qu'on voit dans la partie, j'y
+retourne navigation centrage, c'est lié
+à ce
+paramétrage. Maintenant qu'on a dit ça,
+bah ça va être très très simple. Soit je
+tape une valeur ici, donc rang 1 par
+exemple, j'ai deux personnes de 80 kg
+euh 8 et 81. Voilà, je vais mettre 180
+et je vais avoir donc mon centrage qui
+se qui se met à jour.
+Il y a alors je vais faire bouger un peu
+le carburant parce qu'il y a 0 L pour
+l'instant et vous allez tout de suite
+comprendre avec la la règlette. Voilà,
+vous avez donc trois bulles. Je vais
+entourer de rouge ici. Trois bulles. La
+bulle rouge ici en bas, carburant zéro.
+La bulle verte c'est le carburant
+actuel. Et la bulle science, c'est le
+carburant maximum. Ça vous permet de
+voir tout de suite en fait où vous vous
+situez avec carburant max, carburant
+zéro. Voilà. pour savoir si même avec
+très peu de carburant dans l'appareil,
+vous serez toujours dans votre enveloppe
+de centrage. Voilà. Donc vous pouvez
+vous amuser avec les euh avec les
+règlettes. Et là, on voit bien que en
+fonction de la station de chargement
+qu'on vient charger, le centrage évolue
+différemment. Si évidemment je mets du
+poids à l'arrière avec mes bagages, mon
+mon centrage va vraiment changer, mon
+centre de gravité va changer. Voilà.
+Donc c'est tout. Euh ce qui est
+important, bah c'est évidemment le
+paramétrage en amont dans la fiche
+appareil. Euh ça on en parlera dans une
+dans la vidéo sur les sur les appareils.
+Donc comment euh ajouter des fiches
+avion hélico et cetera. Voilà qui
+conclut la vidéo donc sur le la partie
+masse et centrage.

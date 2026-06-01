@@ -1,0 +1,150 @@
+ 
+à
+tous. Je vous souhaite la bienvenue dans
+cette vidéo qui va traiter du profil de
+navigation. Elle fait suite à la vidéo
+sur le log de navigation. Donc via le
+bouton navigation, on va aller dans la
+partie profil qui se trouve ici. Donc
+c'est cet onglet profil là. Le profil de
+navigation vient
+montrer les espaces aériens tout au long
+de la navigation. Donc on retrouve les
+noms des points de la navigation de
+démonstration qu'on avait utilisé dans
+la vidéo qui traitait donc du log de
+nave. Donc log de nave qui est ici entre
+Châel Rau et Saint-Flour. Et donc tout à
+gauche, on a bien Châtel Ru et tout à
+droite on a bien Saint-Flour ici tout
+accroché au bout au bout au bout Limafox
+Hôtel qui le
+Québec. Voilà. Euh vous pouvez donc
+slider de gauche à droite le profil.
+Vous pouvez utiliser le petit slider ici
+pour étendre ou pas le profil. Pardon,
+étendre ou pas le profil. Tout à gauche,
+il est remis sur un seul euh sur un seul
+écran, on va dire. Là, sur une tablette
+en mode paysage, on peut se permettre de
+le faire parce que la navigation euh
+n'est pas très très longue et que
+l'écran est assez large. Voilà, donc
+vous faites un peu comme vous voulez
+pour y voir à peu près clair dans
+l'espace aérien. Et en dessous, ben vous
+allez avoir la liste des espaces. Euh
+par rapport à la V1, on a rajouté quand
+même le le la petite symbolique à gauche
+avec la couleur, les pointillers ou le
+trait plein qui permettent d'un petit
+peu y voir un peu plus clair. Donc on
+voit bien que les espaces aériens sont
+triés dans le sens où on va les
+rencontrer durant la navigation. Et on
+commence par l'aéromodélisme à côté de
+Chatel R. Alors on le voit à peine mais
+c'est je pourrais faire ça pour étirer à
+fond. On le voit vraiment collé ici
+l'aéromodélisme de de Châtel R et puis
+après ben les TMA euh les TMA de Poitier
+ici ici et ensuite on va avoir les TMA
+de Limoge au-dessus et cetera et cetera.
+Donc vous voyez que la liste qui est en
+dessous nous montre les espaces aériens
+au fur et à mesure. Alors si vous avez
+besoin d'information euh par exemple sur
+le super IP qui est ici, on peut cliquer
+donc sur la cellule, on va avoir les
+informations de la zone. Mais vous
+pouvez évidemment aussi double taper sur
+le profil. Voilà donc soit dans la
+liste, soit sur le profil directement
+ici. Voilà. Donc pour avoir les
+l'information de alors soit d'une zone
+en particulier, soit alors là si je le
+fais au-dessus, je vais avoir deux
+zones, la TMA et les le IP, enfin en
+tout cas la ZRT issu de ce super IP
+puisque au même endroit, au même double
+tap, il y avait deux zones. Voilà, donc
+ça ça vous permet de d'appréhender un
+peu en détail l'espace aérien lorsque
+vous allez avancer dans votre nave.
+La dernière chose qu'on peut dire sur ce
+profil de navigation euh c'est qu'on
+peut altérer les segment. Donc je vais
+utiliser, je vais vraiment voilà, je
+mets bien la flèche ici. Je vais aller
+euh glisser le segment qui est ici entre
+520 et l'autoroute et je vais pouvoir
+modifier la hauteur de de la branche
+donc du segment. Toc, je peux mettre
+4000 pieds par exemple ici et euh pas
+pareil ici. Je pourrais peut-être
+éventuellement ici mettre 4000 pieds
+entre l'autoroute et euh Bourganov.
+Voilà. Donc vous pouvez faire ce que
+vous voulez en glissant les segments de
+manière à ne pas avoir à aller dans la
+colonne ZV du log de Nave qui est à
+gauche ici pour pouvoir modifier
+l'altitude de tel ou tel segment.
+Voilà, ça conclut à peu près ce qu'il
+faut savoir donc sur le profil de
+navigation. Je vous invite tout de même
+à prendre en compte la nouveauté euh
+directement sur l'onglet carte ici le
+panneau latéral. On peut ici utiliser le
+profil de navigation directement sur la
+carte. Donc si je fais ça, je vais
+retrouver le profil de nave et aussi le
+petit
+slider qui est ici. Donc bah qu'est-ce
+que ça fait ? Alors, on va faire un
+exemple. Au lieu d'être sur 520 ici sur
+ce point qui je vais l'entourrer de
+rouge. Hop, ce qui est ce point là, je
+vais déplacer mon point sur poitier sur
+le côté, ce qui fait qu'on verra qu'on
+rentre dans la CTR et qu'on ressort.
+Voilà, je vais mettre ça sur poitier. Je
+lâche. On va voir. Alors, hop, je
+sélectionne poitier. Toc. Voilà. Et on
+voit bien dans le profil de navigation
+en bas. toc que c'est poitier mon
+premier point à la place de 520 comme
+avant et on voit bien qu'on rentre, je
+vais étirer un peu le profil, on rentre
+bien dans la CTR et cetera. Alors,
+l'avantage de mettre le profil de
+navigation directement sur la carte ici,
+c'est de pouvoir bah évidemment modifier
+la nave avec la carte Aéo en 2D et de
+voir tout de suite en 3D ce que ça
+donne. Donc ça ça manquait quand même
+sur la version 1 de SDVFR. Et l'autre
+l'autre possibilité aussi, c'est de euh
+au lieu d'avoir juste des informations
+comme on l'a vu avant, tap double tap,
+bah le tap ici va aussi faire comme le
+profil dynamique. Là, c'est Sivo, là ça
+va être les zones de Cognac. Euh je
+retourne sur la CTR, j'avance un peu
+dans mon profil, je me dis tiens euh
+quelle est la zone ? Quelles sont les
+zones ici ? Donc là, je vais avoir le
+super IP et la TMA de Limoge. Voilà.
+Donc ça permet vraiment de de d'avoir un
+accès euh sur la carte de tel ou tel
+espace beaucoup plus facilement que
+directement depuis l'onglet euh profil
+euh de navigation qu'on avait ici, ce
+que je vous avais montré au départ. Vous
+faites comme vous voulez. Voilà. Euh
+voilà qui conclut euh cette vidéo sur le
+profil de navigation. Je je vous invite
+à suivre les autres vidéos sur le devis
+carburant, euh le centrage et cetera et
+cetera. pour d'autres détails. À bientôt
+et bon vol à tous.

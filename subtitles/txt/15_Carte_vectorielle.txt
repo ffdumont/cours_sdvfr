@@ -1,0 +1,172 @@
+ 
+Bonjour à toutes et à tous, Laurence
+Skydreamsoft. Je vous souhaite la
+bienvenue dans cette vidéo qui va
+traiter d'un point important de la
+nouvelle version de SDVR, c'est sa carte
+vectorielle. Comment elle fonctionne,
+comment on joue un petit peu avec les
+couches de données et cetera et cetera.
+Donc on voit ça tout de suite. Lorsqu'on
+arrive sur l'application, vous l'avez
+sûrement remarqué, on télécharge une ou
+plusieurs régions et on arrive sur une
+carte qui ressemble fortement à SDCI que
+vous avez peut-être connu sur la version
+SDVFR V1 qui d'ailleurs est toujours
+disponible en carte additionnelle, mais
+par défaut, vous avez un mode vectoriel
+euh qu'on va appeler donc la SDACI
+vectorielle pour le coup.
+Euh cette carte, vous la retrouverez
+donc dans d'autres régions. Par exemple
+ici pour la partie Espagne.
+Euh si je alors j'ai peut-être pas pris
+l'Italie, mais bon, si je repars en
+Suisse, euh pareil ici. Voilà. Donc vous
+avez toujours le même style un peu
+partout en
+Europe. Euh qu'est-ce qu'on peut faire
+avec cette carte ? Vu que c'est une
+carte vectorielle, vous allez pouvoir
+euh supprimer des informations en
+ajouter. On peut changer après pas mal
+de choses. Donc on va regarder. Je
+j'ouvre le petit bandeau latéral. Alors,
+je vais utiliser les petits sliders ici
+pour enfin les les petits accordéons
+pour tout cacher et garder uniquement la
+partie couche de données qui
+m'intéresse. Comme ça, ce sera plus
+visuel pour vous. Donc, c'est la partie
+qui se trouve ici. Voilà.
+On va pouvoir donc supprimer des
+informations un petit peu comme on
+pouvait le faire dans la V1 avec les
+aérodromes, les élistations et cetera.
+Donc on peut quand même nettoyer la
+carte en fonction de ce qu'on veut ou de
+ce qu'on ne veut pas. Si par exemple je
+ne veux pas faire de radio navigation,
+je pourrais enlever NDB et VOR. Ça va
+déjà me permettre de d'y voir peut-être
+un peu plus clair sur ma carte. Euh je
+ne suis pas forcément intéressé par les
+illustations. En tout cas, je veux pas
+les voir. Je peux éventuellement enlever
+les illustations. Voilà, pareil avec les
+bases ULM. Donc ici, on a Archini sur le
+côté. Je pourrais dire je ne veux pas
+les bases ULM. Voilà. Donc vous pouvez
+choisir ce que vous voulez. Alors
+l'intérêt quand même de choisir aussi si
+on veut les aérodromes, les élations et
+cetera, c'est que si je laisse les
+hustations et que je dézoome un petit
+peu, la fonction euh one tap, on va
+l'appeler comme ça, un seul tap va
+donner les résultats au clic sur la
+carte. Donc là, j'ai remis les
+illustations. Donc les illustations vont
+être affichées. Si par contre j'enlève
+les illications et que je refais à peu
+près le même clic, je ne vais pas avoir
+les éléitations dans mes résultats.
+Voilà, ça c'est quand même utilisé donc
+pour afficher ou pas, mais également
+quand même
+pour euh euh pour les résultats
+lorsqu'on clique sur la carte. Voilà, je
+reviens dans la partie couche de
+données. Euh ensuite, bah vous avez donc
+tous les euh couches cartographiques
+qu'on va voir sur la carte. Euh
+peut-être l'important en VFR, si on veut
+nettoyer un petit peu la carte, ce
+serait d'enlever les espaces de classe E
+éventuellement pour aussi encore y voir
+plus clair. Autour de Poitier, c'est un
+bon exemple parce qu'on voit que il y a
+quand même pas mal de TMA 2 3 et
+peut-être 4, je sais plus. Voilà. Donc
+on peut cacher les espaces de
+classe euh vous pouvez aussi agir, je
+peut-être me déplacer plus dans la
+partie
+littorale. Voilà, vous pouvez agir sur
+les les noms des villes. Hop, je suis un
+peu trop vite. Voilà. Donc nom des
+villes, ça c'est les grandes villes,
+mais les noms des villages. Si vous
+voulez aussi un petit peu euh
+euh limiter les informations sur la
+carte, vous pouvez faire ça. On peut
+enlever les lignes haut tension, les
+zones urbaines un peu plus petites, donc
+inférieur à 1200 m euh et cetera. Donc
+voilà, on peut vraiment s'amuser à faire
+un peu ce qu'on veut.
+Euh l'autre grande partie, l'autre
+grande information importante à retenir
+sur cette carte vectorielle, c'est qu'on
+va pouvoir euh filtrer le plafond de la
+carte. Donc je vais me mettre
+ici. Voilà, c'est ce qu'on fait en
+général pour faire cette démonstration.
+J'ai ici la hop le filtre de plafond.
+Euh la carte va jusqu'au niveau 115 pour
+l'instant. Euh c'est pas exclu qu'elle
+aille un peu plus haut, mais pour
+l'instant c'est son c'est son c'est son
+plafond. Et je veux enlever les espaces
+aériens euh qui sont euh au-dessus de
+cette limite. Donc éventuellement, je
+vais prendre alors hop, j'enlève mon
+mode dessin. Je vais prendre mon slider
+et je vais mettre donc le niveau 05.
+Et là, il y a quelques espaces déjà qui
+vont qui vont
+partir. Je sais que je ne vais pas voler
+par exemple au-dessus de de 3000 pieds
+euh et je veux nettoyer ma carte des
+espaces aériens de cognac par exemple
+qui commence à 4000 pieds. Donc je mets
+alors allez 05, j'en ai déjà qui partent
+et je mets 0 euh 030 toc. Voilà, les
+espac aériens vont de cognac, enfin en
+tout cas pour certains euh vont vont
+partir. Alors, il va rester la lima,
+l'IMA unité qui est ici. Voilà, parce
+qu'on voit qu'elle commence à 3000
+pieds, c'est son
+plancher. Donc c'est pour ça qu'elle n'a
+pas été supprimée. Alors, je peux
+m'amuser à vraiment descendre encore
+plus bas. Voilà. Donc ça ça vous permet
+quand même surtout dans les parties
+assez contraintes de l'espace aérien de
+nettoyer les espaces aériens qui sont
+vraiment beaucoup plus haut et qui vont
+venir un petit peu polluer votre votre
+vue. Voilà. La dernière chose
+intéressante de cette carte vectorielle,
+ça va être de pouvoir changer son thème.
+Donc toujours dans le panneau latéral
+tout en bas, vous allez avoir le thème
+clair ou sombre. Donc là, je suis en
+mode clair, je peux passer donc en mode
+sombre et je vais avoir un style
+différent. Voilà, on s'amusera
+probablement peut-être dans le futur à
+faire d'autres thèmes un peu différents,
+des thèmes de couleur, mais ça permet de
+que ce soit un peu moins clair euh
+éventuellement pour le vol de nuit, ça
+peut être ça peut être intéressant.
+Voilà qui conclut cette vidéo sur la
+carte vectorielle et sur les couches de
+données. Je vous donne rendez-vous dans
+une prochaine vidéo pour d'autres
+détails sur la nouvelle application
+SDVFR Next. Très bon vol à toutes et à
+tous. À bientôt.

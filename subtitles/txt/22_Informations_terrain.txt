@@ -1,0 +1,113 @@
+ 
+et à toutes bienvenue dans cette
+nouvelle vidéo sur l'application sdvfr
+next aujourd'hui on va voir quelles sont
+les informations qu'on peut voir
+lorsqu'on
+demande lorsqu'on clique sur la carte
+sur un terrain quels sont les boutons
+d'action euh donc c'est parti je vais
+faire un simple clic sur la carte au
+niveau de Poitier et je vais avoir donc
+plusieurs informations en haut le code
+Ikao enfin OAI et le nom du terrain et
+ensuite des boutons d'action comme PDF
+pour avoir un raccourci sur la VAC donc
+ça vous connaissez probablement déjà
+vous pouvez ajouter un point de
+navigation avec le bouton plus qui se
+trouve ici je vais éviter de le faire
+pour l'instant on peut également faire
+un direct sur la position ici si l'on
+veut donc avec la flèche directe ce qui
+permet de faire des directs
+directementuis la carte et pas
+d'utiliser la fonction directe si ça
+vous intéresse la fonction directe est
+ici et elle fait d'une vidéo dédiée si
+vous voulez aller regarder en détail ce
+qui vous ce qui va nous intéresser
+surtout c'est ce bouton i comme
+information donc on va cliquer dessus et
+là on va avoir une une une boîte qui
+s'ouvre avec plusieurs onglets donc là
+où les pistes ici en haut on retrouve
+tout de même l'altitude du terrain qu'on
+peut voir sur la carte héos bien sûr
+aussi encore un bouton PDF pour
+récupérer la carte VAC et en dessous
+vous avez là où ou les fréquences
+associé au terrain
+approche ATIS information de vol tour et
+cetera dans un second onglet on va avoir
+la partie météo avec métar et si on
+descend taf donc la météo est plutôt
+bonne aujourd'hui euh voilà donc mes
+tartaf évidemment Poitier à une station
+métard et aussi une prévision taf par
+contre si le terrain n'en a pas vous
+aurez celui qui est le plus là c'est
+distance zéro nautique évidemment on va
+avoir je prends le dernier onglet avant
+d'aller sur les notames parce que c'est
+ce qui nous intéresse peut-être le plus
+dans la partie position vous avez la
+position du terrain dans différents
+différentes notations de latitude
+longitude si ça peut aider et vous avez
+un bouton qui s'appelle définir compe
+positionition par défaut vous pouvez le
+faire ça vous permet de centrer sur ce
+terrain là par défaut plutôt qu'au
+centre de la France si et seulement si
+vous n'avez pas de position valide GPS
+euh reçu par la que que la tablette peut
+avoir euh et ensuite bah vous avez les
+éphémérides avec le lev du soleil le
+coucher du soleil et évidemment la nuit
+aéro le jour aéro nuit aéro euh en
+fonction de la latitude environ une
+demi-heure avant une demi-heure après
+chez nous euh en
+France voilà donc ça c'est dans la
+partie position je reviens sur la partie
+qui sera peut-être la plus importante en
+tout cas dans cette boîte d'information
+euh c'est les notames donc sur Poitier
+on a se NOTAM qu'on a vérifié y à peu
+près 4 heures euh et donc benah on peut
+lister les notames qui sont ici alors
+par défaut l'application va afficher les
+notames VFR je vous le rappelle que dans
+la ligne Q du NOTAM vous avez IV IV ou
+alors ce sera que V mais si des notames
+sont que I comme IFR vous ne les verrez
+pas euh c'est y a une option je vais y
+aller rapidement dans bouton rou cranté
+sur le côté et vous avez si on descend
+un petit peu euh toc toc toc toc je vais
+retrouver
+l'option Afficher voilà alleer ici toc
+afficher aussi les notames
+IFR donc je vais la je vais la cocher je
+ne sais pas s'il y en a d'autres
+peut-être on va tenter le
+coup bouton d'information NOTAM alors
+oui 8 donc il doit y avoir un notami fr
+uniquement voilà qui est celui-là hop
+euh feu et class fe 21 piste principale
+hor service voilà qui intéresse
+éventuellement enfin en tout cas NOTAM
+qui a été tagué uniquement IFR voilà
+donc euh on voit ici donc les notames du
+terrain IFR VFR ça je viens de vous
+montrer l'option pour les notames de
+route je vous renvoie la vidéo sur euh
+le logdav et les terrains sur la route
+et les notames de route qu'on peut euh
+aller voir hop dans la partie h toc ici
+sur cet écranl mais ça fait l'objet
+d'une vidéo dédiée voilà qui conclut
+cette vidéo sur les informations d'un
+terrain lorsqu'on clique sur la carte
+bon voil à toutes et à tous et à bientôt

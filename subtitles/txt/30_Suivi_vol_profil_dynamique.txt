@@ -1,0 +1,180 @@
+ 
+et à tous Laurent skydream soft une
+nouvelle vidéo sur le suivi de vol
+toujours et le profil dynamique de pas
+de navigation le profil dynamique dans
+la partie latéral ici vous avez deux
+profils ici deux profils donc profil de
+vol et profil de navigation le profil de
+vol c'est quelque chose qui existait sur
+la la version 1 de sdvfr donc c'est le
+profil dynamique c'est ce qu'on va voir
+aujourd'hui on peut afficher aussi le
+profil de navigation mais ça fera
+l'objet euh directement sur la carte ça
+fera l'objet d'une vidéo dédiée donc on
+va activer notre profil de vol et parler
+un petit peu de ça le profil de vol
+se s'affiche en bas donc de la carte et
+vous allez avoir donc les informations
+donc d'altitude ici avec des traits et
+la position de l'avion euh enfin
+imaginez votre avion on le dessine pas
+parce que ça ça ça prend un peu de place
+et ce serait un peu dommage l'avion est
+vraiment coller alors je vais essayer de
+hop tac tac tac je vais essayer de voilà
+l'avion est vraiment collé à gauche ici
+je le dessine un petit peu en rouge mais
+bon voilà il est collé à gauche et vous
+avez évidemment les bulles de temps 2 3
+5 minutes 10 minutes et par défaut le
+profil affiche 20 noutique on va voir
+qu'on peut modifier tout ça
+euh voilà donc le profil de vous vous
+l'avez compris c'est de montrer devant
+vous quels sont les espaces aériens quel
+est le le relief euh et cetera donc euh
+c'est d'ailleurs à propos du relief ici
+là euh de 728 pieds c'est la hauteur sol
+maximum sur le profil actuellement voilà
+je suis en pause avec le simulateur pour
+l'instant euh mais on va on va évoluer
+un petit peu pour voir comment ça se
+comporte quelques informations tout de
+même donc toujours sur le panneau
+latéral appuil long sur profil de vol
+vous avez deux options on peut modifier
+la marge au-dessus de l'altitude GPS
+donc si je veux vraiment voir plus
+au-dessus je peux mettre par exemple
+4000 pieds on voit que ça a bougé
+derrière donc voilà on peut aussi être
+un petit peu plus gourmand et vouloir
+par exemple 40 neuti devant ou carrément
+on va mettre 60 euh et ensuite il y a le
+taux de rafraîchissement qui est par
+défaut de 3 secondes vous pouvez le
+diminuer ou le donc de de 6 à une
+seconde je vous conseille de le laisser
+à 3 ça permet de garder un petit peu de
+batterie parce que c'est des opérations
+de calcul qui sont quand même assez
+assez importantes donc ça permet de de
+ne pas trop solliciter la batterie de
+votre téléphone ou de votre tablette
+donc là j'ai modifié avec plus
+d'altitude au-dessus de moi donc c'est
+sur cette partie ici que j'ai agrandi et
+évidemment on voit 15 minutes ici sur
+toute cette partie-là j'ai demandé de
+passer de 20 à 60 donc j'ai fait x 3 sur
+ce que je voyais devant alors c'est
+vraiment en fonction des des des envies
+de chacun je pense que on peut être un
+peu plus raisonnable et mettre 2000
+pieds auudessus repasser peut-être à 20
+notique ce déjà beaucoup quand même
+vtique devant vous pouvez même faire
+moins que ça euh en remettant à peu près
+les options par défaut je reviens dans
+ces options du profil et vous montre que
+vous pouvez filtrer un petit peu ce que
+vous voulez sur le profil euh retirer
+par exemple les les espaces de de Classe
+E donc ils viennent de disparaître
+derrière si je leur mets alors faut le
+voir hein parce que ça se remet derrière
+euh on nffiche pas les LTA par défaut
+mais on peut le faire nous n'affichons
+pas non plus les les zones d'information
+de vol parce qu'en général on baigne
+complètement dedans donc ça a pas
+beaucoup beaucoup d'intérêt de les
+afficher donc elles ne sont pas
+affichées par défaut mais sinon vous
+avez un peu tout vous avez les zones
+naturel ce qu'on nffichait pas dans SDV
+frv1 on les avait pas dans le profil on
+les avait sur la carte mais pas dans le
+profil les toutes les zones
+d'aéromodélisme les les avertissements à
+la à la navigation comme les euh axe de
+voltige euh les parachutages et cetera
+donc on le voit maintenant dans le dans
+dans le profil de vol voilà donc euh bah
+on va mettre play sur le simulateur pour
+que ça bouge un petit peu et qu'on voit
+comment se comporte le profil récupérer
+aussi un petit peu une vitesse verticale
+calculer voilà donc c'est pour ça que le
+le vecteur je suis en train de monter un
+petit peu
+euh monte ici alors on va se servir pour
+démo de la zone de Montmorillon la R24
+et puis peut-être la P2 de civo qui est
+derrière pour montrer que comment ça se
+passe donc là on va on est toujours en
+virage à droite je vais faire un petit
+peu moins fort quand même le virage qui
+part un petit peu le simulateur voilà et
+là on va voir apparaître sur le profil à
+gauche toc alors je vais me mettre en
+pause c'est c'est l'avantage du simu
+voilà on va avoir donc la R24 qui est
+ici et on voit que notre vecteur vitesse
+transperse aussi la P2 civo donc là le
+profil devient assez
+intéressant on voit
+donc ici la 24 de montmillon et plus
+loin la p 2 de civo voilà donc qu'est-ce
+qu'on peut faire quand même parce qu'on
+peut faire des choses sur ce profil ici
+si on peut simplement faire un tap ici
+et on est sur la sur mon rot on pourrait
+dire bah tiens audessus c'est quoi toc
+c'est la TMA de limoch 3 on voit aussi
+des grandes zones rouges un peu plus
+longues c'est les zones de Cognac voilà
+c'est la L2 qui est ici et peut-être
+au-dessus la H2 voilà euh si on a
+plusieurs zones en même temps euh on va
+les afficher en même temps voilà donc
+c'est c'est vraiment ça permet de
+d'appréhender et de demander tout de
+suite à l'application de de quelle zone
+il s'agit hein donc je je fais ça donc
+soit je clique dans le blanc du profil
+pour enlever la zone soit je peux aussi
+toc double taper sur la zone qui a été
+mise en surbillance sur la carte ici
+pareil pour la P2 civo toc et ça zoome
+directement dessus donc je peux vraiment
+faire ce que je veux donc ça c'est pour
+vraiment mettre euh en surbrillance je
+peux aussi double taper je dis double
+tap et là j'ai uniquement l'information
+plus complète sur la zone de mon
+Morillon très important par exemple
+double tape aussi dans civo j'ai la péd
+siivo et cetera voilà donc on peut faire
+vraiment ce qu'on veut par double tap
+aussi pour la TMA l'imoge 3 voilà donc
+ça c'est les actions que vous pouvez
+faire euh en tant qu'utilisateur sur le
+profil simple tap pour voir vite double
+tap pour plus
+d'informations voilà euh qui donne
+beaucoup d'infos sur ce profil dynamique
+je rappelle donc affichage oui ou non
+ici dans le bandeau latéral appui long
+pour les options euh une autre vidéo
+sera dédiée
+au profil de navigation que ce soit
+directement dans l'onglet de navigation
+ou dans l'onglet enfin dans le pardon
+dans sur le l'écran principal voilà vous
+voyez que c'est pas du tout la même
+chose mais je vous donne rendez-vous
+dans la vidéo dédiée en attendant bon
+vol à toutes et à tous et à très bientôt

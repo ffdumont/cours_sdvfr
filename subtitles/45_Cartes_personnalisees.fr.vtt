@@ -1,0 +1,568 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.280 --> 00:00:01.709 align:start position:0%
+ 
+et<00:00:00.680><c> à</c><00:00:00.799><c> toutes</c><00:00:01.000><c> et</c><00:00:01.120><c> bienvenue</c><00:00:01.480><c> dans</c><00:00:01.560><c> cette</c>
+
+00:00:01.709 --> 00:00:01.719 align:start position:0%
+et à toutes et bienvenue dans cette
+ 
+
+00:00:01.719 --> 00:00:04.070 align:start position:0%
+et à toutes et bienvenue dans cette
+nouvelle<00:00:02.000><c> vidéo</c><00:00:02.240><c> de</c><00:00:02.320><c> démonstration</c><00:00:02.720><c> de</c><00:00:02.879><c> sdvfr</c>
+
+00:00:04.070 --> 00:00:04.080 align:start position:0%
+nouvelle vidéo de démonstration de sdvfr
+ 
+
+00:00:04.080 --> 00:00:07.510 align:start position:0%
+nouvelle vidéo de démonstration de sdvfr
+Next<00:00:05.080><c> aujourd'hui</c><00:00:05.879><c> après</c><00:00:06.319><c> les</c><00:00:06.600><c> surcouches</c>
+
+00:00:07.510 --> 00:00:07.520 align:start position:0%
+Next aujourd'hui après les surcouches
+ 
+
+00:00:07.520 --> 00:00:09.589 align:start position:0%
+Next aujourd'hui après les surcouches
+personnelles<00:00:08.280><c> on</c><00:00:08.400><c> va</c><00:00:08.559><c> voir</c><00:00:08.880><c> les</c><00:00:09.120><c> cartes</c>
+
+00:00:09.589 --> 00:00:09.599 align:start position:0%
+personnelles on va voir les cartes
+ 
+
+00:00:09.599 --> 00:00:11.830 align:start position:0%
+personnelles on va voir les cartes
+personnelles<00:00:10.280><c> donc</c><00:00:10.440><c> c'est</c><00:00:10.679><c> plutôt</c><00:00:10.960><c> des</c><00:00:11.200><c> base</c>
+
+00:00:11.830 --> 00:00:11.840 align:start position:0%
+personnelles donc c'est plutôt des base
+ 
+
+00:00:11.840 --> 00:00:15.709 align:start position:0%
+personnelles donc c'est plutôt des base
+map<00:00:12.840><c> qu'on</c><00:00:13.120><c> peut</c><00:00:13.320><c> charger</c><00:00:13.960><c> dans</c><00:00:14.240><c> le</c><00:00:15.080><c> dans</c><00:00:15.519><c> dans</c>
+
+00:00:15.709 --> 00:00:15.719 align:start position:0%
+map qu'on peut charger dans le dans dans
+ 
+
+00:00:15.719 --> 00:00:16.830 align:start position:0%
+map qu'on peut charger dans le dans dans
+la<00:00:16.000><c> carte</c>
+
+00:00:16.830 --> 00:00:16.840 align:start position:0%
+la carte
+ 
+
+00:00:16.840 --> 00:00:19.510 align:start position:0%
+la carte
+euh<00:00:17.840><c> pour</c><00:00:18.160><c> faire</c><00:00:18.400><c> un</c><00:00:18.560><c> petit</c><00:00:18.760><c> point</c><00:00:18.960><c> technique</c>
+
+00:00:19.510 --> 00:00:19.520 align:start position:0%
+euh pour faire un petit point technique
+ 
+
+00:00:19.520 --> 00:00:22.269 align:start position:0%
+euh pour faire un petit point technique
+ce<00:00:19.680><c> sont</c><00:00:20.000><c> des</c><00:00:20.240><c> fichiers</c><00:00:20.720><c> de</c><00:00:20.880><c> type</c><00:00:21.119><c> mbtile</c><00:00:22.119><c> qui</c>
+
+00:00:22.269 --> 00:00:22.279 align:start position:0%
+ce sont des fichiers de type mbtile qui
+ 
+
+00:00:22.279 --> 00:00:26.990 align:start position:0%
+ce sont des fichiers de type mbtile qui
+contiennent<00:00:23.119><c> des</c><00:00:23.439><c> tuiles</c><00:00:24.160><c> euh</c><00:00:25.160><c> image</c><00:00:25.880><c> euh</c><00:00:26.560><c> les</c>
+
+00:00:26.990 --> 00:00:27.000 align:start position:0%
+contiennent des tuiles euh image euh les
+ 
+
+00:00:27.000 --> 00:00:28.630 align:start position:0%
+contiennent des tuiles euh image euh les
+mbta<00:00:27.640><c> vectoriels</c><00:00:28.119><c> fonctionnent</c><00:00:28.480><c> aussi</c>
+
+00:00:28.630 --> 00:00:28.640 align:start position:0%
+mbta vectoriels fonctionnent aussi
+ 
+
+00:00:28.640 --> 00:00:29.990 align:start position:0%
+mbta vectoriels fonctionnent aussi
+d'ailleurs<00:00:29.000><c> mais</c><00:00:29.119><c> c'est</c><00:00:29.279><c> dans</c><00:00:29.359><c> la</c><00:00:29.480><c> partie</c><00:00:29.759><c> sur</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+d'ailleurs mais c'est dans la partie sur
+ 
+
+00:00:30.000 --> 00:00:32.350 align:start position:0%
+d'ailleurs mais c'est dans la partie sur
+couche<00:00:30.199><c> dont</c><00:00:30.320><c> on</c><00:00:30.720><c> dont</c><00:00:30.880><c> on</c><00:00:31.000><c> a</c><00:00:31.119><c> parlé</c>
+
+00:00:32.350 --> 00:00:32.360 align:start position:0%
+couche dont on dont on a parlé
+ 
+
+00:00:32.360 --> 00:00:35.590 align:start position:0%
+couche dont on dont on a parlé
+alors<00:00:33.360><c> je</c><00:00:34.120><c> pour</c><00:00:34.440><c> alors</c><00:00:34.800><c> je</c><00:00:35.079><c> mettre</c><00:00:35.239><c> en</c><00:00:35.320><c> anglais</c>
+
+00:00:35.590 --> 00:00:35.600 align:start position:0%
+alors je pour alors je mettre en anglais
+ 
+
+00:00:35.600 --> 00:00:37.430 align:start position:0%
+alors je pour alors je mettre en anglais
+je<00:00:35.960><c> vais</c><00:00:36.120><c> sur</c><00:00:36.200><c> le</c><00:00:36.239><c> site</c><00:00:36.399><c> d'opfly</c><00:00:36.960><c> maps</c><00:00:37.280><c> c'est</c>
+
+00:00:37.430 --> 00:00:37.440 align:start position:0%
+je vais sur le site d'opfly maps c'est
+ 
+
+00:00:37.440 --> 00:00:39.510 align:start position:0%
+je vais sur le site d'opfly maps c'est
+vraiment<00:00:37.719><c> pour</c><00:00:37.800><c> faire</c><00:00:38.079><c> un</c><00:00:38.200><c> exemple</c><00:00:39.160><c> de</c><00:00:39.320><c> ce</c><00:00:39.440><c> que</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+vraiment pour faire un exemple de ce que
+ 
+
+00:00:39.520 --> 00:00:40.990 align:start position:0%
+vraiment pour faire un exemple de ce que
+vous<00:00:39.680><c> pourriez</c><00:00:40.079><c> récupérer</c><00:00:40.520><c> sur</c><00:00:40.640><c> le</c><00:00:40.719><c> net</c>
+
+00:00:40.990 --> 00:00:41.000 align:start position:0%
+vous pourriez récupérer sur le net
+ 
+
+00:00:41.000 --> 00:00:43.590 align:start position:0%
+vous pourriez récupérer sur le net
+quelque<00:00:41.480><c> part</c><00:00:42.480><c> Switzerland</c><00:00:43.239><c> je</c><00:00:43.320><c> vais</c><00:00:43.480><c> faire</c>
+
+00:00:43.590 --> 00:00:43.600 align:start position:0%
+quelque part Switzerland je vais faire
+ 
+
+00:00:43.600 --> 00:00:45.470 align:start position:0%
+quelque part Switzerland je vais faire
+download<00:00:44.039><c> et</c><00:00:44.120><c> je</c><00:00:44.200><c> vais</c><00:00:44.360><c> aller</c>
+
+00:00:45.470 --> 00:00:45.480 align:start position:0%
+download et je vais aller
+ 
+
+00:00:45.480 --> 00:00:49.110 align:start position:0%
+download et je vais aller
+récupérer<00:00:46.480><c> le</c><00:00:46.719><c> matbox</c><00:00:47.480><c> tiles</c><00:00:48.480><c> donc</c><00:00:48.680><c> c'est</c><00:00:48.879><c> ça</c>
+
+00:00:49.110 --> 00:00:49.120 align:start position:0%
+récupérer le matbox tiles donc c'est ça
+ 
+
+00:00:49.120 --> 00:00:51.990 align:start position:0%
+récupérer le matbox tiles donc c'est ça
+ce<00:00:49.239><c> format</c><00:00:49.440><c> MB</c><00:00:50.399><c> tiles</c><00:00:50.920><c> je</c><00:00:51.079><c> fais</c><00:00:51.239><c> download</c><00:00:51.800><c> je</c>
+
+00:00:51.990 --> 00:00:52.000 align:start position:0%
+ce format MB tiles je fais download je
+ 
+
+00:00:52.000 --> 00:00:54.189 align:start position:0%
+ce format MB tiles je fais download je
+vais<00:00:52.239><c> les</c><00:00:52.359><c> récupérer</c><00:00:52.800><c> ce</c><00:00:52.960><c> fichier</c><00:00:53.440><c> et</c><00:00:53.960><c> je</c><00:00:54.039><c> vais</c>
+
+00:00:54.189 --> 00:00:54.199 align:start position:0%
+vais les récupérer ce fichier et je vais
+ 
+
+00:00:54.199 --> 00:00:56.150 align:start position:0%
+vais les récupérer ce fichier et je vais
+l'ouvrir<00:00:54.480><c> avec</c><00:00:54.640><c> sdvfr</c><00:00:55.239><c> next</c><00:00:55.559><c> et</c><00:00:55.719><c> je</c><00:00:55.840><c> vais</c>
+
+00:00:56.150 --> 00:00:56.160 align:start position:0%
+l'ouvrir avec sdvfr next et je vais
+ 
+
+00:00:56.160 --> 00:00:58.709 align:start position:0%
+l'ouvrir avec sdvfr next et je vais
+l'importer<00:00:56.879><c> tout</c><00:00:57.000><c> simplement</c><00:00:58.000><c> et</c><00:00:58.320><c> on</c><00:00:58.440><c> va</c><00:00:58.559><c> voir</c>
+
+00:00:58.709 --> 00:00:58.719 align:start position:0%
+l'importer tout simplement et on va voir
+ 
+
+00:00:58.719 --> 00:01:02.509 align:start position:0%
+l'importer tout simplement et on va voir
+ce<00:00:58.840><c> que</c><00:00:58.920><c> ça</c><00:00:59.000><c> donne</c><00:01:00.199><c> je</c><00:01:00.320><c> fais</c><00:01:00.680><c> ouvrir</c><00:01:01.160><c> euh</c><00:01:02.160><c> bah</c>
+
+00:01:02.509 --> 00:01:02.519 align:start position:0%
+ce que ça donne je fais ouvrir euh bah
+ 
+
+00:01:02.519 --> 00:01:04.630 align:start position:0%
+ce que ça donne je fais ouvrir euh bah
+je<00:01:02.640><c> peux</c><00:01:02.840><c> ouvrir</c><00:01:03.079><c> donc</c><00:01:03.199><c> avec</c><00:01:03.559><c> sdvfrnex</c><00:01:04.559><c> je</c>
+
+00:01:04.630 --> 00:01:04.640 align:start position:0%
+je peux ouvrir donc avec sdvfrnex je
+ 
+
+00:01:04.640 --> 00:01:07.590 align:start position:0%
+je peux ouvrir donc avec sdvfrnex je
+fais<00:01:04.799><c> une</c><00:01:04.920><c> seule</c><00:01:05.159><c> fois</c><00:01:05.799><c> là</c><00:01:06.040><c> euh</c><00:01:06.880><c> notre</c><00:01:07.200><c> appli</c>
+
+00:01:07.590 --> 00:01:07.600 align:start position:0%
+fais une seule fois là euh notre appli
+ 
+
+00:01:07.600 --> 00:01:09.590 align:start position:0%
+fais une seule fois là euh notre appli
+vous<00:01:07.759><c> demande</c><00:01:08.240><c> si</c><00:01:08.360><c> on</c><00:01:08.479><c> veut</c><00:01:08.720><c> mettre</c><00:01:09.000><c> cette</c><00:01:09.360><c> ce</c>
+
+00:01:09.590 --> 00:01:09.600 align:start position:0%
+vous demande si on veut mettre cette ce
+ 
+
+00:01:09.600 --> 00:01:11.950 align:start position:0%
+vous demande si on veut mettre cette ce
+mbtle<00:01:10.520><c> dans</c><00:01:10.680><c> la</c><00:01:10.799><c> partie</c><00:01:11.119><c> surcouche</c><00:01:11.799><c> ou</c><00:01:11.880><c> dans</c>
+
+00:01:11.950 --> 00:01:11.960 align:start position:0%
+mbtle dans la partie surcouche ou dans
+ 
+
+00:01:11.960 --> 00:01:13.710 align:start position:0%
+mbtle dans la partie surcouche ou dans
+la<00:01:12.040><c> partie</c><00:01:12.360><c> carte</c><00:01:12.840><c> c'est</c><00:01:13.119><c> plutôt</c><00:01:13.400><c> la</c><00:01:13.439><c> partie</c>
+
+00:01:13.710 --> 00:01:13.720 align:start position:0%
+la partie carte c'est plutôt la partie
+ 
+
+00:01:13.720 --> 00:01:15.469 align:start position:0%
+la partie carte c'est plutôt la partie
+carte<00:01:14.000><c> carte</c><00:01:14.320><c> c'est</c><00:01:14.439><c> plutôt</c><00:01:14.680><c> les</c><00:01:14.799><c> base</c><00:01:15.080><c> map</c>
+
+00:01:15.469 --> 00:01:15.479 align:start position:0%
+carte carte c'est plutôt les base map
+ 
+
+00:01:15.479 --> 00:01:17.310 align:start position:0%
+carte carte c'est plutôt les base map
+donc<00:01:15.600><c> les</c><00:01:15.960><c> les</c><00:01:16.320><c> les</c><00:01:16.400><c> fonds</c><00:01:16.680><c> de</c><00:01:16.799><c> ces</c><00:01:17.040><c> et</c><00:01:17.200><c> les</c>
+
+00:01:17.310 --> 00:01:17.320 align:start position:0%
+donc les les les fonds de ces et les
+ 
+
+00:01:17.320 --> 00:01:18.749 align:start position:0%
+donc les les les fonds de ces et les
+surcouches<00:01:17.840><c> c'est</c><00:01:17.920><c> les</c><00:01:18.040><c> surcouches</c><00:01:18.520><c> voilà</c>
+
+00:01:18.749 --> 00:01:18.759 align:start position:0%
+surcouches c'est les surcouches voilà
+ 
+
+00:01:18.759 --> 00:01:21.429 align:start position:0%
+surcouches c'est les surcouches voilà
+donc<00:01:18.920><c> plutôt</c><00:01:19.479><c> carte</c><00:01:20.479><c> fichier</c><00:01:20.880><c> copié</c><00:01:21.159><c> prèt</c><00:01:21.360><c> à</c>
+
+00:01:21.429 --> 00:01:21.439 align:start position:0%
+donc plutôt carte fichier copié prèt à
+ 
+
+00:01:21.439 --> 00:01:23.670 align:start position:0%
+donc plutôt carte fichier copié prèt à
+l'emploi<00:01:22.200><c> donc</c><00:01:22.400><c> là</c><00:01:22.560><c> je</c><00:01:22.680><c> démarre</c><00:01:23.000><c> euh</c><00:01:23.320><c> bah</c>
+
+00:01:23.670 --> 00:01:23.680 align:start position:0%
+l'emploi donc là je démarre euh bah
+ 
+
+00:01:23.680 --> 00:01:26.149 align:start position:0%
+l'emploi donc là je démarre euh bah
+notre<00:01:23.960><c> appli</c><00:01:24.880><c> et</c><00:01:25.200><c> je</c><00:01:25.280><c> vais</c><00:01:25.479><c> aller</c><00:01:25.680><c> voir</c><00:01:25.920><c> ce</c><00:01:26.079><c> que</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+notre appli et je vais aller voir ce que
+ 
+
+00:01:26.159 --> 00:01:27.670 align:start position:0%
+notre appli et je vais aller voir ce que
+ça<00:01:26.320><c> a</c><00:01:26.479><c> donné</c><00:01:26.840><c> puis</c><00:01:27.000><c> on</c><00:01:27.040><c> va</c><00:01:27.159><c> afficher</c><00:01:27.479><c> cette</c>
+
+00:01:27.670 --> 00:01:27.680 align:start position:0%
+ça a donné puis on va afficher cette
+ 
+
+00:01:27.680 --> 00:01:29.950 align:start position:0%
+ça a donné puis on va afficher cette
+carte<00:01:28.200><c> donc</c><00:01:28.400><c> là</c><00:01:28.600><c> je</c><00:01:28.720><c> suis</c><00:01:28.920><c> sur</c><00:01:29.079><c> la</c><00:01:29.240><c> France</c><00:01:29.600><c> à</c>
+
+00:01:29.950 --> 00:01:29.960 align:start position:0%
+carte donc là je suis sur la France à
+ 
+
+00:01:29.960 --> 00:01:31.990 align:start position:0%
+carte donc là je suis sur la France à
+actuellement<00:01:30.400><c> et</c><00:01:30.680><c> dans</c><00:01:30.799><c> le</c><00:01:30.880><c> panneau</c><00:01:31.200><c> de</c>
+
+00:01:31.990 --> 00:01:32.000 align:start position:0%
+actuellement et dans le panneau de
+ 
+
+00:01:32.000 --> 00:01:33.510 align:start position:0%
+actuellement et dans le panneau de
+droite<00:01:32.360><c> alors</c><00:01:32.560><c> j'avais</c><00:01:33.000><c> des</c><00:01:33.079><c> surcouches</c>
+
+00:01:33.510 --> 00:01:33.520 align:start position:0%
+droite alors j'avais des surcouches
+ 
+
+00:01:33.520 --> 00:01:35.429 align:start position:0%
+droite alors j'avais des surcouches
+perso<00:01:33.759><c> mais</c><00:01:33.840><c> j'ai</c><00:01:34.000><c> aussi</c><00:01:34.159><c> des</c><00:01:34.320><c> cartes</c><00:01:34.640><c> perso</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+perso mais j'ai aussi des cartes perso
+ 
+
+00:01:35.439 --> 00:01:38.069 align:start position:0%
+perso mais j'ai aussi des cartes perso
+et<00:01:35.759><c> donc</c><00:01:35.960><c> là</c><00:01:36.119><c> je</c><00:01:36.240><c> vais</c><00:01:36.479><c> afficher</c><00:01:37.079><c> par-dessus</c>
+
+00:01:38.069 --> 00:01:38.079 align:start position:0%
+et donc là je vais afficher par-dessus
+ 
+
+00:01:38.079 --> 00:01:41.789 align:start position:0%
+et donc là je vais afficher par-dessus
+la<00:01:38.680><c> carte</c><00:01:38.920><c> d'openfly</c><00:01:39.880><c> maps</c><00:01:40.880><c> que</c><00:01:41.000><c> je</c><00:01:41.119><c> viens</c><00:01:41.360><c> de</c>
+
+00:01:41.789 --> 00:01:41.799 align:start position:0%
+la carte d'openfly maps que je viens de
+ 
+
+00:01:41.799 --> 00:01:44.749 align:start position:0%
+la carte d'openfly maps que je viens de
+télécharger<00:01:42.799><c> voilà</c><00:01:43.439><c> donc</c><00:01:43.759><c> tout</c><00:01:43.880><c> simplement</c>
+
+00:01:44.749 --> 00:01:44.759 align:start position:0%
+télécharger voilà donc tout simplement
+ 
+
+00:01:44.759 --> 00:01:46.350 align:start position:0%
+télécharger voilà donc tout simplement
+alors<00:01:45.040><c> je</c><00:01:45.200><c> vous</c><00:01:45.360><c> rappelle</c><00:01:45.719><c> quand</c><00:01:46.000><c> même</c><00:01:46.200><c> parce</c>
+
+00:01:46.350 --> 00:01:46.360 align:start position:0%
+alors je vous rappelle quand même parce
+ 
+
+00:01:46.360 --> 00:01:49.350 align:start position:0%
+alors je vous rappelle quand même parce
+que<00:01:46.439><c> bon</c><00:01:47.000><c> c'est</c><00:01:47.920><c> le</c><00:01:48.640><c> c'est</c><00:01:48.920><c> pour</c><00:01:49.079><c> des</c>
+
+00:01:49.350 --> 00:01:49.360 align:start position:0%
+que bon c'est le c'est pour des
+ 
+
+00:01:49.360 --> 00:01:50.870 align:start position:0%
+que bon c'est le c'est pour des
+utilisations<00:01:49.880><c> très</c><00:01:50.079><c> particulières</c>
+
+00:01:50.870 --> 00:01:50.880 align:start position:0%
+utilisations très particulières
+ 
+
+00:01:50.880 --> 00:01:53.910 align:start position:0%
+utilisations très particulières
+évidemment<00:01:51.360><c> ce</c><00:01:51.719><c> ce</c><00:01:52.079><c> ce</c><00:01:53.079><c> cette</c><00:01:53.439><c> manière</c><00:01:53.759><c> de</c>
+
+00:01:53.910 --> 00:01:53.920 align:start position:0%
+évidemment ce ce ce cette manière de
+ 
+
+00:01:53.920 --> 00:01:57.469 align:start position:0%
+évidemment ce ce ce cette manière de
+fonctionner<00:01:54.880><c> mais</c><00:01:55.240><c> par</c><00:01:55.479><c> défaut</c><00:01:56.479><c> premier</c><00:01:56.960><c> Rael</c>
+
+00:01:57.469 --> 00:01:57.479 align:start position:0%
+fonctionner mais par défaut premier Rael
+ 
+
+00:01:57.479 --> 00:01:59.109 align:start position:0%
+fonctionner mais par défaut premier Rael
+bah<00:01:57.680><c> vous</c><00:01:57.799><c> avez</c><00:01:58.079><c> une</c><00:01:58.200><c> carte</c><00:01:58.399><c> vectorielle</c><00:01:58.920><c> de</c>
+
+00:01:59.109 --> 00:01:59.119 align:start position:0%
+bah vous avez une carte vectorielle de
+ 
+
+00:01:59.119 --> 00:02:02.510 align:start position:0%
+bah vous avez une carte vectorielle de
+notre<00:01:59.439><c> propre</c><00:01:59.960><c> cru</c><00:02:00.439><c> sur</c><00:02:01.159><c> l'Europe</c><00:02:02.159><c> dans</c><00:02:02.360><c> la</c>
+
+00:02:02.510 --> 00:02:02.520 align:start position:0%
+notre propre cru sur l'Europe dans la
+ 
+
+00:02:02.520 --> 00:02:04.950 align:start position:0%
+notre propre cru sur l'Europe dans la
+partie<00:02:02.880><c> utilisateur</c><00:02:03.640><c> puis</c><00:02:03.920><c> dans</c><00:02:04.039><c> la</c><00:02:04.200><c> partie</c>
+
+00:02:04.950 --> 00:02:04.960 align:start position:0%
+partie utilisateur puis dans la partie
+ 
+
+00:02:04.960 --> 00:02:08.150 align:start position:0%
+partie utilisateur puis dans la partie
+produits<00:02:05.960><c> vous</c><00:02:06.159><c> avez</c><00:02:07.079><c> des</c><00:02:07.439><c> cartes</c><00:02:07.960><c> que</c><00:02:08.039><c> vous</c>
+
+00:02:08.150 --> 00:02:08.160 align:start position:0%
+produits vous avez des cartes que vous
+ 
+
+00:02:08.160 --> 00:02:11.150 align:start position:0%
+produits vous avez des cartes que vous
+pouvez<00:02:08.560><c> télécharger</c><00:02:09.720><c> additionnel</c><00:02:10.720><c> comme</c><00:02:10.959><c> les</c>
+
+00:02:11.150 --> 00:02:11.160 align:start position:0%
+pouvez télécharger additionnel comme les
+ 
+
+00:02:11.160 --> 00:02:14.190 align:start position:0%
+pouvez télécharger additionnel comme les
+cartes<00:02:11.480><c> 500000</c><00:02:12.200><c> des</c><00:02:12.360><c> différents</c><00:02:12.800><c> pays</c><00:02:13.080><c> euh</c><00:02:14.040><c> il</c>
+
+00:02:14.190 --> 00:02:14.200 align:start position:0%
+cartes 500000 des différents pays euh il
+ 
+
+00:02:14.200 --> 00:02:17.630 align:start position:0%
+cartes 500000 des différents pays euh il
+y<00:02:14.319><c> a</c><00:02:14.519><c> la</c><00:02:14.680><c> Suisse</c><00:02:15.400><c> la</c><00:02:15.560><c> carte</c><00:02:16.160><c> Espagne</c><00:02:16.920><c> euh</c><00:02:17.440><c> il</c><00:02:17.560><c> y</c>
+
+00:02:17.630 --> 00:02:17.640 align:start position:0%
+y a la Suisse la carte Espagne euh il y
+ 
+
+00:02:17.640 --> 00:02:18.949 align:start position:0%
+y a la Suisse la carte Espagne euh il y
+a<00:02:17.760><c> bientôt</c><00:02:18.000><c> la</c><00:02:18.080><c> carte</c><00:02:18.280><c> Italie</c><00:02:18.560><c> d'ailleurs</c><00:02:18.879><c> qui</c>
+
+00:02:18.949 --> 00:02:18.959 align:start position:0%
+a bientôt la carte Italie d'ailleurs qui
+ 
+
+00:02:18.959 --> 00:02:20.670 align:start position:0%
+a bientôt la carte Italie d'ailleurs qui
+va<00:02:19.040><c> arriver</c><00:02:19.280><c> qu'on</c><00:02:19.480><c> avait</c><00:02:19.760><c> pas</c><00:02:20.160><c> enfin</c><00:02:20.480><c> voilà</c>
+
+00:02:20.670 --> 00:02:20.680 align:start position:0%
+va arriver qu'on avait pas enfin voilà
+ 
+
+00:02:20.680 --> 00:02:21.910 align:start position:0%
+va arriver qu'on avait pas enfin voilà
+il<00:02:20.720><c> y</c><00:02:20.800><c> a</c><00:02:20.920><c> une</c><00:02:21.000><c> quinzaine</c><00:02:21.360><c> de</c><00:02:21.440><c> pays</c><00:02:21.720><c> déjà</c>
+
+00:02:21.910 --> 00:02:21.920 align:start position:0%
+il y a une quinzaine de pays déjà
+ 
+
+00:02:21.920 --> 00:02:24.470 align:start position:0%
+il y a une quinzaine de pays déjà
+disponibles<00:02:22.680><c> le</c><00:02:22.879><c> Danemark</c><00:02:23.879><c> et</c><00:02:24.120><c> cetera</c><00:02:24.360><c> et</c>
+
+00:02:24.470 --> 00:02:24.480 align:start position:0%
+disponibles le Danemark et cetera et
+ 
+
+00:02:24.480 --> 00:02:25.670 align:start position:0%
+disponibles le Danemark et cetera et
+cetera<00:02:24.760><c> voilà</c><00:02:25.000><c> donc</c><00:02:25.080><c> vous</c><00:02:25.160><c> avez</c><00:02:25.400><c> quand</c><00:02:25.519><c> même</c>
+
+00:02:25.670 --> 00:02:25.680 align:start position:0%
+cetera voilà donc vous avez quand même
+ 
+
+00:02:25.680 --> 00:02:27.949 align:start position:0%
+cetera voilà donc vous avez quand même
+pas<00:02:25.760><c> mal</c><00:02:25.879><c> de</c><00:02:26.000><c> pays</c><00:02:26.599><c> pour</c><00:02:26.840><c> euh</c><00:02:27.200><c> et</c><00:02:27.560><c> c'est</c><00:02:27.720><c> leur</c>
+
+00:02:27.949 --> 00:02:27.959 align:start position:0%
+pas mal de pays pour euh et c'est leur
+ 
+
+00:02:27.959 --> 00:02:30.509 align:start position:0%
+pas mal de pays pour euh et c'est leur
+carte<00:02:28.440><c> officielle</c><00:02:29.200><c> on</c><00:02:29.319><c> va</c><00:02:29.440><c> dire</c>
+
+00:02:30.509 --> 00:02:30.519 align:start position:0%
+carte officielle on va dire
+ 
+
+00:02:30.519 --> 00:02:34.750 align:start position:0%
+carte officielle on va dire
+qui<00:02:30.680><c> sont</c><00:02:30.879><c> déjà</c><00:02:31.519><c> prévu</c><00:02:32.720><c> dansf</c><00:02:33.720><c> next</c><00:02:34.519><c> donc</c>
+
+00:02:34.750 --> 00:02:34.760 align:start position:0%
+qui sont déjà prévu dansf next donc
+ 
+
+00:02:34.760 --> 00:02:35.949 align:start position:0%
+qui sont déjà prévu dansf next donc
+c'est<00:02:35.080><c> quand</c><00:02:35.280><c> même</c><00:02:35.440><c> dans</c><00:02:35.560><c> des</c><00:02:35.720><c> cas</c>
+
+00:02:35.949 --> 00:02:35.959 align:start position:0%
+c'est quand même dans des cas
+ 
+
+00:02:35.959 --> 00:02:39.910 align:start position:0%
+c'est quand même dans des cas
+particuliers<00:02:36.760><c> qu'on</c><00:02:37.239><c> vient</c><00:02:37.480><c> charger</c><00:02:38.720><c> des</c><00:02:39.720><c> des</c>
+
+00:02:39.910 --> 00:02:39.920 align:start position:0%
+particuliers qu'on vient charger des des
+ 
+
+00:02:39.920 --> 00:02:41.990 align:start position:0%
+particuliers qu'on vient charger des des
+cartes<00:02:40.319><c> personnelles</c><00:02:41.000><c> à</c><00:02:41.239><c> ce</c><00:02:41.400><c> dans</c><00:02:41.599><c> ce</c><00:02:41.680><c> format</c>
+
+00:02:41.990 --> 00:02:42.000 align:start position:0%
+cartes personnelles à ce dans ce format
+ 
+
+00:02:42.000 --> 00:02:45.190 align:start position:0%
+cartes personnelles à ce dans ce format
+là<00:02:42.239><c> mais</c><00:02:42.400><c> c'est</c><00:02:42.720><c> possible</c><00:02:43.720><c> voilà</c><00:02:44.599><c> voilà</c><00:02:45.040><c> qui</c>
+
+00:02:45.190 --> 00:02:45.200 align:start position:0%
+là mais c'est possible voilà voilà qui
+ 
+
+00:02:45.200 --> 00:02:47.350 align:start position:0%
+là mais c'est possible voilà voilà qui
+conclut<00:02:45.560><c> cette</c><00:02:45.879><c> vidéo</c><00:02:46.319><c> sur</c><00:02:46.519><c> les</c><00:02:46.920><c> cartes</c>
+
+00:02:47.350 --> 00:02:47.360 align:start position:0%
+conclut cette vidéo sur les cartes
+ 
+
+00:02:47.360 --> 00:02:49.229 align:start position:0%
+conclut cette vidéo sur les cartes
+personnelles<00:02:48.040><c> je</c><00:02:48.239><c> vous</c><00:02:48.480><c> souhaite</c><00:02:48.879><c> à</c><00:02:49.000><c> toutes</c>
+
+00:02:49.229 --> 00:02:49.239 align:start position:0%
+personnelles je vous souhaite à toutes
+ 
+
+00:02:49.239 --> 00:02:54.239 align:start position:0%
+personnelles je vous souhaite à toutes
+et<00:02:49.360><c> à</c><00:02:49.440><c> tous</c><00:02:49.760><c> de</c><00:02:49.959><c> très</c><00:02:50.200><c> bons</c><00:02:50.360><c> vol</c><00:02:50.920><c> et</c><00:02:51.159><c> à</c><00:02:51.280><c> bientôt</c>
+

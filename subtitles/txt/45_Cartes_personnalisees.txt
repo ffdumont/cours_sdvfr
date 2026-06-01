@@ -1,0 +1,72 @@
+ 
+et à toutes et bienvenue dans cette
+nouvelle vidéo de démonstration de sdvfr
+Next aujourd'hui après les surcouches
+personnelles on va voir les cartes
+personnelles donc c'est plutôt des base
+map qu'on peut charger dans le dans dans
+la carte
+euh pour faire un petit point technique
+ce sont des fichiers de type mbtile qui
+contiennent des tuiles euh image euh les
+mbta vectoriels fonctionnent aussi
+d'ailleurs mais c'est dans la partie sur
+couche dont on dont on a parlé
+alors je pour alors je mettre en anglais
+je vais sur le site d'opfly maps c'est
+vraiment pour faire un exemple de ce que
+vous pourriez récupérer sur le net
+quelque part Switzerland je vais faire
+download et je vais aller
+récupérer le matbox tiles donc c'est ça
+ce format MB tiles je fais download je
+vais les récupérer ce fichier et je vais
+l'ouvrir avec sdvfr next et je vais
+l'importer tout simplement et on va voir
+ce que ça donne je fais ouvrir euh bah
+je peux ouvrir donc avec sdvfrnex je
+fais une seule fois là euh notre appli
+vous demande si on veut mettre cette ce
+mbtle dans la partie surcouche ou dans
+la partie carte c'est plutôt la partie
+carte carte c'est plutôt les base map
+donc les les les fonds de ces et les
+surcouches c'est les surcouches voilà
+donc plutôt carte fichier copié prèt à
+l'emploi donc là je démarre euh bah
+notre appli et je vais aller voir ce que
+ça a donné puis on va afficher cette
+carte donc là je suis sur la France à
+actuellement et dans le panneau de
+droite alors j'avais des surcouches
+perso mais j'ai aussi des cartes perso
+et donc là je vais afficher par-dessus
+la carte d'openfly maps que je viens de
+télécharger voilà donc tout simplement
+alors je vous rappelle quand même parce
+que bon c'est le c'est pour des
+utilisations très particulières
+évidemment ce ce ce cette manière de
+fonctionner mais par défaut premier Rael
+bah vous avez une carte vectorielle de
+notre propre cru sur l'Europe dans la
+partie utilisateur puis dans la partie
+produits vous avez des cartes que vous
+pouvez télécharger additionnel comme les
+cartes 500000 des différents pays euh il
+y a la Suisse la carte Espagne euh il y
+a bientôt la carte Italie d'ailleurs qui
+va arriver qu'on avait pas enfin voilà
+il y a une quinzaine de pays déjà
+disponibles le Danemark et cetera et
+cetera voilà donc vous avez quand même
+pas mal de pays pour euh et c'est leur
+carte officielle on va dire
+qui sont déjà prévu dansf next donc
+c'est quand même dans des cas
+particuliers qu'on vient charger des des
+cartes personnelles à ce dans ce format
+là mais c'est possible voilà voilà qui
+conclut cette vidéo sur les cartes
+personnelles je vous souhaite à toutes
+et à tous de très bons vol et à bientôt

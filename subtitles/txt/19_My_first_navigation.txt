@@ -1,0 +1,82 @@
+ 
+et bienvenue dans cette vidéo très
+simple, enfin espérons-le, qui va vous
+montrer comment créer une navigation le
+plus rapidement possible avec SDVFR
+Next. Je suis sur la carte ici et
+j'aimerais faire une navigation entre la
+Roche Surion et par exemple G nior. Euh
+alors comment on
+fait sur SVFR ? Ça va se passer via
+appuis long. Donc je fais un appui long
+sur
+lf. Je l'ai mis à proximité parce que
+j'ai pas tapé pile poil dessus. Donc
+l'application me propose de coller le
+point sur un point remarquable aux
+alentours. Donc c'est LFRI qui
+m'intéresse. Le point est bien mis pile
+poil sur le terrain. Et pareil donc pour
+ni je vais appuyer longtemps à proximité
+de Nior. Un segment est tracé et je vais
+coller ça sur Nior. Voilà. Donc ça c'est
+pour faire via appuie long la création
+d'un point. Donc je pourrais continuer
+ma navigation si j'avais envie avec un
+point ici. Pourquoi pas ? Je peux
+cliquer dessus et je peux faire la
+petite poubelle pour l'enlever. Voilà,
+c'est comme ça que ça se passe. Rien
+n'empêche de cliquer simple par exemple
+sur la
+Rochelle. Le l'application vient se
+centrer sur la Rochelle et il y a un
+bouton plus sur lequel je peux cliquer
+qui va qui va m'ajouter un point à ma
+navigation.
+Voilà, je veux supprimer mon point de
+navigation. Je fais un slide ici. Je
+supprime mon point de
+navigation. Alors, je peux slider où je
+le refais, hein. Je vais ajouter mon
+point sur la rochelle. Je clique. Je
+clique sur mon point. Là, c'est la
+Rochelle et la poubelle. Voilà. Bon, il
+y a plusieurs manières de supprimer le
+point. Maintenant, si je veux altérer ma
+route entre LFRI LFBN, bah qu'est-ce que
+je fais ? Je peux faire un appui long.
+Ça va me couper mon segment à l'endroit
+de l'appui long sans altérer la route.
+Donc là, je le refais. Je clique, je
+veux l'enlever celui-là. Toc. Voilà. Ce
+point ici, je veux le coller. Je vais
+faire une verticale sur fon le compte
+par
+exemple. Je vais faire un appuyon sur
+mon point. Je laisse le doigt appuyer et
+là je vais avoir mon point que je peux
+déposer quelque part. Donc je le dépose
+à proximité de fonc.
+Vu que cette à proximité, la fonction
+aimant, on va l'appeler comme ça, me
+propose d'menter le point sur fontain
+compte. C'est ce que je fais. Voilà.
+Donc je refais éventuellement en faisant
+un crochet sur la rochelle. Je découpe
+mon segment, j' appuie long. Hop, je le
+descends à proximité de la
+rochelle. Toc.
+Voilà. Et ma navigation est
+altérée. Voilà. Donc c'est tout ce qu'il
+y a besoin de savoir pour créer une
+navigation sur SDVFR. On verra dans
+d'autres vidéos via le bouton
+logation qui est
+ici. On ira voir directement dans le log
+de nave qu'est-ce qu'on peut faire sur
+cette navigation. Quelles sont toutes
+les informations qu'on peut ajouter à
+cette dernière pour la rendre un petit
+peu plus riche. En attendant, bon vol à
+toutes et à tous et à bientôt.

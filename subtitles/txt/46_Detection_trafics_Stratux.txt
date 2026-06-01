@@ -1,0 +1,137 @@
+ 
+bonjour à toutes et à tous bienvenue
+dans cette vidéo qui va traiter de
+dispositif de détection de
+trafic nous avions fait une vidéo sur
+notre chaîne qui démystifiait un petit
+peu cette ce sujet
+euh vous la trouverez probablement va on
+l'enlèvera pas même si elle date un
+petit peu et je vais vous montrer
+aujourd'hui tout simplement comment je
+connecte un boîtier de détection de
+trafic que ce soit du stratux du
+pilotware euh du Sky echo voir aussi des
+applications comme safe Sky avec le
+protocole qu'on appelle GDL 90 retenez
+bien ce terme là parce que en général il
+y a d'autres manières de communiquer
+avec ces boîtiers là mais c'est là le
+grand moyen de communiquer avec ça donc
+moi j'ai un stratux et je l'ai connecté
+ici euh d'ailleurs je l'ai renommé
+jardux euh c'est monstratux et je suis
+connecté sur monstratux voilà euh
+je reviens en arrière et je vais
+démarrer
+svfr alors pour l'instant je l'avais pas
+activé je vais vous montrer quand même
+comme le comment le faire mais après ça
+reste activé par
+défaut donc je vais dans les options je
+vais tout en bas alors il était
+peut-être déjà activé d'ailleurs voilà
+source de trafic externe voilà et alors
+par défaut vous trouverez ceci voilà
+donc aucun protocole donc c'est ici
+alors je vais peut-être aller un peu
+moins vite et je vais le Sigler ici
+voilà source externe de trafic je clique
+dessus et dans protocole pour l'instant
+on en gère qu'un seul on a fait exprès
+parce qu'on en gérera plusieurs ici et
+ce sera un peu la même manière de
+fonctionner mais c'est pour l'instant
+c'est GDL
+90 je fais ok par défaut il y a un port
+en général ça fonctionne sur le P 4 m
+mais il peut on peut avoir à le changer
+par contre ce qui est intéressant c'est
+que le statut ici il est passé tout de
+suite en vert donc on a reçu des
+messages et donc la liaison c'est bien
+faite euh par défaut il y a des limite
+horizontale et verticale donc en en
+otique et en pied pour éviter d'avoir du
+trafic trop trop loin moi j'ai poussé ça
+à fond pour parce que pour l'instant je
+suis au bureau j'ai mis stratux sur le
+toit donc bah il faut bien capter
+quelques avions un peu lointains pour
+pouvoir vous montrer donc j'ai poussé
+ces curseurs à fond voilà ensuite trafic
+actif trafic inactif je vais y revenir
+ensuite mais on va la regarder comment
+ça se passe sur la
+carte voilà donc pour l'instant
+je suis
+[Musique]
+euh mon avion est centré j'ai pas de fix
+GPS mais voici les appareils qui sont
+qui sont captés donc on voit les petits
+losanges hop on va prendre on va le
+mettre un petit losange ici avec un
+petit vecteur vitesse d'une minute et le
+plus 300 alors évidemment c'est un liner
+donc il est très très haut mais c'est en
+en centaines de pieds à combien il est
+là il y a un exemple qui est quand même
+beaucoup plus intéressant qui vient de
+décoller de Poitier ici
+euh plus 27 alors je vais quand même
+activer si je peux ma position toc pour
+me localiser parce que les les les les
+Delta de d'altitude là c'est plus 2700
+pieds c'est parce que j'ai pas de fixe
+GPS donc on va peut-être attendre
+d'avoir un fixe et je vais avoir
+vraiment le delta par rapport à là où je
+suis et à mon avis c'est beaucoup moins
+que plus 26 mais bon voilà et donc on
+voit le trafic euh
+qui est 2600 pieds au-dessus de moi
+voilà de temps en temps vous verrez un
+petit C ou un petit d c'est climbing
+descending c'est pour dire que ça que
+l'appareil monte ou l'appareil
+descend voilà alors on avait parlé tout
+à l'heure des options je retourne
+rapidement dans les options toc et vous
+pouvez donc quand même modifier les
+couleurs des trafics actifs le trafic
+inactif il y a deux couleurs trafic
+inactif c'est évidemment un trafic pour
+lequel nous n'avons pas reçu de position
+valable depuis n secondes et d'ailleurs
+les délais vous les trouvez en bas voilà
+donc en terme de secondes il va passer
+en orangangé au bout de 10 secondes
+d'inactivité donc de non détection le
+vecteur vitesse une minute ça vous
+pouvez le modifier aussi et le délai
+pour un trafic expiré c'estàdire qu'il
+disparaît de la carte c'est une minute
+vous pouvez évidemment le monter si vous
+voulez c'est voilà c'est à à voir comme
+vous voulez donc vous pouvez un petit
+peu paramétrer ce que vous voulez dans
+l'affichage ici je reviens sur ma carte
+j'ai toujours pas de fix GPS bon je suis
+dans le bureau donc on va pas on va pas
+on va pas insister mais voilà donc c'est
+euh comme ça qu'on peut donc connecter
+un boîtier de trafic externe
+euh sur sdvfr via le protocole GDL 90 on
+fera probablement une vidéo peut-être
+pour vous montrer
+euh euh comment se connecter à SAF Sky
+parce que SAF Sky pour le coup ça permet
+tout de même d'éviter d'acheter un
+boîtier externe
+euh et c'est quand même plus simple à
+mettre en œuvre donc on fera une vidéo
+probablement euh dédié en attendant euh
+n'hésitez pas à poser vos questions sur
+info@skydriamsoft.fr ou forum.skydre
+skydreamsoft.fr et bon VO à toutes et à
+tous

@@ -1,0 +1,213 @@
+ 
+rebonjour à toutes et à tous bienvenue
+dans cette vidéo donc sur les notames de
+route nous avons vu précédemment toutes
+les autres onglets de la partie
+navigation dont l'onglet route qui me
+donne les terrains sur ma route donc au
+long de ma navigation qui donc sont
+potentiellement des terrains de
+dégagement nous avons vu qu'en cliquant
+sur chacun des terrains nous allons
+pouvoir aller vérifier le s'il y a des
+notames sur ce terrain mais nous pouvons
+consulter les notables sur cet écran
+NOTAM donc cet onglet c'est ça dont on
+va parler dans cette
+vidéo nous voyons que sur le
+l'intégralité de cette navigation donc
+je vais juste la remontrer c'est la
+navigation de démonstration entre Châtel
+rou et Saint-Flour c'est à peu près en
+ligne droite c'est à peu près cette
+taille en France donc c'est une
+navigation qui est pas très grande mais
+pas trop petite non plus donc ça c'est
+c'est un exemple assez équilibré je
+retourne on a 66 notames qui sont en
+interaction avec notre route voilà euh
+euh donc route de demi-couloir de 15
+nautiqu hein le demi-couloir je le
+rappelle est
+ici voilà euh on montre donc les notames
+les notames sont tout de même triés vous
+le verrez si vous êtes curieux ici tac
+tac tac tac alors j'ai je cache un peu
+mais
+a1322/25
+a1323/25 ils sont triés par série donc
+Série A après série B et cetera série D
+euh le numéro euh aussi euh dans dans
+l'année en question et cetera donc ils
+sont triés d'une certaine manière vous
+avez aussi un truc important c'est ça
+ici vous avez donc le numéro de notame
+sur un numéro total donc là il y a 66
+NOTAM si je veux tout lire ici voilà
+alors on a l'exemple à quelques endroits
+donc je vais vous en parler maintenant
+et après on parlera du filtrage sur
+certains NOTAM comme dans la partie des
+notames d'aérodrome on peut retrouver
+des fois des référence à des Supa IP
+donc là on nous dit mise en œuvre de
+zone tampon pour le dépôt des plans de
+vol tatati tatata je clique sur le lien
+et ça va m'ouvrir le Superpa IP qui va
+bien qui est donc le
+2308 le 189e de l'année 2023 voilà
+euh voilà donc ça c'est ça permet de de
+faire ce petit cas particulier alors
+maintenant
+euh je veux pouvoir quand même trier ou
+en tout cas filtrer ou en tout cas
+mettre en premier de la liste des
+notames qui sont des notames importants
+donc j'utilise le bouton rranté ici on
+va avir trois filtres pour l'instant
+assez simple on viendra peut-être
+travailler un peu ça pour qu'on ait un
+meilleur filtrage une meilleure
+possibilités de meilleures possibilités
+mais on va regarder ces trois
+possibilités la première c'est donc de
+filtrer les notames dont la validité ne
+commence pas avant les 6 prochaines
+heures alors ça veut dire quoi le le
+texte est un petit peu compliqué mais il
+a il est important c'est je veux donc
+voir en premier les notames qui sont
+tout de suite actifs et qui vont
+potentiellement l'être dans les 6h à
+venir voilà donc ça si je fais ça on va
+déjà passer de 66 NOTAM à 35 NOTAM et
+donc dans les 35 notames dont le
+compteur est un peu rouge là ici c'est
+vraiment ces notames qui sont déjà
+actifs donc on le voit hein sur euh on
+est le 25 mars ça ça se finit le 31 ça
+ça se finit le 4 avril
+euh et on voit bien que les dates de
+départ ça correspond bien ces notames
+sont actifs pour l'instant si si un
+NOTAM était actif dans les 6 he qui
+viennent il serait aussi mis dans cette
+liste 1/ 35 voilà donc vous avez bien
+compris l'option maintenant je vais
+aller justement au bout de la liste et
+au bout de la liste on voit donc 35/ 35
+et dessous on voit 1/ 31 et donc les 31
+notames suivants sont des notames qui
+sont filtrés du fait de cette date donc
+déjà ça commence à devenir plus
+intéressant pour nous pour le briefing
+NOTAM c'est quand même plus intéressant
+de de de de de faire le focus sur ces
+NOTAM importants mais on ne cache aucun
+NOTAM c'està-dire que au bout des 35 on
+a 1/ 31 donc 35 + 31 66 et on retrouve
+tout de même les notames qu'on avait
+tout à l'heure dans la liste ils sont
+juste filtrés par validité donc on voit
+bien tous filtrés par validité voilà
+alors on va regarder les autres
+notambles on va se remettre au début de
+la liste euh les autres notames les
+autres filtres pardon deuxième filtre
+donc filtrer les notames dont le
+plancher commence au-dessus de la
+navigation donc là qu'est-ce que ça va
+faire ça va alors je je vais pardon je
+vais passer sur le log de nave plutôt
+sur le log de nave mon segment maxi et
+6000 pieds on va prendre pour cette
+option un un une sécurité de 1000 pieds
+et en gros on va venir vous filtrer des
+notames les notames qui seront à 7000 ou
+au-dessus voilà donc c'est on dit ici
+dont le plancher commence au-dessus de
+la navigation au-dessus mais 1000 pieds
+au-dessus quoi toujours cette histoire
+de sécurité euh et donc bah là on est
+plus 3 on a plus 35 on a 23 donc je vais
+aller regarder par curiosité euh donc
+les filtré par validité et peut-être que
+tout en bas je vais avoir voilà filtré
+par niveau donc là le premier ici filtré
+par niveau et en fait alors si vous êtes
+très curieux vous pouvez aller voir dans
+la dans la euh
+ici dans la ligne q Vous avez 165 à 395
+on voit effectivement que le niveau 165
+on s'en fout un peu donc enfin en tout
+cas pour notre navigation là
+actuellement donc on ne le veut pas donc
+déjà ça filtre ici
+euh un point peut-être important et là
+je vais me permettre la digression on
+voit ici i donc uniquement IFR ça veut
+dire que l'option qui n'est pas activé
+par défaut lorsque vous installez
+l'application d'afficher les NOTAM IFR
+et cocher dans mon app ici là là
+afficher aussi NOTAM donc ce que je vais
+faire c'est que je vais les cacher et je
+vais revenir dans mon dans mon écran
+donc c'est plutôt pas mal qu'on a eu cet
+exemple là parce que là on va encore
+vachement limiter le nombre de NOTAM on
+passe à 20 NOTAM ici voilà on va
+toujours avoir probablement mais
+probablement moins de filtrer par niveau
+voilà filtrer par niveau
+euh voilà ça c'était que VFR ici on en
+voit bien i V pour IFR VFR VFR IFR VFR
+mais on ne voit plus de i tout court
+donc il y a plus les les les notames IFR
+j'avais oublié que je l'avais activé
+voilà donc ça commence à être un petit
+peu un petit peu plus sympa déjà et
+ensuite bah dernier truc euh si on est à
+peu près sûr quand même de de voler
+enfin si on est sûr de voler à la
+hauteur une hauteur conséquente euh on
+peut filtrer les obstacles les les
+notames d'obstacles pardon donc je vais
+activer l'option et là on va descendre à
+13 notames donc on peut
+vraiment grâce à ça mettre tout en haut
+de la liste les notames qui à mon avis
+sont les plus importants et ça ça
+commence à se voir parce que on va avoir
+donc des informations comme quoi la C de
+Poitier a des horaires d'activation on
+voit aussi que sur LFCA donc châel r il
+y a des taxis wayord et Sud fermé les
+aéronfs basés sur chovini euh
+ou autorisé par le gestionnaire
+peut-être que la piste en herbe elle est
+pas utilisable bon bon c'est quand même
+des les notames qui sont de 1 à 13 là
+sont quand même des notames importants
+voilà
+euh je dis pas que les autres sont pas
+importants mais en tout cas ça permet de
+mettre tout en haut ceux qui sont ceux
+qui sont quand même critiques on va dire
+ça comme ça et après donc elle est
+filtrée par validité encore une fois je
+descends je descends je descends filtrer
+par niveau et tout en bas je vais avoir
+filtrer car obstacle et donc là on voit
+que ce sont des m de mesure arbres dans
+les TROUET et cetera voilà donc là que
+de de sac voilà donc ça ça permet
+de d'améliorer un petit peu le briefing
+notable on va dire ça comme ça donc ces
+option on essaiera de les faire évoluer
+pour que il y ait plus de confort pour
+vous d'ailleurs n'hésitez pas à nous
+faire vos retours sur
+infoskydreamsoft.fr ou sur notre forum
+forum.skydreamsoft.fr ça conclut la
+vidéo à bientôt dans une nouvelle vidéo

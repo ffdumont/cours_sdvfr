@@ -1,0 +1,148 @@
+ 
+bonjour à toutes et à tous Laurent Sky
+dreamsoft une nouvelle vidéo à propos de
+la gestion des appareils les fiches
+avion hélicoptère ULM comment les
+paramétrer où se trouvent-ell dans
+l'application et à quoi ça
+sert via le bouton utilisateur qui se
+trouve
+ici nous allons pouvoir accéder à la
+liste des appareils donc l'onglet
+appareil le deuxième en partant de la
+gauche tout en
+vous allez avoir accès donc à une liste
+d'appareils par défaut vous aurez un
+DR400 pour démonstration que vous
+pourrez soit modifié soit supprimé après
+on va avoir créé un nouveau une nouvelle
+fiche
+avion si je clique dessus je vais
+rentrer dans la fiche où je vais
+retrouver grosso modo ce qu'il y avait
+dans la version 1 de sdvfr
+l'immatriculation le modèle on a deux
+nouvelles informations qui vont nous
+servir plus tard dans dans dans dans
+sdvfr pour interfacer avec d'autres
+systèmes euh une
+catégorie de l'appareil et l'adresse 24
+bit du transpondeur ce sera utile pour
+la suite mais on en reparlera tout ce
+qui est unité de vitesse avec les
+vitesses de croisière de monté de
+descente c'est très utile pour le log de
+nav pour affiner les temps de de
+navigation pareil pour affiner les temps
+de monté temps de descente les taux de
+montter et de descendre en pied par
+minute ou en m par seconde ça dépense ce
+qu'on veut l'unité de
+consommation la consommation horaire la
+densité du carburant dépend évidemment
+c'est de l'avgaz ou du jet 1 ou ou autre
+chose
+euh les unités de consommation donc soit
+litre par heure soit gallon US soit
+gallon impérial
+euh et ensuite euh les bras de levier
+les unités de poids donc ça c'est très
+utile pour donner les points du
+centrogramme on verra dans la vidéo qui
+est dédiée sur le devis de Mass centrage
+donc point du centrogramme mais
+également les stations de chargement
+donc on peut ajouter
+euh des points donc ici je viens d'en
+ajouter un donc je le fais pas mais hop
+je peux le supprimer et aussi ajouter
+des stations de chargement donc
+l'appareil à vide le rang 1 avec mon
+pilote mon copilote on va dire le rang 2
+mes passagers le bagage le carburant je
+peux ajouter euh des stations voilà donc
+là j'en ai h j'en ai ajouté deux mais je
+peux ajouter une nouvelle station
+cliquer dessus et aller modifier son
+type et cetera donc toujours une station
+de chargement avec un bras de levier un
+poids maximum à l'intérieur et
+cetera donc là je vais supprimer cette
+station et faire retour j'ai rien
+modifié dans ma fiche mais si vous
+faites RETOUR vous allez modifier
+quelque chose il vous propose
+d'enregistrer euh laaffiche avion euh un
+mot quand même sur la petite étoile
+bleue que vous voyez euh à l'extrémité
+ici toc de euh mon Dr 400 c'est mon
+appareil par défaut c'est celui qui va
+être choisi dès que une nouvelle enfin
+quand il y a une nouvelle nave qui est
+créée si je veux modifier cet appareil
+par défaut je fais un appui long sur la
+cellule donc là pour mon RF6 Fournier et
+je détermine que c'est cet appareil qui
+est mon appareil par défaut je reviens
+sur le DR400 parce que c'est plutôt
+celui-là avec lequel je vole le plus
+souvent mais voilà vous pouvez choisir
+votre Appareil par défaut
+pour suim un appareil vous faites un
+glisser sur le côté vous allez avoir
+soit annulé soit supprimé vous pouvez le
+supprimer tout
+simplement vous ne pouvez pas supprimer
+tous les appareils il faut toujours
+qu'il y en ait un donc l'application
+vous interdira de supprimer le dernier
+avion dernier
+hélico que vous avez dans la liste pour
+éviter tout problème voilà donc ça c'est
+vos fiches avion alors maintenant à quoi
+ell servent vraiment où elles vont ser
+euh évidemment les un tout toutes les
+toutes les données que vous avez
+rentrées vont servir pour masse centrage
+carburant également l'unité de vitesse
+que vous voyez ici là il y a écrit
+kilomèh c'est lié à l'avion sélectionné
+donc si j'avais paramètrer des nœuds
+dans ma fiche avion je verrai des nœuds
+ici donc ça c'est
+important et ensuite si je vais sur
+l'onglet navigation enfin l'écran
+navigation j'ai mon log de nave ici
+petit bouton roue cranté pour ici là
+pour les informations plus poussées du
+log de nave je clique dessus et là je
+retrouve un petit peu comme dans la
+version 1 de sdvfr l'ppareil sélectionné
+pour cette navigation donc par défaut
+bravo Romeo qui est mon 400 je peux
+changer et passer sur mon Fournier si
+j'ai envie ici je vais mettre une minute
+de plus pour faire châel r Poitier ce
+qui est logique vu que
+mon Fournier est quand même moins rapide
+voilà donc vous choisissez l'avion ici
+évidemment c'est ici qu'on choisit
+l'avion donc pour la navigation mais il
+l'appareil donc si je repasse hop
+rapidement sur mon
+DR400 dans carburant le devis carburant
+bah ça va
+êtrevidemment lié à la densité et à la
+l'unité de consommation de mon avion le
+mass et centrage c'est pareil je vais
+avoir le centrogramme qui est lié à ma
+fiche avion ça vous connaissez
+probablement déjà si vous connaissez
+sdvf 1 voilà donc évidemment la fiche
+avion intervient à d'autres endroits
+dans l'application mais ça fera l'objet
+de vidéos particulière voilà cet aperçu
+rapide sur la gestion des fiches
+avion je vous donne rendez-vous dans
+d'autres vidéos de tuto très bon vol à
+toutes et à tous à bientôt

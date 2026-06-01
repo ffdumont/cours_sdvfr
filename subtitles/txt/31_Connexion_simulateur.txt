@@ -1,0 +1,160 @@
+ 
+et bienvenue dans cette vidéo de SDVFR
+Next qui aujourd'hui une fois n'est pas
+coutume va parler enfin peut-être de
+simulateur de vol. Euh alors c'est
+quelque chose qui nous tient beaucoup à
+cœur parce que au final Thomas et moi et
+aussi Xavier, on vient tous plus ou
+moins de ce milieulà donc du simulateur
+de vol. Donc on connaît bien le sujet.
+Alors euh si on parle de ça aujourd'hui,
+c'est pour euh interfacer un simulateur
+de vol avec SDVFR.
+Euh SDVFR va permettre donc de remplacer
+le GPS de la tablette classique quand on
+est en vol par le positionnement d'un
+simulateur. Alors il y a deux manières
+enfin il y a deux grands simulateurs qui
+existent aujourd'hui. Il va y avoir
+toute la famille des Flight
+Simulator où dedans, il y a aussi P3D
+Puiper qui qui est un simulateur de
+Lokin Martin. Ça c'est une des une
+première grande famille. Et la deuxième
+famille, c'est Xlain que beaucoup de
+gens connaissent également, qui est un
+simulateur très connu. Euh et donc il y
+a d'autres simulateurs un peu moins
+connu, mais on va parler de ces deux-là
+aujourd'hui. Et on peut interfacer les
+deux avec euh SDVFR. Euh pour ceux qui
+utilisent Flight Simulator, donc FSX,
+euh P3D, FS 2020, même le 2024 qui est
+sorti il y a peu. Euh dans sur notre
+site web, dans projet, il y a euh qu' un
+petit projet qui s'appelle SDVFR SIM
+Linker. Voilà, ça vous explique un petit
+peu ce que c'est et en gros, c'est
+comment on fait, à quoi ça sert. un
+petit un petit programme qu'on va
+laisser qu'on va faire tourner sur
+Windows avec en parallèle du simulateur
+pour que le simulateur puisse envoyer à
+la tablette les informations de
+positionnement. Donc un lien de
+téléchargement, vous pouvez le
+récupérer, le déper, le lancer et
+cetera. Vous avez surtout un fichier
+lisez-moi euh qui est important. Il y a
+quelques instructions euh qui qui qui
+sont importantes à l'intérieur. Donc je
+vous laisse regarder ça. Alors qu'est-ce
+que ça fait euh une fois que c'est lancé
+? J'ai pris quand même une capture
+d'écran pour vous montrer, même si je
+suis sur ma tablette. Désolé pour
+l'énormité du truc, mais bon, vous aurez
+ce cette petite fenêtre dans votre sur
+votre PC Windows et euh normalement, il
+devrait dire qu'il est connecté au
+simulateur. On a toutes les informations
+de position et il y a un truc un petit
+peu important qui se trouve ici en bas
+qui est l'adresse IP. C'est optionnel,
+ça dépend un peu des box. Au niveau du
+réseau, c'est un peu compliqué mais si
+jamais ça ne fonctionne pas, il sera
+nécessaire de recopier l'adresse IP.
+Elle est montrée dans SDVFR d'ailleurs
+dans ce champ texte ici. Voilà. Bon, une
+fois que c'est lancé, qu'est-ce que ça
+va faire ? Bon, on va aller voir ça dans
+le simu tout de suite. Dans le simu,
+pardon, dans SDVFR. Donc, je lance
+SDVFR.
+J'ai évidemment à côté sur mon poste
+Flat Simulator qui tourne. Je suis au en
+bout de piste avec déjà en train de le
+moteur en train de tourner. Donc là, je
+suis sur Châtel R pour l'instant c'est
+ma position par défaut dans
+l'application. Le mode simulateur n'est
+pas activé. Donc je vais aller dans
+bouton
+rouant. Euh je vais aller sur euh hop
+hop hop hop tout en bas.
+et c'est ici euh source de
+positionnement issue d'un simulateur.
+Donc on voit bien d'ailleurs l'adresse
+IP qui est rappelée ici de la tablette
+si ça peut servir dans le voilà et donc
+il est déjà activé ici. Très bien. Donc
+je n'ai pas lancé encore le petit client
+linker. Donc je vais le faire. Double
+clic. D'ailleurs, je reviens ici sur
+l'écran principal et je me retrouve.
+C'est bien le cas. Euh à Saint-Pierre de
+London, je suis piste 10, il me semble.
+Voilà, c'est ça. Euh voilà. Donc là, mon
+positionnement est OK. On voit bien
+d'ailleurs que dans les dans les
+informations de positionnement qui sont
+en bas, on a 0
+kmh. Je suis à 27 pieds et je suis au
+096. Les quelques métriques en bas
+fonctionnent, tout va bien. Donc ce
+qu'on peut faire, c'est euh mettre euh
+bon, on va mettre les gaz tout
+simplement. Vous allez voir ce qui se
+passe. C'est pas il y a pas de
+secret. Voilà. Donc comme vous pourriez
+l'être en vol réel, le simulateur va
+envoyer sa
+position au à la tablette et donc vous
+vous voyez évoluer sur l'application.
+Voilà, donc ça c'est ce qui permet de
+lier le simulateur. Donc je vais mettre
+pause sur le simulateur pour pouvoir
+regarder ma ma tablette sereinement.
+C'est ce qui permet d'envoyer les infos.
+Euh petit mot quand même, on parle tout
+depuis tout à l'heure d'FSX, de P3D, FS
+2020, FS 2024, c'est toute la famille un
+peu des Flight Simulator. J'ai pris un
+onglet tout à l'heure pour vous montrer
+en fait comment ça se passe dans Xplain.
+Dans Xlain, vous n'avez pas besoin du
+petit client Sim Linker. Xlain en fait
+envoie déjà les informations, ce qui
+n'est pas le cas de Flight Simulator.
+Donc vous n'avez pas à utiliser le
+client Sim Linker. Vous avez simplement
+à ajouter à activer ce trucl ici qui dit
+que il y a une grande variété
+d'applications comme Fortflight, Garmin
+Pilot et SDVFR évidemment qui permettent
+de recevoir les informations
+broadcastées par Xplain. Donc ça
+fonctionne exactement de la même
+manière. Vous aurez simplement à
+afficher à activer le mode simulateur.
+J'y retourne he dans les options ici.
+Voilà. Vous vous affichez le mode sim,
+vous activez pardon le mode simulateur
+ici sans avoir besoin d'utiliser le
+petit client Simlinker comme je viens de
+vous le montrer. C'est la c'est la
+particularité de Xplin. Euh voilà qui
+conclut cette vidéo qui traite
+uniquement de comment je j'interface mon
+SIMU avec SDVFR. Je vous donne
+rendez-vous dans d'autres vidéos pour
+voir comment on utilise l'application,
+comment on suit le vol sur la carte avec
+les différentes options d'orientation et
+cetera. Voilà, il y a d'autres vidéos
+qui vous permettront de découvrir
+l'application. En attendant, je vous
+souhaite de bons vols, qu'il soit réel
+ou virtuel et à très bientôt.

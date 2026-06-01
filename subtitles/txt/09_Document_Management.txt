@@ -1,0 +1,105 @@
+ 
+tous et bienvenue dans cette nouvelle
+vidéo de tuto sur l'application sdvfr
+next aujourd'hui on va voir la gestion
+des documents donc comment embarquer des
+documents hors ligne pour pouvoir les
+consulter sans
+internet comment ça
+fonctionne donc ça va se passer via le
+bouton utilisateur qui est ici on va
+l'appeler comme ça vu qu'il y a un petit
+bonhomme dessus donc je clique dessus et
+il va y avoir un onglet donc en bas
+document ici qui permet donc de d'aller
+dans la liste des documents euh la liste
+des documents se présente en sous forme
+d'arborescence pour l'instant il n y a
+LF pour France parce que des nouveaux
+documents vont arriver Belgique Espagne
+et cetera au fur et à mesure de leur
+intégration mais c'est prévu pour donc
+c'est pour ça qu'il y a un EF pour
+France et ensuite il y a plusieurs
+sous-catégories donc Asba geomap supap
+VAC et cetera donc j'ai déjà synchronisé
+certains documents pour pas que ça nous
+prennent trop de temps sur cette vidéo
+euh voilà donc je pourrais
+éventuellement explorer les vacs voilà
+je vois que j'ai toutes les vaces des
+terrain euh je peux également euh si
+besoin avec le champ de recherche en
+haut faire une recherche par exemple
+limafox Charlie alpha pour Chatel r euh
+et là je vais voir que j'ai dans la base
+de documents disponi euh une vague
+goréférencée une vque classique et puis
+il y a aussi une fiche Icarus de la
+Fédération Française à Euro que je n'ai
+pas récupéré ici mais voilà donc ça peut
+on peut faire une petite recherche par
+euh par code ou par nom en haut avec le
+champ de recherche euh j'enlève ma
+recherche je reviens dans les vagues par
+exemple je peux à n'importe quel moment
+donc évidemment cliquer sur le nom d'un
+document pour l'afficher donc là j'ai
+affiché la VAC de Falaise voilà
+euh et puis ben
+effectivement on peut faire un exemple
+très simple c'està dire que je n'ai pas
+récupéré donc les fiches Icarus donc je
+veux pouvoir les récupérer donc je
+clique sur le nœud pour récupérer donc
+toutes les cartes Icarus et je fais
+mettre à jour donc là l'application va
+synchroniser les fiches enfin en tout
+cas les documents que je n'ai pas donc
+là ça va être assez rapide parce que
+c'est que ça que que que j'ai demander
+en plus de ce que j'avais
+déjà voilà donc hop je regarde par
+exemple n'importe quelle fiche Icarus
+lfbz ça doit être garitz voilà donc j'ai
+la fiche Icarus ici
+euh voilà donc ça vous montre un petit
+peu comment ça marche comment on
+embarque des documents
+euh comment savoir que mes documents
+sont à jour je peux cliquer sur le
+bouton Mettre à jour pour être sûr que
+c'est à jour bon là il fait rien parce
+que il y a rien à faire mais
+l'application régulièrement va vérifier
+et va vous mettre un message en
+particulier au démarrage et de temps en
+temps pendant son fonctionne
+régulièrement si c'est pas à jour ça va
+vous l'indiquer de venir dans cet
+explorateur de documents et de faire
+mettre à jour donc vous serez mis au
+courant par l'application si des
+documents déjà embarqués ne sont plus à
+jour voilà donc ça c'est pour être sûr
+de de d'avoir d'avoir la dernière la
+dernière doc une fois que vous avez ça
+bah vous avez embarqué ce qui ce qu'il
+faut et si je reviens je fais retour et
+que je viens sur ma carte un clic par
+exemple sur châteurou ici je vais avoir
+châteurou et je vais avoir la
+possibilité directement comme sur sdvfr
+V1 de cliquer sur PDF donc voilà pour
+afficher la carte VAC mais aussi on
+avait vu les vagues je référenca donc le
+bouton app pour approche voilà
+ou le bouton attt pour atterrissage
+enfin voilà vous connaissez probablement
+déjà mais on refera un petit tour
+là-dessus
+dans une vidéo dédiée voilà qui conclut
+la vidéo rapide sur la gestion des
+documents dans sdvfr next bon VO à
+toutes et à tous et à bientôt dans une
+nouvelle vidéo

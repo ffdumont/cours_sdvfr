@@ -1,0 +1,110 @@
+ 
+tous Laurent skydream soft aujourd'hui
+on va voir une vidéo un peu particulière
+sur le mode carte automatique qui est un
+mode avancé de gestion des cartes
+lorsque vous devez jongler entre
+plusieurs cartes à hos plusieurs
+fond donc c'est une fonctionnalité un
+petit peu avancée alors le mode carte
+automatique ça
+consiste en mettant plusieurs enfin
+switchant plusieurs C en fonction du
+niveau de zoom de l'application donc là
+pour l'instant je suis dans le mode
+normal
+vectoriel voilà et donc via le bouton
+rranté et tout en bas tout en bas tout
+en bas il y a quelque chose qui
+s'appelle paramètre carte automatique
+qui se trouve
+ici ce paramètre de carte automatique
+alors j'en ai évidemment préparé un pour
+que ça aille un petit peu plus vite et
+le zoom va du zoom 0 au zoom 22 et j'ai
+préparé trois cartes 20 c'est le plus
+dézoomé au zoom 6 je vais mettre une
+google satellite du zoom 6 donc les zoom
+doivent se toucher c'est-à-dire en fait
+ils doivent être égaux entre les
+différentes cartes donc là c'est 0 à 6 6
+à 9 et puis après 9 à quelque chose et
+de 9 à 12 voilà le 22 pardon l'ginne osi
+donc il y a que trois cartes dans ce
+mode ici donc on va aller regarder ce
+que ça donne et ensuite on viendra
+modifier le paramétrage pour en ajouter
+une
+4è je reviens je j'utilise mon bandeau
+latéral et ici dans la partie option
+tout en haut vous avez carte
+automatique je clique dessus voilà je
+vais dzoomer complètement ma carte voilà
+donc du zoom 0 au zoom 6 il va rien se
+passer je suis sur la google
+satellite je vais zoomer un petit peu
+toc voilà on est arrivé au zoom 6 je
+passe sur ma
+million je mettre peu près sur Toulouse
+parce que l'exemple aprè on fera sur
+Toulouse ensuite je zo un petit peu je
+un pe peu et je vais arriver à ma carte
+IGN 500000 voilà pour l'instant j'ai TR
+cartes voilà alors ce qui
+m'intéresserait quand même c'est un
+moment donné peut-être
+d'ajouter j'ai la IIa 250000 de Toulouse
+donc je vais essayer de l'insérer
+là-dedans je reviens dans mon
+paramétrage
+je fais paramètres carte automatique et
+je vais faire ajouter donc tout en bas
+il y a une nouvelle cellule qui vient de
+s'ajouter je vais choisir parmi les
+cartes que j'ai déjà embarqué là ici à
+Toulouse donc c'est la 2024 édition 2 la
+dernière et je vais donc restreindre
+évidemment le niveau de zoom maximum de
+l'hygiène OAI qui est ici je vais placer
+ça alors on av va du zoom 9 au 11 allez
+ou ou 12 allez on va pas laisser
+l'hygiène au ass trop et on va faire de
+10 hop à 22 qui est le maximum ah on va
+aller même aller encore plus loin on va
+mettre de zoom jusqu'à
+zoom 16 allez toc et on va rajouter un
+dernier niveau de zoom on va remettre
+par exemple euh une open Street Map euh
+par exemple voilà et donc à partir de 16
+on repassera en mode plan on va dire
+voilà donc j'ai carrément ajouté deux
+cartes
+mon paramètre est mon paramètrage est
+enregistré je fais
+retour voilà donc je vais refaire ce que
+j'ai fait tout à l'heure la satellite je
+zoome je passe sur ma i à million je
+zoome je passe sur mon hygne OAI je vais
+me mettre à peu près sur blanac ici hop
+je passe sur ma
+250000 et je vais continuer de zoomer au
+zoom 16 je vais
+passer hop al j'ai peut-être un petit
+peu abusé j'aurais peut-être dû mettre
+un zoom un peu moins grand mais bon je
+vais passer sur openstet map ici voilà
+donc ça vous montre un petit peu ce
+qu'on peut faire avec ce mode de carte
+automatique qui permet lorsqu'il est
+activé sur le côté de euh d'être dans ce
+mode un petit peu plus pratique pour
+basculer d'une carte à l'autre en
+particulier lorsque vous êtes vous
+jonglez un petit peu entre plusieurs
+cartes euh voilà qui conclut cette vidéo
+rapide sur la le mode carte automatique
+n'hésitez pas vous à nous faire vos
+retours sur
+forum.skyreamsoft.fr ou par mail
+info@ydreamsof.fr merci beaucoup et bon
+à tous

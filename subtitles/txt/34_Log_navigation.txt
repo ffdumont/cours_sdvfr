@@ -1,0 +1,343 @@
+ 
+Toutes et à tous, Laurence Sky
+Dreamsoft, une nouvelle vidéo pour vous
+présenter le log de navigation, comment
+il fonctionne, qu'est-ce qu'on peut
+faire dessus. Je vous renvoie d'ailleurs
+à la vidéo ma première navigation, elle
+doit s'appeler comme ça. Si vous voulez
+savoir comment on crée une navigation
+depuis la carte, ajout de point,
+déplacement de points, découpage de
+segment et cetera et cetera, là
+aujourd'hui, on s'intéresse que au log
+de navigation. Donc le log de
+navigation, il est via le bouton nave
+ici qui est donc l'écran où on va
+retrouver le log de nave et aussi tout
+ce qui tourne autour de la navigation,
+le profil de vol, enfin de la
+navigation, le carburant, le masse
+centrage, les terrains sur la route, les
+notames de route et cetera et cetera.
+Aujourd'hui, on s'intéresse qu'à
+l'onglet log de nave.
+Euh donc sur cette sur ce lock de naf
+que vous connaissez probablement
+peut-être déjà euh qui ressemble
+évidemment fortement à celui de la
+version 1 de SDVFR, on a quelques
+petites améliorations. On va essayer de
+tout repasser pour bien savoir tout ce
+qu'on peut faire, toutes les actions,
+les gestes qu'on peut faire sur le log
+de nave. Euh la première des choses,
+c'est sur les entêtes. Vous voyez que le
+log de nave, il a des segments ici. Donc
+c'est un segment entre 1.1 et 1.2. Si j'
+écrire le numéro 2. Voilà. Donc il y a
+des segments, des points de report et
+donc le le lock de nave est vraiment
+découpé en deux. Et en haut, on va avoir
+des entêtes CM TSV TAV. Euh donc cap
+magnétique, route magnétique tant avec
+vent, tant sans vent. Sur ces entêtes,
+on peut double taper. Voilà. Donc je
+peux changer l'information principale.
+Est-ce que je veux CMRM ? Est-ce que je
+veux Tav TSV temps vend s'en vend ? Donc
+vous pouvez faire ce que vous voulez. Si
+vous préférez avoir le cap magnétique,
+vous pouvez avoir le cap magnétique ici
+ou la route magnétique principalement.
+Voilà, donc vous faites un peu ce que
+vous voulez. Première chose, ça c'est
+fait. Ensuite, le double tap peut servir
+également à ouvrir la boîte
+d'information d'un point de report où on
+va pouvoir faire l'altitude, le nom du
+point, des informations de fréquence de
+de les notes, les recoupements. Donc la
+première des choses, par exemple, je
+veux modifier l'altitude de mon second
+segment ici entre 520 et autoroute la
+souterraine. Je double
+tape. Je peux changer donc mon altitude.
+Donc je vais
+passer à 5000 pieds par exemple. Voilà.
+Et donc j'ai mon altitude qui a changé à
+5000. Ce double tap vous le retrouvez
+également donc pour le nom du point ici.
+Donc on peut modifier le nom du point si
+on a envie.
+Euh et également en dessous, alors là on
+le voit, on le voit pas vraiment mais en
+dessous de chaque, je vais le dessiner,
+de chaque point, de chaque nom de
+report, vous avez en fait une zone de
+texte que vous pouvez paramétrer. Cette
+zone de texte, si je double tape en fait
+dans la partie basse, je vais me faire
+emmener directement dans l'onglet
+fréquence. C'est une partie de texte
+qu'on peut
+personnaliser ici. Évidemment, on va
+aider un petit peu. Donc on est à
+proximité de Chatel Row. Je vais
+sélectionner donc 120
+055 et je fais je quitte ma boîte. Donc
+on va bien avoir l'information qui est
+ici. Vous n'oubliez pas d'ailleurs qu'on
+peut très bien sur ce champ-là vraiment
+taper quelque chose en plus hein, une
+autre fréquence quelque chose. Donc je
+mets blabla pour aller vite. Mais vous
+pourriez mettre quelque chose en plus.
+Alors le nombre de caractères est pas
+illimité mais on peut éditer le texte
+comme vous le voulez.
+Voilà, ça c'est pour le double tape sur
+le point de report mais aussi sur la
+fréquence. Je passe dans la colonne
+observation et je double tape dans
+observation. Je vais avoir la
+possibilité d'associer donc une balise
+de radio navigation sur ce point pour
+faire un recoupement. Euh donc je vais
+sélectionner le VOR de Poitier 113. J'ai
+mon QDM QDR là qui est calculé ici.
+Voilà, je quitte ma boîte et j'ai mon
+information qui a été ajoutée
+ici. Vous voyez euh aussi en dessous de
+l'observation, mais ça c'est
+automatiquement fait. Vous avez euh à
+l'endroit du point et à l'altitude de
+départ du segment le euh vent euh et une
+estimation de la dérive et du vent
+effectif.
+Petit rappel euh ici on a t pour tail
+win, ça veut dire j'ai du vent dans le
+dos ouwin h j'ai du vent de face. Voilà,
+donc c'est le le T et le H. C'est pareil
+que sur la la version 1 de
+SDVFR. Le dernier double tap un peu de
+cette famille là, c'est dans la partie
+note qui est ici. Évidemment, vous
+l'aurez compris, on peut taper un texte
+rapide. Euh tac tac, je tape vraiment
+n'importe quoi, je vais aller vite.
+Voilà. Donc vous pouvez mettre une
+petite note. Ça ça nous était beaucoup
+demander dans la version 1. On avait
+jamais eu vraiment le temps de le faire.
+Donc on l'a fait. Vous avez une colonne
+supplémentaire, vous pouvez mettre pour
+le coup ce que vous
+voulez. Voilà. Donc ça ça conclut un
+petit peu les doubles tapes autour du
+point de report, son altitude, son le sa
+fréquence et cetera et cetera. On peut
+maintenant faire des doubles tapes dans
+les colonnes HE et HR. Donc HR ici et H
+ici. Alors, je l'ai déjà fait mais j'ai
+déjà double tapé dans la colonne HR tout
+en haut. Je vais le refaire. Ça va me
+flaguer mon point courant avec l'heure
+actuelle. Donc là, je viens de décoller.
+Je veux avoir mon heure de décollage
+16h15. Euh et ensuite, évidemment, dans
+la colonne HE jusqu'à la fin de la de la
+nave, on voit par rapport aux estimés de
+temps l'heure à laquelle on devrait
+normalement passer. Et si on suit notre
+navigation au point. Voilà. Alors, je
+peux avancer plus vite dans le log de
+nave. Alors, ça a pas beaucoup de
+logique de faire ça, mais si jamais
+j'avais flagué plusieurs heures de
+plusieurs points, si je redemande un
+point précédent, on va quand même me
+demander confirmation parce que c'est
+pas très logique. Donc, des heures
+réelles ont été définies après ce point.
+la mise à jour de ce point supprimera
+les réels suivantes. Donc je fais oui,
+ça ça me remet euh ça m'enlève en fait
+les les les passages des points
+précédents en fait. Voilà. Bon, ça c'est
+un petit détail. Donc ça c'est pour
+flaguer les heures. Note importante dans
+SDVFR Next, cette colonne HR est
+automatiquement remplie au long du vol.
+Vous n'avez pas à venir dans le log de
+nave pour double taper et dire je suis
+au point. Quand SDVFR détecte qu'on est
+au point, il vous ajuste cette cette ce
+temps. Donc vous n'avez pas besoin de le
+faire. Euh voilà, ça c'était aussi
+demandé. Donc on l'a fait euh la partie
+donc HE, je reviens plutôt ici. Alors
+là, c'est plutôt un petit raccourci euh
+pour définir quel est le point courant.
+Le point courant de navigation, c'est
+celui qui est sur fond vert. Donc c'est
+5 à20 ici. Voilà. Si par exemple, je
+voulais bypasser ce point et aller sur
+autoroute, je peux double taper dans he
+de autoroute et je dis définir ce point
+comme point de navigation courant. Je
+mets oui. Voilà. Et on voit que ça passe
+vers ici. Je peux revenir sur 520
+éventuellement. Ça c'est un c'est une
+astuce côté log de nave. Je rappelle
+très rapidement qu'en fait on peut le
+faire sur la carte. Là, c'est celui de
+l'autoroute. Ici, je clique sur le
+point, j'ai un petit un petit drapeau et
+voilà, il passe en vert. Je reviens dans
+le lock de nave. C'est bien de nouveau
+autoroute la souterraine qui est en
+vert. Donc on peut le faire un peu des
+deux côtés. Voilà. Mais ça c'est un
+raccourci. Voilà pour les doubles tapes.
+Je vais passer maintenant. Alors, il y a
+une astuce aussi sur la partie vraiment
+donc toutes les toutes les altitudes qui
+sont mises dans la partie Z vol sur la
+sur le côté gauche. Si je fais un appui
+long dans n'importe laquelle des
+cellules, je peux dire bah en fait je
+vais mettre 6500 pieds partout dans ma
+nave. Donc ça c'est plutôt quelque chose
+qu'on pourrait faire euh dans un premier
+temps. On a mis quelques points sur la
+carte, on a dessiné tous les points de
+passage et on veut d'un coup euh mettre
+une seule et même altitude et après
+éventuellement venir affiner. Donc là,
+j'ai mis euh 6500 sur tous les segments.
+Voilà. Donc euh appuie long pour
+déclencher cette boîte. Appliquer la
+même altitude sur toute la
+navigation. Voilà. Euh et maintenant
+pour finir à peu près euh
+ce cette vidéo, on peut peut-être parler
+de la partie H et HR. Donc c'est ce que
+vous voyez ici, les entêtes HR, c'est un
+petit raccourci euh propre à Android.
+Donc vous retrouverez pas ça sur iOS.
+C'est parce que les les tailles de
+police sont un peu différentes en
+fonction des tablettes, en fonction des
+téléphones. Donc vous pouvez ajuster euh
+donc un clic sur HE, ça va diminuer le
+texte. Donc c'est si vous voulez mettre
+beaucoup d'informations dans le log en
+particulier dans la partie note à
+droite. Et un clic à chaque fois vous
+allez grossir le la taille du texte ici.
+Voilà derrière. Voilà. Donc je peux vous
+pouvez faire un peu comme vous voulez.
+C'est un paramètre d'ailleurs qui est
+conservé hein. Vous le faites une fois,
+vous ajustez un peu comme vous voulez et
+euh et c'est
+tout. Voilà.
+Euh donc voilà qui conclut le la partie
+donc log de nave. Vous avez un petit
+bouton ici. Je vais passer assez
+rapidement dessus pour finir. Ouais, je
+vais on va le présenter là, ça sera
+quand même plus simple. euh qui permet
+d'aller donc dans les paramètres de la
+navigation, le titre de la nave, c'est
+ce qui va permettre de l'identifier un
+peu plus facilement lorsqu'on la
+sauvegarde. Euh l'appareil sélectionné,
+donc là pour l'instant c'est mon
+appareil par défaut qui est sélectionné,
+c'est le Bravo Roméo. Je pourrais donc
+changer l'appareil de ma navigation si
+je ne fais pas avec le DR400 mais que le
+fournier. Et ensuite, vous avez
+plusieurs boutons euh qui sont
+importants donc pour la navigation. On
+peut vouloir
+inverser euh la navigation. On en a on a
+fait une la navigation allite. On
+voudrait éventuellement réutiliser plus
+ou moins la même chose pour le retour.
+On n pas envie de s'embêter. On fait
+inverser. Le bouton retirer. Bah je vais
+je vais le faire
+rapidement. Toc. Le bouton retirer.
+Quand on fait oui, ça vide complètement
+la navigation. Ça la remet à zéro.
+Alors, je vais aller recharger la
+navigation rapidement dans la partie
+charger. Voilà. Euh, je retourne dans
+les paramètres. On a donc exporter.
+exporter, ça va demander
+euh quel format vous voulez. On peut
+tout on peut tout faire d'ailleurs. Ça
+vous enverra un zip avec tout dedans.
+Donc GPX KML, ça c'est des formats un
+peu standard. Euh le PLN c'est pour Flat
+Simulator. Euh et le FPL c'est Garmine.
+Voilà. Donc pour l'instant c'est les
+c'est ce qu'on gère. Euh voilà. Donc ça
+c'est pour les formats d'exportation de
+la
+navigation. Et ensuite la partie donc
+générer le dossier de vol qui est en
+bas. Ça va faire l'objet d'une vidéo
+totalement dédiée. Donc je passe sous
+silence mais vous l'avez compris, c'est
+pour générer un dossier complet euh à
+imprimer avec le log à l'intérieur, mais
+évidemment pas que. C'est l'une des
+grosses évolutions de SDVFR
+Next. Voilà. Euh un mot peut-être pour
+enregistrer aussi la partie les les les
+navigations. Donc vous avez un onglet
+ici charger sauvegarder charger sauver.
+Je sais plus quel est le terme exact
+mais bon. Voilà. Donc je clique dessus
+et là je vais avoir une seule navigation
+pour l'instant c'est celle que vous avez
+vu pendant cette vidéo qui a été
+enregistré. Donc soit on peut ajouter
+une entrée dans cette liste si on veut
+ajouter une nouvelle entrée, soit on
+peut venir cliquer sur une cellule et on
+écrase la cellule en question. Donc je
+veux écraser la navigation déjà
+présente. Donc je veux enregistrer. Soit
+je fais charger charger. Ça permet de
+euh enfin de charger la navigation et de
+changer la navigation qu'on appelle de
+session, c'est la navigation en cours.
+Voilà, donc c'est ce que j'ai fait tout
+à l'heure. On va dire que j'ai
+complètement retiré la navigation. Je
+n'ai plus du tout de navigation sur mon
+écran. Voilà, on on navigue à vide, on
+va dire. Je reviens ici, je vais dans
+charger, je clique sur ma cellule et je
+fais
+charger. Voilà, je vais aller dans le
+log de Nav. On voit bien que mon log est
+revenu, il a été chargé avec l'avion
+sélectionné, le devis carburant, enfin
+tout. Et je retrouve évidemment mon
+tracé sur la
+carte. Voilà, cette fois-ci c'est pour
+de vrai. On va clôturer cette vidéo un
+petit peu longue, 12 minutes et des
+patates. Donc bah, je vous donne
+rendez-vous dans une autre vidéo pour
+parler des autres parties de cet écran
+de navigation, le profil de ville, le
+centrage et cetera et cetera. En
+attendant, je vous souhaite de très bon
+vol. À bientôt.

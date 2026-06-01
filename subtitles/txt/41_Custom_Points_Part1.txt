@@ -1,0 +1,173 @@
+ 
+à tous Laurent skydream soft aujourd'hui
+un gros morceau on va parler de points
+personnalisés leur création leur
+manipulation où est-ce que ça se passe
+et cetera pour info l'importation de
+points personnalisé se fera dans une
+vidéo à part de manière à ne pas trop
+charger cette vidéo là
+alors ben la première possibilité
+d'ajouter un point personnel c'est alors
+on va se servir de toujours du même
+exemple de Chenon saut je il me semble
+que je l'avais utilisé dans les dans les
+vidéos de sdvfrv1 donc je vais utiliser
+la carte Google hybrid tiens pour
+essayer d'aller retrouver le château
+voilà il est ici donc ce que je vais
+faire c'est que je vais faire un point
+de nave pour l'instant j'ai aucune nave
+donc j'ai il y a qu'un seul point c'est
+une des possibilités pour créer un point
+de un point de de un point personnalisé
+je clique sur ce point-là et en fait
+vous avez alors je vais l'entourer de
+rouge pour que vous le voyez bien celui
+et ce point là c'est depuis un point de
+navigation je veux pouvoir créer un
+point personnel donc je fais ça et ça va
+m'ouvrir la dialogue qui permet qui est
+le formulaire en fait de saisie donc Sam
+me dit point tournant alors c'est pas
+tellement ce que je veux mais bon
+château de Chenon saau de chenonau si
+j'écris ça correctement ce serait bien
+voilà donc voilà pour le
+pour le nom vous pouvez mettre une
+petite description un truc très
+important maintenant par rapport à la
+version de sdfr enfin V1 le type ici euh
+hop je vais enlever toc ici c'est POI
+par défaut lorsqu'il y a rien donc point
+d'intérêt vous pouvez mettre ce que vous
+voulez et ensuite on vous redonne tous
+les types qui existent déjà dans la base
+de données mais le type est libre avant
+il était pas libre il était bloqué sur
+certaines valeurs ce qui était un peu
+pénible donc ce type là il est très
+intéressant parce que ça va vous
+permettre après de pouvoir filtrer ce
+que vous voulez afficher sur la carte
+donc ce type vous mettez essayez de de
+de de de catégoriser vos points au fur
+et à mesure bon là c'est un point
+d'intérêt le château je je vais laisser
+ça comme ça vous pouvez mettre une forme
+toujours la même chose triangle carré
+cercle étoile je vais mettre étoile
+bleue par exemple toc voilà donc vous
+avez forme et couleur vous avez les
+coordonnées alors ici ils sont déjà prêt
+rempli à la position de mon point de
+navigation que j'avais utilisé mais vous
+pourriez très
+bien déverrouiller ici avec le petit
+cadna et venir
+taper des coordonnées au
+format décimal des degrés minute décimal
+ou degrés minutes
+secondes vous faites un peu ce que vous
+voulez c'est assez intelligent là pour
+taper les les les les points donc vous
+vous pourrez faire alors là j'ai pas
+besoin de le faire pour le coup parce
+que mon point euh
+est déjà placé je fais bac ou je clique
+à côté et on me dit est-ce que je veux
+enregistrer le changement je fais oui
+voilà alors lorsque vous avez un seul
+point de nave et qu'il y a eu création
+de point de navigation le point
+disparaît voilà ça c'est pour
+éventuellement qu'on puisse après se
+balader ailleurs et en refaire un c'est
+c'est ça permet d'éviter d'avoir à
+supprimer le point de navigation créé
+euh évidemment les points là pour
+l'instant ne sont pas affichés donc je
+vais alors je vais faire un peu le
+ménage ici parce que c'est un peu le
+bazar les options je vais enlever les
+cartes en ligne les cartes voilà ici
+vous avez toc point personnalisé donc
+pour l'instant le sélecteur n'est pas
+actif je fait point personnalisé et là
+magie il y a écrit château de chononau
+ici voilà on voit l'étoile bleue voilà
+donc voilà comment on crée un point
+voilà comment on l'affiche vous pouvez
+après évidemment cacher et afficher vos
+points un appui long sur point
+personnalisé va vous permettre justement
+plusieurs options d'affichage est-ce que
+le label on veut le nom du point on ne
+veut rien on veut le nom du point mais
+limité un certain nombre de caractères
+on veut juste la première lettre du type
+aussi c'est quelques petites options un
+peu un peu avancé pour pouvoir un peu
+faire ce qu'on veut on peut mettre la
+taille du label un peu plus grande on va
+un peu exagérer et la taille de l'icône
+on va exagérer aussi et on peut aussi
+filtrer des formes ou des couleurs mais
+surtout des types ici euh là poi j'ai je
+n'ai qu'un seul point de POI on verra
+après quand on fera l'import de points
+on pourra s'amuser un petit peu plus
+avec avec cette option là voilà donc je
+reviens on voit bien que mon mon label
+est un peu plus gros et que mon icône
+est un peu plus grosse donc vous faites
+vraiment ce que vous voulez voilà toc je
+reviens je diminue un peu mon icône je
+fais OK et voilà l'icône est un peu plus
+petite voilà donc ça c'est pour la
+création de points et afficher ou pas
+les points personnalisés maintenant où
+se trouve ce point alors je peux tout de
+même faire poubelle ici directement si
+je clique dessus si je fais i je
+retrouve la dialogue pour vous venir
+modifier le point
+mais via le bouton utilisateur qui est
+en haut hop puis l'onglet bah j'y suis
+déjà mais l'onglet point perso là qui
+est ici en bas je peux voir la liste de
+mes points là pour l'instant j'en ai
+qu'un seul il est là château de Chau si
+je clique dessus évidemment je retrouve
+le le la dialogue du point on peut trier
+par type on peut faire des recherche
+texte ici bon pour l'instant j'en ai
+qu'un donc ça n'a pas beaucoup d'intérêt
+j'essaierai de revenir euh après avoir
+fait l'import dans la vidéo d'import euh
+il y a un bouton rouranté ici qui permet
+de supprimer tous les points visibles
+dans la liste permet de partager la
+liste des points c'est-à-dire de générer
+un fichier CSV on va en reparler pour
+l'importation et on peut peut créer de
+toute pièce un point ici c'est la
+deuxième manière de créer un point de
+navigation de un point personnalisé
+pardon point personnaliser de toutes
+pièces par contre ici bah entre
+guillemets malheureusement faudra taper
+les
+coordonnées vous-même même si les
+coordonnées ici sont les coordonnées GPS
+actuelles voilà
+euh de la tablette hein pas de pas du
+point de navigation comme j'ai fait tout
+à l'heure faut pas se tromper voilà
+alors ce queon va faire c'est qu'on va
+clôturer la vidéo ici et je vous donne
+rendez-vous dans la vidéo sur
+l'importation de point comme ça on
+pourra en manipuler un petit peu plus et
+ce sera peut-être plus parlant donc à
+tout de suite dans l'autre vidéo

@@ -1,0 +1,122 @@
+ 
+bonjour à tous et à toutes Laurent
+skydream soft je vous souhaite la
+bienvenue dans cette nouvelle vidéo qui
+va traiter d'espace aérien et en
+particulier d'espace aérien au double
+tap ou double clic comme vous
+voulez sur la carte à n'importe quel
+endroit
+alors lorsqu'on est avec une carte
+aéronautique on la voit souvent en 2D
+alors éventuellement de profil avec les
+profils de vol que vous verrez dans
+d'autres vidéos
+mais des fois on a envie de savoir à un
+endroit donné quels sont les espaces
+aériens donc par exemple aux alentours
+de Poitier ici on a des bons exemples on
+a une CTR une TMA de classe D des TMA de
+Classe E on a éventuellement aussi des
+zones réglementées donc je vais faire un
+exemple très typique ici dans la r105b
+de Poitier je vais double taper à cet
+endroit lorsque je double tape sur euh
+sdvfr ça va m'ouvrir toujours une boîte
+avec quelques informations intéressantes
+on va avoir en bas ici 148 m et aussi la
+valeur en pied 486 pieds c'est
+l'élévation sol à l'endroit de mon
+double tap ça peut être déjà une
+première information et c'est d'ailleurs
+pour cela que tout en bas de la vue on
+dessine le sol voilà et ensuite je vais
+avoir donc la liste de tous les espaces
+aériens
+trié de mémoire par le
+plancher et après dessiner un petit peu
+les uns à côté des autres pour
+symboliser un petit peu quel est
+l'empilement des espaces aériens à
+l'endroit où j'ai double tapé sur la
+carte donc là on va avoir la partie 2 de
+la C de Poitier Biar on va avoir la TMA
+partie
+2 de Classe E qui est au-udessus on va
+voir donc la fameuse r105b dans laquelle
+j'ai double tapé tout à l'heure euh
+ensuite sûement une TMA encore de classe
+on les voit si je reprends le crayon
+rouge on on on se balade un peu comme ça
+au fur à mesure
+de lorsqu'on monte dans l'espace aérien
+alors la petite vue de de d'aperçu qui
+est d'en haut on peut quand même se
+balader dedans là il y a pas énormément
+de choses donc ça va s'arrêter assez
+rapidement avec le SIV et puis la la LTA
+France 1 mais quand on a encore beaucoup
+plus d'espace àériien on peut slider de
+gauche à droite et et de haut en bas
+cette petite vue de de
+d'aperçu dans les espaces aériens je
+reviens sur la CTR partie 2 on a donc la
+classe de le nom de l'espace le type la
+classe le plancher le plafond là où les
+fréquences et aussi la description avec
+les remarques les activations enfin
+voilà donc ce qui sort de la IP et ce
+qui est proposé par le siia donc on
+retrouve des infos intéressantes
+là-dedans il y a une petite loupe sur le
+côté euh qui est ici euh ça assez
+intéressant pour pouvoir fermer la boîte
+et demander à sdvfr d'aller sur l'espace
+airrien pour le visualiser en 2D un
+double tap pour enlever cet aperçu
+temporaire et je repars un double tap et
+éventuellement je pourrais me dire bah
+tiens la TMA partie 2 hop la petite
+loupe voilà et ça me permet de bien
+appréhender l'espace aérien et de
+commencer à bien connaître le coin je
+reviens de nouveau double tap il y a une
+petite astuce aussi là dans ce dans ce
+dans cet aperçu qui n'existait pas dans
+SDV frv1 vous pouvez cliquer sur
+l'aperçu en fait en haut donc je vais
+cliquer sur le SIV je vais cliquer à
+côté et vous voyez qu'en fait la la la
+liste en dessous va se va se scroller va
+défiler à la bonne position donc je vais
+cliquer dans la
+r105b je me mets sur la r105b la TMA
+voilà donc je peux m'amuser à faire ça
+et à essayer d'aller chercher l'espace
+en question parce que ici c'est assez
+simple mais allez on peut aller
+peut-être vers bordeau ça peut pe-être
+un peu plus compliqué je double tape
+dans Bordeaux et je vais avoir voilà
+j'ai un petit peu plus pas énormément
+d'espace en plus il y a un un exemple
+avec des supp qui est intéressant ici
+avec quelques zones d'un supap toc toc
+TOAC toc voilà il est là
+euh où je vais avoir des zones voilà
+elles sont assez au niveau 125 mais bon
+ça fait un bon exemple ça vous montre
+d'ailleurs que sdbfr vous montre les
+zones qui sont issues des sup IP et
+d'ailleurs euh on voit également ça
+c'est un bon exemple d'étaler là on voit
+aussi un petit bouton PDF lorsque les
+zones font référence à un sup IP on va
+avoir euh le le un lien direct vers le
+Supa IP en question
+voilà euh voilà qui conclut cette vidéo
+donc sur l'aperçu euh
+les informations donc au double tap avec
+cet aperçu et ce qu'on peut en faire je
+vous souhaite à tous et à toutes de très
+bons vols à bientôt sur notre chaîne

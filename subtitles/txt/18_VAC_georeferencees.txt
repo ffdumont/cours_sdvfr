@@ -1,0 +1,128 @@
+ 
+Bonjour et bienvenue dans cette vidéo
+sur SDVFR Next qui va traiter
+aujourd'hui des vagues géoréférencées,
+donc des cartes d'approche géoréférencé
+qu'on peut plaquer sur la carte de notre
+application. Euh il y a deux modes que
+je vais vous montrer, le mode manuel et
+le mode automatique. Alors avant tout,
+je suis aux alentours de la Rochelle
+ici. On va quand même aller regarder
+comment on récupère les vagues
+géoréférencées avant de pouvoir les les
+utiliser. Donc faut qu'on puisse les
+embarquer. Il y a une vidéo qui traite
+d'ailleurs de la gestion des documents
+qui effleure un petit peu le sujet mais
+on va plutôt s enfin on va vraiment
+faire le focus sur ces vagues
+géorfancées.
+Je vous réindique le bouton utilisateur
+qui se trouve en haut à droite. On y
+va. Dans la partie document, l'onglet
+document, on va avoir donc la
+documentation ici France et la partie
+qu'on appelle Gomap. Alors la partie
+geom géoréférencées. Donc si on est un
+petit peu curieux, on peut aller voir
+qu'il y a les codes IKO, donc OACI des
+terrains avec app, approche, ATT terrain
+euh atterrissage pardon. Éventuellement
+d'autres, il y en a qui sont celles de
+des parkings, de mouvement au sol. Il y
+a aussi quelques cartes
+VFR, je pense particulièrement la
+Guadeloupe euh de mémoire aussi Réunion,
+il y en a pas mal dans les dans l'outre
+mer. Voilà. Donc en tout cas euh si vous
+avez bien le nœud de la documentation de
+l'arbre qui est ici coché et que vous
+avez bien fait mettre à jour, vous avez
+embarqué les euh cartes
+géoréférencées. Voilà pour la petite
+parenthèse. Une fois qu'on a ça, on va
+pouvoir donc sur un clic, par exemple
+sur la rochelle ici, quand on clique sur
+la carte, la carte va afficher ou
+directement aller à l'endroit du clic
+s'il y a qu'un seul résultat. Donc là,
+il y avait qu'un seul résultat. Donc on
+est la carte s'est centrée dessus. On a
+quelques boutons d'action dont on pourra
+reparler dans d'autres vidéos, mais ce
+qui m'intéresse moi ici, ce sont les
+boutons qui sont en dessous. Euh et donc
+là sur la Rochelle, on a trois cartes.
+Une carte d'approche, une carte
+d'atterrissage, tour de piste et une
+carte PDC pour parking. Donc je vais
+cliquer sur app. Voilà. Donc là, on peut
+afficher ou cacher la carte d'approche,
+on peut afficher ou pas, voilà la carte
+d'atterrissage. Et puis il y a une toute
+petite carte complémentaire qu' faudra
+qu'on zoome un petit peu dessus pour la
+voir pour euh les parkings. Donc je peux
+faire ça. Donc ça va laisser afficher
+ses cartes référencées. Et je vais
+zoomer zoomer et voilà, je vais aller
+jusqu'au jusqu'au terrain avec les les
+parkings. Voilà. Et le tour de piste
+d'ailleurs de la Rochelle qui est assez
+spécifique qui suit, si je le mets en
+surbrillance, hop la rocade ici de la
+Rochelle. Voilà. Donc ça ça le c'est le
+mode manuel pour afficher les cartes
+géoréférencées. Voilà, donc je peux
+recliquer sur la rochelle et
+cacher le les cartes que j'avais
+affichées. Alors maintenant, il y a un
+mode automatique qui est assez
+intéressant. Je vais me déplacer un
+petit peu par là sur poitier par
+exemple. Il y a quelques terrains. Euh
+et si je vais tout en haut dans les
+options, vous avez ici le mode auto vac.
+Alors, ce mode automatique, il va
+uniquement agir sur les vagues de tour
+de piste. Donc, si je le sélectionne et
+que je zoome assez, vous allez voir que
+voilà, les cartes apparaissent au zoom.
+Je dézoom, elles disparaissent. Je
+rezoome, elles apparaissent. Donc, on
+voit un peu un triangle là entre
+Poitier, Châtelro, Chaovini. On voit les
+les trois cartes s'afficher. Ce qui
+permet donc de ne pas avoir à aller
+lorsqu'on est en approche, qu'on déplace
+la carte ou que l'avion avance tout seul
+avec l'autocentrage de la carte, les les
+les vagues de tour de piste vont
+s'afficher. Voilà. Donc pareil, un autre
+exemple sur le blanc, je zoom et la VAC
+tour de piste de le du bland va
+s'afficher. Donc voilà pour le mode VAC
+auto. Euh on va faire un dernier exemple
+peut-être euh on va aller en région
+parisienne. Tiens, par exemple à tous
+euh parce que je crois qu'il il y en a
+une. Voilà, GMC.
+Donc c'est un c'est les mouvements
+ground movement movement de de mémoire
+où on va avoir des cartes de ce type là
+où on voit les taxiway. Euh voilà donc a
+aussi ce genre de carte géoréférencé
+qu'on va compiler et qu'on va ajouter à
+l'application lorsque vous les
+téléchargez. Vous avez aussi ce genre de
+carte. Voilà qui conclut la vidéo sur
+les vagues géoréférencé. Je vous
+rappelle une dernière fois que si vous
+voulez les utiliser, n'oubliez pas
+d'aller les synchroniser
+avant pour pouvoir les embarquer hors
+ligne et les visualiser sans connexion
+internet évidemment.
+Bon voilà à toutes et à tous et à très
+bientôt pour un nouveau tuto.

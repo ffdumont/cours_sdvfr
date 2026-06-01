@@ -1,0 +1,160 @@
+ 
+tous deuxième partie sur les points
+personnalisés importation manipulation
+de points de manière un peu plus global
+par rapport à la première vidéo sur les
+points personnalisés j'ai supprimé le
+château de Chenonceau que j'avais fait
+donc je n'ai plus du tout de points euh
+de points personnalisés pour l'instant
+et donc on va en importer tout de suite
+je viens dans mon répertoire de
+téléchargement évidemment pour les
+besoins de la vidéo j'ai préparé un
+fichier de type CSV donc il est en bas
+euh VO là alors je vais vous montrer
+qu'est-ce qu'il contient c'est très
+simple c'est un fichier texte euh où on
+va avoir le nom la description le type
+la latitude la longitude shape c'est
+formme et color c'est couleur donc on
+voit les
+différentses les différents types qu'on
+peut mettre et les différentes couleurs
+qu'on peut mettre le fichier est très
+très proche de ce qu'on faisait sur la
+version 1 de sdvfr si vous avez
+d'ailleurs des fichiers CSV I de sdvfr
+V1 ils sont compatibles avec next vous
+pouvez les charger voilà donc par contre
+ce que je vous montre à l'écran c'est la
+le nouveau format on va dire pour les
+points personnalisés sur Next voilà donc
+ça vous pouvez faire pause regarder un
+petit peu comment c'est fait mais c'est
+très très simple
+euh voilà alors bah on va cliquer dessus
+et puis on va faire donc cette fois-ci
+ouvrir avec
+sdvfr euh la la boîte d'import donne par
+type le nombre qu'il y a donc alors
+c'est que des châteaux dans ce fichier
+hein mais j'ai donné des types un peu
+différents pour que au moins ce soit
+visuel terrain privé un petit peu ce
+qu'on avait fait dans la version 1 donc
+ça c'est des c'est différents types que
+j'ai fait donc je vais faire unorter et
+on va pouvoir
+euh filtrer pour afficher que le type
+terrain privé que éventuellement la
+forme triangle la la couleur bleue ou et
+cetera et cetera et euh et voilà donc je
+laisse l'import se finir sachez
+d'ailleurs que
+l'import ne duplique pas les points
+c'est-à-dire que si vous avez un point
+de même type au même latitude longitude
+exactement même latitude longitude il
+sera écrasé voilà donc vous pourriez
+faire l'impimport du même fichier X fois
+il se passerait il y aurait pas de
+duplique de doublons pardon voilà donc
+je reviens dans sdvfr donc cette fois-ci
+ben je vais faire donc je vais
+réafficher mes points voilà donc là bah
+j'ai beaucoup de choses évidemment parce
+que j' y avais il y a pas loins de 7000
+points dans le fichier et j'affiche tout
+alors on va s'amuser on va dézoomer un
+petit peu comme ça on va se mettre ici
+et je vais faire appui long et je vais
+dire je ne veux que
+les points qui sont siglés poi je fais
+ça et là tout de suite on en voit
+beaucoup moins je reviens je remets
+peut-être tous mes types mais par contre
+je vais mettre euh toc que les triangles
+toc voilà donc là on va voir que les
+triangles euh voilà ensuite on va
+s'amuser on va aller on va aller
+jusqu'au bout du truc on va remettre
+toutes les formes par contre on va
+prendre que la couleur noire par exemple
+toc et donc là on a la couleur noire
+uniquement donc toute forme mais couleur
+noire voilà donc vous pouvez faire un
+peu ce que vous voulez avec ce petit
+sélecteur ici euh on peut s'amuser donc
+avec aussi aucun label le nom du point
+euh le nom du point limité ça peut être
+intéressant quand il y a un peu trop de
+un peu trop d'infos et
+aussi la première lettre du type donc on
+avait vu tout à l'heure qu'on avait dit
+là ici il y a aéronautique inclassable
+poi et cetera donc là ça va être la
+première lettre qui va s'afficher donc
+si vous voulez vous amuser avec la
+première lettre du type vous pouvez ça
+permet de de de faire un petit peu ce
+qu'on veut voilà donc ça c'est pour
+l'affichage je reviens rapidement dans
+la partie utilisateur puis donc l'onglet
+point perso qui est en bas on a donc
+bien toute la liste des points ici on
+avait vu qu'on pouvait donc filtrer je
+peux dire donne-moi tous
+mes tous mes points estampillés de type
+privé donc là on a que les privés on le
+voit bien ici he à droite ça permet
+potentiellement d'utiliser la poubelle
+pour dire j'ai filtré dans ma liste que
+les types privés c'est ceux que je veux
+supprimer je fais supprimer et là il dit
+bien supprimer les points présents dans
+la liste je fais oui toc il me repasse
+surt parce que pour le coup il n'y a
+plus de type privé et bah c'est pareil
+on pourrait faire aussi Manoire ici
+toc et supprimer tous les manoir enfinon
+voilà donc on fait un peu ce qu'on veut
+avec les filtres c'est pour ça que la
+poubelle qui est ici peut peut servir
+évidemment je vous rappelle que un clic
+sur un point ouvre la boîte
+du point personnalisé euh où vous pouvez
+remodifier à la main la fiche du point
+voilà vous aurez peut-être remarquer là
+je vais repasser sur la carte ici euh
+que lorsque vous êtes vous cliquez sur
+un point vous avez des des Bulls
+d'option la poubelle pour supprimer le
+point ça pour faire un direct dessus
+comme n'importe quel autre point en fait
+sur lequel vous pourriez cliquer le i
+c'est la dialogue pour pouvoir modifier
+le formulaire pour pouvoir le modifier
+euh pour ajouter un point de navigation
+dessus un peu comme sur un terrain sur
+un point VFR et cetera et vous avez ici
+PDF aussi alors pour l'instant j'ai pas
+de PDF là-dessus mais vous avez une
+petite astuce on le verra dans la vidéo
+sur les document personnels si je charge
+des PDF personnels par exemple un PDF
+qui s'appellerait noiset ici point PDF
+l'appli serait assez intelligente pour
+faire le lien et vous allumez le bouton
+PDF qui est ici qui pour l'instant est
+éteint voilà donc ça c'est une petite
+astuce pour pouvoir lier des points
+personnels avec de la documentation
+personnel et pouvoir rapidement ouvrir
+le
+document voilà qui conclut euh
+l'importation et puis d'autres infos un
+peu plus générales sur les points
+personnalisés euh bah je vous souhaite à
+toutes et à tous don bon vol et à
+bientôt

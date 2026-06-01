@@ -1,0 +1,98 @@
+ 
+bienvenue dans cette vidéo sur comment
+importer des navigations à partir de
+format
+extérieur on peut importer pas mal de
+formats différents c'est-à-dire du GPX
+du
+KML aussi du FPL garmine voir aussi des
+PLN pour de provenant de Flight
+Simulator on va faire deux exemples très
+simples aujourd'hui le GPX et le KML
+alors euh pour le GPX on va se servir
+justement par exemple de on va enlever
+ça on va se servir de la de sdvfr V1 qui
+pouvait exporter du GPX donc là j'avais
+fait une navigation entre sur plusieurs
+terrains très très rapides euh et je
+l'avais exporté en GPX donc soit vous
+avez un GPX qu'on vous a proposé qu'on
+vous a envoyé par mail et cetera et
+cetera donc vous faites simplement
+ouvrir avec euh quand vous sélectionnez
+via votre explorateur de fichier ou
+votre votre boî mail ici je vais avoir
+next je vais mettre une seule fois parce
+que je veux garder cette possibilité de
+pouvoir choisir et de pas toujours
+ouvrir les GPX avec sdvfr next ça
+s'ouvre on dit est-ce que vous voulez
+importer cette navigation donc on a déjà
+plus ou moins compris que sen était une
+on fait oui et la navigation a été
+convertie et importée alors qu'est-ce
+que ça fait euh dans svfr next dans la
+partie navigation et l'onglet donc c'est
+bien celui-là qui est charger et sauvé
+je vais avoir donc bah c'était les
+bravoos hôtel donc la Rochelle et
+Saint-Pierre de léron je fais
+charger je vais avoir les points qui
+sont ici et quand je reviens alors ça
+doit être une navigation voilà cé
+c'était quelques petits point rapidement
+que j'avais fait avec sdvfrv1 donc voilà
+pour importer un
+GPX bon là dans en l'occurrence le GPX
+provenait de testdvfr V1 mais il
+pourrait provenir d'ailleurs jeasser en
+mode oriel quand même la si à million ça
+va un moment
+euh donc maintenant bah un autre exemple
+très rapide avec là depuis mon
+répertoire de téléchargement j'avais un
+fichier KML euh alors je vais ouvrir
+avec Google Earths juste une fois pour
+vous montrer c'était une alors soit ça
+peut être une success ça peut être
+plusieurs points dans le KML soit ça
+peut être une ligne donc là il y avait
+simplement c'est un KML avec une ligne
+qui partait de l'moche B bessine sous La
+Souterraine et cetera jusqu'à Argenton
+un truc très très simple donc là je
+quitte euh Google Earths je n'en veux
+pas je viens dans mes téléchargements je
+fais mon clic sur KML et là je fais
+sdvfr next une seule fois même chose que
+pour le GPX on vous propose importer la
+navigation je fais oui la navigation a
+été importée je retourne dans next et je
+vais aller voir dans charger sauver j'ai
+bien l'imoge
+argenton.kml c'est le fichier que je
+viens d'importer je fais charger et là
+je vais avoir donc des points alors ils
+sont pas il y a pas d'information de
+points dans le KML donc on les numérot
+automatiquement mais normalement je dois
+avoir voilà le schéma enfin le le la les
+points de cette ligne qu'il y avait
+entre l'imoge bac et cetera que on
+visualisait juste à l'instant sur Google
+Earths voilà donc comment importer donc
+ouvrir une navigation avec sdvfr avec de
+trois format
+euh encore une fois c'est GPX KML euh
+FPL Garmin et PLN Flight Simulator
+d'ailleurs d'ailleurs on parle
+d'importation mais rappelez-vous qu'on
+peut via le bouton rouranté dans les
+paramètres de la navigation exporter et
+là en fait vous retrouvez à l'export les
+formats qu'on gère aussi à l'importation
+voilà euh voilà qui conclu cette vidéo
+donc pour
+euh l'importation navigation je vous
+souhaite à toutes et à tous de très bon
+vol et à très bientôt

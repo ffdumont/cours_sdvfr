@@ -1,0 +1,184 @@
+ 
+Bonjour à toutes et à tous. Bienvenue
+dans cette vidéo sur l'application
+SDVFR. Aujourd'hui, on parle de traces
+enregistré euh pour les lister, les
+afficher sur la carte, éventuellement
+les exporter et cetera. Comment ça
+marche ? Euh vous avez peut-être regardé
+la vidéo sur la trace en live de
+l'application. Donc c'est le trait jaune
+qu'on voit derrière l'appareil qui est
+en train
+d'évoluer sur la carte. Donc ça c'est
+pour avoir par où on est déjà passé.
+C'est très simple comme fonctionnalité.
+Voilà. Après tout ça évidemment lié à ce
+qu'on pourrait appeler la boîte noire de
+d' SDVFR, c'est-à-dire l'application va
+enregistrer régulièrement euh des points
+pour générer des traces de vol, pour
+pouvoir les enregistrer, les revoir
+après, faire du comptage d'heure et
+cetera et cetera.
+Euh contrairement à
+SDVFRV1 dans la partie
+option, si je descends un petit peu dans
+la partie option, nous allons avoir ici
+hop tout ça là, option des traces.
+Euh contrairement donc à SFRV1 où on
+n'avait pas exposé les paramètres de
+cette de cet enregistrement, nous les
+avons donc exposé dans Next et tous les
+paramètres que vous voyez là sont des
+paramètres par défaut de le de la de
+l'enregistrement. Vous pouvez venir
+altérer ces paramètres pour dire à SDVFR
+d'enregistrer plus ou moins de points en
+fonction de vos besoins. Si par exemple
+on fait des rallis de navigation, on
+veut peut-être enregistrer beaucoup de
+points dans la trace ou autrement si on
+veut juste faire du comptage d'heur, on
+veut peut-être moins de moins de points
+donc pour les traces soi moins
+détaillées donc moins lourdes parce que
+plus il y a de points, plus les traces
+sont lourdes. Donc c'est pour ça qu'on
+voit ici quelques options. la limite de
+vitesse entre taxi et croisière.
+C'est-à-dire qu'on on va en fait
+enregistrer, il y a deux modes si on est
+assez lent ou si on est plus rapide.
+Distance entre deux points lors du taxi
+justement, distance entre deux points
+lors de la croisière, donc 30 m au sol,
+500 m en
+l'air. Ça c'est entre quelle distance la
+la boîte noire va enregistrer un point
+complémentaire. Pareil, si j'ai j'altère
+mon ma course de plus ou moins 5°gr, le
+virage minimum c'est 5°, ça peut être
+moins. L'altitude minimum c'est 100
+pieds. Si jamais je reste
+parfaitement euh euh tout droit, que il
+y a pas de de grande variation de
+distance, mais qu'il y a une variation
+d'altitude de 100 pieds, le point va
+être enregistré. Donc vous voyez, vous
+pouvez jouer sur euh horizontalement,
+verticalement et aussi degré de virage.
+Euh et aussi euh point très important,
+le dernier qui est ici 5 minutes, c'est
+le délai de fermeture automatique en cas
+d'inactivité. Et là, je viens sur un
+point très très important des traces,
+c'est je reviens sur la carte pour avoir
+un petit peu de voilà de d'illustration.
+Imaginons que je me suis posé sur un
+terrain et que je ne je n'avance plus.
+Il y a plus de de il y a plus de
+mouvement. La trace au bout de 5 minutes
+d'inactivité GPS, on bouge pas, pas de
+vitesse, elle va être clôturée
+automatiquement. Une trace va être
+également clôturée si je décide avec le
+bouton bac de venir fermer
+l'application. Ça c'est la deuxième
+possibilité où l'application va fermer
+une trace automatiquement.
+Et l'autre le dernier point euh
+important, peut-être celui qui vous
+intéressera le plus, c'est vous pouvez
+choisir vous si vous clôturez une trace.
+Ça se passe donc via le bouton
+utilisateur en haut, puis l'onglet qui
+est en bas, trace
+ici. Et dans trace, donc j'ai uniquement
+pour l'instant une seule trace
+enregistrée, on va y revenir. Mais on a
+un bouton en bas qui s'appelle fermer la
+trace commencer à 14h48.
+Voilà, il est 14h56, je suis en vol avec
+le simulateur, vous l'avez vu, j'arrive
+quasiment sur en France là de Jersé. Je
+pourrais très bien cliquer sur ce bouton
+et clôturer la trace. Donc ça
+clôturerait la trace en cours. Il y
+aurait une nouvelle entrée dans cette
+liste là et l'enregistrement
+continuerait sur une nouvelle trace.
+Donc si vous voule si vous arrivez au
+parking et vous voulez clôturer la trace
+tout de suite et la visualiser tout de
+suite, vous pouvez utiliser ce bouton.
+Voilà, ça c'est important.
+Maintenant que c'est dit, alors je vais
+mettre pause sur le simulateur parce que
+sinon on va faire n'importe quoi.
+J'aimerais pouvoir visualiser une trace
+déjà enregistrée. Donc je reviens sur le
+bouton utilisateur ici et je peux
+cliquer sur ma trace ou sur le petit le
+petit œil là qui est sur le côté ici.
+Donc là, il est activé et je peux faire
+fermer. Si je fais ça, hop, voilà. On va
+voir ici ma trace d'un vol précédent euh
+qui avait été effectué aussi avec le
+simulateur pour des vidéos de tuto. Vous
+avez probablement vu ce vol-là pendant
+euh les vidéos sur le l'explication du
+suivi de vol. Et donc cette trace, on va
+la voir ici. Et si on zoome un petit
+peu, on peut voir la trace. Hop, je vais
+avec les deux doigts basculer la carte.
+Et je vois aussi une information de de
+hauteur et j'ai la la hauteur de vol qui
+est représentée. Alors, c'est surtout
+intéressant sur la fin où je me suis un
+peu dérouté à l'arrache avec le simu. Je
+même j'ai même pénétré une zone a là,
+une zone restreinte. On voit bien que
+j'ai fait une grosse descente, un une
+boucle ou deux et je me suis posé sur la
+base ulm de mon moron. Voilà. Donc ça
+c'est pour visualiser une trace
+enregistrée. Si je veux cacher ma trace,
+je reviens. Hop, je clique pour la
+cacher et j'ai supprimé la trace de ma
+carte. Voilà, vous pouvez afficher une
+ou plusieurs traces en même temps.
+D'ailleurs, là, j'en ai qu'une seule,
+mais vous pourriez en sélectionner
+plusieurs et en afficher plusieurs si
+vous le
+souhaitez. Voilà. La dernière chose dans
+cette vidéo sur les traces enregistrées,
+c'est si je fais un appui long sur ma
+cellule, je peux exporter la trace. Deux
+formats d'export, les formats très
+connus GPX et KML. Euh à vous de voir.
+KML est peut-être plus intéressant si on
+veut euh voir ça dans Google Earth par
+exemple. Donc est-ce que j'avais Google
+Earth d'installer ? Euh je ne sais pas
+s'il va s'il va le voir. Ah peut-être
+pas. Bon, c'est un peu
+dommage. Je l'avais installé euh
+ici. Euh, effectivement, il ma tablette
+n'a pas l'air de de de vouloir me le
+donner. Mais bon, vous pourriez donc
+exporter cette trace au format KML et
+après l'ouvrir avec Google Earth parce
+que KML est le format de Google Earth.
+Bon, tant pis pour cette vidéo, mais
+voilà, vous pouvez exporter votre trace
+et donner la trace à quelqu'un sous ces
+formats qui sont très standards encore
+une fois, GPX et KML.
+Écoutez, voilà
+qui conclut cette vidéo sur les traces.
+Je vous donne rendez-vous dans d'autres
+vidéos de démonstration de SDVFR Next.
+En attendant, bon à toutes et à tous et
+à bientôt.

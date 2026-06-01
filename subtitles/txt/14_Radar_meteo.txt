@@ -1,0 +1,74 @@
+ 
+Bonjour à toutes et à tous, Laurence et
+Dreamsoft. Une nouvelle vidéo sur
+l'application SDVFR
+Next
+pour visualiser la météo sous forme
+radar et satellite. Dans le panneau
+latéral, vous allez retrouver la partie
+météo que vous avez peut-être déjà vu
+dans une vidéo précédente, mais il y a
+une partie donc radar ici. La partie
+radar affiche un bandeau lat un bandeau
+en bas de la de la carte. Vous allez
+avoir plusieurs choses. Euh un bouton
+play en bas et deux boutons, un radar,
+un satellite ici également euh une barre
+d'avancement don dont on va se servir.
+Et enfin euh ici et là la date UTC de la
+couche affichée à la carte et son heure
+aussi locale. Une fois qu'on ça euh ben
+on peut se balader un petit peu avec la
+la couche de données. Donc je peux faire
+play. L'application va jouer toutes les
+2 à 3 secondes euh une couche de
+données, donc dans le passé puis après
+au fur et à mesure dans le temps jusqu'à
+euh l'heure actuelle, il me semble de
+mémoire. Donc là, il est 15h20, on va
+avoir une couche ou deux, donc 10
+minutes, 20 minutes de prévision. Alors
+peut-être dans le mode radar, peut-être
+pas dans le mode Ouais. pas dans le mode
+satellite, mais dans le mode radar. On
+va le on va le voir à l'instant. Je peux
+tout de même faire pause et moi-même
+venir influer sur
+le sur le sur le slider ici. Voilà.
+Alors, peut-être que c'est plus parlant
+en mode radar. Donc, c'est ce qu'on va
+faire. Et puis on va zoomer un peu sur
+la partie de séville. On voit qu'il y a
+il y a des précipitations. Donc, plus on
+va avoir on va passer du bleu au euh au
+jaune, au jaune puis au rouge.
+D'ailleurs, je mettrai peut-être la la
+légende en appui long sur la partie
+radar.
+euh plus les précipitations sont
+intenses. Donc ici, on voit bien là où
+il y a des précipitations. Pareil, on
+peut faire play pour avancer euh le la
+barre d'avancement. Si je me mets tout à
+droite, je vais avoir 16h50. Donc, j'ai
+un petit peu de
+prévisionnel. Euh 16h40, 16h30. Voilà,
+on a une vingtaine de minutes de de
+prévision. Donc la 16h20 qui est
+l'actuelle et je peux revenir vraiment
+en arrière pour voir un petit peu
+comment ça évolue. Donc c'est assez
+c'est assez statique hein. Voilà. Bon
+après je on n'est pas météorologue mais
+voilà. Donc là on va
+avoir le on voit bien en se baladant
+avec le slider comment les
+précipitations évoluent.
+Voilà qui conclut rapidement cette
+petite vidéo sur la partie donc radar
+précipitation et satellite de SDVFR
+Next. Si vous avez des questions,
+n'hésitez pas sur notre forum
+forum.sksreamsoft.fr ou par mail
+info@skyddreamsoft.fr.
+Bon vol à toutes et à tous et à bientôt.

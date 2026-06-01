@@ -1,0 +1,191 @@
+ 
+salut à tout et bienvenue dans cette
+nouvelle vidéo sur l'application sdbfr
+next aujourd'hui on va parler de VI
+carburant donc nous sommes toujours dans
+l'écran de navigation où il y a des
+onglets en bas log profil et là on en
+est à carburant pour le devis carburant
+euh quelques comment l'écran se se
+décompose on va prendre le crayon ici on
+a quelques
+informations un peu générale un rappel
+du départ de l'arrivée la distance les
+facteurs le facteur de base
+le temps de vol où on a en fait le temps
+avec vent et le temps sans vent
+d'ailleurs ici avec le le temps le temps
+avec vent entre parenthèse le rappel de
+la consommation en litre par heure et en
+dessous vous avez un tableau ici on va
+pouvoir saisir des temps si on le
+souhaite il y a également un bouton avec
+une roue crantée on verra ce qu'il en de
+quoi il s'agit après et deux autres
+choses deux autres détails un bouton de
+sélection pour sélectionner des
+dégagements et un bouton ici de
+réinitialisation du devis carburant
+alors une fois qu'on a dit ça on va
+aller un petit peu dans le dans de trois
+détails euh par défaut vous avez des
+temps qui sont marqués ici le roulage 2
+x 10 minutes 20 minutes le délestage ça
+va être 100 minutes vous avez pas de
+marge par défaut vous avez une réserve
+de dégagement qui est de 15 minutes par
+défaut les dégagements on en a aucun qui
+est sélectionné donc pour l'instant
+c'est 15 c'est la par défaut réserve
+finale 30 euh pas de Mania pas de
+carburant supplémentaire alors ces
+informations vous pouvez venir les
+modifier je pourrais dire je veux 45
+minutes en réserve finale voilà donc
+évidemment la valeur en temps change et
+la valeur en litre à emporter change
+bien évidemment
+euh voilà donc c'est valeurs par défaut
+vous pouvez les modifier ici c'est donc
+avec le bouton rou cranté et c'est les
+valeurs par défaut qu'on met dans une
+nouvelle navigation donc pour le roulage
+pour les le dégagement la réserve finale
+et cetera donc vous pouvez quand même
+altérer les valeurs par défaut si vous
+le souhaitez pour pas avoir à les
+modifier si voilà ça c'est le premier
+point à savoir là j'ai mis 45 45 minutes
+mais éventuellement je veux revenir en
+arrière où j'ai modifié beaucoup de
+choses je ne sais plus trop où j'en suis
+je peux utiliser le petit bouton euh de
+réinitialisation ici réinitiation
+réinitialisation du devis carburant aux
+valeurs par défaut je fais ok bon là il
+me remet 30 dans la réserve finale c'est
+tout ce que j'avais changé depuis le
+début
+voilà
+euh ben on a presque fait le tour il
+reste évidemment le plus peut-être
+compliqué on va dire ça comme ça c'est
+la sélection des dégagements alors on a
+ajouté par rapport à sdvfrv1 une une
+gestion des dégagements un petit peu
+particulière par défaut vous voyez qu'on
+va conserver 15 minutes c'est-à-dire
+qu'à un moment de la navigation on veut
+se dérouter euh et on aura pour ce
+déroutement 15 minutes de carburant euh
+allouer alors ça peut être ça peut être
+peu dans certaines navigations où euh on
+a des dégagements qui sont limités si je
+n'en sélectionne pas j'ai 15 minutes par
+contre je peux en sélectionner avec le
+bouton Sélectionner ici alors qu'est-ce
+qu'on va avoir ici on va avoir une liste
+de terrains
+euh qui sont c'est lié vous le verrez un
+peu plus tard dans la partie route au
+demi-couloir de 15 noti de part et
+d'autre on va voir des terrains sur la
+route
+euh je vais en sélectionner plusieurs
+parce que l'application va calculer euh
+pour chaque terrain quel sera le point
+le plus éloigné dans la navigation pour
+aller sur ce terrain
+euh et donc affiner ce temps de
+dégagement donc je peux dire que je me
+dégager j'aurais du dégagement sur
+chauvini euh sur le blanc
+potentiellement sur Russel aussi alors
+je vais pas mettre saintfour les châel r
+qui sont midépart à arrivver on aurait
+peut-être pu les cacher d'ailleurs donc
+je vais choisir trois
+dégagements sur ces trois dégagements
+donc ils sont sélectionn on les voit ici
+là euh on va avoir donc une réserve de
+dégagement de 26 minutes alors on va
+aller le voir sur la carte pour se
+rendre compte de ce
+temps c'est imaginer que on avance tout
+le long de la navigation je vais
+reprendre le crayon ici on va avoir donc
+chovini dégagement ici le blanc
+dégagement ici et on va avoir un peu
+plus loin Usel qui se trouve là voilà
+donc le temps qui est calculé de 26
+minutes c'est quel que soit le point où
+je me trouve sur ma ma navigation
+calcule-moi le temps alors c'est un
+temps sans vent mais calcule-moi le
+temps qu'il sera nécessaire enfin qui me
+sera nécessaire pour aller sur un de mes
+dégagements voilà au plus loin donc
+c'est le pire des cas donc le dev
+carburant ici pour cette valeur je
+reviens ici de 26 minutes c'est dans le
+pire des cas alors je vais faire un
+aparté sur la partie route pour aller
+modifier le
+demi-couloir ça ça fera l'objet d'une
+vidéo particulière mais je vais mettre
+je vais augmenter un peu mon
+demi-couloir je vais mettre 20
+notique 25 pour être sûr que un autre
+d'autres terrain
+rentrent dans la liste je vais faire
+carburant donc j'ai toujours 26 minutes
+je sélectionne et là ce que je vais
+faire c'est que je vais aller peut-être
+ajouter
+Guéré qui devrait normalement peut-être
+même égleton qui devrait vu que j'ai
+plus d'option de dégagement possible
+peut-être diminuer ce temps de 26
+minutes voilà donc là j'ai gagné un peu
+de temps en sélectionnant d'autres
+dégagements possibles au pire des cas
+dans ma ma navigation j'aurais besoin de
+21 minutes pour rejoindre le dégagement
+voilà donc ça c'est assez euh une petite
+fonction un petit peu plus avancée qu'on
+a développé ici euh si vous voulez euh
+supprimer un dégagement bah on pouvait
+faire un appui long sur l'un des boutons
+bleus avec les codes OAI des terrains
+donc je vais enlever euh
+aigleton voilà donc je suis toujours à
+21 je vais enlever voilà j'enlève Gueré
+et je repasse à 26 alors évidemment
+moins j'ai de dégagement plus le temps
+va être grand parce que si je je ne
+garde que chovini donc c'est Delta
+whisky qui est qui est le premier euh
+quand je serai au bout de ma navigation
+ça va me faire beaucoup de temps pour
+revenir sur dégagement voilà 29 minutes
+si je garde que chovini et Usel et si
+j'enlève Hel bah ça va mettre un temps
+quand même assez significatif pourquoi
+parce que potentiellement j'arrive à
+proche de ma
+destination ici là je suis obligé de
+faire demi-tour pour aller sur sur
+chauini ici voilà donc cette sélection
+des dégagements elle est elle est
+intéressante que si vous sélectionnez
+bien quelques terrain sur la route sur
+lesquel vous pouvez vous dégager bien
+bien bien
+entendu euh voilà qui conclut cette
+vidéo oui sur le je vais remettre à zéro
+et enlever mon dégagement ici je vais
+retrouver mes 15 minutes voilà voilà qui
+conclut la vidéo sur le devis
+carburant je vous donne rendez-vous pour
+la suite pour la mass et centrage bon VO
+à toutes et à tous et à bientôt

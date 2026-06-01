@@ -1,0 +1,78 @@
+ 
+Soft, une nouvelle vidéo rapide à propos
+de la lecture des PDF sur la version
+Android de SDVFR Next. Alors, vous avez
+peut-être dû remarquer que il n'était
+plus possible directement dans
+l'application d'afficher des fichiers
+PDF. Alors, il y a plusieurs raisons à
+ça. C'est qu'on essaie de trouver une
+bonne solution qui ne soit pas trop
+onéreuse d'ailleurs pour le faire. euh
+dans la version 1 de SDVFR, il y avait
+un lecteur intégré et euh nous n'avions
+pas forcément euh l'autorisation de
+l'utiliser. Voilà, donc comme ça c'est
+dit. Donc ça explique clairement
+pourquoi euh il n'y a pour l'instant pas
+de visualisation intégrée. Alors ça, on
+peut quand même lire des fichiers PDF,
+ça il y a aucun problème. Mais je vais
+mettre dans le même état que
+potentiellement certains d'entre vous.
+C'est-à-dire j'ai une tablette, j'ai
+SDVFR, j'ai récupéré mes documents et je
+n'ai pas de lecteur intégré. Enfin, j'ai
+pas de lecteur sur ma de PDF sur ma
+tablette. Donc, je vais sur un terrain,
+je fais PDF et là, vous allez
+effectivement avoir ça. Pourquoi vous
+allez avoir ça ? parce que SDVFR est
+réactive au type de fichier PDF pour les
+copier dans les documents personnels.
+Et vu que ça fonctionne directement
+comme ça, c'est parce que c'est la seule
+application du système actuellement qui
+ouvre ce type de fichier, enfin qui est
+réactive à ce type de fichier. Donc pour
+palier à ça, il faut installer un
+lecteur PDF. Euh la difficulté lorsque
+on ouvre un PDF depuis une application
+vers une autre, c'est que ça peut être
+un peu long à charger. Donc surtout avec
+Adobe Reader et cetera. Donc je vous
+conseille
+dans Play Store d'installer à part
+le toc non merci le lecteur qu'il y
+avait
+sur SBFR V1 intégré. Donc c'est mu MU
+PDF viewer. Voilà, tapez ça. Il est ici.
+Mu PDF viewer. Je fais installer.
+Il est assez léger.
+Voilà, il va s'installer. Je peux fermer
+mon Play Store. Je reviens dans mon
+application SDVFR et je refais
+l'opération PDF.
+cette fois-ci va me proposer mu PDF
+viewer. Je peux cliquer, je peux faire
+toujours. Voilà. Et là, j'ai mon PDF.
+Voilà. Donc, je reviens sur SVFR, je
+vais sur Cognac, par exemple. Cognac, je
+clique PDF et toc, ça s'ouvre
+directement. Voilà. Donc ça, c'est ce
+qu'il faut faire pour l'instant. Enfin,
+vous installez le lecteur PDF que vous
+voulez, hein, ça c'est pas un problème.
+Moi, je vous conseille celui-là pour que
+ça aille vite à l'ouverture. On est en
+train de regarder sur une solution plus
+pérenne et intégré à l'application comme
+c'était avant. Donc bah, merci de votre
+patience à tous pour attendre un petit
+peu pour qu'on ait la bonne solution.
+Voilà, en tout cas, c'était un tutoriel
+pour vous montrer comment faire. Je vous
+donne rendez-vous dans d'autres vidéos
+et je vous invite à aller voir les
+vidéos précédentes si vous si. Allez,
+bon vol à tous.

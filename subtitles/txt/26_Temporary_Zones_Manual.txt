@@ -1,0 +1,124 @@
+ 
+dans cette vidéo qui va traiter des
+zones
+temporaires et de leur affichage
+manuel. C'est un mode un peu différent
+du mode
+automatique qui fait d'ailleurs l'objet
+d'une vidéo à part. Dans le panneau
+latéral ici, on va avoir zone
+temporaire.
+Et quand on clique sur zone temporaire,
+on va pouvoir euh on on a une liste donc
+de zones temporaires, donc issues de des
+asba, des supp et cetera euh avec
+quelques filtres. On peut faire une
+recherche par texte en haut, on le verra
+après. On peut également modifier le
+plafond par défaut 115. On peut le
+mettre illimité. Donc on voit le nombre
+en bas sur le bouton.
+Hop ! Je ne sais le nombre ici qui va
+changer.
+Euh
+toc. Voilà. Si je le repasse par exemple
+beaucoup plus bas au 060 par exemple, on
+a plus que
+156 zones. On va avoir un début et fin
+de validité. Donc là c'est le jour en
+question. Donc on est le 18. Donc c'est
+le 18 qui est affiché. Si par exemple je
+mets
+euh on va carrément je sais pas si on
+peut Oui. Voilà. euh mettre l'année
+prochaine, on va avoir 209 zones parce
+qu'il y a évidemment des super IP, des
+zones issues des super IP qui ne sont
+pas encore valides. Donc on peut faire
+éventuellement ça. Et une fois qu'alors
+on a évidemment donc le résultat de la
+recherche qui est ici, donc ça fait
+beaucoup de beaucoup de zones, l'intérêt
+c'est éventuellement de faire view all.
+Voilà. par défaut, il va
+venir afficher le résultat de
+cette de ce que l'on voit dans la liste.
+Euh donc, on voit certaines zones en
+rouge qui sont actives tout de suite et
+des zones qui sont oranges qui vont être
+actives plus tard. Voilà. Donc si par
+exemple, je ne sais pas, je me mets ici
+et je double tape, je vais avoir donc
+euh le super IP de l'année 2025, donc 25
+018 018 ici qui sera probablement actif
+plus tard dans le mois de mars. C'est
+effectivement le
+cas. Ici, on voit début 25 mars, fin 26
+mars. Voilà. Et je peux toujours
+consulter le bouton sur le bouton PDF.
+Euh donc c'est un exercice poker et
+cetera. Donc il revient assez
+régulièrement cet exercice. Euh et on
+voit bien si je vais ici que c'est bien
+du 25 au 26 mars 2025. Voilà donc ce qui
+explique ces différences de couleur
+entre orange et rouge pour actif tout de
+suite ou actif plus
+tard. Voilà. Alors après, ce mode euh
+manuel, il est euh vraiment à utiliser
+dans certains cas particuliers ou quand
+on va faire vraiment des recherches très
+poussées euh parce que les super IP,
+vous allez les voir évidemment lorsque
+vous préparez votre mission, votre vol
+et quand vous faites votre profil de
+navigation, vous verrez les super IP
+dans le profil, ce qui est évidemment
+beaucoup plus simple. Mais si par
+exemple je suis un peu curieux et je
+veux chercher par code, donc on voit les
+codes ici euh LF ti du bas 25 ti du bas
+0 24, je pourrais dire tiens, je veux
+voir le 20 euh hop, je dois virer le
+mode dessin.
+Je veux voir donc le 25 ti du bas 0 20
+par exemple. Et là, je vais avoir donc
+les deux zones de ce
+supp qui sont donc Maniac Bravo et
+maniaque Alpha. Donc si je regarde le
+PDF, on va avoir la maniaque alpha.
+Maniaque bravo. Donc si je veux aller
+chercher vraiment le même éventuellement
+par nom maniac. Normalement elle
+hop
+maniac. Voilà, elle sortent également.
+Donc si vous avez besoin de retrouver
+quelque chose dans le le dans la foule
+d'information de ZRT, des super IP et
+cetera, vous pouvez éventuellement aller
+chercher ce mode manuel qui vous permet
+de de chercher un peu plus en
+profondeur. Euh voilà. Euh un petit mot
+euh pour les une petite un petit tips,
+on va dire au niveau des des dates. Si
+vous faites un appui long sur l'un ou
+l'autre des champs date, vous remettez
+la date du jour. Euh c'est un raccourci
+un petit peu rapide pour remettre à zéro
+le début la le filtre de début et de fin
+de validité. Voilà.
+Euh ça conclu cette vidéo qui traite
+donc justement de l'affichage des zones
+temporaires, ZRT, ZDT, ZDT et cetera,
+des super IP, des ASBA de façon
+manuelle. Mode un petit peu particulier
+qu'on fera probablement évoluer en
+fonction de vos retour. Il est peut-être
+pas dans sa version finale, probablement
+pas. Euh pour que ce soit un petit peu
+plus facile à utiliser. On attend vos
+retours d'ailleurs sur
+forum.skskyddreamsoft.fr
+fr ou par mail à
+info@skyddreamsoft.fr. Bonsoir à toutes
+et à tous.

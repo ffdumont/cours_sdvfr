@@ -1,0 +1,173 @@
+ 
+bonjour à tous Laurent skydream soft une
+nouvelle vidéo sur le thème du suivi de
+vol et aujourd'hui on va parler de la
+barre inférieure de l'application avec
+les écritures que vous voyez en bas donc
+toute cette barre ici Hop qui est là
+avec la vitesse l'altitude et cetera
+comment ça marche qu'est-ce qu'on peut
+faire là-dessus et cetera et
+cetera on voit donc par défaut qu'on a
+la vitesse donc sol GPS euh je vais
+reprendre le crayon vitesse ici ensuite
+l'altitude GPS euh ici particularité
+pour euh Android elle est corrigée euh
+du pour la avec le goid goïde pardon
+donc ça c'est une altitude GPS corrigée
+vous avez euh
+la la route GPS ici 145
+et en dessous vous avez le la route à
+prendre pour me se rendre au point de de
+navigation actuel donc en fait ça
+donnerait donc on est bien au 145 mais
+par contre pour aller vers le point de
+navigation en cours qui est
+l'autoroute ici c'est faut prendre le
+faut prendre au
+145 voilà et enfin à droite vous allez
+avoir par défaut donc le nom du point
+courant la distance et le temps en
+fonction de la vitesse gps Gps actuelle
+donc ça c'est la le paramétrage par
+défaut deux possibilités pour paramétrer
+vous faites un appui long quelque part
+sur la barre n'importe où vous allez
+avoir une
+une un dialogue qui se qui s'ouvre une
+petite boîte qui s'ouvre d'ailleurs
+cette boîte vous pouvez aussi la
+retrouver dans les options et tout en
+bas dans les options c'est paramètres de
+la barre inférieure ici voilà donc c'est
+exactement la même chose plus pratique
+peut-être l'appui long sur la barre pour
+l'avir donc tout simplement ce que je
+veux potentiellement faire c'est ne ne
+pas voir du tout cette barre donc des
+fois il y a des ça nous a été demandé
+donc on peut cacher cette barre alors
+évidemment pour la récupérer justement
+c'est pour ça que je veux vous montrer
+qu'on peut aller dans les paramètres de
+la barre infire pour la réactiver
+complètement c'est pour ça que c'est
+aussi disponible dans les options sinon
+on serait bien embêté pour refaire un
+appu long sur cette barre voilà donc on
+peut la cacher complètement et après
+on a un aperçu de la barre ici parce que
+il va y
+avoir ce qu'on appelle un une un
+métrique en haut à gauche en bas à
+gauche au milieu en haut au milieu en
+bas et à droite en haut à droite en bas
+c'est ce que vous voyez ensuite dans la
+liste en dessous voilà et donc bah ce
+que vous pouvez faire vous le devinez
+c'est prendre ici un un métrique et dire
+parmi tous les métriques disponibles
+qu'est-ce que je veux donc ben on peut
+vouloir euh par exemple à la place de la
+vitesse une estimation de la hauteur
+voilà et donc là j'ai une estimation de
+la hauteur donc 2855 pieds ici voilà je
+vais réactiver mon suivi parce que
+j'étais sur le simulateur histoire que
+ça bouge un peu à l'écran et qu'on se
+rende compte que en fonction je vais me
+mettre un peu en descente
+euh qu'en fonction de euh bah évidemment
+du déplacement de
+l'appareil l'altitude va diminuer et
+cetera on pourrait éventuellement
+revenir sur la barre enlever la hauteur
+et mettre par
+exemple la vitesse verticale qui doit
+être ici alors je suis quand même en
+forte descente là do voilà je suis pas
+loin des moins des- 900 700 pied
+j'essaie en même temps de faire la vidéo
+avec le simu de d'y aller un petit peu
+mollo sur la descente voilà donc on a
+une une vitesse verticale ici et après
+bah vous choisissez un peu ce que vous
+voulez
+voilà donc je vais remettre par exemple
+ma vitesse voil donc vous
+choisissez je vais remettre un peu de
+gaz et me remettent d'AP plomb vous
+choisissez le métrique que vous voulez
+avec la couleur que vous voulez donc
+j'ai pas montré la couleur mais c'est
+comme dans tout le paramétrage de
+couleur la vitesse je voudrais
+éventuellement la mettre en rouge
+toc vous faites ce que vous voulez voilà
+un mot sur les les autres métriques
+disponibles tout de même hop je reviens
+sur cette petite liste on a la
+possibilité donc de mettre rien la
+latitude la longitude la vitesse
+l'altitude la vitesse verticale la
+course magnétique GPS la course
+magnétique nave ah oui c'est la
+magnétique j'ai dit tout à l'heure que
+c'était la c'était la route GPS mais
+c'est la route GPS avec la déclinaison
+magnétique prise en compte euh donc l'un
+estimation de hauteur le nom du point la
+distance vers le point donc ça c'est ce
+que vous voyez par défaut à droite le
+nom du point courant la distance et le
+temps vers ce point vous avez la
+possibilité de mettre le vent la dérive
+et vent
+effectif ça c'est avec les données de
+prévision de vent embarquer on vous
+estime le vent que vous avez à à
+l'altitude où vous êtes euh donc je
+pourrais mettre ça donc justement dans
+le premier métrique vent euh et dans le
+deuxième métrique altitude
+euhc toc on a dit vent dérive et vent
+effectif toc voilà alors j'ai laissé le
+rouge dommage mais bon donc ici par
+rapport à la couche
+la plus proche en terme de hauteur et en
+terme de temps j'ai un vent quand même
+de 29 nœuds qui vient du 190 donc j'ai
+quand même pas mal de vent de face c'est
+pour ça que le vent effectif ici en
+fonction donc de ma de ma vitesse et à
+peu près de 23 nœuds head donc h comme
+headwin t comme tailwin donc vraiment
+j'ai deux faces et j'ai quand même une
+forte dérive gauche de 11°g voilà donc
+ça c'est une estimation donc du vent et
+de la dérive et puis si je reviens dans
+les métriques de nouveau tout en bas on
+avait aussi l'heure estimée d'arrivé
+c'est-à-dire que ça
+prend à destination donc qui est sur la
+navigation de démonstration à
+Saint-Flour ça
+m'estime 1 heure d'arrivée à
+127 et 1h 22 de vol
+voilà probablement que cette barre
+inférieure va évoluer en fonction de vos
+retours euh peut-être récupérer un
+fonctionnement un petit peu comme la V1
+qu'on n pas totalement repris
+c'est-à-dire de pouvoir peut-être
+euh en glissant d'un côté de l'autre
+récupérer euh six autres affichages
+possibles on va voir pour laisser un
+petit peu plus de souplesse mais bon
+déjà vous pouvez faire déjà pas mal de
+choses voilà qui conclut cette vidéo
+donc sur le suivi de vol et en
+particulier la barre inférieure
+d'écriture de sdvfr next je vous donne
+rendez-vous dans une nouvelle vidéo pour
+plus d'infos bon vol

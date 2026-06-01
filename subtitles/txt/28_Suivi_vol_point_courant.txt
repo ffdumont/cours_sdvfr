@@ -1,0 +1,102 @@
+ 
+et à tous et bienvenue dans cette
+nouvelle vidéo sur l'application sdvfr
+next on va regarder aujourd'hui on est
+dans le thème du suivi de vol GPS et on
+va regarder euh le passage au point
+suivant alors euh on est direction sa
+Savin qui est
+le le le village qui est devant moi on
+est à 2 minutes par rapport euh au
+vecteur vitesse on a la bulle 2 minutes
+qui est pilepoil
+sur le point courant le point courant
+est en vert par rapport aux autres
+points de NAF qui sont en rouge donc
+c'est mon point en de navigation en
+cours d'ailleurs on voit bien que dans
+les écritures en bas à droite hop si je
+prends le petit dessin pour vous montrer
+ici on voit bien que c'est 520 on est à
+3 nautiqu et 2 minutes alors
+l'application va vérifier que vous
+n'êtes pas à proximité d'un point du
+point de navigation et passera au point
+suivant automatiquement la règle par
+défaut c'est moins de de nouti ou moins
+d'une minute et demi donc là ça ne
+devrait pas tarder à passer au point
+suivant on est bientôt à moins de de
+nautiqu et de toutes les manières on est
+bientôt aussi une minute 30 de de ce
+point voilà donc là il est passé en
+rouge
+et le point suivant bah c'est le point
+qui est un peu plus loin à une vingtaine
+de minutes
+donc 18 minutes d'après les écritures en
+bas à droite et 32 notiqu voilà donc ça
+c'est le prochain point de navigation
+euh voilà donc pour le passage
+automatique au point suivant alors
+évidemment en fonction de comment va se
+dérouler votre navigation et cetera et
+cetera vous voulez
+éventuellement modifier le point de
+navigation en cours et cetera donc
+comment on peut faire ce truc alors je
+vais enlever l'orientation de carte toc
+pour me remettre comme ça ser plus
+simple pour vous
+montrer le point suivant donc c'est bien
+le point autoroute qui est
+ici avec la la ville de La Souterraine
+qui est qui est là là donc c'est mon
+prochain point il est en vert donc c'est
+indiqué point courant si jamais je veux
+tout de suite sauter par exemple sur le
+prochain point qui est bourga ici je
+peux utiliser le petit drapeau le hop
+ici le petit bouton drapeau qui permet
+de dire je veux marquer ce point comme
+étant mon point de navigation en cours
+donc on voit la couleur qui change et on
+va on voit en bas à droite des euh des
+écritures enfin au niveau de la barre
+d'écriture de métrique comme on va
+l'appeler borganov 52 nautique 29
+minutes voilà donc ça c'est la première
+manière d'aller forcer le point de
+navigation courant dans l'application
+l'autre possibilité pour forcer ça c'est
+si vous êtes sur le log de nav ici euh
+on voit bien que on est est passé à
+borganu donc il est sur fond vert hein
+on voit le segment euh et le et le point
+qui sont qui sont qui sont sous sous
+fond vert et euh si jamais je veux
+revenir en arrière si je
+veux définir mon point de navigation
+courant je peux faire un double tap dans
+la colonne he qui correspond au point
+que je veux donc ici je double tape et
+l'application me propose de définir ce
+point comme le le point de navigation
+courant donc on voit que ça change
+immédiatement sous couleur vert je
+reviens sur la carte et on voit bien que
+c'est bien mon point de euh la ici euh
+au niveau de l'autoroute qui devient mon
+point de navigation
+courant donc voilà qui conclut cette
+vidéo de suivi de vol alors je devrais
+mieux tenir ma route parce que je me je
+pars un peu au sud mais c'est pas grave
+euh ça conclut donc la vidéo sur le
+point courant euh comment ça marche
+comment le forcer je vous donne
+rendez-vous dans une autre vidéo pour
+découvrir
+d'autres fonctionnalités sur le suivi de
+vol dans sdvfr je vous remercie et bon
+voil à tous

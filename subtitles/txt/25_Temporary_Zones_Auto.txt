@@ -1,0 +1,134 @@
+ 
+Bienvenue dans cette nouvelle vidéo sur
+l'application SD VFR. Aujourd'hui, on va
+regarder euh comment le mode automatique
+d'affichage des zones temporaires
+fonctionne. Euh par défaut,
+l'application euh utilise met en œuvre
+un mode automatique d'affichage des
+zones temporaires. Alors, ce qu'on
+entend par zone temporaire, ce sont les
+zones les activations du réseau très
+basse altitude, donc les asb donc
+l'activation du réseau très basse
+altitude et également toutes les zones
+temporaires issues des super IP, les
+fameux ZRT, ZDT, ZIT, voir d'autres
+zones et cetera. Donc là sur l'écran,
+vous voyez qu'il y a pas mal de rouges.
+C'est on a les deux exemples
+aujourd'hui. On a désactivation du
+réseau très basse altitude. Alors vous
+les reconnaissez peut-être un petit peu
+sur le côté. On va filtrer pour que vous
+les voyez. Et puis après on a des ZRT
+euh si je zoome un petit peu. Des des
+ZRT drones sur Grandville, sur Coutance.
+Euh il doit y avoir aussi sur le
+littoral des ZRT de surveillance drone
+probablement. Enfin voilà, il y a pas
+mal d'informations. D'ailleurs, on voit
+les numéros des super IP 2412 euh ici et
+cetera. Voilà. Bon, donc ça c'est le
+mode automatique. Euh une vidéo sera
+dédiée à la gestion du mode manuel qu'on
+retrouve ici dans couche et zone
+temporaire. Ici, c'est désactivé, c'est
+normal, c'est le mode manuel. Si on veut
+aller regarder un petit peu plus en
+détail, euh une vidéo vraiment dédiée
+sera faite sur ce point.
+Maintenant, si je veux euh
+éventuellement me débarrasser donc des
+zones suppé, donc qui sont issus des
+supp et ne voir que la partie ASBA, ça
+dépend un petit peu comment je veux
+faire fonctionner l'application. Il
+suffit d'aller donc dans la partie roue
+crantée. On descend tout en bas. Il y a
+paramètres zone temporaire automatique.
+Ici je clique. Et pour l'instant, on
+peut donc plafonner euh si on veut ce
+ce mode automatique. On peut aussi
+mettre un délai d'affichage anticipé.
+C'est 30 minutes par défaut. Euh alors,
+j'aurai peut-être pas d'exemple
+aujourd'hui, mais les zones seront
+affichées en orange. Très utiles pour
+euh les les activations du réseau très
+basse altitude. Donc vous savez que si
+elles sont affichées en orange, c'est
+qu'elles ne sont pas encore actives et
+qu'elles vont l'être. Donc c'est entre
+30 minutes par défaut et jusqu'à 4h 200
+euh 6 x 4, oui, c'est ça. 240 minutes
+donc 4h avant. Euh et ensuite deux
+switch, un pour l'activation du
+trabas activation du RTBA et les zones
+issues des super IP. Donc je peux
+éventuellement donc supprimer voilà zone
+issu IP. Je reviens sur ma carte
+évidemment ça va beaucoup nettoyer la
+carteau et je vais me retrouver
+uniquement avec les zones ici en
+surbrillance qui sont les activations du
+réseau euh très basse
+altitude. Voilà. Donc ça c'est pour le
+mode automatique. Euh ça aurait été
+peut-être plus intelligent, je ne sais
+pas. Mais bon ça c'est à vous de voir.
+Je
+reviens zone temporaire, je réactive les
+RTBA et éventuellement je sais que je
+vais euh pas plus de 050 par exemple au
+niveau 05. Je fais ça et a priori déjà
+ma carte devrait être euh un petit peu
+plus clairsemée de ces zones issues des
+super IP. Voilà,
+donc ça ça fait un peu le ménage. On a
+un exemple un petit peu en ce moment qui
+est compliqué, c'est avec les TMZ qui
+sont des zones issues aussi des super IP
+qui viennent nous embêter un petit peu.
+probablement que on ajoutera quelques
+options de
+filtrage si les zones ne sont pas des
+zones réglementées temporaires et que
+c'est simplement de la RMZ, de la TMZ
+parce que TMZ si vous avez un
+transpondeur bon et que il est allumé,
+j'ai j'ai envie de dire toutes ces zones
+rouges ici n'ont pas beaucoup d'intérêt
+à être affiché actuellement mais bon il
+y a il y a toujours des cas particuliers
+un peu dans l'aéro.
+Voilà, j'ai omis de dire mais une vidéo
+traite de ça que si par exemple je fais
+un double tap quelque part ici dans la
+R45 S2 de l'angre double tap ici je vais
+avoir cette zone qui est la R45 S2 donc
+ici hop tac voilà et voilà ici c'est la
+zone qui est présente donc à la IP dans
+l'espace aérien mais en magenta vous
+avez les différentes activation euh du
+réseau, donc avec des informations. Euh
+donc aujourd'hui, on est le 18, donc il
+y aura une activation demain au 19. Euh
+toc toc toc toc, je remonte aussi euh ce
+soir, ça va réactiver. Et donc celle qui
+est actuellement valide, ça doit être
+celle-ci. Il est 15h2, donc 14h de
+zouou. Ça va se finir dans 28 minutes.
+Euh voilà. Donc vous avez un au double
+tape le détail vraiment de de
+l'activation ou désactivation connue euh
+actuellement. Voilà, ça c'est pour aller
+vraiment dans le détail.
+Voilà qui conclut cette vidéo sur le
+mode automatique de de d'affichage des
+zones temporaire. Je vous donne
+rendez-vous dans la vidéo qui traitera
+de l'affichage manuel ici des zones
+temporaires qui est utile dans d'autres
+cas d'usage. En attendant, bon à toutes
+et à tous et à bientôt.

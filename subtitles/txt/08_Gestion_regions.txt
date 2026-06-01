@@ -1,0 +1,95 @@
+ 
+Bonjour à tous et bienvenue dans cette
+nouvelle vidéo sur SDVFR Next. Je suis
+ravi de vous retrouver pour vous
+présenter notre nouvelle application
+Notre Font. On va commencer aujourd'hui
+par la gestion des régions. Lorsque vous
+démarrez SDBFR Next euh après vous être
+logué à votre avec votre compte
+Skyrimsoft, vous arrivez sur la
+sélection des régions. Alors euh puisque
+notre application s'ouvre à l'Europe et
+donc n'est plus uniquement France, il va
+y avoir une gestion de région de manière
+à ce que vous puissiez embarquer là où
+les régions que vous souhaitez. Alors,
+par région, on entend, j'ai pris préparé
+une carte pour vous montrer pour
+l'instant la couverture de SDVFR Next.
+Vous avez donc une carte de l'Europe
+avec les noms des régions euh pour vous
+y retrouver. Voilà, donc ça c'est pour
+s'y retrouver. Donc quand on est dans
+l'appli, on retrouve le nom de ces
+régions et je vais par exemple
+sélectionner uniquement France pour
+l'instant. Donc vous pouvez en
+sélectionner une ou plusieurs. Et je
+fais mettre à jour. C'est ce qui va vous
+demandé la première fois que vous lancez
+l'application. Il va y avoir trois
+téléchargements. Euh les données que la
+tablette va embarquer hors ligne, la
+cartographie euh par défaut, donc qu'on
+va appeler SD OACI vectoriel. vous
+verrez un petit peu la différence entre
+celle que vous connaissez probablement
+déjà et la nouvelle, mais également les
+données d'élévation, le modèle terrain
+pour euh les profils de vol, pour
+estimer des hauteurs et cetera. Donc
+contrairement à la V1, il n'y aura plus
+besoin d'embarquer des données
+d'élévation dans les options en plus de
+ce
+téléchargement principal.
+Voilà, une fois que la mise à jour est
+terminée, je fais OK et j'arrive donc
+sur mon écran
+carte. Alors, c'est la première fois que
+je lance l'application, donc je vais
+autoriser la localisation et les
+notifications. Sachez que les
+notifications, c'est important pour que
+l'application puisse démarrer son
+service que vous voyez dans les
+notifications ici. Je vais l'entourer.
+Hop, ici là. Donc SDVFR
+Next service et donc j'arrive sur mon
+écran carte. Voilà, donc j'ai
+récupéré la carte pour la
+France. Euh si je zoome par exemple sur
+l'Espagne ici, je vois bien que je n'ai
+pas la donnée euh elle n'est pas
+disponible. Donc ce que ce qu'on va
+faire, je vais vous montrer comment
+ajouter une ou plusieurs régions ou en
+supprimer après coup après la première
+initialisation de l'application. Donc
+sur le bouton rouanté, vous arrivez dans
+les options. Tout en bas, vous allez
+avoir sélection sélectionner des
+régions. Je retrouve l'écran que j'avais
+au départ. Je vais choisir Iberria par
+exemple. Je fais mettre à jour. Ça va
+donc me récupérer la la région Espagne
+Portugal qu'on a appelé donc
+Iberria. Voilà, je vais attendre que ça
+se
+fasse et je vais avoir après accès à
+cette région là. Donc vous faites un
+petit peu comme vous voulez. Il faut
+bien euh distinguer, mais ça on le verra
+dans d'autres vidéos, la différence
+entre notre notre carte vectoriel par
+défaut et toutes les autres cartes que
+vous pourrez utiliser plus tard. Voilà,
+donc je reviens sur mon écran principal
+et je zoome par exemple bah vers Madrid
+ou vers la côte espagnole. Enfin bon,
+bref, voilà. Donc vous avez les données
+en Espagne ici. Voilà qui conclut cette
+première vidéo sur les tutos de SDVFR
+Next sur la gestion des régions. À très
+vite.

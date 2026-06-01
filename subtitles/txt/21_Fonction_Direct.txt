@@ -1,0 +1,124 @@
+ 
+et à toutes. Bienvenue dans cette
+nouvelle vidéo sur l'application SDVFR
+Next. Aujourd'hui, on va voir la
+fonction de direct qui est ce bouton ici
+avec la flèche qui permet donc de faire
+un direct sur un point d'intérêt, en
+général un aérodrome mais pas forcément
+uniquement un aérodrome et aussi de
+faire des recherches en fait de localité
+et carrément
+d'aérodrome. Euh donc c'est parti, on y
+va. Si je clique sur la partie donc
+directe ici, je vais avoir par défaut
+par rapport à ma position actuelle les
+terrains dans un aux alentours d'une
+centaine de nautiques. Euh les terrains
+mais aussi les balises de radio
+navigation et d'autres types de points.
+Donc là on voit que de plus au plus
+proche il y a donc le terrain de
+poitier, le VO de Poitier. J'ai quelques
+châteaux parce que j'ai chargé une liste
+de points personnalisés. Ça vous ça va
+me permettre de vous montrer qu'on voit
+aussi les points personnalisés dans la
+fonction direct. Euh des points VFR, des
+points IFR. Non, ça c'est aéronautique,
+pardon. Euh il y en a peut-être des
+points IFR un peu plus loin. Un peu plus
+loin. On va voir, on va voir. Voilà, par
+exemple Mike
+Golf euh Adabi. Voilà. Donc là, on a un
+point IFR par exemple. Voilà. Donc on a
+tous les points qui sont à proximité.
+Donc on a la distance aussi sur le côté.
+Ici la distance et la direction du
+point. Euh donc par exemple le VOR, il
+est à un je suis pas très loin euh au
+221 par rapport à ma position. Voilà.
+Évidemment euh si je vais si je fais une
+recherche ou je vais d'abord filtrer
+éventuellement euh je veux uniquement
+les aérodromes. Donc je vais tout
+enlever.
+Voilà, je vais avoir uniquement les
+aérodromes et je pourrais dire je fais
+un direct sur Chatel R. Donc je
+sélectionne Chatel R. Je peux soit voir
+soit dérouter. Je vais
+dérouter. Point de départ boîtier. Point
+d'arrivée Châel R. La carte C centrée
+sur la navigation créée et c'est tout.
+Euh si je fais éventuellement plutôt un
+terrain à l'est, à l'ouest pardon, Nior,
+je fais déroutement, je vais avoir voilà
+un ma nouvelle navigation, mon nouveau
+direct qui est
+créé. Euh j'avais dit qu'on pouvait
+faire une recherche. En fait, on peut
+très bien dire euh après avec le code
+OACI, Lima Fox Bravo Hôtel, la Rochelle.
+Je clique sur la rochelle, je fais
+uniquement voir et en fait l'application
+va me déplacer sur la rochelle. Donc la
+fonction direct peut servir non pas à se
+dérouter mais à rechercher un point.
+J'avais les points par exemple IFR tout
+à l'heure, je pourrais dire le point
+merlu qui est normalement entre euh bah
+la France métro enfin la le continent et
+la
+Corse. Donc je pourrais faire voir toc.
+Alors, il doit être là. J'ai pas les
+points IFR affichés mais il est là.
+Voilà, lu au milieu, il est ici. Voilà.
+Donc cette fonction de direct ne sert
+pas qu'à faire des directs.
+Euh le champ de recherche de la fonction
+direct permet de chercher des localités.
+Donc si par exemple je fais euh par
+exemple
+Sainte
+Soline, voilà, je vais avoir une
+recherche et là ça ça nécessite quand
+même une connexion internet. Mais si
+vous avez une connexion internet, vous
+pourrez faire une recherche de localité
+comme ça. Donc ben je dis bah
+Saintsoline c'est bien celle des la
+commune dans les deux Sèvres. Je fais
+voir toc et c'est ici effectivement.
+Voilà. Voilà. Donc j'aurais pu aussi
+évidemment je
+refais. Hop sin je fais
+vite. Alors j'ai pas mis l'espace entre
+les
+deux.
+Toc. Je vais pas y arriver.
+Tac. Voilà. Et je fais
+déroutement.
+Voilà. Euh je reviens peut-être un petit
+peu sur les filtres. Donc qu'est-ce
+qu'on peut voir dans cette fonction
+direct ? Les aérodromes, les
+élistations, les bases ULM. Donc je fais
+baseulmifr. Je fais OK. J'ai les
+aérodromes et les bases ULM. Je reviens
+dans filtre. On peut avoir les VOR, les
+NDB, les points VFR, les points IFR et
+les points personnalisés. Sachez que ces
+filtres sont gardés évidemment. Donc si
+je dis donc juste aérodrome et base ULM,
+je quitte ma fonction directe et je
+reviens dans ma fonction directe,
+j'aurai toujours la même chose
+évidemment. Euh donc vous pouvez faire
+un petit peu ce que vous
+voulez. Euh c'est à peu près tout ce
+qu'il y a à dire donc sur la fonction de
+direct. Euh rendez-vous dans une
+nouvelle vidéo pour d'autres
+fonctionnalités.
+Bon voilà à tous à bientôt.
