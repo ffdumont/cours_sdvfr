@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SDVFR Next — Fiches démo A5 (fil rouge 60 min)</title>
+<style>
+  :root {
+    --accent: #2d5aa0;
+    --accent-light: #e8f0fe;
+    --sol: #1565c0;
+    --vol: #2e7d32;
+    --tool: #f9a825;
+    --tool-bg: #fff8e1;
+    --border: #c8d0da;
+    --muted: #5a6470;
+  }
+
+  /* ---- Format A5 ---- */
+  @page { size: A5; margin: 0; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: #1a1a2e;
+    background: #e9edf2;
+    line-height: 1.35;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .card {
+    width: 148mm;
+    height: 210mm;
+    padding: 9mm 9mm 7mm;
+    background: #fff;
+    margin: 8mm auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    page-break-after: always;
+    break-after: page;
+    overflow: hidden;
+  }
+
+  /* En-tête de fiche */
+  .card-head {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    border-bottom: 2.5px solid var(--accent);
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+  }
+  .ref {
+    font-weight: 800;
+    font-size: 0.78rem;
+    color: #fff;
+    background: var(--accent);
+    border-radius: 4px;
+    padding: 2px 7px;
+    white-space: nowrap;
+  }
+  .title {
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: var(--accent);
+    flex: 1;
+    line-height: 1.15;
+  }
+  .timing {
+    text-align: right;
+    white-space: nowrap;
+    font-size: 0.72rem;
+    color: var(--muted);
+    line-height: 1.2;
+  }
+  .timing b { display: block; font-size: 0.95rem; color: #1a1a2e; }
+
+  /* Bandeau de phase */
+  .phase {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 9px;
+    display: inline-block;
+    align-self: flex-start;
+  }
+  .phase.setup { background: #ececec; color: #444; }
+  .phase.sol   { background: var(--accent-light); color: var(--sol); }
+  .phase.vol   { background: #e6f4ea; color: var(--vol); }
+  .phase.pivot { background: #fde7e7; color: #b71c1c; }
+
+  /* Section "Montrer" */
+  .show-label, .say-label {
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 6px 0 4px;
+  }
+  ol.show {
+    list-style: none;
+    counter-reset: step;
+    margin-bottom: 6px;
+  }
+  ol.show li {
+    counter-increment: step;
+    position: relative;
+    padding: 3px 0 3px 26px;
+    font-size: 0.86rem;
+    border-bottom: 1px dotted #e2e6eb;
+  }
+  ol.show li:last-child { border-bottom: none; }
+  ol.show li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0; top: 3px;
+    width: 18px; height: 18px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 18px;
+  }
+
+  /* Points de parole */
+  ul.say {
+    list-style: none;
+    flex: 1;
+  }
+  ul.say li {
+    position: relative;
+    padding: 2px 0 2px 15px;
+    font-size: 0.84rem;
+  }
+  ul.say li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .k { color: var(--accent); font-weight: 700; }
+  .num { background: #fff3cd; padding: 0 3px; border-radius: 3px; font-weight: 700; }
+
+  /* Encadré outil 🔧 */
+  .tool {
+    margin-top: auto;
+    background: var(--tool-bg);
+    border-left: 4px solid var(--tool);
+    border-radius: 0 5px 5px 0;
+    padding: 6px 9px;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+  .tool b { font-style: normal; color: #8a6d00; }
+  .tool.vol-exc { background: #e6f4ea; border-color: var(--vol); }
+  .tool.vol-exc b { color: var(--vol); }
+
+  .foot {
+    margin-top: 7px;
+    font-size: 0.7rem;
+    color: var(--muted);
+    border-top: 1px solid #e2e6eb;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Fiches repères (couverture / pivot / conclusion) */
+  .big { justify-content: flex-start; }
+  .big h2 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin: 4px 0 10px;
+  }
+  .big ul { list-style: none; }
+  .big ul li {
+    position: relative;
+    padding: 4px 0 4px 22px;
+    font-size: 0.92rem;
+    border-bottom: 1px dotted #e2e6eb;
+  }
+  .big ul li::before { content: "✓"; position: absolute; left: 0; color: var(--vol); font-weight: 800; }
+  .punch {
+    background: var(--accent);
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 12px 0;
+  }
+  .cover-meta { font-size: 0.9rem; color: var(--muted); margin-top: 6px; }
+  table.recap { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 6px; }
+  table.recap td { padding: 4px 6px; border-bottom: 1px solid #e2e6eb; }
+  table.recap td:first-child { font-weight: 700; color: var(--accent); white-space: nowrap; }
+  table.recap td:last-child { text-align: right; color: var(--muted); white-space: nowrap; }
+
+  /* Aide écran (non imprimée) */
+  .screen-hint {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #555;
+    padding: 14px;
+    background: #fff8e1;
+    border-bottom: 1px solid var(--tool);
+  }
+  @media print {
+    body { background: #fff; }
+    .card { margin: 0; box-shadow: none; }
+    .screen-hint { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="screen-hint">
+  🖨️ <b>Pour imprimer :</b> Ctrl/Cmd + P → Format papier <b>A5</b> → Marges <b>Aucune</b> → désactiver en-têtes/pieds de page.
+  Une fiche par page. (Si pas d'A5 : imprimer 2 pages A5 par feuille A4.)
+</div>
+
+<!-- ============ COUVERTURE ============ -->
+<section class="card big">
+  <span class="phase setup">Fil rouge — démo présentielle</span>
+  <h2>SDVFR Next<br>Démo 60 minutes</h2>
+  <div class="punch">Le message unique :<br>AU SOL on prépare → EN VOL on regarde</div>
+  <ul>
+    <li><b>Mise en route</b> — 5 min</li>
+    <li><b>AU SOL : préparer</b> — 37 min (62 %) → carte · nav · météo</li>
+    <li><b>Pivot</b> — 1 min (le stop pédagogique)</li>
+    <li><b>EN VOL : exécuter</b> — 11 min → on identifie les automatismes</li>
+    <li><b>Après-vol + bonus + conclusion</b> — 6 min</li>
+  </ul>
+  <p class="cover-meta">Repère couleur des fiches :
+     <span class="k" style="color:#444">■ mise en route</span> ·
+     <span class="k" style="color:var(--sol)">■ au sol</span> ·
+     <span class="k" style="color:#b71c1c">■ pivot</span> ·
+     <span class="k" style="color:var(--vol)">■ en vol</span>.</p>
+  <p class="cover-meta">🔧 = rappel « préparé maintenant, plus touché en vol ». 9 au total — c'est le fil rouge.</p>
+</section>
+
+<!-- ============ BLOC 1 ============ -->
+<section class="card">
+  <div class="card-head">
+    <span class="ref">A1</span>
+    <span class="title">Tour d'horizon de l'interface</span>
+    <span class="timing"><b>3 min</b>top 0:00</span>
+  </div>
+  <span class="phase setup">Bloc 1 — Mise en route</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Écran carte principal — on arrive prêt à voler</li>
+    <li>Barre de métriques en bas (« on y revient en vol »)</li>
+    <li>Bouton <b>layers</b> à droite → dérouler les couches</li>
+    <li>Les 4 boutons d'action en haut, un par un</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li><span class="k">Layers</span> : modes carte, chronos, profils, météo (METAR/Wintem), couches données, clair/sombre</li>
+    <li><span class="k">1 Utilisateur</span> : compte, appareils, traces, docs, points perso</li>
+    <li><span class="k">2 Navigation</span> : log, profil, carburant, M&amp;C, terrains/NOTAM → <em>le plus utilisé aujourd'hui</em></li>
+    <li><span class="k">3 Direct</span> : nav directe / recherche point</li>
+    <li><span class="k">4 Roue crantée</span> : options générales</li>
+  </ul>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">A6</span>
+    <span class="title">La gestion des appareils</span>
+    <span class="timing"><b>2 min</b>top 3:00</span>
+  </div>
+  <span class="phase setup">Bloc 1 — Mise en route</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Bouton Utilisateur &gt; onglet <b>Appareils</b> → la liste (DR400 démo)</li>
+    <li>Ouvrir une fiche, défiler les champs</li>
+    <li>Étoile bleue = défaut ; <b>appui long</b> pour changer le défaut</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Immat, modèle, <span class="k">vitesses</span> croisière/montée/descente</li>
+    <li>Taux montée/descente, conso horaire, densité carburant</li>
+    <li><span class="k">Masse &amp; centrage</span> : centrogramme + stations de chargement</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> la fiche appareil alimente <span class="k">automatiquement</span> les temps du log, le devis carburant et le centrage. Configuré une fois → plus jamais reposé avant chaque prépa.
+  </div>
+</section>
+
+<!-- ============ BLOC 2 ============ -->
+<section class="card">
+  <div class="card-head">
+    <span class="ref">B1</span>
+    <span class="title">Carte vectorielle &amp; couches de données</span>
+    <span class="timing"><b>2:30</b>top 5:00</span>
+  </div>
+  <span class="phase sol">Bloc 2 — Au sol : la carte</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Carte vectorielle + panneau latéral, garder « Couches de données »</li>
+    <li>Décocher NDB, VOR, hélistations, bases ULM → la carte se nettoie</li>
+    <li>Slider <b>filtre de plafond</b> : FL115 → FL050 → FL030</li>
+    <li>Bascule thème clair / sombre (bas du panneau)</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Même style quel que soit le pays (FR, ES, CH)</li>
+    <li>Le réglage affecte <span class="k">aussi les résultats au clic</span></li>
+    <li>Filtre plafond = désencombre les zones contraintes</li>
+  </ul>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">B2</span>
+    <span class="title">Le double tap : espaces aériens</span>
+    <span class="timing"><b>2:30</b>top 7:30</span>
+  </div>
+  <span class="phase sol">Bloc 2 — Au sol : la carte</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li><b>Double tap</b> en zone contrainte → boîte d'empilement</li>
+    <li>Parcourir la coupe : CTR, TMA, R, SIV, LTA ; cliquer un espace</li>
+    <li><b>Loupe</b> à côté d'un espace → la carte zoome dessus</li>
+    <li>Cliquer dans l'aperçu du haut → la liste défile</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Empilement complet trié par plancher + élévation sol en bas</li>
+    <li>Détail espace : classe, type, plancher/plafond, fréq., remarques AIP</li>
+    <li>Zone issue d'un SUP AIP → bouton <span class="k">PDF</span> direct</li>
+  </ul>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">B3</span>
+    <span class="title">Les informations terrain</span>
+    <span class="timing"><b>2 min</b>top 10:00</span>
+  </div>
+  <span class="phase sol">Bloc 2 — Au sol : la carte</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li><b>Simple clic</b> sur un terrain → code OACI, nom, boutons PDF / + / Direct</li>
+    <li>Bouton <b>« i »</b> → défiler les 4 onglets</li>
+  </ol>
+
+  <div class="say-label">Points de parole — les 4 onglets</div>
+  <ul class="say">
+    <li><span class="k">Pistes/fréq.</span> : altitude, VAC, appro/ATIS/info/tour</li>
+    <li><span class="k">Météo</span> : METAR/TAF (ou le plus proche + distance)</li>
+    <li><span class="k">Position</span> : coords multi-formats, défaut au lancement, éphémérides</li>
+    <li><span class="k">NOTAM</span> : VFR par défaut ; IFR via roue crantée</li>
+  </ul>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">B7</span>
+    <span class="title">Les VAC géoréférencées</span>
+    <span class="timing"><b>1:30</b>top 12:00</span>
+  </div>
+  <span class="phase sol">Bloc 2 — Au sol : la carte</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Clic terrain → boutons <b>APP / ATT / PDC</b> ; activer APP puis ATT</li>
+    <li>Options → activer <b>Mode Auto VAC</b> ; zoomer → la VAC apparaît seule</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>La VAC se plaque sur la vectorielle : zoom, tour de piste, parkings</li>
+    <li>Dézoom → la VAC disparaît</li>
+    <li>Penser à <span class="k">synchroniser les docs Geomap</span> avant le vol (offline)</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> Auto-VAC activé au sol → en vol, avec l'autocentrage, la VAC de tour de piste s'affiche seule à l'approche. Plus de fouille en finale.
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">E1</span>
+    <span class="title">Les zones temporaires (auto)</span>
+    <span class="timing"><b>1:30</b>top 13:30</span>
+  </div>
+  <span class="phase sol">Bloc 2 — Au sol : la carte</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Vue d'ensemble avec zones <b>rouges</b> (RTBA + ZRT) + n° de SUP AIP</li>
+    <li>Roue crantée &gt; <b>Paramètres zone temporaire auto</b></li>
+    <li>Double tap sur une zone → détail magenta + horaires</li>
+  </ol>
+
+  <div class="say-label">Points de parole — réglages</div>
+  <ul class="say">
+    <li>Plafonnement (ex. ne plus voir au-dessus du FL050)</li>
+    <li>Délai anticipé <span class="num">30 min</span> → zones à venir en <span class="k">orange</span></li>
+    <li>Interrupteurs : RTBA seul / SUP AIP seul / les deux</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> seuils (plafond, délai) réglés au sol selon votre profil. En vol, vous voyez juste rouge = actif, orange = à venir.
+  </div>
+</section>
+
+<!-- ============ BLOC 3 ============ -->
+<section class="card">
+  <div class="card-head">
+    <span class="ref">D1</span>
+    <span class="title">Créer sa route</span>
+    <span class="timing"><b>3 min</b>top 15:00</span>
+  </div>
+  <span class="phase sol">Bloc 3 — Au sol : la navigation</span>
+
+  <div class="show-label">👉 À montrer (ex. LFRI → LFBN)</div>
+  <ol class="show">
+    <li><b>Appui long</b> sur le départ → aimanter sur LFRI</li>
+    <li>Appui long sur l'arrivée → segment tracé, aimanter sur LFBN</li>
+    <li>Appui long <b>sur le segment</b> → découpe ; déplacer le point</li>
+    <li>Bouton <b>Nav</b> → ouvre l'écran de navigation</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Aimant = collage sur point remarquable</li>
+    <li>Ajout point : clic terrain + bouton « + »</li>
+    <li>Suppression : clic + poubelle, ou slide dans le log</li>
+  </ul>
+  <div class="foot"><span>Le cœur de la prépa : on configure, on fige.</span></div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">D2</span>
+    <span class="title">Le log de navigation</span>
+    <span class="timing"><b>4:30</b>top 18:00</span>
+  </div>
+  <span class="phase sol">Bloc 3 — Au sol : la navigation</span>
+
+  <div class="show-label">👉 À montrer (double-tap partout)</div>
+  <ol class="show">
+    <li>En-têtes <b>CM/RM</b> → choisir l'info principale</li>
+    <li>Colonne <b>ZV</b> : altitude ; <b>appui long</b> = même alt partout (ex. 6500 ft)</li>
+    <li>Sous le point : <b>fréquences</b> proposées (+ texte libre)</li>
+    <li>Colonne <b>Observation</b> : associer un VOR → QDM/QDR auto</li>
+    <li>Colonne <b>Notes</b> ; colonnes <b>HR / HE</b></li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Segments, points de report, CM / RM / TSV / TAV</li>
+    <li>Sous l'obs : vent + dérive + vent effectif (T tailwind / H headwind)</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> log rempli au sol. En vol, <span class="k">un seul double-tap sur HR</span> au décollage → toutes les heures estimées calculées, réelles remplies seules. Plus rien à toucher.
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">D3</span>
+    <span class="title">Le profil de navigation</span>
+    <span class="timing"><b>2:30</b>top 22:30</span>
+  </div>
+  <span class="phase sol">Bloc 3 — Au sol : la navigation</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Onglet <b>Profil</b> → coupe des espaces traversés</li>
+    <li>Slider étirer/comprimer ; double-tap espace = infos</li>
+    <li>Modifier l'alt d'un segment <b>en glissant sur le profil</b></li>
+    <li>Réglages → <b>filtres</b> par catégorie de zone</li>
+    <li>Afficher le profil <b>sur la carte</b> (panneau latéral)</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Filtres : classe E, LTA, zones naturelles, aéromodélisme, axes voltige/parachutage</li>
+    <li>Profil sur carte = éditer en 2D, voir l'impact 3D en direct</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> altitudes <span class="k">et filtres de zones</span> réglés ici. En vol, le profil dynamique reprend ces mêmes filtres — vous regardez, vous ne configurez plus.
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">D6/7/8</span>
+    <span class="title">Terrains sur la route &amp; NOTAM</span>
+    <span class="timing"><b>5 min</b>top 25:00</span>
+  </div>
+  <span class="phase sol">Bloc 3 — Au sol : la navigation</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Onglet <b>Route</b> → terrains dans le couloir (½ largeur 15 NM def.)</li>
+    <li>Clic terrain → NOTAM, METAR/TAF traduit, PDF VAC</li>
+    <li>Onglet <b>NOTAM</b> : compteur (<span class="num">66</span>) → activer les 3 filtres</li>
+    <li>Panneau latéral → couche <b>NOTAM graphiques</b></li>
+  </ol>
+
+  <div class="say-label">Les 3 filtres → reste <span class="num">13</span> prioritaires</div>
+  <ul class="say">
+    <li>1 — validité commençant sous 6 h</li>
+    <li>2 — retirer plancher au-dessus de la nav (marge 1000 ft)</li>
+    <li>3 — retirer les NOTAM d'obstacles</li>
+    <li>Filtrés = déplacés en bas (pas supprimés). Graphiques ≠ substitut.</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> les 3 filtres réglés au sol → figés dans le PDF. En vol, pas de re-briefing NOTAM.
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">D4</span>
+    <span class="title">Le devis carburant</span>
+    <span class="timing"><b>3 min</b>top 30:00</span>
+  </div>
+  <span class="phase sol">Bloc 3 — Au sol : la navigation</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Onglet <b>Carburant</b> : roulage 2×10, délestage 100, dégag. 15, finale 30 min</li>
+    <li>Taper une valeur → total litres recalculé ; roue crantée = défauts</li>
+    <li><b>« Sélectionner »</b> dégagements → choisir 3 terrains</li>
+    <li>Supprimer dégagement = appui long sur le bouton bleu</li>
+  </ol>
+
+  <div class="say-label">Points de parole — l'argument fort</div>
+  <ul class="say">
+    <li>Pour chaque point, l'appli prend le dégagement <span class="k">le plus éloigné</span> = <span class="k">pire cas</span></li>
+    <li>Résultat : <span class="num">26 min</span> au lieu de 15 → plus réaliste, plus sûr</li>
+    <li>Plus de terrains intermédiaires = temps qui baisse</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> sélection des dégagements + calcul pire cas se font ici. Pas en vol.
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">D9</span>
+    <span class="title">Le dossier de vol</span>
+    <span class="timing"><b>1:30</b>top 33:00</span>
+  </div>
+  <span class="phase sol">Bloc 3 — Au sol : la navigation</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Roue crantée bas du log &gt; <b>Générer le dossier de vol</b> → PDF par notif</li>
+    <li>Récupérer : Utilisateur &gt; <b>Doc perso</b>, défiler le PDF</li>
+    <li>Roue crantée : <b>Inverser</b>, Sauvegarder, Exporter</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>PDF complet : log, carburant, centrage, terrains route (METAR/TAF/NOTAM), NOTAM filtrés, Wintem, TNI</li>
+    <li>Mettre la prépa <span class="k">dans le marbre</span> — mieux côté réglementaire</li>
+    <li>Export : GPX, KML, PLN (Flight Sim), FPL (Garmin)</li>
+    <li>Direct (dérouter) → on le verra <span class="k">en vol</span></li>
+  </ul>
+</section>
+
+<!-- ============ BLOC 4 ============ -->
+<section class="card">
+  <div class="card-head">
+    <span class="ref">C1+C2</span>
+    <span class="title">METAR et TAF</span>
+    <span class="timing"><b>2:30</b>top 34:30</span>
+  </div>
+  <span class="phase sol">Bloc 4 — Au sol : météo</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Couche <b>METAR</b> → pastilles couleur ; cliquer un terrain</li>
+    <li>Désactiver METAR, activer <b>TAF</b> ; montrer les 2 couleurs</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>METAR : ancienneté (« il y a 7 min »), couleur = catégorie, brut + décodé</li>
+    <li>Vent &gt; 20 kt → <span class="k">manche à air</span> sur la pastille</li>
+    <li>METAR/TAF jamais ensemble (choix anti-surcharge)</li>
+    <li>TAF : couleur principale + couleur 2ᵉ = <span class="k">pire évolution</span> (BECMG/TEMPO/PROB)</li>
+    <li>Pas de station → le plus proche + distance</li>
+  </ul>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">C4</span>
+    <span class="title">Les Wintem (vents/temp. altitude)</span>
+    <span class="timing"><b>1:30</b>top 37:00</span>
+  </div>
+  <span class="phase sol">Bloc 4 — Au sol : météo</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Couche <b>Wintem</b> : niveaux FL005→FL150, tranches horaires</li>
+    <li>Sélectionner ex. <b>FL030 à 15 Z</b> → barbules sur l'Europe</li>
+    <li>Cliquer une barbule → direction, vitesse, température</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>La tranche horaire la plus proche est mise en évidence</li>
+    <li>Convention : négatif sans signe, positif avec « + »</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> les Wintem ajustent <span class="k">automatiquement</span> les temps du log. En vol → dérive et vent effectif dans la barre, sans intervention.
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">C6</span>
+    <span class="title">Le radar météo &amp; satellite</span>
+    <span class="timing"><b>2 min</b>top 38:30</span>
+  </div>
+  <span class="phase sol">Bloc 4 — Au sol : météo</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Couche <b>Radar</b> → bandeau bas (Play, slider, Radar/Sat, UTC/locale)</li>
+    <li>Zoomer sur des précipitations, lancer l'<b>animation</b></li>
+    <li>Pause + déplacer le slider ; basculer en <b>Satellite</b></li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Couleurs : bleu faible → jaune → rouge intense</li>
+    <li>Play = passé vers heure actuelle ; radar = <span class="k">~20 min de prévision</span></li>
+    <li>Satellite : pas de prévision, vue couverture nuageuse</li>
+  </ul>
+  <div class="foot"><span>Fin de la phase de préparation au sol.</span></div>
+</section>
+
+<!-- ============ PIVOT ============ -->
+<section class="card big">
+  <div class="card-head">
+    <span class="ref">PIVOT</span>
+    <span class="title">Du sol vers le vol</span>
+    <span class="timing"><b>1 min</b>top 40:30</span>
+  </div>
+  <span class="phase pivot">Le stop pédagogique — marquer une pause</span>
+
+  <p style="font-size:1rem;font-weight:700;margin:4px 0">« Stop. Faisons le point. » — En 37 min au sol, on a :</p>
+  <ul style="columns:1">
+    <li>Choisi l'avion, tracé la route + points</li>
+    <li>Rempli le log (alt, fréq, VOR, notes)</li>
+    <li>Vérifié le profil vertical</li>
+    <li>Identifié les terrains, filtré 66 → 13 NOTAM</li>
+    <li>Pire cas carburant + dégagements</li>
+    <li>Activé Auto-VAC, zones temp., profil dynamique</li>
+    <li>Figé le PDF ; consulté METAR/TAF/Wintem/radar</li>
+  </ul>
+
+  <div class="punch">Tout ça, vous ne le refaites plus en vol.</div>
+
+  <p style="font-size:0.9rem">Règle d'or : <b>préparation au sol = exécution sereine en vol.</b><br>
+  Si en vol vous fouillez dans les menus, filtrez des NOTAM, modifiez le log → c'est que vous avez sauté une étape au sol.</p>
+  <p style="font-size:0.95rem;font-weight:700;color:var(--vol);margin-top:8px">« Maintenant on décolle, et on regarde ce que l'appli fait pour vous. »</p>
+</section>
+
+<!-- ============ BLOC 5 ============ -->
+<section class="card">
+  <div class="card-head">
+    <span class="ref">F1</span>
+    <span class="title">Vue d'ensemble du suivi de vol</span>
+    <span class="timing"><b>3 min</b>top 41:30</span>
+  </div>
+  <span class="phase vol">Bloc 5 — En vol : exécuter</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Icône appareil (avion/héli, couleur — réglé au sol)</li>
+    <li><b>Vecteur vitesse</b> + bulles 2/3/5/10 min</li>
+    <li>Activer <b>autocentrage</b> → virage = recentrage intelligent</li>
+    <li><b>Orientation carte</b> : Nord haut ↔ direction avion</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Bulles de temps = anticiper trajectoire et traversées</li>
+    <li>Autocentrage : avion décalé pour voir un max <span class="k">devant</span></li>
+    <li>Vectoriel → labels toujours lisibles même carte pivotée</li>
+  </ul>
+  <div class="foot"><span>Ton du bloc : on identifie les automatismes.</span></div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">F2</span>
+    <span class="title">Le point courant &amp; la navigation</span>
+    <span class="timing"><b>2:30</b>top 44:30</span>
+  </div>
+  <span class="phase vol">Bloc 5 — En vol : exécuter</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Point courant en <b>vert</b>, les autres en rouge ; infos en bas à droite</li>
+    <li>Approcher un point → <b>passage automatique</b> au suivant</li>
+    <li>Geste 1 : clic point sur carte → bouton <b>drapeau</b></li>
+    <li>Geste 2 : log de nav → <b>double-tap colonne HE</b></li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Bascule auto : &lt; 2 NM <span class="k">OU</span> &lt; 1 min 30 → « vous n'avez rien à faire »</li>
+    <li>Seuls 2 gestes autorisés en vol pour sauter un point — c'est tout (99 % des cas)</li>
+  </ul>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">D10</span>
+    <span class="title">Le déroutement Direct en vol</span>
+    <span class="timing"><b>1 min</b>top 47:00</span>
+  </div>
+  <span class="phase vol">Bloc 5 — En vol : exécuter</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Bouton <b>Direct</b> (flèche, en haut)</li>
+    <li>Rechercher par OACI / nom / type (AD, ULM, VOR, NDB, VFR)</li>
+    <li><b>« Voir »</b> (déplace la carte) vs <b>« Dérouter »</b> (nav directe)</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Cas d'usage : déroutement météo, demande ATC, changement de plan</li>
+    <li>Recherche par commune si connexion internet</li>
+  </ul>
+
+  <div class="tool vol-exc">
+    <b>🔧 L'exception au « préparé au sol » :</b> Direct = outil de secours en vol. La seule fonction qu'on ne touche pas en prépa. Si vous l'utilisez, c'est que la situation a changé.
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">F3</span>
+    <span class="title">La barre inférieure</span>
+    <span class="timing"><b>2:30</b>top 48:00</span>
+  </div>
+  <span class="phase vol">Bloc 5 — En vol : exécuter</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Barre par défaut : VS GPS, alt GPS, route GPS mag, route au point, infos point</li>
+    <li><b>Appui long</b> sur la barre → 6 emplacements configurables</li>
+    <li>Changer une métrique → montrer <b>vent / dérive / vent effectif</b></li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>6 cases : G/M/D × haut/bas</li>
+    <li>Vent &amp; dérive calculés depuis les Wintem embarqués (ex. 23 kt H, dérive G 11°)</li>
+    <li>Aussi : ETA, temps de vol ; couleurs ; barre masquable</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> 6 métriques choisies au sol. En vol, vous <span class="k">lisez</span> la barre, vous ne la modifiez pas.
+  </div>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <span class="ref">F4</span>
+    <span class="title">Le profil dynamique</span>
+    <span class="timing"><b>2 min</b>top 50:30</span>
+  </div>
+  <span class="phase vol">Bloc 5 — En vol : exécuter</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Panneau latéral → activer <b>profil de vol</b> (bas de carte)</li>
+    <li><b>Appui long</b> « profil de vol » → réglages</li>
+    <li>Tap zone = surbrillance carte ; double-tap = infos + zoom</li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>Avion à gauche, relief + espaces <span class="k">devant</span> ; bulles 2/3/5/10 min ; 20 NM def.</li>
+    <li>Réglages : marge (2000/4000 ft), distance (20/40/60 NM), rafraîch. 3 s (batterie)</li>
+    <li>Mêmes filtres que D3 → réglés au sol = rien à faire ici</li>
+  </ul>
+
+  <div class="tool">
+    <b>🔧 Préparé, plus touché en vol :</b> marge/distance/filtres réglés au sol. Le profil <span class="k">se met à jour seul</span> — vous regardez ce qui arrive.
+  </div>
+</section>
+
+<!-- ============ BLOC 6 ============ -->
+<section class="card">
+  <div class="card-head">
+    <span class="ref">G1</span>
+    <span class="title">Les traces enregistrées</span>
+    <span class="timing"><b>3 min</b>top 52:30</span>
+  </div>
+  <span class="phase setup">Bloc 6 — Après le vol</span>
+
+  <div class="show-label">👉 À montrer</div>
+  <ol class="show">
+    <li>Rappel trace jaune en vol → Utilisateur &gt; onglet <b>Trace</b></li>
+    <li>Options &gt; <b>Options des traces</b> (survol)</li>
+    <li>Œil → afficher une trace ; <b>2 doigts = 3D</b></li>
+    <li>Appui long → export <b>GPX / KML</b></li>
+  </ol>
+
+  <div class="say-label">Points de parole</div>
+  <ul class="say">
+    <li>« Boîte noire » : enregistrement régulier (comptage d'heures, débriefing)</li>
+    <li>Seuils : 30 m sol / 500 m air, virage 5°, alt 100 ft, fermeture 5 min</li>
+    <li>Clôture : auto 5 min / fermeture appli / manuelle ; KML → Google Earth</li>
+  </ul>
+</section>
+
+<!-- ============ BLOC 7 ============ -->
+<section class="card">
+  <div class="card-head">
+    <span class="ref">H1/B4/I</span>
+    <span class="title">Pour aller plus loin</span>
+    <span class="timing"><b>2 min</b>top 55:30</span>
+  </div>
+  <span class="phase setup">Bloc 7 — Mention, sans démo</span>
+
+  <div class="say-label">Juste citer (vidéo dédiée pour chacune)</div>
+  <ul class="say">
+    <li><span class="k">Points personnalisés</span> : repères perso (château, terrain privé, report local), import/export CSV</li>
+    <li><span class="k">Mode hybride</span> : superposer OACI image, SIA 250, FOCA suisse… (Utilisateur &gt; Produit)</li>
+    <li><span class="k">Détection de trafic</span> : boîtier GDL 90 (Stratux, PilotAware, SkyEcho) ou SafeSky (sans boîtier). Losanges + delta alt + C/D</li>
+  </ul>
+  <div class="foot"><span>« Regardez la vidéo correspondante sur la chaîne YouTube SDVFR. »</span></div>
+</section>
+
+<!-- ============ CONCLUSION ============ -->
+<section class="card big">
+  <div class="card-head">
+    <span class="ref">FIN</span>
+    <span class="title">Conclusion</span>
+    <span class="timing"><b>1 min</b>top 57:30</span>
+  </div>
+  <span class="phase setup">À retenir par-dessus tout</span>
+
+  <div class="punch">La séparation SOL / VOL</div>
+
+  <p style="font-size:0.9rem">Au sol on <b>configure / filtre / prépare</b>. En vol on <b>regarde</b> ce que l'appli fait pour vous :</p>
+  <ul>
+    <li>Suivi automatique du point courant</li>
+    <li>Vent &amp; dérive estimés</li>
+    <li>Profil dynamique qui se met à jour seul</li>
+    <li>VAC qui apparaissent à l'approche</li>
+    <li>Zones temporaires qui passent en orange</li>
+  </ul>
+  <p style="font-size:0.9rem;margin-top:6px">« Vous gardez la tête en dehors du cockpit. »<br>
+  Seule exception : le bouton <b>Direct</b> quand la situation change.</p>
+  <p class="cover-meta">Playlist « Tutoriels SDVFR Next » sur YouTube · info@skydreamsoft.fr · Merci !</p>
+</section>
+
+</body>
+</html>
