@@ -131,9 +131,9 @@
 Le cours est structuré autour de **deux macro-phases qui correspondent à la réalité du vol** :
 
 1. **AU SOL — Préparer.** L'essentiel du temps. Le pilote configure tout ce qui pourra être configuré : profils, filtres, dégagements, métriques de la barre inférieure, mode auto-VAC, etc. Le message-clé revient à chaque fonctionnalité préparable : *« on règle ça maintenant, vous n'y toucherez plus en vol »*.
-2. **EN VOL — Exécuter.** Court. Le pilote **regarde** ce que l'appli fait pour lui (suivi, point courant, barre inférieure, profil dynamique). Les interactions sont minimisées et limitées à quelques gestes simples (forçage du point courant, par exemple).
+2. **EN VOL.** Court. Le pilote **regarde** ce que l'appli fait pour lui (suivi, point courant, barre inférieure, profil dynamique). Les interactions sont minimisées et limitées à quelques gestes simples (forçage du point courant, par exemple).
 
-Entre les deux : un **pivot explicite d'1 min** qui pose la règle d'or — *préparation au sol = exécution sereine en vol*.
+Entre les deux : un **pivot explicite d'1 min** qui pose la règle d'or — *préparation au sol = vol serein*.
 
 **Périmètre exclu du présentiel** : les aspects périphériques (création de compte, gestion des terminaux, sélection des régions au premier lancement) ne sont pas couverts. Ils sont supposés acquis ou renvoyés vers les vidéos.
 
@@ -148,7 +148,7 @@ Entre les deux : un **pivot explicite d'1 min** qui pose la règle d'or — *pr�
 | **3** | **AU SOL — Préparer** | La navigation | 21 min | D1, D2, D3, D6/D7/D8, D4, D9 |
 | **4** | **AU SOL — Préparer** | Météo | 6 min | C1+C2, C4, C6 |
 | **—** | *Pivot* | *Du sol vers le vol* | 1 min | *transition d'alignement* |
-| **5** | **EN VOL — Exécuter** | Suivi de vol et déroutement | 11 min | F1, F2, **D10**, F3, F4 |
+| **5** | **EN VOL** | Suivi de vol et déroutement | 11 min | F1, F2, **D10**, F3, F4 |
 | **6** | Après le vol | Traces | 3 min | G1 |
 | **7** | Bonus (mention) | Pour aller plus loin | 2 min | H1, B4, I1/I2 |
 | | Conclusion | | 1 min | |
@@ -156,7 +156,7 @@ Entre les deux : un **pivot explicite d'1 min** qui pose la règle d'or — *pr�
 
 **Répartition par macro-phase** : Mise en route 5 min · **AU SOL 37 min (62 %)** · Pivot 1 min · **EN VOL 11 min (18 %)** · Après-vol + bonus + conclusion 6 min.
 
-Ce déséquilibre volontaire 62 % / 18 % matérialise visuellement le message pédagogique : on passe beaucoup plus de temps à préparer qu'à exécuter. L'unique geste autorisé en vol **hors suivi passif** est le déroutement Direct (D10).
+Ce déséquilibre volontaire 62 % / 18 % matérialise visuellement le message pédagogique : on passe beaucoup plus de temps à préparer qu'à voler. L'unique geste autorisé en vol **hors suivi passif** est le déroutement Direct (D10).
 
 ---
 
@@ -199,9 +199,9 @@ Ce déséquilibre volontaire 62 % / 18 % matérialise visuellement le message p�
 #### Pivot — Du sol vers le vol (1 min)
 > *Encadré oral à dire au tableau : poser la règle d'or*
 
-« Tout ce qu'on vient de faire — choisir l'avion, tracer la route, remplir le log, filtrer les NOTAM, sélectionner les dégagements, configurer Auto-VAC, consulter la météo — **vous ne le refaites plus en vol**. La règle d'or de SDVFR Next : préparation au sol = exécution sereine en vol. Maintenant on décolle, et on regarde ce que l'appli fait pour vous. »
+« Tout ce qu'on vient de faire — choisir l'avion, tracer la route, remplir le log, filtrer les NOTAM, sélectionner les dégagements, configurer Auto-VAC, consulter la météo — **vous ne le refaites plus en vol**. La règle d'or de SDVFR Next : préparation au sol = vol serein. Maintenant on décolle, et on regarde ce que l'appli fait pour vous. »
 
-#### Bloc 5 — EN VOL : exécuter (11 min)
+#### Bloc 5 — EN VOL (11 min)
 > *Objectif : comprendre les automatismes et identifier les rares gestes utiles en vol*
 
 - **F1** Suivi de vol — icône, vecteur vitesse, autocentrage intelligent, orientation carte

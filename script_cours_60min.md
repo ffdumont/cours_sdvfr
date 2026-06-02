@@ -1,7 +1,7 @@
 # Script de cours SDVFR Next — Format 60 minutes (présentiel)
 
 > Dérivé de [script_cours_75min.md](script_cours_75min.md) selon deux décisions d'architecture :
-> 1. Le cours est structuré en deux macro-phases pour insister sur la séparation **préparation au sol** / **exécution en vol**. Objectif pédagogique : que les pilotes minimisent leurs interactions avec l'appli en vol.
+> 1. Le cours est structuré en deux macro-phases pour insister sur la séparation **préparation au sol** / **vol**. Objectif pédagogique : que les pilotes minimisent leurs interactions avec l'appli en vol.
 > 2. Les aspects périphériques (compte SkyDreamSoft, sélection des régions) ne sont pas traités en présentiel ; ils sont renvoyés aux vidéos.
 
 > Le script reste **strictement fidèle au contenu des 47 vidéos sources** — rien n'est inventé.
@@ -17,13 +17,13 @@
 | 3 | **AU SOL — Préparer** | La navigation | 21 min | D1, D2, D3, D6/D7/D8, D4, D9 |
 | 4 | **AU SOL — Préparer** | Météo | 6 min | C1+C2, C4, C6 |
 | — | *Pivot* | *Du sol vers le vol* | 1 min | *transition* |
-| 5 | **EN VOL — Exécuter** | Suivi de vol et déroutement | 11 min | F1, F2, **D10**, F3, F4 |
+| 5 | **EN VOL** | Suivi de vol et déroutement | 11 min | F1, F2, **D10**, F3, F4 |
 | 6 | Après le vol | Traces | 3 min | G1 |
 | 7 | Bonus (mention) | Pour aller plus loin | 2 min | H1, B4, I1/I2 |
 | | Conclusion | | 1 min | |
 | | **TOTAL** | | **60 min** | |
 
-**Convention typographique :** les *rappels-clé sol → vol* sont signalés par l'encadré **🔧 Préparé maintenant, plus touché en vol** dans le corps du texte.
+**Convention typographique :** les *rappels-clé sol → vol* sont signalés par l'encadré **🔧 Préparé au sol, plus touché en vol** dans le corps du texte.
 
 ---
 
@@ -75,7 +75,7 @@ Si j'ouvre une fiche, je retrouve les informations essentielles : immatriculatio
 
 La petite étoile bleue indique votre appareil par défaut, celui qui sera automatiquement sélectionné pour chaque nouvelle navigation. Pour changer l'appareil par défaut, faites un appui long sur un autre appareil dans la liste.
 
-> **🔧 Préparé maintenant, plus touché en vol :** la fiche appareil alimente automatiquement les temps du log de nav, le devis carburant et le centrage. Tout est lié. Vous configurez votre avion une fois, et vous ne vous reposez plus la question avant chaque prépa.
+> **🔧 Préparé au sol, plus touché en vol :** la fiche appareil alimente automatiquement les temps du log de nav, le devis carburant et le centrage. Tout est lié. Vous configurez votre avion une fois, et vous ne vous reposez plus la question avant chaque prépa.
 
 > *Fin du Bloc 1. Transition : Maintenant qu'on a posé l'interface et notre avion, on entre dans la première grande phase : la préparation au sol. Et ça commence par la carte.*
 
@@ -157,7 +157,7 @@ Quand vous cliquez sur un terrain, vous voyez des boutons sous les informations 
 
 Mais le vrai plus, c'est le mode automatique. Dans les options, activez « Auto VAC ». Quand vous zoomez suffisamment sur un terrain, la carte d'atterrissage et de tour de piste s'affiche toute seule. Vous dézoomez, elle disparaît.
 
-> **🔧 Préparé maintenant, plus touché en vol :** activez Auto-VAC au sol. En vol, avec l'autocentrage, les VAC de tour de piste apparaîtront automatiquement quand vous vous rapprocherez du terrain. Plus besoin de les chercher manuellement, plus besoin de fouiller dans les documents en finale.
+> **🔧 Préparé au sol, plus touché en vol :** activez Auto-VAC au sol. En vol, avec l'autocentrage, les VAC de tour de piste apparaîtront automatiquement quand vous vous rapprocherez du terrain. Plus besoin de les chercher manuellement, plus besoin de fouiller dans les documents en finale.
 
 Petit rappel : synchronisez les documents Geomap avant le vol pour pouvoir les afficher hors ligne (bouton utilisateur, onglet Document, nœud Geomap).
 
@@ -177,7 +177,7 @@ Dans les paramètres, section « Zone temporaire automatique », plusieurs régl
 
 Et comme pour tout espace aérien, le double tap fonctionne sur ces zones : vous verrez en magenta le détail des activations connues avec les horaires.
 
-> **🔧 Préparé maintenant, plus touché en vol :** vos seuils (plafond, délai d'anticipation) sont à régler au sol selon votre profil de vol habituel. En vol, vous voyez juste les zones rouges (actives) et oranges (à venir).
+> **🔧 Préparé au sol, plus touché en vol :** vos seuils (plafond, délai d'anticipation) sont à régler au sol selon votre profil de vol habituel. En vol, vous voyez juste les zones rouges (actives) et oranges (à venir).
 
 > *Fin du Bloc 2. Transition : On maîtrise la carte. On entre maintenant dans le cœur de la prépa : la navigation.*
 
@@ -247,7 +247,7 @@ La colonne Notes permet d'écrire ce qu'on veut par point de report. Texte libre
 
 Dernier point : les colonnes HR et HE.
 
-> **🔧 Préparé maintenant, plus touché en vol :** au sol, vous remplissez le log (altitudes, fréquences, VOR, notes). En vol, vous double-tapez **une seule fois** sur HR au premier point au moment du décollage : SDVFR Next calcule alors toutes les heures estimées de passage, et remplira automatiquement les heures réelles à chaque passage de point. Vous n'avez plus rien à toucher dans le log.
+> **🔧 Préparé au sol, plus touché en vol :** au sol, vous remplissez le log (altitudes, fréquences, VOR, notes). En vol, vous double-tapez **une seule fois** sur HR au premier point au moment du décollage : SDVFR Next calcule alors toutes les heures estimées de passage, et remplira automatiquement les heures réelles à chaque passage de point. Vous n'avez plus rien à toucher dans le log.
 
 > *Transition : Notre log est rempli. Regardons le profil vertical.*
 
@@ -275,7 +275,7 @@ Dans les réglages du profil, vous trouvez des **filtres d'affichage** : possibi
 
 Fonctionnalité puissante : on peut afficher le profil directement sur la carte, via le panneau latéral. Ça permet de modifier la route en 2D et de voir en temps réel l'impact en 3D sur les espaces.
 
-> **🔧 Préparé maintenant, plus touché en vol :** ajustez les altitudes **et les filtres de zones** ici, au sol. En vol, le profil dynamique (qu'on verra plus tard) reprend ces mêmes catégories de filtres — vous regardez, vous ne configurez plus.
+> **🔧 Préparé au sol, plus touché en vol :** ajustez les altitudes **et les filtres de zones** ici, au sol. En vol, le profil dynamique (qu'on verra plus tard) reprend ces mêmes catégories de filtres — vous regardez, vous ne configurez plus.
 
 > *Transition : Le profil est bon. Point critique suivant : terrains et NOTAM.*
 
@@ -310,7 +310,7 @@ En complément, les NOTAM graphiques, activables depuis le panneau latéral sur 
 
 Attention : les NOTAM graphiques ne **remplacent pas** le briefing NOTAM via les onglets Route et NOTAM. Complément visuel, pas substitut.
 
-> **🔧 Préparé maintenant, plus touché en vol :** les 3 filtres NOTAM sont réglés ici, au sol, en fonction des paramètres de votre vol (validité, altitude max, obstacles). Une fois dans le PDF du dossier de vol, c'est figé. En vol, vous ne refaites pas un briefing NOTAM.
+> **🔧 Préparé au sol, plus touché en vol :** les 3 filtres NOTAM sont réglés ici, au sol, en fonction des paramètres de votre vol (validité, altitude max, obstacles). Une fois dans le PDF du dossier de vol, c'est figé. En vol, vous ne refaites pas un briefing NOTAM.
 
 > *Transition : Les NOTAM sont briefés. On passe au devis carburant.*
 
@@ -334,7 +334,7 @@ Le point fort, c'est la **gestion intelligente des dégagements**. En cliquant s
 
 Et si on ajoute des terrains intermédiaires, le temps diminue parce qu'on a plus d'options. Logique. Pour supprimer un dégagement : appui long sur le bouton bleu du terrain.
 
-> **🔧 Préparé maintenant, plus touché en vol :** la sélection de dégagements et le calcul du pire cas se font ici. Pas en vol.
+> **🔧 Préparé au sol, plus touché en vol :** la sélection de dégagements et le calcul du pire cas se font ici. Pas en vol.
 
 > *Transition : Devis bouclé. Dernière étape : on fige tout.*
 
@@ -399,7 +399,7 @@ Les Wintem, ce sont les cartes de vents et températures prévus en altitude. Da
 
 Je sélectionne par exemple le FL030 à 15 Zoulou. Les barbules de vent s'affichent sur toute l'Europe. Si je clique sur une barbule, j'obtiens l'information exacte : direction du vent, vitesse en nœuds, et température. Petit rappel sur la convention : les températures négatives n'ont pas de signe ; quand la température est positive, un « + » apparaît.
 
-> **🔧 Préparé maintenant, plus touché en vol :** ces couches Wintem sont utilisées **automatiquement** par l'appli pour ajuster les temps du log de nav que vous venez de construire. En vol, vous verrez la dérive estimée et le vent effectif dans la barre inférieure — sans aucune intervention de votre part.
+> **🔧 Préparé au sol, plus touché en vol :** ces couches Wintem sont utilisées **automatiquement** par l'appli pour ajuster les temps du log de nav que vous venez de construire. En vol, vous verrez la dérive estimée et le vent effectif dans la barre inférieure — sans aucune intervention de votre part.
 
 > *Transition : Dernier outil météo : le radar de précipitations.*
 
@@ -441,13 +441,13 @@ Tout ce qu'on vient de faire pendant 37 minutes au sol :
 
 **Tout ça, vous ne le refaites plus en vol.**
 
-C'est la règle d'or de SDVFR Next : **préparation au sol = exécution sereine en vol**. Si vous vous surprenez en vol à fouiller dans les menus, à filtrer des NOTAM, à modifier votre log, à activer une couche : c'est que vous avez sauté une étape au sol.
+C'est la règle d'or de SDVFR Next : **préparation au sol = vol serein**. Si vous vous surprenez en vol à fouiller dans les menus, à filtrer des NOTAM, à modifier votre log, à activer une couche : c'est que vous avez sauté une étape au sol.
 
 Maintenant on décolle, et on regarde ce que l'appli fait pour vous.
 
 ---
 
-## BLOC 5 — EN VOL : exécuter (11 min)
+## BLOC 5 — EN VOL (11 min)
 
 *Ton du bloc : on identifie les automatismes. Les seuls gestes utiles en vol sont clairement signalés.*
 
@@ -535,7 +535,7 @@ Métriques disponibles, abondantes : vitesse, altitude, vitesse verticale, route
 
 L'heure estimée d'arrivée et le temps de vol estimé sont également disponibles. Chaque métrique est personnalisable en couleur. On peut aussi cacher complètement la barre.
 
-> **🔧 Préparé maintenant, plus touché en vol :** vos 6 métriques sont choisies au sol, en fonction de votre style de vol. En vol, vous **lisez** la barre, vous ne la modifiez pas.
+> **🔧 Préparé au sol, plus touché en vol :** vos 6 métriques sont choisies au sol, en fonction de votre style de vol. En vol, vous **lisez** la barre, vous ne la modifiez pas.
 
 > *Transition : Dernière fonctionnalité majeure en vol : le profil dynamique.*
 
@@ -557,7 +557,7 @@ Filtres d'affichage : les mêmes catégories qu'on a vues en D3 (classe E, LTA, 
 
 Le profil est **interactif**. Tap sur une zone colorée : elle s'affiche en surbrillance sur la carte avec son nom. Double-tap : informations complètes et zoom carte. Outil très puissant pour identifier rapidement ce qui arrive sur votre route.
 
-> **🔧 Préparé maintenant, plus touché en vol :** marge, distance et filtres se règlent au sol selon votre profil de vol. En vol, le profil dynamique **se met à jour seul** — vous regardez ce qui arrive, vous ne configurez plus.
+> **🔧 Préparé au sol, plus touché en vol :** marge, distance et filtres se règlent au sol selon votre profil de vol. En vol, le profil dynamique **se met à jour seul** — vous regardez ce qui arrive, vous ne configurez plus.
 
 > *Fin du Bloc 5. Voilà pour le vol. Voyons l'après-atterrissage.*
 
@@ -615,7 +615,7 @@ Voilà qui conclut cette présentation de SDVFR Next.
 
 Ce que j'aimerais que vous reteniez par-dessus tout, c'est la **séparation sol / vol**. SDVFR Next est conçu pour qu'au sol vous configuriez, vous filtriez, vous prépariez — et qu'en vol vous **regardiez** ce que l'appli fait pour vous : suivi automatique du point courant, vent et dérive estimés, profil dynamique qui se met à jour seul, VAC qui apparaissent à l'approche, zones temporaires qui passent en orange quand elles deviennent imminentes. Vous gardez la tête en dehors du cockpit.
 
-Si vous vous retrouvez en vol à fouiller dans les menus, c'est que vous avez sauté une étape au sol. La **seule exception** est le bouton Direct (Dérouter) quand la situation change en vol — météo, ATC, modification de plan. Pour tout le reste : préparation au sol = exécution sereine en vol.
+Si vous vous retrouvez en vol à fouiller dans les menus, c'est que vous avez sauté une étape au sol. La **seule exception** est le bouton Direct (Dérouter) quand la situation change en vol — météo, ATC, modification de plan. Pour tout le reste : préparation au sol = vol serein.
 
 Toutes les vidéos détaillées sont disponibles sur la chaîne YouTube SDVFR, dans la playlist « Tutoriels SDVFR Next ». Pour toute question, n'oubliez pas : info@skydreamsoft.fr.
 
@@ -642,7 +642,7 @@ Merci de votre attention.
 - Mise en route : 5 min (8 %)
 - **AU SOL : 37 min (62 %)** — préparation
 - Pivot : 1 min
-- **EN VOL : 11 min (18 %)** — exécution
+- **EN VOL : 11 min (18 %)** — le vol
 - Après-vol + bonus + conclusion : 6 min
 
 ---

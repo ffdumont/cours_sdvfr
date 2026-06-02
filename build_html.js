@@ -144,6 +144,7 @@ const template = (title, body) => `<!DOCTYPE html>
 <div class="nav-bar">
   <span class="nav-title">SDVFR Next</span>
   <a href="index.html">Plan du cours</a>
+  <a href="slides_60min.html">Diaporama 60 min</a>
   <a href="script_60min.html">Script 60 min</a>
   <a href="script.html">Script 75 min</a>
 </div>
