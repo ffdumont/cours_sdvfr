@@ -8,7 +8,7 @@
 ## Table des matières
 
 1. [Liste des fonctionnalités par thème](#liste-des-fonctionnalités-par-thème)
-2. [Plan de cours 60-90 minutes](#plan-de-cours-60-90-minutes)
+2. [Plan de cours 60 minutes (présentiel)](#plan-de-cours-60-minutes-présentiel)
 3. [Guide de calibrage par durée](#guide-de-calibrage-par-durée)
 
 ---

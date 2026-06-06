@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cours SDVFR Next — Replay commenté</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a2e;
+    --accent: #2d5aa0;
+    --accent2: #e8f0fe;
+    --border: #d0d7de;
+    --code-bg: #f6f8fa;
+    --table-stripe: #f6f8fa;
+    --blockquote-bg: #fff8e1;
+    --blockquote-border: #f9a825;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: var(--fg);
+    background: var(--bg);
+    line-height: 1.7;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+  h1 {
+    font-size: 2rem;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1rem;
+    color: var(--accent);
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin: 2.5rem 0 0.75rem;
+    padding: 0.4rem 0.8rem;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 6px;
+  }
+  h3 {
+    font-size: 1.2rem;
+    margin: 1.8rem 0 0.5rem;
+    color: var(--accent);
+    border-left: 4px solid var(--accent);
+    padding-left: 0.7rem;
+    scroll-margin-top: 90px;
+  }
+  h4 { font-size: 1.05rem; margin: 1.2rem 0 0.4rem; }
+  p { margin: 0.5rem 0; }
+  ul, ol { margin: 0.5rem 0 0.5rem 1.5rem; }
+  li { margin: 0.25rem 0; }
+  strong { color: var(--accent); }
+  em { color: #555; }
+  blockquote {
+    border-left: 4px solid var(--blockquote-border);
+    background: var(--blockquote-bg);
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+  }
+  blockquote p { margin: 0.2rem 0; }
+  code {
+    background: var(--code-bg);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  pre {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+  pre code { background: none; padding: 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.92rem;
+  }
+  thead th {
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+  }
+  thead th:first-child { border-radius: 6px 0 0 0; }
+  thead th:last-child { border-radius: 0 6px 0 0; }
+  td {
+    padding: 0.5rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+  }
+  td[id] { scroll-margin-top: 90px; }
+  tbody tr:nth-child(even) { background: var(--table-stripe); }
+  tbody tr:hover { background: var(--accent2); }
+  tbody tr:target { background: #fff3cd; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  hr {
+    border: none;
+    border-top: 2px solid var(--border);
+    margin: 2rem 0;
+  }
+  .nav-bar {
+    position: sticky;
+    top: 0;
+    background: var(--accent);
+    color: #fff;
+    padding: 0.6rem 1rem;
+    margin: -2rem -1.5rem 2rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    z-index: 100;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .nav-bar a { color: #fff; font-weight: 500; }
+  .nav-bar a:hover { opacity: 0.85; text-decoration: none; }
+  .nav-title { font-weight: 700; margin-right: auto; }
+  /* --- Lecteur replay --- */
+  .player-wrap {
+    position: sticky;
+    top: 2.5rem;
+    z-index: 90;
+    background: var(--bg);
+    margin: 0 -1.5rem 1.5rem;
+    padding: 0.6rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  }
+  .player-box {
+    position: relative;
+    max-width: 520px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .player-box iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .player-msg {
+    max-width: 520px; margin: 0 auto;
+    background: var(--blockquote-bg);
+    border: 1px solid var(--blockquote-border);
+    border-radius: 8px; padding: 1rem; font-size: 0.9rem; text-align: center;
+  }
+  a[href^="#t="] {
+    font-weight: 700;
+    background: var(--accent2);
+    padding: 0.05rem 0.45rem;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  a[href^="#t="]:hover { background: #d6e4fb; text-decoration: none; }
+  @media (max-width: 600px) {
+    body { padding: 1rem; font-size: 0.95rem; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
+    table { font-size: 0.82rem; }
+    .nav-bar { flex-wrap: wrap; gap: 0.5rem; margin: -1rem -1rem 1rem; }
+    .player-wrap { position: static; top: auto; margin: 0 -1rem 1rem; padding: 0.5rem 1rem; }
+  }
+  @media print {
+    .nav-bar, .player-wrap { display: none; }
+    h2 { break-before: page; }
+    body { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="nav-bar">
+  <span class="nav-title">SDVFR Next</span>
+  <a href="index.html">Plan du cours</a>
+  <a href="replay.html">Replay commenté</a>
+  <a href="slides_60min.html">Diaporama 60 min</a>
+  <a href="script_60min.html">Script 60 min</a>
+  <a href="script.html">Script 75 min</a>
+</div>
+<div class="player-wrap" id="player-wrap">
+  <div class="player-box" id="player-box"><div id="yt-player"></div></div>
+</div>
+<h1 id="replay-commenté-du-cours-sdvfr-next">Replay commenté du cours SDVFR Next</h1>
+<blockquote>
+<p>Compagnon du <strong>replay de la session en présentiel</strong> (6 juin 2026, 1 h 31).
+Le cours est découpé en démonstrations : chacune renvoie au <strong>moment exact de la vidéo</strong> (cliquez sur l'horodatage pour y sauter dans le lecteur ci-dessus) et à la <strong>fiche fonctionnalité</strong> correspondante du <a href="index.html">plan du cours</a>.</p>
+</blockquote>
+<p>Le cours suit la logique réelle du vol, en <strong>deux temps</strong> :</p>
+<ol>
+<li><strong>AU SOL — préparer.</strong> L'essentiel de la séance. On configure tout ce qui peut l'être ; <em>« on règle ça maintenant, on n'y touche plus en vol »</em>.</li>
+<li><strong>EN VOL.</strong> Court. Le pilote <strong>regarde</strong> ce que l'appli fait pour lui et minimise les interactions pour garder les yeux dehors.</li>
+</ol>
+<hr>
+<h2 id="mise-en-route">Mise en route</h2>
+
+<h3 id="1-tour-dhorizon-de-linterface">1. Tour d'horizon de l'interface</h3>
+<p><strong><a href="#t=136">▶ 02:16</a></strong> · Fiche : <a href="index.html#A1">A1</a></p>
+<p>François situe les repères de l'écran de démarrage : en haut, les <strong>4 boutons</strong> (menu utilisateur, gestion de la route, fonction <em>Direct To</em> — la seule prévue pour le vol, et l'engrenage des réglages) ; en dessous, le <strong>bandeau des métriques</strong> (détaillé plus tard en vol) ; au centre, la <strong>carte</strong>. Deux ordinateurs sont utilisés : l'un émet un signal GPS simulé pour rejouer un vol réel et montrer le comportement « en l'air ».</p>
+
+<h3 id="2-menu-utilisateur-fiche-appareil">2. Menu utilisateur &amp; fiche appareil</h3>
+<p><strong><a href="#t=215">▶ 03:35</a></strong> · Fiche : <a href="index.html#A6">A6</a></p>
+<p>La toute première configuration à faire : <strong>renseigner son appareil</strong>. On reprend dans le manuel de vol les vitesses (croisière, montée, descente), la consommation et les <strong>points du centrogramme</strong> (couples bras de levier / poids définissant l'enveloppe), plus la masse à vide et les bras de levier équipage/bagages. Si l'on a plusieurs avions, on en désigne un <strong>par défaut</strong> repris à chaque nouvelle navigation. <em>« On associe la nav à un appareil, sinon tout est faux. »</em></p>
+<hr>
+<h2 id="au-sol--préparer">AU SOL — Préparer</h2>
+
+<h3 id="3-la-carte-vectorielle--le-concept">3. La carte vectorielle : le concept</h3>
+<p><strong><a href="#t=383">▶ 06:23</a></strong> · Fiche : <a href="index.html#B1">B1</a></p>
+<p>La grande différence de SDVFR <strong>Next</strong> : la carte est <strong>vectorielle</strong>, pas une simple numérisation de carte papier. Chaque information est un objet vivant, configurable. Deux avantages immédiats : quand on tourne la carte, <strong>les écritures restent horizontales</strong> ; et l'affichage est <strong>entièrement configurable</strong> couche par couche — à faire <strong>au sol</strong>.</p>
+
+<h3 id="4-configurer-les-couches--auto-centrage-orientation">4. Configurer les couches : auto-centrage &amp; orientation</h3>
+<p><strong><a href="#t=436">▶ 07:16</a></strong> · Fiche : <a href="index.html#B1">B1</a></p>
+<p>Le bouton des couches (en bas à droite) déploie la configuration. <strong>Auto-centrage</strong> : la carte suit l'avion en vol (à désactiver parfois à l'approche pour figer la vue du tour de piste). <strong>Orientation</strong> : Nord fixe ou rotation 2 doigts dans le sens de la route — au choix. <em>« L'auto-centrage fait partie des choses à vérifier avant de décoller, sinon en vol la carte reste au point de départ. »</em></p>
+
+<h3 id="5-profil-de-vol-vs-profil-de-navigation">5. Profil de vol vs profil de navigation</h3>
+<p><strong><a href="#t=628">▶ 10:28</a></strong> · Fiches : <a href="index.html#D3">D3</a> · <a href="index.html#F4">F4</a></p>
+<p>Distinction clé : le <strong>profil de navigation</strong> (au sol) affiche la coupe verticale de toute la route préparée ; le <strong>profil de vol</strong> (en vol) affiche ce qui arrive devant l'avion depuis la position courante. François charge la navigation exemple <strong>Les Mureaux → Châteauneuf-sur-Cher</strong> (~1 h 20) qui servira de fil rouge. <em>« Au moment d'être sur le parking, pensez à basculer sur profil de vol. »</em></p>
+
+<h3 id="6-metar-taf-sur-la-carte">6. METAR &amp; TAF sur la carte</h3>
+<p><strong><a href="#t=758">▶ 12:38</a></strong> · Fiches : <a href="index.html#C1">C1</a> · <a href="index.html#C2">C2</a></p>
+<p>Affichage des stations <strong>METAR</strong> avec le code couleur standard (vert VFR, rouge IFR, violet marginal) à l'instant T. Avec les <strong>TAF</strong>, la pastille est <strong>partagée</strong> : condition actuelle + évolution (ex. VFR maintenant puis IFR). Rappel : ces données s'actualisent en temps réel et nécessitent une connexion internet (carte SIM ou partage de connexion en vol).</p>
+
+<h3 id="7-radar-météo-satellite">7. Radar météo &amp; satellite</h3>
+<p><strong><a href="#t=838">▶ 13:58</a></strong> · Fiche : <a href="index.html#C6">C6</a></p>
+<p>À consulter <strong>avant de partir</strong> pour repérer les précipitations qui arrivent. Le radar montre des <em>snapshots</em> de l'heure passée (il n'anticipe pas le futur) ; la vue satellite est un complément (parfois capricieuse). <em>« S'il y a un truc qui nous vient dessus, ce n'est pas le moment de partir. »</em></p>
+
+<h3 id="8-fonds-de-carte-oaci-sia-aboaci">8. Fonds de carte (OACI, SIA, AbOACI)</h3>
+<p><strong><a href="#t=919">▶ 15:19</a></strong> · Fiche : <a href="index.html#B4">B4</a></p>
+<p>On peut acheter et activer des fonds de carte image. SDVFR fournit la <strong>SD-OACI</strong> vectorielle ; la SIA 1/1 000 000 et la 250 k Paris sont disponibles. François recommande de <strong>rester sur la carte vectorielle livrée</strong> : un fond image n'est pas vectoriel et duplique les informations sans valeur ajoutée si on superpose les couches.</p>
+
+<h3 id="9-filtre-de-plafond-zones-temporaires">9. Filtre de plafond &amp; zones temporaires</h3>
+<p><strong><a href="#t=974">▶ 16:14</a></strong> · Fiches : <a href="index.html#E1">E1</a> · <a href="index.html#B1">B1</a></p>
+<p>Le <strong>filtre de plafond</strong> masque les zones définies au-dessus de votre altitude pratique (ex. FL60) — très utile en ce moment avec les nombreuses zones militaires en altitude. La couche <strong>zones temporaires</strong> affiche les ZRT du SUP AIP (avec filtre plafond et dates). <strong>Attention :</strong> les ZRT définies par NOTAM (activées au dernier moment) <strong>n'y figurent pas</strong> — il faut continuer à lire les NOTAM. Référence conseillée : le site bénévole <strong>sup-aip.fr</strong>.</p>
+
+<h3 id="10-notam-graphiques-leurs-limites">10. NOTAM graphiques &amp; leurs limites</h3>
+<p><strong><a href="#t=1110">▶ 18:30</a></strong> · Fiche : <a href="index.html#D8">D8</a></p>
+<p>La couche <strong>NOTAM graphiques</strong> dessine des cercles sur la carte, mais François la juge <strong>peu fiable</strong> : l'affichage est intermittent et SDVFR ne restitue que le point d'application + rayon, <strong>pas le polygone réel</strong> défini dans le NOTAM. Conclusion : pour préparer, vérifier le jour même sur SUP AIP / Sofia Briefing plutôt que de s'y fier.</p>
+
+<h3 id="11-les-couches-dobjets--configurer-sans-surcharger">11. Les couches d'objets : configurer sans surcharger</h3>
+<p><strong><a href="#t=1269">▶ 21:09</a></strong> · Fiche : <a href="index.html#B1">B1</a></p>
+<p>On active objet par objet selon son profil (aérodromes, bases ULM, points VFR, stations…). Le piège : <strong>tout activer surcharge la carte</strong> et fait perdre en lisibilité. <em>« C'est une activité qu'on fait au sol ; intégrez à votre checklist que SDVFR est bien configuré. J'ai déjà décollé en ayant oublié d'activer mon profil de vol — et on le fait en vol, ce qu'on veut éviter. »</em></p>
+
+<h3 id="12-personnaliser-la-barre-supérieure">12. Personnaliser la barre supérieure</h3>
+<p><strong><a href="#t=1401">▶ 23:21</a></strong> · Fiche : <a href="index.html#A2">A2</a></p>
+<p>Dans les paramètres, on peut ajouter des <strong>raccourcis</strong> dans la barre du haut (profils, etc.) pour éviter de passer par le menu des couches. François nuance : en vol, <strong>garder une interface épurée</strong> ; par défaut la seule fonction utilisée en vol est <em>Direct To</em>. Certains raccourcis ciblés (ex. Auto-VAC) restent pertinents.</p>
+
+<h3 id="13-le-profil-de-navigation--configuration-appui-long">13. Le profil de navigation : configuration (appui long)</h3>
+<p><strong><a href="#t=1642">▶ 27:22</a></strong> · Fiche : <a href="index.html#D3">D3</a></p>
+<p>Geste <strong>non intuitif</strong> : on configure le profil par un <strong>appui long</strong> dessus. On y règle la marge (ex. 1000 ft), l'horizon (ex. 15 NM), la fréquence de rafraîchissement, et surtout <strong>quelles catégories de zones afficher</strong> : TMA/CTA, classes A, zones D/P/R, RTBA, zones temporaires, et les <strong>SIV</strong> (pour savoir quand on croise un secteur d'info vol). Conseil : tout activer au début, quitte à épurer ensuite. La config carte et la config profil sont <strong>découplées</strong> (le profil sert en vol, on le veut le plus léger possible).</p>
+
+<h3 id="14-interroger-lempilement-vertical-des-espaces">14. Interroger l'empilement vertical des espaces</h3>
+<p><strong><a href="#t=1941">▶ 32:21</a></strong> · Fiche : <a href="index.html#B2">B2</a></p>
+<p>En <strong>double-tap</strong> sur la carte (ou un clic n'importe où), on obtient l'<strong>empilement de tous les espaces</strong> sur la verticale : SIV, TMA, classes E… Un tap sur un bloc ouvre sa définition (classe, plafond/plancher). Utile <strong>pour analyser pendant la préparation</strong>, mais à ne pas utiliser en vol (représentation décalée pour éviter les superpositions, donc peu lisible en l'air).</p>
+
+<h3 id="15-zones-urbaines-règles-de-survol">15. Zones urbaines &amp; règles de survol</h3>
+<p><strong><a href="#t=2211">▶ 36:51</a></strong> · Fiche : <a href="index.html#B1">B1</a></p>
+<p>La carte vectorielle affiche les <strong>zones urbaines</strong> avec un code couleur lié aux hauteurs minimales de survol (500 m / 1000 m / 1500 m selon l'agglomération), ainsi que lignes HT, restrictions de survol et zones naturelles (Natura 2000). <strong>Limite importante :</strong> SDVFR <strong>ne calcule pas</strong> le statut « agglomération de plus de X » — au pilote de connaître ses hauteurs réglementaires.</p>
+
+<h3 id="16-vac-informations-terrain-tap-sur-un-aérodrome">16. VAC &amp; informations terrain (TAP sur un aérodrome)</h3>
+<p><strong><a href="#t=2339">▶ 38:59</a></strong> · Fiches : <a href="index.html#B3">B3</a> · <a href="index.html#B8">B8</a></p>
+<p>Un <strong>TAP sur un aérodrome</strong> ouvre des bulles : <strong>PDF</strong> (la carte VAC), <strong>i</strong> (infos issues des bases SIA : pistes, fréquences), et les <strong>NOTAM</strong>. Point souvent oublié, soulevé en séance : pour que le PDF VAC s'affiche, l'aérodrome doit être <strong>dans le filtre d'affichage</strong> ET les documents à jour (classeur « documents » du profil, mise à jour en Wifi à la maison). François réaffirme que les NOTAM se préparent sur <strong>Sofia Briefing</strong>, seule source officielle complète.</p>
+
+<h3 id="17-auto-vac">17. Auto-VAC</h3>
+<p><strong><a href="#t=2628">▶ 43:48</a></strong> · Fiche : <a href="index.html#B7">B7</a></p>
+<p>Quand on zoome suffisamment sur un terrain et qu'Auto-VAC est actif, la <strong>carte VAC s'affiche en surimpression</strong> automatiquement. Très utile quand le <strong>circuit de piste est publié</strong> (se rassurer qu'on est bien dans le circuit). Réserve : ça masque parfois le fond ; c'est un bon candidat à un raccourci pour l'activer/désactiver vite.</p>
+
+<h3 id="18-créer-une-route--appui-long-aimant">18. Créer une route : appui long &amp; aimant</h3>
+<p><strong><a href="#t=2714">▶ 45:14</a></strong> · Fiche : <a href="index.html#D1">D1</a></p>
+<p>Pour tracer la route, <strong>appui long</strong> pour poser le point de départ : SDVFR cherche les éléments alentour et <strong>aimante</strong> le point sur l'aérodrome / point VFR choisi. Sur la nav exemple, départ aimanté sur <strong>Les Mureaux</strong>, arrivée sur <strong>Châteauneuf-sur-Cher (LFFQ)</strong>. Une ligne droite est créée entre les deux.</p>
+
+<h3 id="19-le-log-de-nav-les-altitudes-par-segment">19. Le log de nav &amp; les altitudes par segment</h3>
+<p><strong><a href="#t=2912">▶ 48:32</a></strong> · Fiches : <a href="index.html#D2">D2</a> · <a href="index.html#D3">D3</a></p>
+<p>Le bouton route génère le <strong>log</strong>. Un <strong>appui long sur la colonne Z vol</strong> propose une altitude pour toute la nav (ex. 3000 ft). On crée ensuite des <strong>points de report</strong> par appui long sur la route (points tournants verts ; départ/arrivée rouges). On fixe l'<strong>altitude de chaque segment</strong> en tirant le palier sur le profil — ou directement depuis le log si la poignée du profil est « coquine ».</p>
+
+<h3 id="20-renommer-les-points-gérer-les-zones">20. Renommer les points &amp; gérer les zones</h3>
+<p><strong><a href="#t=3070">▶ 51:10</a></strong> · Fiche : <a href="index.html#D2">D2</a></p>
+<p>Les points peuvent être <strong>renommés</strong> (pratique pour les reporter ensuite dans un GPS). En tirant les paliers, on ajuste l'altitude pour éviter les zones traversées (ex. zones de Chevreuse : descendre à ~1400 ft, puis remonter à 3000 ft après Étampes). Cas piégeux montré : la <strong>ZRT « Veille parisienne » (LF-R 324)</strong> apparaît comme une fausse classe A et ne peut pas être masquée isolément.</p>
+
+<h3 id="21-épurer-le-profil--filtrer-les-siv">21. Épurer le profil : filtrer les SIV</h3>
+<p><strong><a href="#t=3262">▶ 54:22</a></strong> · Fiche : <a href="index.html#D3">D3</a></p>
+<p>Les <strong>SIV</strong> étant très étendus (Paris Nord/Sud), les afficher dans le profil le surcharge. François préfère les <strong>retirer du profil</strong> (il les a déjà sur le log pour les contacts radio) et n'y garder que l'essentiel — classes D, classes A, R activées. <em>« Moins il y a d'information, plus l'information ressort. »</em></p>
+
+<h3 id="22-altitude-minimale-de-survol-le-code-rouge">22. Altitude minimale de survol (le code rouge)</h3>
+<p><strong><a href="#t=3396">▶ 56:36</a></strong> · Fiche : <a href="index.html#D3">D3</a></p>
+<p>Quand un segment passe <strong>sous l'altitude minimale calculée</strong>, le profil le colore en <strong>rouge</strong>. Démonstration sur une route vers Le Havre (segment à 900 ft → rouge ; seuil constaté ~1000 ft). <strong>Réserve majeure :</strong> ce calcul <strong>ne tient pas compte des agglomérations</strong> — François recommande de calculer soi-même ses hauteurs mini de survol.</p>
+
+<h3 id="23-sauvegarder-inverser-exporter-la-route">23. Sauvegarder, inverser &amp; exporter la route</h3>
+<p><strong><a href="#t=3747">▶ 62:27</a></strong> · Fiches : <a href="index.html#D2">D2</a> · <a href="index.html#D9">D9</a> · <a href="index.html#D11">D11</a></p>
+<p>La gestion de route passe par l'<strong>engrenage</strong> (peu intuitif, source de questions fréquentes) : inverser, supprimer, <strong>sauvegarder / charger</strong>. La route remonte sur les <strong>serveurs SDVFR</strong> (rechargeable sur un autre appareil). On peut aussi <strong>exporter</strong> (ex. format FPL pour un Garmin) — usage avancé.</p>
+<hr>
+<h2 id="pivot--du-sol-vers-le-vol">Pivot — Du sol vers le vol</h2>
+<p><strong><a href="#t=3825">▶ 63:45</a></strong></p>
+<blockquote>
+<p><em>« Tout ce qu'on vient de faire — choisir l'avion, tracer la route, remplir le log, fixer les altitudes, sélectionner les dégagements, configurer Auto-VAC, consulter la météo — vous ne le refaites plus en vol. La règle d'or : préparation au sol = vol serein. Maintenant on décolle et on regarde ce que l'appli fait pour vous. »</em></p>
+</blockquote>
+<hr>
+<h2 id="en-vol">EN VOL</h2>
+
+<h3 id="24-passer-en-vol--profil-de-vol-barre-de-métriques">24. Passer en vol : profil de vol &amp; barre de métriques</h3>
+<p><strong><a href="#t=3825">▶ 63:45</a></strong> · Fiches : <a href="index.html#F1">F1</a> · <a href="index.html#F3">F3</a> · <a href="index.html#F4">F4</a></p>
+<p>La nav exemple est rejouée : l'avion est au roulage sur la 10 (visible sur fond satellite). On bascule sur le <strong>profil de vol</strong>. La <strong>barre de métriques</strong> affiche position, route, cap magnétique, vitesse ; un appui dessus fait défiler les affichages (dérive et <strong>vent estimé</strong> déduits de la route sol). Le profil affiche des <strong>bulles de temps</strong> (où serez-vous dans 2/3/5 min) et un vecteur.</p>
+
+<h3 id="25-suivi-de-vol-point-courant">25. Suivi de vol &amp; point courant</h3>
+<p><strong><a href="#t=4038">▶ 67:18</a></strong> · Fiche : <a href="index.html#F2">F2</a></p>
+<p>On suit la progression vers Chavenay puis la zone « chaude » de Paris 10. Le <strong>passage de point</strong> est en principe automatique (un double-tap force le point courant). François insiste : SDVFR est <strong>une aide à la navigation, pas un pilote auto</strong> — <em>« moins vous y touchez, mieux vous vous portez »</em>. Il y a toujours un écart visible entre la route prévue et la route réelle ; on l'observe, on ne le corrige pas dans l'appli.</p>
+
+<h3 id="26-lhorizon-du-profil-dynamique">26. L'horizon du profil dynamique</h3>
+<p><strong><a href="#t=4268">▶ 71:08</a></strong> · Fiche : <a href="index.html#F4">F4</a></p>
+<p>SDVFR <strong>ne génère pas d'alerte</strong> (contrairement à SkyDemon, jugé « énervant » avec ses alertes incessantes) mais rend les choses <strong>visibles</strong> : on voit qu'on entre dans la TMA d'Orléans dans 30 s. L'horizon du profil (ex. 15 ou 30 NM) se <strong>configure au sol</strong> et est <strong>découplé du zoom</strong> de la carte, pour donner un aperçu du long-cours.</p>
+
+<h3 id="27-déroutement--la-fonction-direct">27. Déroutement : la fonction Direct</h3>
+<p><strong><a href="#t=4403">▶ 73:23</a></strong> · Fiche : <a href="index.html#D10">D10</a></p>
+<p><strong>Le seul geste « actif » utile en vol.</strong> <em>Direct To</em> cherche intelligemment les aérodromes autour, les classe par distance, et propose un « faire direct » — déclenchable depuis le menu <strong>ou directement sur la carte</strong>. Démonstration des limites (un terrain privé non public n'est pas cliquable). <em>« Ça doit prendre quelques secondes, on ne passe pas son temps sur la tablette. »</em></p>
+
+<h3 id="28-devis-carburant-dégagements">28. Devis carburant &amp; dégagements</h3>
+<p><strong><a href="#t=4595">▶ 76:35</a></strong> · Fiche : <a href="index.html#D4">D4</a></p>
+<p>Dans le menu carburant, on <strong>sélectionne des aérodromes de dégagement</strong> parmi ceux proposés sur la route (ex. Étampes, Bourges) ; SDVFR <strong>recalcule la réserve de dégagement</strong> en conséquence et l'intègre au devis. <em>« Même si on est censé faire son devis soi-même, c'est bien fait. »</em></p>
+
+<h3 id="29-arrivée-sur-le-terrain-auto-vac">29. Arrivée sur le terrain &amp; auto-VAC</h3>
+<p><strong><a href="#t=4705">▶ 78:25</a></strong> · Fiches : <a href="index.html#B7">B7</a> · <a href="index.html#F2">F2</a></p>
+<p>À l'arrivée (Châteauneuf, circuit non publié), peu d'aide automatique — mais on <strong>repère la manche à air</strong>. On désactive l'<strong>auto-centrage</strong> pour figer la vue de la verticale. Rappel : à l'arrivée on doit avoir sa VAC de destination sous les yeux ; si le circuit est publié, la VAC géoréférencée aide.</p>
+
+<h3 id="30-points-personnalisés--matérialiser-son-circuit">30. Points personnalisés : matérialiser son circuit</h3>
+<p><strong><a href="#t=4786">▶ 79:46</a></strong> · Fiches : <a href="index.html#H1">H1</a> · <a href="index.html#F1">F1</a></p>
+<p>Astuce de François pour les terrains qu'il ne connaît pas : créer des <strong>points personnalisés</strong> matérialisant son circuit standard (ex. « FU-D08-Eco » = fin de vent arrière, début de finale avec l'altitude visée), car les flèches des VAC sans circuit publié sont trompeuses. Combiné aux <strong>bulles de temps</strong>, cela permet d'anticiper l'annonce radio (« à 4 min de tel point »).</p>
+
+<h3 id="31-wintem-temsi-météo-france">31. Wintem &amp; TEMSI Météo France</h3>
+<p><strong><a href="#t=4950">▶ 82:30</a></strong> · Fiches : <a href="index.html#C4">C4</a> · <a href="index.html#C5">C5</a></p>
+<p>Dans les infos météo, les <strong>vrais Wintem Météo France</strong> par niveau de vol : on choisit son niveau (ex. 3000 ft → FL030/050), la validité en cours apparaît en rouge, un clic donne vent et température exacts (ex. 27 kt du 263). <em>« Bien mieux que d'imprimer le PDF tout petit d'Aeroweb. »</em> Les <strong>TEMSI</strong> Météo France sont accessibles de la même façon.</p>
+<hr>
+<h2 id="après-le-vol-divers">Après le vol &amp; divers</h2>
+
+<h3 id="32-traces-enregistrées-centralisation">32. Traces enregistrées &amp; centralisation</h3>
+<p><strong><a href="#t=5066">▶ 84:26</a></strong> · Fiche : <a href="index.html#G1">G1</a></p>
+<p>Chaque vol s'enregistre en <strong>trace</strong> (menu utilisateur → traces). On peut revisualiser n'importe quelle trace et, par <strong>appui long</strong>, demander sa <strong>synchronisation</strong> sur le serveur SDVFR (conservée pour une nouvelle tablette). Logs de nav et avions sont déjà centralisés ; les traces, elles, doivent être remontées <strong>explicitement</strong>.</p>
+
+<h3 id="33-transférer-une-nav-compte-club-export-gpx">33. Transférer une nav (compte club) &amp; export GPX</h3>
+<p><strong><a href="#t=5174">▶ 86:14</a></strong> · Fiche : <a href="index.html#D11">D11</a></p>
+<p>Pour partager une nav avec la tablette du club (compte SDVFR commun), le plus simple est de la <strong>préparer directement</strong> sur cette tablette. Sinon, <strong>export GPX</strong> envoyé par Gmail vers l'adresse du club, puis rechargé. Démonstration de l'export (GPX = format universel de points GPS).</p>
+
+<h3 id="34-mises-en-garde-finales">34. Mises en garde finales</h3>
+<p><strong><a href="#t=5373">▶ 89:33</a></strong></p>
+<p>Trois rappels pour conclure : la <strong>qualité du signal GPS</strong> (brouillage / leurrage en hausse), la <strong>surchauffe</strong> de la tablette (arrêt vers 51 °C en plein soleil), et surtout que SDVFR reste <strong>une aide à la navigation</strong> — <em>« il est hors de question de passer son temps de pilote à pianoter dessus ; tout se prépare au sol. »</em></p>
+<hr>
+<blockquote>
+<p><strong>Source :</strong> transcript automatique de la session Teams du 6 juin 2026, synthétisé par démonstration. Les horodatages renvoient au moment correspondant de l'enregistrement. Voir aussi le <a href="index.html">plan complet du cours</a>, le <a href="script_60min.html">script 60 min</a> et le <a href="slides_60min.html">diaporama</a>.</p>
+</blockquote>
+<footer style="margin-top:3rem;padding-top:1rem;border-top:1px solid var(--border);color:#888;font-size:0.85rem;text-align:center;">
+  Cours SDVFR Next &mdash; Généré à partir des <a href="https://www.youtube.com/playlist?list=PLmkb2zKUeBgMppHpCJ1raboyQe9yKhhTw">47 tutoriels vidéo SDVFR</a>
+</footer>
+<script>
+  var REPLAY_VIDEO_ID = "peaGo83h6iw";
+  var ytPlayer = null;
+  if (REPLAY_VIDEO_ID.indexOf('REMPLACER') !== -1) {
+    document.getElementById('player-box').outerHTML =
+      '<div class="player-msg">▶ La vidéo du replay n\'est pas encore liée.<br>' +
+      'Renseignez l\'identifiant YouTube dans <code>build_html.js</code> (constante <code>REPLAY_VIDEO_ID</code>) puis régénérez la page — ou demandez-le moi. ' +
+      'Les horodatages ci-dessous sont déjà fonctionnels (ils ouvriront la vidéo une fois liée).</div>';
+  } else {
+    var tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(tag);
+  }
+  function onYouTubeIframeAPIReady() {
+    ytPlayer = new YT.Player('yt-player', {
+      videoId: REPLAY_VIDEO_ID,
+      playerVars: { rel: 0, modestbranding: 1 }
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#t="]');
+    if (!a) return;
+    e.preventDefault();
+    var t = parseInt(a.getAttribute('href').slice(3), 10) || 0;
+    if (ytPlayer && ytPlayer.seekTo) {
+      ytPlayer.seekTo(t, true);
+      if (ytPlayer.playVideo) ytPlayer.playVideo();
+      var pw = document.getElementById('player-wrap');
+      if (pw && pw.getBoundingClientRect().top < 0) pw.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      window.open('https://youtu.be/' + REPLAY_VIDEO_ID + '?t=' + t, '_blank');
+    }
+  });
+</script>
+</body>
+</html>
